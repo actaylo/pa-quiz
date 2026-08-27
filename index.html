@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PA Exam Prep — Self Quiz</title>
+<style>
+  :root {
+    --bg: #f4f6f9; --card: #ffffff; --ink: #1c2430; --muted: #5b6572; --line: #e2e7ee;
+    --accent: #2f6f9f; --accent-ink: #ffffff;
+    --correct: #1f8a54; --correct-bg: #e6f5ec; --wrong: #c0392b; --wrong-bg: #fdecea;
+    --chip: #eef2f7; --radius: 14px; --shadow: 0 1px 3px rgba(20,30,45,.08), 0 6px 20px rgba(20,30,45,.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:#12161c; --card:#1b212a; --ink:#e8edf3; --muted:#9aa6b4; --line:#2b333f;
+      --accent:#4a97cf; --accent-ink:#0b0f14;
+      --correct:#4cc189; --correct-bg:#172c22; --wrong:#ef8378; --wrong-bg:#2c1b19;
+      --chip:#232b36; --shadow:0 1px 3px rgba(0,0,0,.4), 0 6px 22px rgba(0,0,0,.35);
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         background:var(--bg); color:var(--ink); line-height:1.5; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:760px; margin:0 auto; padding:24px 18px 80px; }
+  header.app { text-align:center; margin-bottom:20px; }
+  header.app h1 { font-size:1.4rem; margin:0 0 4px; letter-spacing:-.01em; }
+  header.app p { margin:0; color:var(--muted); font-size:.92rem; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:22px; margin-bottom:16px; }
+  h2 { font-size:1.1rem; margin:0 0 14px; }
+  label.field { display:block; font-size:.85rem; color:var(--muted); margin:14px 0 5px; font-weight:600; }
+  select, input[type=number] { width:100%; padding:10px 12px; font-size:.98rem; border:1px solid var(--line); border-radius:10px; background:var(--bg); color:var(--ink); }
+  .lecture-list { border:1px solid var(--line); border-radius:10px; padding:6px; background:var(--bg); max-height:180px; overflow:auto; }
+  .lecture-list label { display:flex; align-items:center; gap:9px; padding:8px 10px; border-radius:8px; cursor:pointer; font-size:.95rem; }
+  .lecture-list label:hover { background:var(--chip); }
+  .lecture-list input { width:auto; }
+  .mini { font-size:.8rem; color:var(--muted); font-weight:400; }
+  button { font:inherit; cursor:pointer; border:none; border-radius:10px; padding:11px 18px; font-weight:600; transition:filter .12s ease, opacity .12s ease; }
+  button:disabled { opacity:.5; cursor:default; }
+  button:not(:disabled):hover { filter:brightness(1.05); }
+  .btn-primary { background:var(--accent); color:var(--accent-ink); }
+  .btn-ghost { background:var(--chip); color:var(--ink); }
+  .btn-sm { padding:6px 10px; font-size:.82rem; }
+  .btn-row { display:flex; gap:10px; flex-wrap:wrap; margin-top:18px; }
+  .btn-row .spacer { flex:1; }
+  .meta-row { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:12px; flex-wrap:wrap; }
+  .progress-track { flex:1; height:7px; background:var(--chip); border-radius:99px; overflow:hidden; min-width:120px; }
+  .progress-fill { height:100%; background:var(--accent); width:0%; transition:width .25s ease; }
+  .counter { font-size:.82rem; color:var(--muted); white-space:nowrap; }
+  .chips { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:14px; }
+  .chip { font-size:.72rem; font-weight:700; letter-spacing:.03em; text-transform:uppercase; background:var(--chip); color:var(--muted); padding:4px 9px; border-radius:99px; }
+  .qtext { font-size:1.08rem; margin:4px 0 16px; }
+  .opt { display:flex; align-items:flex-start; gap:11px; border:1px solid var(--line); border-radius:11px; padding:12px 14px; margin-bottom:9px; cursor:pointer; background:var(--card); transition:border-color .12s ease, background .12s ease; }
+  .opt:hover { border-color:var(--accent); }
+  .opt input { margin-top:3px; flex-shrink:0; }
+  .opt.correct { border-color:var(--correct); background:var(--correct-bg); }
+  .opt.wrong { border-color:var(--wrong); background:var(--wrong-bg); }
+  .opt.locked { cursor:default; }
+  .opt.locked:hover { border-color:var(--line); }
+  .opt.locked.correct:hover { border-color:var(--correct); }
+  .opt.locked.wrong:hover { border-color:var(--wrong); }
+  .match-row { display:flex; align-items:center; gap:12px; margin-bottom:10px; }
+  .match-left { flex:0 0 42%; font-weight:600; }
+  .match-row select { flex:1; }
+  .match-row .verdict { font-size:1.1rem; width:20px; text-align:center; }
+  /* labeling */
+  .label-svg { width:100%; height:auto; display:block; border:1px solid var(--line); border-radius:10px; background:#fff; margin-bottom:12px; }
+  .label-svg .marker { fill:var(--accent); }
+  .label-svg .marker-txt { fill:#fff; font-size:13px; font-weight:700; }
+  .label-svg .lead { stroke:var(--accent); stroke-width:1.6; }
+  .lrow { display:flex; align-items:center; gap:10px; margin:8px 0; flex-wrap:wrap; }
+  .lrow .num { width:26px; height:26px; border-radius:50%; background:var(--accent); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700; flex-shrink:0; }
+  .lrow input.lin { flex:1; min-width:140px; padding:9px 11px; border:1px solid var(--line); border-radius:8px; font:inherit; background:var(--bg); color:var(--ink); }
+  .lrow input.lin.ok { border-color:var(--correct); background:var(--correct-bg); }
+  .lrow input.lin.bad { border-color:var(--wrong); background:var(--wrong-bg); }
+  .lrow .keyans { font-size:.85rem; color:var(--muted); }
+  .feedback { margin-top:16px; padding:14px 16px; border-radius:11px; border:1px solid var(--line); }
+  .feedback.right { background:var(--correct-bg); border-color:var(--correct); }
+  .feedback.wrong { background:var(--wrong-bg); border-color:var(--wrong); }
+  .feedback .verdict-line { font-weight:700; margin-bottom:6px; }
+  .feedback.right .verdict-line { color:var(--correct); }
+  .feedback.wrong .verdict-line { color:var(--wrong); }
+  .feedback .source { margin-top:10px; font-size:.82rem; color:var(--muted); font-style:italic; }
+  .flag-area { margin-top:14px; }
+  .flag-toggle { background:none; padding:4px 0; color:var(--muted); font-size:.84rem; font-weight:600; text-decoration:underline; }
+  .flag-box { margin-top:10px; padding:14px; border:1px dashed var(--line); border-radius:11px; }
+  .flag-box textarea { width:100%; min-height:60px; margin-top:8px; padding:10px; border:1px solid var(--line); border-radius:8px; background:var(--bg); color:var(--ink); font:inherit; resize:vertical; }
+  .flag-reasons { display:flex; gap:14px; flex-wrap:wrap; font-size:.9rem; }
+  .flag-saved { color:var(--correct); font-weight:600; font-size:.86rem; }
+  .result-score { font-size:2.6rem; font-weight:800; text-align:center; letter-spacing:-.02em; }
+  .result-sub { text-align:center; color:var(--muted); margin-top:4px; }
+  .review-item { border-top:1px solid var(--line); padding:12px 0; }
+  .review-item:first-child { border-top:none; }
+  .review-q { font-weight:600; margin-bottom:4px; }
+  .review-meta { font-size:.82rem; color:var(--muted); }
+  .flag-export { width:100%; min-height:120px; margin-top:10px; padding:10px; border:1px solid var(--line); border-radius:8px; background:var(--bg); color:var(--ink); font-family:ui-monospace,Menlo,Consolas,monospace; font-size:.82rem; }
+  .hidden { display:none !important; }
+  footer.note { text-align:center; color:var(--muted); font-size:.78rem; margin-top:8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="app">
+    <h1>PA Exam Prep — Self Quiz</h1>
+    <p id="subTitle">Cardiology</p>
+  </header>
+
+  <!-- SETUP -->
+  <section id="setup" class="card">
+    <h2>Set up your quiz</h2>
+
+    <label class="field" for="classSel">Class</label>
+    <select id="classSel"></select>
+
+    <label class="field">Lectures <span class="mini">(check one or more — study a group for an exam)</span></label>
+    <div class="lecture-list" id="lectureList"></div>
+    <div class="btn-row" style="margin-top:8px">
+      <button type="button" class="btn-ghost btn-sm" id="lecAll">Select all</button>
+      <button type="button" class="btn-ghost btn-sm" id="lecNone">Clear</button>
+    </div>
+
+    <label class="field" for="sectionSel">Section</label>
+    <select id="sectionSel"></select>
+
+    <label class="field" for="typeSel">Question type</label>
+    <select id="typeSel">
+      <option value="__all">All types</option>
+      <option value="mcq">Multiple choice</option>
+      <option value="tf">True / False</option>
+      <option value="multi">Select all that apply</option>
+      <option value="matching">Matching</option>
+      <option value="vignette">Clinical vignettes</option>
+      <option value="labeling">Labeling (diagrams)</option>
+    </select>
+
+    <label class="field" for="countInp">How many questions? <span id="poolNote" class="mini"></span></label>
+    <input id="countInp" type="number" min="1" value="15" />
+
+    <label class="field" for="orderSel">Order</label>
+    <select id="orderSel">
+      <option value="shuffle">Shuffle (recommended)</option>
+      <option value="ordered">In deck order</option>
+    </select>
+
+    <div class="btn-row"><button id="startBtn" class="btn-primary">Start quiz</button></div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="quiz" class="card hidden">
+    <div class="meta-row">
+      <div class="progress-track"><div id="progressFill" class="progress-fill"></div></div>
+      <div class="counter"><span id="counter"></span> &middot; Score <span id="liveScore">0</span></div>
+    </div>
+    <div class="chips">
+      <span class="chip" id="chipType"></span>
+      <span class="chip" id="chipLecture"></span>
+      <span class="chip" id="chipSection"></span>
+    </div>
+    <div class="qtext" id="qtext"></div>
+    <form id="answerForm"><div id="optionsHost"></div></form>
+    <div id="feedbackHost"></div>
+
+    <div class="flag-area">
+      <button type="button" class="flag-toggle" id="flagToggle">&#9873; Flag this question</button>
+      <div class="flag-box hidden" id="flagBox">
+        <div class="flag-reasons">
+          <label><input type="radio" name="flagReason" value="Incorrect" checked /> Incorrect</label>
+          <label><input type="radio" name="flagReason" value="Irrelevant" /> Irrelevant</label>
+          <label><input type="radio" name="flagReason" value="Unclear" /> Unclear / typo</label>
+        </div>
+        <textarea id="flagNote" placeholder="Optional: what's wrong? (e.g. 'answer should be mitral stenosis')"></textarea>
+        <div class="btn-row">
+          <button type="button" class="btn-ghost" id="flagSave">Save flag</button>
+          <span id="flagSaved" class="flag-saved hidden">Saved &#10003;</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="btn-row">
+      <button type="button" id="submitBtn" class="btn-primary">Submit answer</button>
+      <button type="button" id="nextBtn" class="btn-ghost hidden">Next &rarr;</button>
+      <span class="spacer"></span>
+      <button type="button" id="quitBtn" class="btn-ghost">End &amp; see results</button>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section id="results" class="card hidden">
+    <h2>Results</h2>
+    <div class="result-score" id="finalScore"></div>
+    <div class="result-sub" id="finalSub"></div>
+    <div id="reviewHost" style="margin-top:20px"></div>
+    <div id="flagReviewHost" style="margin-top:20px"></div>
+    <div class="btn-row">
+      <button type="button" id="restartBtn" class="btn-primary">New quiz</button>
+      <button type="button" id="retryMissedBtn" class="btn-ghost hidden">Retry missed only</button>
+    </div>
+  </section>
+
+  <footer class="note">Study aid generated from course slides. Verify against the source deck; flag anything that looks wrong.</footer>
+</div>
+
+<script src="questions.js"></script>
+<script>
+(function () {
+  "use strict";
+  var ALL = (window.QUESTIONS || []).slice();
+  var FLAG_KEY = "pa-quiz-flags";
+
+  function $(id){ return document.getElementById(id); }
+  function el(tag,cls,txt){ var e=document.createElement(tag); if(cls)e.className=cls; if(txt!=null)e.textContent=txt; return e; }
+  function shuffle(a){ a=a.slice(); for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;} return a; }
+  function uniq(a){ return a.filter(function(v,i){ return a.indexOf(v)===i; }); }
+  function typeLabel(t){ return ({mcq:"Multiple choice",tf:"True / False",multi:"Select all",matching:"Matching",vignette:"Vignette",labeling:"Labeling"})[t]||t; }
+  function arrEq(a,b){ if(a.length!==b.length)return false; var x=a.slice().sort(),y=b.slice().sort(); for(var i=0;i<x.length;i++)if(x[i]!==y[i])return false; return true; }
+  function norm(s){ return (s||"").toLowerCase().trim().replace(/[^a-z0-9 ]/g,"").replace(/\s+/g," "); }
+  function lev(a,b){ var m=a.length,n=b.length,d=[];for(var i=0;i<=m;i++)d[i]=[i];for(var j=0;j<=n;j++)d[0][j]=j;
+    for(i=1;i<=m;i++)for(j=1;j<=n;j++){var c=a[i-1]===b[j-1]?0:1;d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+c);}return d[m][n]; }
+  function matches(v,acc){ v=norm(v); if(!v)return false; return acc.some(function(a){a=norm(a);return v===a||(a.length>3&&lev(v,a)<=1);}); }
+
+  // ---- state ----
+  var quiz=[], idx=0, score=0, answered=false, missed=[], qCounted=false;
+
+  // ---- setup ----
+  function fillSelect(sel, values, allLabel){
+    sel.innerHTML="";
+    if(allLabel){ var o=el("option",null,allLabel); o.value="__all"; sel.appendChild(o); }
+    values.forEach(function(v){ var o=el("option",null,v); o.value=v; sel.appendChild(o); });
+  }
+  function classes(){ return uniq(ALL.map(function(q){return q.class;})).sort(); }
+  function lecturesFor(cls){ return uniq(ALL.filter(function(q){return q.class===cls;}).map(function(q){return q.lecture;})).sort(); }
+  function checkedLectures(){ var out=[]; document.querySelectorAll('#lectureList input:checked').forEach(function(i){out.push(i.value);}); return out; }
+  function sectionsFor(cls, lecs){
+    return uniq(ALL.filter(function(q){ return q.class===cls && lecs.indexOf(q.lecture)!==-1; }).map(function(q){return q.section;})).sort();
+  }
+
+  function renderLectureList(){
+    var cls=$("classSel").value, list=$("lectureList");
+    list.innerHTML="";
+    lecturesFor(cls).forEach(function(lec){
+      var n=ALL.filter(function(q){return q.class===cls&&q.lecture===lec;}).length;
+      var lab=el("label");
+      lab.innerHTML='<input type="checkbox" value="'+lec.replace(/"/g,'&quot;')+'" checked> <span>'+lec+' <span class="mini">('+n+')</span></span>';
+      list.appendChild(lab);
+    });
+    list.querySelectorAll("input").forEach(function(i){ i.addEventListener("change", onScopeChange); });
+  }
+  function onScopeChange(){
+    var cls=$("classSel").value, lecs=checkedLectures();
+    fillSelect($("sectionSel"), sectionsFor(cls,lecs), "All sections");
+    refreshPoolNote();
+  }
+  function currentPool(){
+    var cls=$("classSel").value, lecs=checkedLectures(), sec=$("sectionSel").value, type=$("typeSel").value;
+    return ALL.filter(function(q){
+      return q.class===cls && lecs.indexOf(q.lecture)!==-1
+        && (sec==="__all"||q.section===sec) && (type==="__all"||q.type===type);
+    });
+  }
+  function refreshPoolNote(){
+    var n=currentPool().length;
+    $("poolNote").textContent="("+n+" available)";
+    var c=$("countInp"); c.max=n; if(parseInt(c.value,10)>n) c.value=n||1;
+    $("startBtn").disabled = n===0;
+  }
+
+  $("classSel").addEventListener("change", function(){ renderLectureList(); onScopeChange(); });
+  $("sectionSel").addEventListener("change", refreshPoolNote);
+  $("typeSel").addEventListener("change", refreshPoolNote);
+  $("lecAll").addEventListener("click", function(){ document.querySelectorAll('#lectureList input').forEach(function(i){i.checked=true;}); onScopeChange(); });
+  $("lecNone").addEventListener("click", function(){ document.querySelectorAll('#lectureList input').forEach(function(i){i.checked=false;}); onScopeChange(); });
+
+  $("startBtn").addEventListener("click", function(){
+    var pool=currentPool();
+    if(!pool.length){ alert("No questions match those filters."); return; }
+    var count=Math.max(1,Math.min(parseInt($("countInp").value,10)||pool.length, pool.length));
+    quiz=($("orderSel").value==="shuffle"?shuffle(pool):pool).slice(0,count);
+    idx=0; score=0; missed=[];
+    show("quiz"); renderQuestion();
+  });
+
+  function show(name){ ["setup","quiz","results"].forEach(function(s){ $(s).classList.toggle("hidden", s!==name); }); window.scrollTo(0,0); }
+
+  // ---- render question ----
+  function renderQuestion(){
+    answered=false; qCounted=false;
+    var q=quiz[idx];
+    $("progressFill").style.width=(idx/quiz.length*100)+"%";
+    $("counter").textContent="Q "+(idx+1)+" / "+quiz.length;
+    $("liveScore").textContent=score;
+    $("chipType").textContent=typeLabel(q.type);
+    $("chipLecture").textContent=q.lecture;
+    $("chipSection").textContent=q.section;
+    $("qtext").textContent=q.question;
+    $("feedbackHost").innerHTML="";
+    $("submitBtn").classList.remove("hidden"); $("submitBtn").disabled=false;
+    $("nextBtn").classList.add("hidden");
+    $("nextBtn").textContent=(idx+1===quiz.length)?"See results →":"Next →";
+    resetFlagUI(q);
+
+    var host=$("optionsHost"); host.innerHTML="";
+    if(q.type==="matching") renderMatching(q,host);
+    else if(q.type==="labeling") renderLabeling(q,host);
+    else renderChoices(q,host);
+  }
+
+  function renderChoices(q,host){
+    var multi=q.type==="multi";
+    q.options.forEach(function(opt,i){
+      var row=el("label","opt");
+      var input=el("input"); input.type=multi?"checkbox":"radio"; input.name="opt"; input.value=i;
+      row.appendChild(input); row.appendChild(el("span",null,opt));
+      row.dataset.i=i; host.appendChild(row);
+    });
+  }
+
+  function renderMatching(q,host){
+    var rights=shuffle(q.pairs.map(function(p){return p.right;}));
+    q.pairs.forEach(function(p,i){
+      var row=el("div","match-row");
+      row.appendChild(el("div","match-left",p.left));
+      var sel=el("select"); sel.dataset.i=i;
+      sel.appendChild(el("option",null,"— choose —"));
+      rights.forEach(function(r){ var o=el("option",null,r); o.value=r; sel.appendChild(o); });
+      row.appendChild(sel);
+      var v=el("span","verdict"); v.dataset.verdict=i; row.appendChild(v);
+      host.appendChild(row);
+    });
+  }
+
+  var SVGNS="http://www.w3.org/2000/svg";
+  function svgEl(tag,attrs){ var e=document.createElementNS(SVGNS,tag); for(var k in attrs) e.setAttribute(k,attrs[k]); return e; }
+  function renderLabeling(q,host){
+    var svg=svgEl("svg",{viewBox:q.viewBox||"0 0 460 300","class":"label-svg"});
+    var img=svgEl("image",{x:0,y:0,width:460,height:300}); img.setAttributeNS("http://www.w3.org/1999/xlink","href",q.image); img.setAttribute("href",q.image);
+    // derive width/height from viewBox
+    var vb=(q.viewBox||"0 0 460 300").split(/\s+/).map(Number);
+    img.setAttribute("width",vb[2]); img.setAttribute("height",vb[3]);
+    svg.appendChild(img);
+    (q.covers||[]).forEach(function(c){ svg.appendChild(svgEl("rect",{x:c.x,y:c.y,width:c.w,height:c.h,fill:"#ffffff"})); });
+    q.markers.forEach(function(m){
+      svg.appendChild(svgEl("line",{"class":"lead",x1:m.tx,y1:m.ty,x2:m.bx,y2:m.by}));
+      svg.appendChild(svgEl("circle",{"class":"marker",cx:m.bx,cy:m.by,r:13}));
+      var t=svgEl("text",{"class":"marker-txt",x:m.bx,y:m.by+5,"text-anchor":"middle"}); t.textContent=m.num; svg.appendChild(t);
+    });
+    host.appendChild(svg);
+    q.markers.forEach(function(m){
+      var row=el("div","lrow");
+      row.appendChild(el("span","num",String(m.num)));
+      var inp=el("input","lin"); inp.type="text"; inp.autocomplete="off"; inp.placeholder="Label marker "+m.num+"..."; inp.dataset.num=m.num;
+      row.appendChild(inp);
+      row.appendChild(el("span","keyans",""));
+      host.appendChild(row);
+    });
+  }
+
+  // ---- submit / grade ----
+  $("submitBtn").addEventListener("click", function(){
+    if(answered) return;
+    var q=quiz[idx], correct;
+    try {
+      if(q.type==="matching") correct=gradeMatching(q);
+      else if(q.type==="labeling") correct=gradeLabeling(q);
+      else if(q.type==="multi") correct=gradeMulti(q);
+      else correct=gradeSingle(q);
+    } catch(e){ return; } // "no answer yet" aborts
+
+    answered=true; qCounted=correct;
+    if(correct) score++; else missed.push(q);
+    $("liveScore").textContent=score;
+    $("submitBtn").classList.add("hidden");
+    $("nextBtn").classList.remove("hidden");
+    showFeedback(q,correct);
+  });
+
+  function selectedIndices(){ var out=[]; document.querySelectorAll('#optionsHost input:checked').forEach(function(i){out.push(parseInt(i.value,10));}); return out; }
+
+  function gradeSingle(q){
+    var sel=selectedIndices();
+    if(!sel.length){ alert("Pick an answer first."); throw new Error("no-answer"); }
+    var chosen=sel[0], correct=chosen===q.answer;
+    document.querySelectorAll('#optionsHost .opt').forEach(function(row){
+      var i=parseInt(row.dataset.i,10); row.classList.add("locked"); row.querySelector("input").disabled=true;
+      if(i===q.answer) row.classList.add("correct"); else if(i===chosen) row.classList.add("wrong");
+    });
+    return correct;
+  }
+  function gradeMulti(q){
+    var sel=selectedIndices();
+    if(!sel.length){ alert("Select at least one option."); throw new Error("no-answer"); }
+    var correct=arrEq(sel,q.answer);
+    document.querySelectorAll('#optionsHost .opt').forEach(function(row){
+      var i=parseInt(row.dataset.i,10); row.classList.add("locked"); row.querySelector("input").disabled=true;
+      var isKey=q.answer.indexOf(i)!==-1, isSel=sel.indexOf(i)!==-1;
+      if(isKey) row.classList.add("correct"); else if(isSel) row.classList.add("wrong");
+    });
+    return correct;
+  }
+  function gradeMatching(q){
+    var sels=document.querySelectorAll('#optionsHost select'), allChosen=true;
+    sels.forEach(function(s){ if(!s.value) allChosen=false; });
+    if(!allChosen){ alert("Match every item first."); throw new Error("no-answer"); }
+    var allRight=true;
+    sels.forEach(function(s){
+      var i=parseInt(s.dataset.i,10), want=q.pairs[i].right, got=s.value;
+      var v=document.querySelector('[data-verdict="'+i+'"]'); s.disabled=true;
+      if(got===want){ v.textContent="✓"; v.style.color="var(--correct)"; }
+      else { v.textContent="✗"; v.style.color="var(--wrong)"; allRight=false; s.style.borderColor="var(--wrong)"; }
+    });
+    return allRight;
+  }
+  function gradeLabeling(q){
+    var inputs=document.querySelectorAll('#optionsHost input.lin');
+    var anyFilled=false; inputs.forEach(function(i){ if(i.value.trim()) anyFilled=true; });
+    if(!anyFilled){ alert("Type at least one label first."); throw new Error("no-answer"); }
+    var allRight=true;
+    q.markers.forEach(function(m){
+      var inp=document.querySelector('#optionsHost input.lin[data-num="'+m.num+'"]');
+      var ok=matches(inp.value,m.accept);
+      inp.disabled=true; inp.classList.add(ok?"ok":"bad");
+      var keySpan=inp.parentNode.querySelector(".keyans");
+      if(ok){ inp.dataset.state="ok"; }
+      else {
+        allRight=false; inp.dataset.state="bad";
+        keySpan.textContent="= "+m.label+" ";
+        var b=el("button","btn-ghost btn-sm","I was right, count it"); b.type="button";
+        b.addEventListener("click", function(){ overrideMarker(q,m,inp,b,keySpan); });
+        keySpan.appendChild(b);
+      }
+    });
+    return allRight;
+  }
+  function overrideMarker(q,m,inp,btn,keySpan){
+    inp.classList.remove("bad"); inp.classList.add("ok"); inp.dataset.state="ok";
+    btn.remove(); keySpan.textContent="= "+m.label+"  (counted ✓)";
+    // record so we can add the accepted answer later
+    var flags=loadFlags();
+    flags[q.id+"#m"+m.num]={ id:q.id, section:q.section, source:q.source, reason:"Accepted-answer", note:'Marker '+m.num+' ('+m.label+'): user typed "'+inp.value.trim()+'" — add as accepted?' };
+    saveFlags(flags);
+    // if all markers now ok, upgrade the question to correct
+    var allOk=true;
+    document.querySelectorAll('#optionsHost input.lin').forEach(function(i){ if(i.dataset.state!=="ok") allOk=false; });
+    if(allOk && !qCounted){
+      qCounted=true; score++; $("liveScore").textContent=score;
+      var mi=missed.indexOf(q); if(mi!==-1) missed.splice(mi,1);
+      var fb=$("feedbackHost").querySelector(".feedback");
+      if(fb){ fb.className="feedback right"; fb.querySelector(".verdict-line").textContent="✓ Counted as correct"; }
+    }
+  }
+
+  function showFeedback(q,correct){
+    var fb=el("div","feedback "+(correct?"right":"wrong"));
+    fb.appendChild(el("div","verdict-line",correct?"✓ Correct":"✗ Not quite"));
+    if(q.type==="matching" && !correct){
+      var ans=el("div",null,"Correct pairs: "+q.pairs.map(function(p){return p.left+" → "+p.right;}).join("; ")); ans.style.marginBottom="6px"; fb.appendChild(ans);
+    }
+    fb.appendChild(el("div",null,q.explanation));
+    fb.appendChild(el("div","source","Source: "+q.source));
+    $("feedbackHost").appendChild(fb);
+  }
+
+  // ---- navigation ----
+  $("nextBtn").addEventListener("click", function(){ if(idx+1>=quiz.length) return finish(); idx++; renderQuestion(); });
+  $("quitBtn").addEventListener("click", finish);
+
+  function finish(){
+    $("progressFill").style.width="100%";
+    var answeredCount=idx+(answered?1:0);
+    show("results");
+    var pct=answeredCount?Math.round(score/answeredCount*100):0;
+    $("finalScore").textContent=score+" / "+answeredCount+"  ("+pct+"%)";
+    $("finalSub").textContent=missed.length?(missed.length+" to review below."):"Clean sweep. Nicely done.";
+    var rh=$("reviewHost"); rh.innerHTML="";
+    if(missed.length){
+      rh.appendChild(el("h2",null,"Review: missed questions"));
+      missed.forEach(function(q){
+        var item=el("div","review-item");
+        item.appendChild(el("div","review-q",q.question));
+        item.appendChild(el("div",null,q.explanation));
+        item.appendChild(el("div","review-meta",q.lecture+" · "+q.section+" · "+q.source));
+        rh.appendChild(item);
+      });
+      $("retryMissedBtn").classList.remove("hidden");
+    } else { $("retryMissedBtn").classList.add("hidden"); }
+    renderFlagReview();
+  }
+
+  $("restartBtn").addEventListener("click", function(){ onScopeChange(); show("setup"); });
+  $("retryMissedBtn").addEventListener("click", function(){ quiz=shuffle(missed); idx=0; score=0; missed=[]; show("quiz"); renderQuestion(); });
+
+  // ---- flagging ----
+  function loadFlags(){ try{ return JSON.parse(localStorage.getItem(FLAG_KEY))||{}; }catch(e){ return {}; } }
+  function saveFlags(f){ localStorage.setItem(FLAG_KEY, JSON.stringify(f)); }
+  $("flagToggle").addEventListener("click", function(){ $("flagBox").classList.toggle("hidden"); });
+  $("flagSave").addEventListener("click", function(){
+    var q=quiz[idx];
+    var reason=(document.querySelector('input[name=flagReason]:checked')||{}).value||"Incorrect";
+    var note=$("flagNote").value.trim();
+    var flags=loadFlags();
+    flags[q.id]={ id:q.id, section:q.section, source:q.source, question:q.question, reason:reason, note:note };
+    saveFlags(flags); $("flagSaved").classList.remove("hidden");
+  });
+  function resetFlagUI(q){
+    $("flagBox").classList.add("hidden"); $("flagNote").value=""; $("flagSaved").classList.add("hidden");
+    var existing=loadFlags()[q.id]; var t=$("flagToggle");
+    t.innerHTML=existing?"&#9873; Flagged (edit)":"&#9873; Flag this question";
+    if(existing){ $("flagNote").value=existing.note||""; }
+  }
+  function renderFlagReview(){
+    var host=$("flagReviewHost"); host.innerHTML="";
+    var flags=loadFlags(), keys=Object.keys(flags);
+    if(!keys.length) return;
+    host.appendChild(el("h2",null,"Flagged questions ("+keys.length+")"));
+    host.appendChild(el("div","review-meta","Copy the text below and send it to whoever maintains the quiz. Clearing removes them from this device."));
+    var ta=el("textarea","flag-export"); ta.readOnly=true;
+    ta.value=keys.map(function(k){ var f=flags[k]; return "["+f.reason+"] "+f.source+" ("+f.id+")\n  "+(f.question?("Q: "+f.question):"")+(f.note?"\n  Note: "+f.note:""); }).join("\n\n");
+    host.appendChild(ta);
+    var row=el("div","btn-row");
+    var copyBtn=el("button","btn-ghost","Copy to clipboard"); copyBtn.type="button";
+    copyBtn.addEventListener("click", function(){ ta.select(); try{ document.execCommand("copy"); copyBtn.textContent="Copied ✓"; }catch(e){ copyBtn.textContent="Select + copy manually"; } });
+    var clearBtn=el("button","btn-ghost","Clear flags"); clearBtn.type="button";
+    clearBtn.addEventListener("click", function(){ if(confirm("Remove all saved flags from this device?")){ localStorage.removeItem(FLAG_KEY); renderFlagReview(); } });
+    row.appendChild(copyBtn); row.appendChild(clearBtn); host.appendChild(row);
+  }
+
+  // ---- init ----
+  if(!ALL.length){
+    $("setup").innerHTML="<h2>No questions loaded</h2><p>Make sure <code>questions.js</code> is in the same folder as this file.</p>";
+  } else {
+    fillSelect($("classSel"), classes(), null);
+    renderLectureList(); onScopeChange();
+  }
+})();
+</script>
+</body>
+</html>

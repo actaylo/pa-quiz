@@ -2,6 +2,9 @@
 # They must NEVER be committed or published.
 source-materials/
 
+# Claude project instructions, local notes, not for publishing
+CLAUDE.md
+
 # Scratch / prototype work, not part of the shipped app
 image-test/
 _*.html

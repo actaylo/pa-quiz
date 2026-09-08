@@ -8,6 +8,8 @@
  *   tf             : options ["True","False"], answer = 0 (true) or 1 (false)
  *   multi          : options[], answer = array of correct indices (select all)
  *   matching       : pairs[{left,right}] (app shuffles the right column)
+ *   why (optional)      : array parallel to options, per-option rationale shown after grading
+ *   pairs[].why (optional): per-pair rationale for matching questions
  *   labeling       : image + viewBox + covers[] (white boxes over printed labels)
  *                    + markers[{num, bx/by = bubble, tx/ty = target, label, accept[]}]
  */
@@ -28,7 +30,13 @@ const QUESTIONS = [
       "Pulmonic valve"
     ],
     "answer": 1,
-    "explanation": "The mitral valve sits between the left atrium and left ventricle. The tricuspid separates the right atrium and right ventricle; the aortic and pulmonic are the semilunar outflow valves."
+    "explanation": "The mitral valve sits between the left atrium and left ventricle. The tricuspid separates the right atrium and right ventricle; the aortic and pulmonic are the semilunar outflow valves.",
+    "why": [
+      "The tricuspid valve is the right-sided AV valve, sitting between the right atrium and right ventricle.",
+      "Correct. The mitral (bicuspid) valve is the left-sided AV valve, between the left atrium and left ventricle.",
+      "The aortic valve is a semilunar outflow valve, between the left ventricle and the aorta, not an AV valve.",
+      "The pulmonic valve is a semilunar outflow valve, between the right ventricle and the pulmonary artery."
+    ]
   },
   {
     "id": "cv-002",
@@ -45,7 +53,13 @@ const QUESTIONS = [
       "Pulmonic and tricuspid"
     ],
     "answer": 1,
-    "explanation": "S1 (\"LUB\") marks the start of systole and is produced as the mitral and tricuspid (AV) valves close. S2 is produced by closure of the aortic and pulmonic (semilunar) valves."
+    "explanation": "S1 (\"LUB\") marks the start of systole and is produced as the mitral and tricuspid (AV) valves close. S2 is produced by closure of the aortic and pulmonic (semilunar) valves.",
+    "why": [
+      "That is S2. The aortic and pulmonic (semilunar) valves close at the end of systole.",
+      "Correct. S1 (\"LUB\") is closure of the mitral and tricuspid (AV) valves at the start of systole.",
+      "Mixes one AV valve with one semilunar valve, so they do not close together to make a single sound.",
+      "Also mixes a semilunar and an AV valve, so this is not how a single heart sound is produced."
+    ]
   },
   {
     "id": "cv-003",
@@ -62,7 +76,13 @@ const QUESTIONS = [
       "Atrial contraction"
     ],
     "answer": 2,
-    "explanation": "S2 (\"DUB\") occurs at the end of systole / start of diastole as the aortic and pulmonic valves close. Its two components are A2 (aortic, louder) and P2 (pulmonic)."
+    "explanation": "S2 (\"DUB\") occurs at the end of systole / start of diastole as the aortic and pulmonic valves close. Its two components are A2 (aortic, louder) and P2 (pulmonic).",
+    "why": [
+      "Valve opening is silent; heart sounds come from closure, not opening.",
+      "That closure produces S1, not S2.",
+      "Correct. S2 (\"DUB\") is closure of the aortic and pulmonic (semilunar) valves at the end of systole.",
+      "Atrial contraction against a stiff ventricle produces an S4, not S2."
+    ]
   },
   {
     "id": "cv-004",
@@ -77,7 +97,11 @@ const QUESTIONS = [
       "False"
     ],
     "answer": 0,
-    "explanation": "True. At normal rates diastole is the longer phase, which helps distinguish S1 from S2. As heart rate rises, diastole shortens and the two phases approach equal duration."
+    "explanation": "True. At normal rates diastole is the longer phase, which helps distinguish S1 from S2. As heart rate rises, diastole shortens and the two phases approach equal duration.",
+    "why": [
+      "Correct. At rates under 100 per minute diastole is the longer phase, which helps tell S1 from S2.",
+      "Incorrect. Diastole is longer at normal rates; it only shortens as heart rate rises."
+    ]
   },
   {
     "id": "cv-005",
@@ -92,7 +116,11 @@ const QUESTIONS = [
       "False"
     ],
     "answer": 1,
-    "explanation": "False. S1 is the \"LUB\" (beginning of systole). S2 is the \"DUB\" (end of systole)."
+    "explanation": "False. S1 is the \"LUB\" (beginning of systole). S2 is the \"DUB\" (end of systole).",
+    "why": [
+      "Incorrect. S1 is the \"LUB\" at the start of systole, not the \"DUB.\"",
+      "Correct. S1 is the \"LUB\" (mitral and tricuspid closure). S2 is the \"DUB\" at the end of systole."
+    ]
   },
   {
     "id": "cv-006",
@@ -109,7 +137,13 @@ const QUESTIONS = [
       "5th intercostal space, midclavicular line"
     ],
     "answer": 0,
-    "explanation": "The aortic area is the 2nd right intercostal space at the right sternal border. Pulmonic = 2nd LICS at LSB; tricuspid = 4th LICS at LSB; mitral = 5th LICS at the midclavicular line."
+    "explanation": "The aortic area is the 2nd right intercostal space at the right sternal border. Pulmonic = 2nd LICS at LSB; tricuspid = 4th LICS at LSB; mitral = 5th LICS at the midclavicular line.",
+    "why": [
+      "Correct. The aortic area is the 2nd right intercostal space at the right sternal border.",
+      "That is the pulmonic area.",
+      "That is the tricuspid area.",
+      "That is the mitral area, over the cardiac apex."
+    ]
   },
   {
     "id": "cv-007",
@@ -126,7 +160,13 @@ const QUESTIONS = [
       "5th LICS at the midclavicular line"
     ],
     "answer": 1,
-    "explanation": "Erb's point is the 3rd left intercostal space at the left sternal border."
+    "explanation": "Erb's point is the 3rd left intercostal space at the left sternal border.",
+    "why": [
+      "That is the pulmonic area, not Erb's point.",
+      "Correct. Erb's point is the 3rd left intercostal space at the left sternal border.",
+      "That is the tricuspid area.",
+      "That is the mitral area, over the cardiac apex."
+    ]
   },
   {
     "id": "cv-008",
@@ -143,7 +183,13 @@ const QUESTIONS = [
       "3rd LICS at the left sternal border"
     ],
     "answer": 2,
-    "explanation": "In adults the mitral area / apex / PMI is the 5th left intercostal space at the midclavicular line. (In children it is the 4th LICS medial to the nipple.)"
+    "explanation": "In adults the mitral area / apex / PMI is the 5th left intercostal space at the midclavicular line. (In children it is the 4th LICS medial to the nipple.)",
+    "why": [
+      "That is the mitral area in a child, not an adult.",
+      "That is the aortic area.",
+      "Correct. In adults the apex, PMI, and mitral area sit at the 5th LICS in the midclavicular line.",
+      "That is Erb's point."
+    ]
   },
   {
     "id": "cv-009",
@@ -156,19 +202,23 @@ const QUESTIONS = [
     "pairs": [
       {
         "left": "Aortic",
-        "right": "2nd ICS, right sternal border"
+        "right": "2nd ICS, right sternal border",
+        "why": "Aortic valve sounds project up and to the right along the aorta, so it is heard at the 2nd right interspace."
       },
       {
         "left": "Pulmonic",
-        "right": "2nd ICS, left sternal border"
+        "right": "2nd ICS, left sternal border",
+        "why": "The pulmonic area mirrors the aortic on the left, at the 2nd left interspace."
       },
       {
         "left": "Tricuspid",
-        "right": "4th ICS, left sternal border"
+        "right": "4th ICS, left sternal border",
+        "why": "The tricuspid (right AV) valve is heard lower along the left sternal border, around the 4th interspace."
       },
       {
         "left": "Mitral",
-        "right": "5th ICS, midclavicular line"
+        "right": "5th ICS, midclavicular line",
+        "why": "The mitral area is over the cardiac apex, at the 5th interspace in the midclavicular line."
       }
     ],
     "explanation": "Aortic = 2nd RSB, Pulmonic = 2nd LSB, Tricuspid = 4th LSB, Mitral = 5th MCL. A common memory aid is APT-M moving down the chest."
@@ -188,7 +238,13 @@ const QUESTIONS = [
       "S4"
     ],
     "answer": 0,
-    "explanation": "S1 marks the beginning of systole (ventricular contraction) as the mitral and tricuspid valves close."
+    "explanation": "S1 marks the beginning of systole (ventricular contraction) as the mitral and tricuspid valves close.",
+    "why": [
+      "Correct. S1 marks the start of systole as the mitral and tricuspid valves close.",
+      "S2 marks the end of systole and start of diastole (semilunar valve closure).",
+      "S3 is an early-diastolic filling sound, not the start of systole.",
+      "S4 is a late-diastolic sound just before S1, not the start of systole."
+    ]
   },
   {
     "id": "cv-011",
@@ -205,7 +261,13 @@ const QUESTIONS = [
       "T1 (tricuspid closure)"
     ],
     "answer": 2,
-    "explanation": "S1 has two components: M1 (mitral closure, louder, best at the apex) and T1 (tricuspid closure, best at the lower left sternal border). They are usually heard as a single S1."
+    "explanation": "S1 has two components: M1 (mitral closure, louder, best at the apex) and T1 (tricuspid closure, best at the lower left sternal border). They are usually heard as a single S1.",
+    "why": [
+      "A2 is aortic closure, a component of S2, not S1.",
+      "P2 is pulmonic closure, a component of S2, not S1.",
+      "Correct. M1 (mitral closure) is the louder component of S1, best heard at the apex.",
+      "T1 (tricuspid closure) is the softer component of S1, best at the lower left sternal border."
+    ]
   },
   {
     "id": "cv-012",
@@ -222,7 +284,13 @@ const QUESTIONS = [
       "Standing"
     ],
     "answer": 1,
-    "explanation": "During late inspiration, A2 and P2 separate because ejection from the right ventricle takes slightly longer, delaying P2. During expiration they are usually heard as a single sound. Listen at the 2nd-3rd LICS."
+    "explanation": "During late inspiration, A2 and P2 separate because ejection from the right ventricle takes slightly longer, delaying P2. During expiration they are usually heard as a single sound. Listen at the 2nd-3rd LICS.",
+    "why": [
+      "On expiration A2 and P2 merge into a single S2.",
+      "Correct. Inspiration delays P2, separating it from A2, so physiologic splitting is heard on late inspiration.",
+      "Valsalva reduces venous return and does not produce physiologic splitting.",
+      "Standing decreases preload and is not when physiologic splitting is appreciated."
+    ]
   },
   {
     "id": "cv-013",
@@ -237,7 +305,11 @@ const QUESTIONS = [
       "False"
     ],
     "answer": 0,
-    "explanation": "True. Normal (physiologic) splitting appears on inspiration; on expiration A2 and P2 merge into one sound."
+    "explanation": "True. Normal (physiologic) splitting appears on inspiration; on expiration A2 and P2 merge into one sound.",
+    "why": [
+      "Correct. Physiologic splitting appears on inspiration; on expiration A2 and P2 merge into one sound.",
+      "Incorrect. The split normally disappears on expiration, becoming a single S2."
+    ]
   },
   {
     "id": "cv-014",
@@ -254,7 +326,13 @@ const QUESTIONS = [
       "Simultaneously with S1"
     ],
     "answer": 1,
-    "explanation": "S3 occurs in early diastole, just after S2, as blood strikes the ventricular walls during early passive filling. S4 is the sound that occurs late in diastole, just before S1."
+    "explanation": "S3 occurs in early diastole, just after S2, as blood strikes the ventricular walls during early passive filling. S4 is the sound that occurs late in diastole, just before S1.",
+    "why": [
+      "That timing describes S4, not S3.",
+      "Correct. S3 occurs in early diastole just after S2, during early passive ventricular filling.",
+      "S3 is a diastolic sound, not systolic.",
+      "S3 follows S2; it does not coincide with S1."
+    ]
   },
   {
     "id": "cv-015",
@@ -271,7 +349,13 @@ const QUESTIONS = [
       "Aortic valve stenosis"
     ],
     "answer": 1,
-    "explanation": "In adults an S3 suggests a dilated ventricle with volume overload and loss of compliance, classically heart failure. (An S3 can be normal in children.)"
+    "explanation": "In adults an S3 suggests a dilated ventricle with volume overload and loss of compliance, classically heart failure. (An S3 can be normal in children.)",
+    "why": [
+      "In adults an S3 is usually abnormal; it can be normal in children, not adults.",
+      "Correct. In adults an S3 suggests a dilated, volume-overloaded ventricle with reduced compliance, classically heart failure.",
+      "A stiff, non-compliant LV produces an S4, not an S3.",
+      "Aortic stenosis is a systolic murmur, not a cause of S3."
+    ]
   },
   {
     "id": "cv-016",
@@ -288,7 +372,13 @@ const QUESTIONS = [
       "Opening of the mitral valve"
     ],
     "answer": 1,
-    "explanation": "S4 occurs in late diastole when blood strikes the ventricular wall during atrial contraction against increased resistance to filling. It indicates loss of ventricular compliance (a stiffened LV). It can be normal in children and some young adults."
+    "explanation": "S4 occurs in late diastole when blood strikes the ventricular wall during atrial contraction against increased resistance to filling. It indicates loss of ventricular compliance (a stiffened LV). It can be normal in children and some young adults.",
+    "why": [
+      "That is the mechanism of S3, not S4.",
+      "Correct. S4 is blood striking a stiff, non-compliant ventricle during atrial contraction in late diastole.",
+      "Closure of the semilunar valves produces S2.",
+      "Valve opening is normally silent; a snap occurs only in mitral stenosis."
+    ]
   },
   {
     "id": "cv-017",
@@ -305,7 +395,13 @@ const QUESTIONS = [
       "The bell at the right sternal border, patient supine"
     ],
     "answer": 1,
-    "explanation": "S3 and S4 are low-pitched and heard best with the bell at the mitral area with the patient in the left lateral decubitus position."
+    "explanation": "S3 and S4 are low-pitched and heard best with the bell at the mitral area with the patient in the left lateral decubitus position.",
+    "why": [
+      "The diaphragm favors high-pitched sounds, but S3 and S4 are low-pitched.",
+      "Correct. S3 and S4 are low-pitched, heard best with the bell at the apex in the left lateral decubitus position.",
+      "Leaning forward with the diaphragm is for aortic regurgitation and rubs, and the diaphragm misses low-pitched gallops.",
+      "The bell is right for low pitch, but the location and position are wrong; use the apex in left lateral decubitus."
+    ]
   },
   {
     "id": "cv-018",
@@ -320,7 +416,11 @@ const QUESTIONS = [
       "False"
     ],
     "answer": 0,
-    "explanation": "True. An S4 may be normal in children and some young adults; when present in older adults it indicates loss of ventricular compliance."
+    "explanation": "True. An S4 may be normal in children and some young adults; when present in older adults it indicates loss of ventricular compliance.",
+    "why": [
+      "Correct. An S4 can be normal in children and some young adults; in older adults it signals a stiff ventricle.",
+      "Incorrect. An S4 is not always pathologic; it may be a normal finding in the young."
+    ]
   },
   {
     "id": "cv-019",
@@ -337,7 +437,13 @@ const QUESTIONS = [
       "Pericardial rub"
     ],
     "answer": 1,
-    "explanation": "When S3 and S4 combine at faster heart rates, the result is a summation gallop."
+    "explanation": "When S3 and S4 combine at faster heart rates, the result is a summation gallop.",
+    "why": [
+      "An opening snap is the sound of mitral stenosis, not merged S3 and S4.",
+      "Correct. At fast rates S3 and S4 merge into a summation gallop.",
+      "An ejection click relates to semilunar valve opening, not gallops.",
+      "A pericardial rub is a scratchy pericarditis sound, unrelated to merged gallops."
+    ]
   },
   {
     "id": "cv-020",
@@ -352,7 +458,11 @@ const QUESTIONS = [
       "False"
     ],
     "answer": 1,
-    "explanation": "False. The bell is best for low-pitched sounds such as S3 and S4; the diaphragm is best for higher-pitched sounds."
+    "explanation": "False. The bell is best for low-pitched sounds such as S3 and S4; the diaphragm is best for higher-pitched sounds.",
+    "why": [
+      "Incorrect. The bell is for low-pitched sounds; the diaphragm captures high-pitched sounds.",
+      "Correct. The bell is best for low-pitched sounds like S3 and S4; the diaphragm is best for high-pitched sounds."
+    ]
   },
   {
     "id": "cv-021",
@@ -374,7 +484,13 @@ const QUESTIONS = [
       2,
       3
     ],
-    "explanation": "All four are listed causes: high flow through an orifice, stenosis (forward flow through a narrowed valve), regurgitation/insufficiency (backward flow through an incompetent valve), and flow through a cardiac defect."
+    "explanation": "All four are listed causes: high flow through an orifice, stenosis (forward flow through a narrowed valve), regurgitation/insufficiency (backward flow through an incompetent valve), and flow through a cardiac defect.",
+    "why": [
+      "Correct. High flow through a normal or abnormal orifice can generate a murmur.",
+      "Correct. Forward flow across a narrowed valve is stenosis.",
+      "Correct. Backward flow through a valve that does not fully close is regurgitation, or insufficiency.",
+      "Correct. Flow through a cardiac defect, such as a septal defect, is also a listed cause."
+    ]
   },
   {
     "id": "cv-022",
@@ -397,7 +513,14 @@ const QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Murmurs are described by site, character (shape/quality), radiation, intensity (grade), pitch, timing, and response to maneuvers. Blood type is not a murmur descriptor."
+    "explanation": "Murmurs are described by site, character (shape/quality), radiation, intensity (grade), pitch, timing, and response to maneuvers. Blood type is not a murmur descriptor.",
+    "why": [
+      "Correct. Site is where the murmur is loudest.",
+      "Correct. Character is the murmur's shape and quality.",
+      "Correct. Radiation is where the murmur travels.",
+      "Correct. Timing, systole versus diastole, is a key descriptor.",
+      "Incorrect. Blood type has nothing to do with describing a murmur."
+    ]
   },
   {
     "id": "cv-023",
@@ -414,7 +537,13 @@ const QUESTIONS = [
       "Plateau"
     ],
     "answer": 3,
-    "explanation": "A plateau murmur has uniform loudness throughout and is typically pansystolic/holosystolic (or pandiastolic/holodiastolic). Crescendo gets louder, decrescendo gets softer, crescendo-decrescendo builds then fades."
+    "explanation": "A plateau murmur has uniform loudness throughout and is typically pansystolic/holosystolic (or pandiastolic/holodiastolic). Crescendo gets louder, decrescendo gets softer, crescendo-decrescendo builds then fades.",
+    "why": [
+      "A crescendo murmur grows steadily louder, not uniform.",
+      "A decrescendo murmur fades, not uniform.",
+      "Crescendo-decrescendo builds then fades (a diamond shape), not uniform.",
+      "Correct. A plateau murmur is uniform in loudness, typical of holosystolic murmurs."
+    ]
   },
   {
     "id": "cv-024",
@@ -431,7 +560,13 @@ const QUESTIONS = [
       "Grade VI/VI"
     ],
     "answer": 2,
-    "explanation": "Grade IV/VI is loud with a palpable thrill. Grade V/VI is very loud, heard with the stethoscope partly off the chest; Grade VI/VI is audible with the stethoscope entirely off the chest."
+    "explanation": "Grade IV/VI is loud with a palpable thrill. Grade V/VI is very loud, heard with the stethoscope partly off the chest; Grade VI/VI is audible with the stethoscope entirely off the chest.",
+    "why": [
+      "Grade I is very faint, heard only with effort, and has no thrill.",
+      "Grade II is soft but readily heard, with no thrill.",
+      "Correct. Grade IV/VI is loud with a palpable thrill.",
+      "Grade VI is audible with the stethoscope entirely off the chest, more than just loud with a thrill."
+    ]
   },
   {
     "id": "cv-025",
@@ -448,7 +583,13 @@ const QUESTIONS = [
       "Grade VI/VI"
     ],
     "answer": 3,
-    "explanation": "Grade VI/VI is heard without the stethoscope on the chest at all. Grade V/VI still needs the edge of the scope on the chest."
+    "explanation": "Grade VI/VI is heard without the stethoscope on the chest at all. Grade V/VI still needs the edge of the scope on the chest.",
+    "why": [
+      "Grade III is loud but has no thrill.",
+      "Grade IV is loud with a thrill, but still needs the scope on the chest.",
+      "Grade V needs the edge of the scope still touching the chest.",
+      "Correct. Grade VI/VI is audible with the stethoscope completely off the chest."
+    ]
   },
   {
     "id": "cv-026",
@@ -465,7 +606,13 @@ const QUESTIONS = [
       "Systolic murmurs occur between S2 and S1"
     ],
     "answer": 1,
-    "explanation": "Diastolic murmurs (between S2 and S1) imply cardiac pathology. Systolic murmurs (between S1 and S2) can be innocent or pathologic and coincide with the carotid upstroke."
+    "explanation": "Diastolic murmurs (between S2 and S1) imply cardiac pathology. Systolic murmurs (between S1 and S2) can be innocent or pathologic and coincide with the carotid upstroke.",
+    "why": [
+      "False; many systolic murmurs are innocent.",
+      "Correct. Diastolic murmurs, between S2 and S1, imply cardiac pathology.",
+      "Opposite of the truth; diastolic murmurs are pathologic, not innocent.",
+      "Systolic murmurs occur between S1 and S2, not between S2 and S1."
+    ]
   },
   {
     "id": "cv-027",
@@ -480,7 +627,11 @@ const QUESTIONS = [
       "False"
     ],
     "answer": 1,
-    "explanation": "False. Some systolic murmurs are innocent. Diastolic murmurs, however, always imply pathology."
+    "explanation": "False. Some systolic murmurs are innocent. Diastolic murmurs, however, always imply pathology.",
+    "why": [
+      "Incorrect. Some systolic murmurs are innocent.",
+      "Correct. Not all systolic murmurs are pathologic, though diastolic murmurs always are."
+    ]
   },
   {
     "id": "cv-028",
@@ -497,7 +648,13 @@ const QUESTIONS = [
       "Neither"
     ],
     "answer": 1,
-    "explanation": "Inspiration increases venous return to the right heart, accentuating right-sided murmurs (Carvallo's sign for tricuspid regurgitation is a classic example)."
+    "explanation": "Inspiration increases venous return to the right heart, accentuating right-sided murmurs (Carvallo's sign for tricuspid regurgitation is a classic example).",
+    "why": [
+      "Left-sided murmurs are accentuated by expiration, not inspiration.",
+      "Correct. Inspiration increases right heart venous return, accentuating right-sided murmurs (Carvallo's sign).",
+      "Inspiration affects the two sides differently, favoring the right.",
+      "Inspiration does change murmur intensity, specifically right-sided murmurs."
+    ]
   },
   {
     "id": "cv-029",
@@ -517,7 +674,13 @@ const QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Valsalva and standing both decrease preload (venous return), which softens most murmurs but increases LV outflow obstruction, making HOCM louder. Squatting and handgrip do the opposite: they attenuate HOCM."
+    "explanation": "Valsalva and standing both decrease preload (venous return), which softens most murmurs but increases LV outflow obstruction, making HOCM louder. Squatting and handgrip do the opposite: they attenuate HOCM.",
+    "why": [
+      "Incorrect. Squatting increases preload and softens HOCM.",
+      "Incorrect. Handgrip increases afterload and softens HOCM.",
+      "Correct. Valsalva drops preload, softening most murmurs but making HOCM louder.",
+      "Correct. Standing drops preload, softening most murmurs but making HOCM louder."
+    ]
   },
   {
     "id": "cv-030",
@@ -534,7 +697,13 @@ const QUESTIONS = [
       "Has no effect on either"
     ],
     "answer": 1,
-    "explanation": "Squatting increases venous return and afterload, accentuating aortic stenosis. In HOCM the increased LV volume displaces the hypertrophic septum and reduces obstruction, so the HOCM murmur softens."
+    "explanation": "Squatting increases venous return and afterload, accentuating aortic stenosis. In HOCM the increased LV volume displaces the hypertrophic septum and reduces obstruction, so the HOCM murmur softens.",
+    "why": [
+      "They respond oppositely, which is why squatting helps tell them apart.",
+      "Correct. Squatting raises preload and afterload (louder AS), while the larger LV volume reduces the obstruction (softer HOCM).",
+      "That describes standing or Valsalva, not squatting.",
+      "Squatting clearly changes both murmurs."
+    ]
   },
   {
     "id": "cv-031",
@@ -551,7 +720,13 @@ const QUESTIONS = [
       "Mid-diastolic, low-pitched, rumbling"
     ],
     "answer": 1,
-    "explanation": "Aortic stenosis is a systolic crescendo-decrescendo murmur at the aortic area (2nd RICS) that radiates to the carotids and may produce a narrow pulse pressure."
+    "explanation": "Aortic stenosis is a systolic crescendo-decrescendo murmur at the aortic area (2nd RICS) that radiates to the carotids and may produce a narrow pulse pressure.",
+    "why": [
+      "That describes aortic regurgitation.",
+      "Correct. Aortic stenosis is a systolic crescendo-decrescendo murmur radiating to the carotids.",
+      "That describes mitral regurgitation.",
+      "That describes mitral stenosis."
+    ]
   },
   {
     "id": "cv-032",
@@ -568,7 +743,13 @@ const QUESTIONS = [
       "Right sternal border"
     ],
     "answer": 1,
-    "explanation": "Mitral regurgitation is a high-pitched, blowing, pansystolic (holosystolic) murmur at the apex that radiates to the axilla."
+    "explanation": "Mitral regurgitation is a high-pitched, blowing, pansystolic (holosystolic) murmur at the apex that radiates to the axilla.",
+    "why": [
+      "The carotids are where aortic stenosis radiates.",
+      "Correct. Mitral regurgitation radiates to the axilla.",
+      "Tricuspid regurgitation may radiate toward the epigastrium, not MR.",
+      "The right sternal border is not a typical MR radiation site."
+    ]
   },
   {
     "id": "cv-033",
@@ -585,7 +766,13 @@ const QUESTIONS = [
       "Pulmonic stenosis"
     ],
     "answer": 1,
-    "explanation": "Mitral stenosis produces a low-pitched, rumbling, mid-diastolic murmur with an opening snap at the apex and is commonly seen with atrial fibrillation."
+    "explanation": "Mitral stenosis produces a low-pitched, rumbling, mid-diastolic murmur with an opening snap at the apex and is commonly seen with atrial fibrillation.",
+    "why": [
+      "Aortic regurgitation is early-diastolic and decrescendo, without an opening snap.",
+      "Correct. Mitral stenosis is a mid-diastolic, low-pitched, rumbling murmur with an opening snap, often with atrial fibrillation.",
+      "Tricuspid regurgitation is a pansystolic murmur, not mid-diastolic with an opening snap.",
+      "Pulmonic stenosis is a systolic murmur, not diastolic."
+    ]
   },
   {
     "id": "cv-034",
@@ -602,7 +789,13 @@ const QUESTIONS = [
       "Tricuspid stenosis"
     ],
     "answer": 0,
-    "explanation": "Aortic regurgitation is an early-diastolic, decrescendo, blowing murmur (2nd-4th ICS at LSB). Associated signs include a water hammer pulse, Corrigan's sign, and DeMusset's sign."
+    "explanation": "Aortic regurgitation is an early-diastolic, decrescendo, blowing murmur (2nd-4th ICS at LSB). Associated signs include a water hammer pulse, Corrigan's sign, and DeMusset's sign.",
+    "why": [
+      "Correct. Aortic regurgitation is an early-diastolic, decrescendo, blowing murmur at the left sternal border.",
+      "Mitral regurgitation is holosystolic and blowing at the apex, not early-diastolic.",
+      "Aortic stenosis is a systolic crescendo-decrescendo murmur, not diastolic.",
+      "Tricuspid stenosis is a rare mid-diastolic murmur, not an early-diastolic decrescendo at the LSB."
+    ]
   },
   {
     "id": "cv-035",
@@ -623,7 +816,13 @@ const QUESTIONS = [
       1,
       2
     ],
-    "explanation": "Aortic regurgitation produces a wide pulse pressure with a water hammer pulse, DeMusset's sign (head bobbing), and Corrigan's sign. A NARROW pulse pressure is a feature of aortic stenosis, not regurgitation."
+    "explanation": "Aortic regurgitation produces a wide pulse pressure with a water hammer pulse, DeMusset's sign (head bobbing), and Corrigan's sign. A NARROW pulse pressure is a feature of aortic stenosis, not regurgitation.",
+    "why": [
+      "Correct. The water hammer (Corrigan) pulse reflects the wide pulse pressure of AR.",
+      "Correct. Head bobbing with each beat (DeMusset's sign) is a classic AR sign.",
+      "Correct. Carotid distention and collapse (Corrigan's sign) is an AR sign.",
+      "Incorrect. AR causes a WIDE pulse pressure; a narrow one points to aortic stenosis."
+    ]
   },
   {
     "id": "cv-036",
@@ -640,7 +839,13 @@ const QUESTIONS = [
       "Mitral valve prolapse"
     ],
     "answer": 2,
-    "explanation": "Tricuspid regurgitation is a right-sided, blowing, pansystolic murmur at the 4th LICS that gets louder with inspiration (Carvallo's sign) and is associated with increased JVP."
+    "explanation": "Tricuspid regurgitation is a right-sided, blowing, pansystolic murmur at the 4th LICS that gets louder with inspiration (Carvallo's sign) and is associated with increased JVP.",
+    "why": [
+      "Mitral regurgitation is left-sided and does not increase with inspiration.",
+      "Aortic stenosis is left-sided and softens, rather than getting louder, with inspiration.",
+      "Correct. Tricuspid regurgitation is right-sided, louder with inspiration (Carvallo's sign), with an elevated JVP.",
+      "Mitral valve prolapse gives a systolic click, not an inspiration-accentuated murmur with raised JVP."
+    ]
   },
   {
     "id": "cv-037",
@@ -657,7 +862,13 @@ const QUESTIONS = [
       "Pulmonic regurgitation"
     ],
     "answer": 1,
-    "explanation": "Mitral valve prolapse is the most common valvular disorder (about 2-6% of the population, more common in females). A 'floppy' redundant mitral valve prolapses into the left atrium."
+    "explanation": "Mitral valve prolapse is the most common valvular disorder (about 2-6% of the population, more common in females). A 'floppy' redundant mitral valve prolapses into the left atrium.",
+    "why": [
+      "Common in the elderly, but not the most common valvular disorder overall.",
+      "Correct. Mitral valve prolapse is the most common valvular disorder, about 2 to 6 percent of the population.",
+      "Tricuspid stenosis is rare.",
+      "Pulmonic regurgitation is uncommon and not the most prevalent."
+    ]
   },
   {
     "id": "cv-038",
@@ -674,7 +885,13 @@ const QUESTIONS = [
       "A continuous machine-like murmur"
     ],
     "answer": 1,
-    "explanation": "Mitral valve prolapse produces a mid-to-late systolic click, with or without a high-pitched systolic murmur of mitral regurgitation, best heard at the apex."
+    "explanation": "Mitral valve prolapse produces a mid-to-late systolic click, with or without a high-pitched systolic murmur of mitral regurgitation, best heard at the apex.",
+    "why": [
+      "An opening snap in early diastole is the sound of mitral stenosis, not MVP.",
+      "Correct. MVP produces a mid-to-late systolic click, with or without an MR murmur.",
+      "A fixed split S2 suggests an atrial septal defect, not MVP.",
+      "A continuous machine-like murmur describes a patent ductus arteriosus."
+    ]
   },
   {
     "id": "cv-039",
@@ -691,7 +908,13 @@ const QUESTIONS = [
       "With the diaphragm at the axilla, patient standing"
     ],
     "answer": 1,
-    "explanation": "A pericardial friction rub is high-pitched, scratchy and grating, heard best with the diaphragm just left of the sternum with the patient leaning forward. It has both systolic and diastolic components."
+    "explanation": "A pericardial friction rub is high-pitched, scratchy and grating, heard best with the diaphragm just left of the sternum with the patient leaning forward. It has both systolic and diastolic components.",
+    "why": [
+      "That position is for low-pitched S3 and S4, not a rub.",
+      "Correct. A pericardial rub is high-pitched; hear it with the diaphragm left of the sternum, patient leaning forward.",
+      "The bell and supine position are wrong for this high-pitched sound.",
+      "The axilla and standing are not where a rub is best heard."
+    ]
   },
   {
     "id": "cv-040",
@@ -708,7 +931,13 @@ const QUESTIONS = [
       "An early ejection click that eliminates S2"
     ],
     "answer": 1,
-    "explanation": "In pulmonic stenosis, increased resistance to RV outflow prolongs RV ejection and delays P2, which can produce a fixed split S2. The murmur itself is a harsh crescendo-decrescendo systolic murmur at the 2nd-3rd LICS."
+    "explanation": "In pulmonic stenosis, increased resistance to RV outflow prolongs RV ejection and delays P2, which can produce a fixed split S2. The murmur itself is a harsh crescendo-decrescendo systolic murmur at the 2nd-3rd LICS.",
+    "why": [
+      "Pulmonic stenosis delays P2 rather than producing a loud single S2.",
+      "Correct. Delayed P2 from RV outflow obstruction can produce a fixed split S2.",
+      "S2 is not absent in pulmonic stenosis.",
+      "An ejection click may occur, but it does not eliminate S2."
+    ]
   },
   {
     "id": "cv-041",
@@ -728,7 +957,13 @@ const QUESTIONS = [
       0,
       2
     ],
-    "explanation": "Aortic regurgitation (early diastolic) and mitral stenosis (mid-diastolic) are diastolic murmurs. Aortic stenosis and mitral regurgitation are systolic murmurs."
+    "explanation": "Aortic regurgitation (early diastolic) and mitral stenosis (mid-diastolic) are diastolic murmurs. Aortic stenosis and mitral regurgitation are systolic murmurs.",
+    "why": [
+      "Correct. Aortic regurgitation is an early-diastolic murmur.",
+      "Incorrect. Aortic stenosis is systolic.",
+      "Correct. Mitral stenosis is a mid-diastolic murmur.",
+      "Incorrect. Mitral regurgitation is holosystolic."
+    ]
   },
   {
     "id": "cv-042",
@@ -741,19 +976,23 @@ const QUESTIONS = [
     "pairs": [
       {
         "left": "S1",
-        "right": "Closure of the mitral and tricuspid valves"
+        "right": "Closure of the mitral and tricuspid valves",
+        "why": "S1 is closure of the AV valves (mitral and tricuspid) at the start of systole."
       },
       {
         "left": "S2",
-        "right": "Closure of the aortic and pulmonic valves"
+        "right": "Closure of the aortic and pulmonic valves",
+        "why": "S2 is closure of the semilunar valves (aortic and pulmonic) at the end of systole."
       },
       {
         "left": "S3",
-        "right": "Blood striking ventricular walls during early passive filling"
+        "right": "Blood striking ventricular walls during early passive filling",
+        "why": "S3 comes from blood striking the ventricular walls during early passive filling, in early diastole."
       },
       {
         "left": "S4",
-        "right": "Blood striking the ventricle during atrial contraction"
+        "right": "Blood striking the ventricle during atrial contraction",
+        "why": "S4 comes from blood hitting a stiff ventricle during atrial contraction, in late diastole."
       }
     ],
     "explanation": "S1 = AV valve closure; S2 = semilunar valve closure; S3 = early passive filling (early diastole); S4 = atrial contraction against a stiff ventricle (late diastole)."
@@ -769,19 +1008,23 @@ const QUESTIONS = [
     "pairs": [
       {
         "left": "Aortic stenosis",
-        "right": "Systolic, crescendo-decrescendo, radiates to carotids"
+        "right": "Systolic, crescendo-decrescendo, radiates to carotids",
+        "why": "Systolic crescendo-decrescendo at the aortic area, radiating to the carotids."
       },
       {
         "left": "Mitral regurgitation",
-        "right": "Pansystolic, blowing, radiates to axilla"
+        "right": "Pansystolic, blowing, radiates to axilla",
+        "why": "Pansystolic blowing murmur at the apex, radiating to the axilla."
       },
       {
         "left": "Aortic regurgitation",
-        "right": "Early diastolic, decrescendo, blowing"
+        "right": "Early diastolic, decrescendo, blowing",
+        "why": "Early-diastolic decrescendo blowing murmur at the left sternal border."
       },
       {
         "left": "Mitral stenosis",
-        "right": "Mid-diastolic, low-pitched, rumbling with opening snap"
+        "right": "Mid-diastolic, low-pitched, rumbling with opening snap",
+        "why": "Mid-diastolic, low-pitched rumble with an opening snap at the apex."
       }
     ],
     "explanation": "These four are high-yield: AS (systolic crescendo-decrescendo to the carotids), MR (holosystolic blowing to the axilla), AR (early diastolic decrescendo), MS (mid-diastolic rumble with opening snap)."
@@ -797,19 +1040,23 @@ const QUESTIONS = [
     "pairs": [
       {
         "left": "Aortic stenosis",
-        "right": "Carotid arteries"
+        "right": "Carotid arteries",
+        "why": "Aortic stenosis radiates up to the carotid arteries."
       },
       {
         "left": "Mitral regurgitation",
-        "right": "Axilla"
+        "right": "Axilla",
+        "why": "Mitral regurgitation radiates to the axilla."
       },
       {
         "left": "Tricuspid regurgitation",
-        "right": "Epigastrium (occasionally)"
+        "right": "Epigastrium (occasionally)",
+        "why": "Tricuspid regurgitation may occasionally radiate to the epigastrium."
       },
       {
         "left": "Pulmonic regurgitation",
-        "right": "Right sternal border"
+        "right": "Right sternal border",
+        "why": "Pulmonic regurgitation radiates toward the right sternal border."
       }
     ],
     "explanation": "AS radiates to the carotids, MR to the axilla, TR occasionally to the epigastrium, and pulmonic regurgitation toward the right sternal border."
@@ -829,7 +1076,13 @@ const QUESTIONS = [
       "Mitochondrial"
     ],
     "answer": 1,
-    "explanation": "HOCM is an autosomal dominant disorder involving multiple genes. It causes asymmetric septal hypertrophy with LV outflow obstruction and is a significant cause of sudden cardiac death in young athletes."
+    "explanation": "HOCM is an autosomal dominant disorder involving multiple genes. It causes asymmetric septal hypertrophy with LV outflow obstruction and is a significant cause of sudden cardiac death in young athletes.",
+    "why": [
+      "HOCM is dominant, not recessive.",
+      "Correct. HOCM is autosomal dominant, causing asymmetric septal hypertrophy with outflow obstruction.",
+      "Not the inheritance pattern of HOCM.",
+      "Not the inheritance pattern of HOCM."
+    ]
   },
   {
     "id": "cv-046",
@@ -844,7 +1097,11 @@ const QUESTIONS = [
       "False"
     ],
     "answer": 0,
-    "explanation": "True. HOCM is a significant cause of sudden cardiac death in young athletes, and sudden death is often the first symptom, which is why thorough cardiac exams matter."
+    "explanation": "True. HOCM is a significant cause of sudden cardiac death in young athletes, and sudden death is often the first symptom, which is why thorough cardiac exams matter.",
+    "why": [
+      "Correct. Sudden cardiac death can be the first sign of HOCM in a young athlete, which is why screening matters.",
+      "Incorrect. Sudden death tragically can be the first symptom of HOCM."
+    ]
   },
   {
     "id": "cv-047",
@@ -861,7 +1118,13 @@ const QUESTIONS = [
       "Innocent flow murmur"
     ],
     "answer": 2,
-    "explanation": "A murmur that intensifies with standing/Valsalva and softens with squatting is the hallmark of HOCM, a leading cause of sudden cardiac death in young athletes. Most other murmurs behave the opposite way."
+    "explanation": "A murmur that intensifies with standing/Valsalva and softens with squatting is the hallmark of HOCM, a leading cause of sudden cardiac death in young athletes. Most other murmurs behave the opposite way.",
+    "why": [
+      "Aortic stenosis softens with standing (less flow across the valve), the opposite of this murmur, and usually presents in older adults.",
+      "Mitral valve prolapse also shifts with position, but the young athlete who collapses with this dynamic murmur is the classic HOCM picture.",
+      "Correct. Louder with standing/Valsalva (less LV filling worsens the outflow obstruction) and softer with squatting; a leading cause of sudden death in young athletes.",
+      "An innocent flow murmur would not cause collapse and does not intensify with standing."
+    ]
   },
   {
     "id": "cv-048",
@@ -878,7 +1141,13 @@ const QUESTIONS = [
       "Tricuspid stenosis"
     ],
     "answer": 1,
-    "explanation": "Location (2nd RICS), crescendo-decrescendo shape, radiation to the carotids, and a narrow pulse pressure all point to aortic stenosis."
+    "explanation": "Location (2nd RICS), crescendo-decrescendo shape, radiation to the carotids, and a narrow pulse pressure all point to aortic stenosis.",
+    "why": [
+      "Mitral regurgitation is holosystolic at the apex radiating to the axilla, not to the carotids.",
+      "Correct. 2nd RICS, crescendo-decrescendo shape, carotid radiation, and a narrow pulse pressure are classic aortic stenosis.",
+      "Aortic regurgitation is an early-diastolic decrescendo murmur with a WIDE pulse pressure.",
+      "Tricuspid stenosis is a rare right-sided diastolic murmur, not this picture."
+    ]
   },
   {
     "id": "cv-049",
@@ -895,7 +1164,13 @@ const QUESTIONS = [
       "Pulmonic stenosis"
     ],
     "answer": 2,
-    "explanation": "An apical, blowing, holosystolic murmur radiating to the axilla is classic for mitral regurgitation."
+    "explanation": "An apical, blowing, holosystolic murmur radiating to the axilla is classic for mitral regurgitation.",
+    "why": [
+      "Aortic stenosis radiates to the carotids and is crescendo-decrescendo, not holosystolic to the axilla.",
+      "Mitral stenosis is a mid-diastolic rumble, not a holosystolic apical murmur.",
+      "Correct. An apical, blowing, holosystolic murmur radiating to the axilla is classic mitral regurgitation.",
+      "Pulmonic stenosis is a systolic murmur at the upper left sternal border, not apical to the axilla."
+    ]
   },
   {
     "id": "cv-050",
@@ -912,7 +1187,13 @@ const QUESTIONS = [
       "Mitral stenosis"
     ],
     "answer": 0,
-    "explanation": "A scratchy, grating sound with systolic and diastolic components, loudest with the patient leaning forward and a recent MI, describes a pericardial friction rub (post-MI pericarditis)."
+    "explanation": "A scratchy, grating sound with systolic and diastolic components, loudest with the patient leaning forward and a recent MI, describes a pericardial friction rub (post-MI pericarditis).",
+    "why": [
+      "Correct. A scratchy, grating sound in systole and diastole, louder leaning forward after a recent MI, is a pericardial friction rub.",
+      "Aortic regurgitation is a blowing diastolic murmur, not a scratchy to-and-fro rub.",
+      "An S3 is a low-pitched early-diastolic sound, not a scratchy rub.",
+      "Mitral stenosis is a mid-diastolic rumble with an opening snap, not a grating rub."
+    ]
   },
   {
     "id": "cv-051",
@@ -929,7 +1210,13 @@ const QUESTIONS = [
       "Tricuspid regurgitation"
     ],
     "answer": 1,
-    "explanation": "A low-pitched, rumbling, mid-diastolic murmur with an opening snap at the apex, plus atrial fibrillation, is the classic picture of mitral stenosis."
+    "explanation": "A low-pitched, rumbling, mid-diastolic murmur with an opening snap at the apex, plus atrial fibrillation, is the classic picture of mitral stenosis.",
+    "why": [
+      "Mitral regurgitation is holosystolic, not a mid-diastolic rumble with an opening snap.",
+      "Correct. A low-pitched mid-diastolic rumble with an opening snap, plus atrial fibrillation, is classic mitral stenosis.",
+      "Aortic stenosis is a systolic murmur radiating to the carotids, not diastolic at the apex.",
+      "Tricuspid regurgitation is a right-sided pansystolic murmur, not a diastolic apical rumble."
+    ]
   },
   {
     "id": "cv-052",
@@ -1223,7 +1510,13 @@ const QUESTIONS = [
       "High LDL correlates with lower ASCVD risk"
     ],
     "answer": 1,
-    "explanation": "LDL ('bad' cholesterol) carries cholesterol to cells; LDL receptors on peripheral and liver cells clear it from the blood. LDL-C is one of the most atherogenic lipoproteins."
+    "explanation": "LDL ('bad' cholesterol) carries cholesterol to cells; LDL receptors on peripheral and liver cells clear it from the blood. LDL-C is one of the most atherogenic lipoproteins.",
+    "why": [
+      "That describes HDL and reverse cholesterol transport, not LDL.",
+      "Correct. LDL delivers cholesterol to cells and is one of the most atherogenic lipoproteins.",
+      "Reversed. LDL is the \"bad\" cholesterol; HDL is the \"good\" cholesterol.",
+      "Backwards. Higher LDL correlates with higher ASCVD risk, not lower."
+    ]
   },
   {
     "id": "lp-011",
@@ -1276,7 +1569,13 @@ const QUESTIONS = [
       1,
       2
     ],
-    "explanation": "The shell is made of hydrophilic molecules: apoproteins, free cholesterol, and phospholipids. The triglyceride and cholesterol esters form the neutral core, not the shell."
+    "explanation": "The shell is made of hydrophilic molecules: apoproteins, free cholesterol, and phospholipids. The triglyceride and cholesterol esters form the neutral core, not the shell.",
+    "why": [
+      "Correct. Apoproteins are part of the hydrophilic surface coat.",
+      "Correct. Free (unesterified) cholesterol sits in the outer shell.",
+      "Correct. The polar heads of phospholipids face outward, forming the shell.",
+      "Incorrect. Triglyceride and cholesterol esters make up the neutral core, not the shell."
+    ]
   },
   {
     "id": "lp-014",

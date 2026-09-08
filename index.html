@@ -63,6 +63,9 @@
   .match-left { flex:0 0 42%; font-weight:600; }
   .match-row select { flex:1; }
   .match-row .verdict { font-size:1.1rem; width:20px; text-align:center; }
+  .opt-why { font-size:.86rem; line-height:1.45; color:var(--muted); margin:-4px 0 10px 30px; padding:6px 11px; border-left:3px solid var(--line); background:var(--card); border-radius:0 8px 8px 0; }
+  .opt-why.correct { color:var(--correct); border-left-color:var(--correct); }
+  .match-why { font-size:.85rem; line-height:1.45; color:var(--muted); margin:-4px 0 10px 4px; padding:6px 11px; border-left:3px solid var(--correct); background:var(--card); border-radius:0 8px 8px 0; }
   /* labeling */
   .label-svg { width:100%; height:auto; display:block; border:1px solid var(--line); border-radius:10px; background:#fff; margin-bottom:12px; }
   .label-svg .marker { fill:var(--accent); }
@@ -383,6 +386,7 @@
       var i=parseInt(row.dataset.i,10); row.classList.add("locked"); row.querySelector("input").disabled=true;
       if(i===q.answer) row.classList.add("correct"); else if(i===chosen) row.classList.add("wrong");
     });
+    annotateOptions(q);
     return correct;
   }
   function gradeMulti(q){
@@ -394,6 +398,7 @@
       var isKey=q.answer.indexOf(i)!==-1, isSel=sel.indexOf(i)!==-1;
       if(isKey) row.classList.add("correct"); else if(isSel) row.classList.add("wrong");
     });
+    annotateOptions(q);
     return correct;
   }
   function gradeMatching(q){
@@ -407,7 +412,23 @@
       if(got===want){ v.textContent="✓"; v.style.color="var(--correct)"; }
       else { v.textContent="✗"; v.style.color="var(--wrong)"; allRight=false; s.style.borderColor="var(--wrong)"; }
     });
+    annotateMatching(q);
     return allRight;
+  }
+  function annotateOptions(q){
+    if(!Array.isArray(q.why)) return;
+    document.querySelectorAll('#optionsHost .opt').forEach(function(row){
+      var i=parseInt(row.dataset.i,10), w=q.why[i]; if(w==null) return;
+      var d=el("div","opt-why"+(row.classList.contains("correct")?" correct":""),w);
+      row.parentNode.insertBefore(d,row.nextSibling);
+    });
+  }
+  function annotateMatching(q){
+    document.querySelectorAll('#optionsHost .match-row select').forEach(function(s){
+      var i=parseInt(s.dataset.i,10), p=q.pairs[i]; if(!p||p.why==null) return;
+      var d=el("div","match-why",p.left+" → "+p.right+": "+p.why);
+      s.parentNode.parentNode.insertBefore(d,s.parentNode.nextSibling);
+    });
   }
   function gradeLabeling(q){
     var inputs=document.querySelectorAll('#optionsHost input.lin');

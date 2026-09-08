@@ -1339,7 +1339,13 @@ const QUESTIONS = [
       "A source for cell membrane manufacture and cell signaling"
     ],
     "answer": 2,
-    "explanation": "Fats transport the fat-soluble vitamins A, D, E, and K, provide essential fatty acids, and supply energy for membrane manufacture, cell signaling, and brain function. They are hydrophobic and stored intracellularly as triglyceride."
+    "explanation": "Fats transport the fat-soluble vitamins A, D, E, and K, provide essential fatty acids, and supply energy for membrane manufacture, cell signaling, and brain function. They are hydrophobic and stored intracellularly as triglyceride.",
+    "why": [
+      "This IS a role; fats transport the fat-soluble vitamins A, D, E, and K.",
+      "This IS a role; fats provide essential fatty acids.",
+      "Correct. This is NOT a role; water-soluble vitamins do not need fat for transport.",
+      "This IS a role; fats supply material for cell membranes and signaling."
+    ]
   },
   {
     "id": "lp-002",
@@ -1354,7 +1360,11 @@ const QUESTIONS = [
       "False"
     ],
     "answer": 0,
-    "explanation": "True. Fats are esters of glycerol and fatty acids, are insoluble in water, and are stored inside cells as triglyceride (TG)."
+    "explanation": "True. Fats are esters of glycerol and fatty acids, are insoluble in water, and are stored inside cells as triglyceride (TG).",
+    "why": [
+      "Correct. Fats are hydrophobic and stored inside cells as triglyceride.",
+      "Incorrect. Fats are water-insoluble and stored intracellularly as triglyceride."
+    ]
   },
   {
     "id": "lp-003",
@@ -1371,7 +1381,13 @@ const QUESTIONS = [
       "The main source of omega-3 fatty acids"
     ],
     "answer": 1,
-    "explanation": "Saturated fats have a straight, tightly packed structure, are typically solid at room temperature, and can increase LDL. Unsaturated fats are usually liquid, loosely packed, and may lower CVD risk."
+    "explanation": "Saturated fats have a straight, tightly packed structure, are typically solid at room temperature, and can increase LDL. Unsaturated fats are usually liquid, loosely packed, and may lower CVD risk.",
+    "why": [
+      "That describes unsaturated fats, which are usually liquid and may lower CVD risk.",
+      "Correct. Saturated fats are typically solid at room temperature and can raise LDL.",
+      "Saturated fats do affect LDL; they can raise it.",
+      "Omega-3s come from unsaturated fats, not saturated fats."
+    ]
   },
   {
     "id": "lp-004",
@@ -1388,7 +1404,13 @@ const QUESTIONS = [
       "Total cholesterol"
     ],
     "answer": 2,
-    "explanation": "Omega-3 fatty acids mainly improve triglycerides and also lower inflammation."
+    "explanation": "Omega-3 fatty acids mainly improve triglycerides and also lower inflammation.",
+    "why": [
+      "Omega-3s have only a modest LDL effect; their main benefit is on triglycerides.",
+      "Not the main target; omega-3s mainly improve triglycerides.",
+      "Correct. Omega-3 fatty acids mainly improve triglycerides and lower inflammation.",
+      "Not the primary effect; triglycerides are the main target."
+    ]
   },
   {
     "id": "lp-005",
@@ -1403,7 +1425,11 @@ const QUESTIONS = [
       "False"
     ],
     "answer": 0,
-    "explanation": "True. Cholesterol is synthesized from fatty acid chains in the liver and other tissues; only animals make it, and it is a principal component of animal cell plasma membranes and of arterial plaques."
+    "explanation": "True. Cholesterol is synthesized from fatty acid chains in the liver and other tissues; only animals make it, and it is a principal component of animal cell plasma membranes and of arterial plaques.",
+    "why": [
+      "Correct. Only animals synthesize cholesterol, and it is a principal component of animal cell membranes.",
+      "Incorrect. Cholesterol is made only by animals and is a key component of animal cell membranes."
+    ]
   },
   {
     "id": "lp-006",
@@ -1416,19 +1442,23 @@ const QUESTIONS = [
     "pairs": [
       {
         "left": "Androgens/estrogens",
-        "right": "Mediate sexual characteristics and function"
+        "right": "Mediate sexual characteristics and function",
+        "why": "Steroid sex hormones made from cholesterol; they drive sexual characteristics and function."
       },
       {
         "left": "Progestins",
-        "right": "Regulate the menstrual cycle"
+        "right": "Regulate the menstrual cycle",
+        "why": "Cholesterol-derived hormones that regulate the menstrual cycle."
       },
       {
         "left": "Mineralocorticoids",
-        "right": "Regulate renal sodium reabsorption"
+        "right": "Regulate renal sodium reabsorption",
+        "why": "Cholesterol-derived hormones, such as aldosterone, that regulate renal sodium reabsorption."
       },
       {
         "left": "Bile acids",
-        "right": "Emulsify dietary lipids"
+        "right": "Emulsify dietary lipids",
+        "why": "Made from cholesterol; they emulsify dietary lipids for absorption."
       }
     ],
     "explanation": "Cholesterol is the precursor for steroid hormones and bile acids: androgens/estrogens (sexual development), progestins (menstrual cycle), corticosteroids (metabolism), mineralocorticoids (renal sodium reabsorption), and bile acids (emulsify dietary fat)."
@@ -1444,19 +1474,23 @@ const QUESTIONS = [
     "pairs": [
       {
         "left": "TG",
-        "right": "Triglyceride"
+        "right": "Triglyceride",
+        "why": "TG stands for triglyceride."
       },
       {
         "left": "CM",
-        "right": "Chylomicron"
+        "right": "Chylomicron",
+        "why": "CM stands for chylomicron."
       },
       {
         "left": "LDL-C",
-        "right": "Low-density lipoprotein cholesterol"
+        "right": "Low-density lipoprotein cholesterol",
+        "why": "LDL-C is low-density lipoprotein cholesterol."
       },
       {
         "left": "ASCVD",
-        "right": "Atherosclerotic cardiovascular disease"
+        "right": "Atherosclerotic cardiovascular disease",
+        "why": "ASCVD is atherosclerotic cardiovascular disease."
       }
     ],
     "explanation": "Key terms: FFA = free fatty acid, TG = triglyceride, CM = chylomicron, VLDL/IDL/LDL/HDL-C = the lipoprotein cholesterol fractions, CHD = coronary heart disease, ASCVD = atherosclerotic cardiovascular disease."
@@ -1476,7 +1510,13 @@ const QUESTIONS = [
       "Lipids bind oxygen and must be shielded"
     ],
     "answer": 1,
-    "explanation": "Because lipids are water-insoluble, they cannot travel directly in the bloodstream; lipoproteins carry them. A lipoprotein has a neutral lipid core (TG and cholesterol esters) surrounded by a hydrophilic shell of apoproteins, free cholesterol, and phospholipids."
+    "explanation": "Because lipids are water-insoluble, they cannot travel directly in the bloodstream; lipoproteins carry them. A lipoprotein has a neutral lipid core (TG and cholesterol esters) surrounded by a hydrophilic shell of apoproteins, free cholesterol, and phospholipids.",
+    "why": [
+      "Size is not the issue; lipids of any size still cannot dissolve in blood.",
+      "Correct. Lipids are water-insoluble, so lipoproteins carry them through the blood.",
+      "Filtration is not the reason; the problem is that lipids do not dissolve in water.",
+      "Lipids do not bind oxygen; the issue is water insolubility."
+    ]
   },
   {
     "id": "lp-009",
@@ -1493,7 +1533,13 @@ const QUESTIONS = [
       "Adipose tissue; they transport apoproteins"
     ],
     "answer": 1,
-    "explanation": "Chylomicrons are large lipoproteins formed in the small intestine after a meal. They carry triglycerides, cholesterol, and fat-soluble vitamins to peripheral tissues (adipose, muscle, liver) for energy or storage."
+    "explanation": "Chylomicrons are large lipoproteins formed in the small intestine after a meal. They carry triglycerides, cholesterol, and fat-soluble vitamins to peripheral tissues (adipose, muscle, liver) for energy or storage.",
+    "why": [
+      "Chylomicrons form in the intestine, not the liver, and do not transport HDL.",
+      "Correct. Chylomicrons form in the small intestine after a meal and carry triglycerides, cholesterol, and fat-soluble vitamins.",
+      "They are not made in the kidney, and they carry more than free fatty acids.",
+      "They are not made in adipose tissue; they form in the small intestine."
+    ]
   },
   {
     "id": "lp-010",
@@ -1533,7 +1579,13 @@ const QUESTIONS = [
       "Increases triglyceride storage"
     ],
     "answer": 1,
-    "explanation": "HDL ('good' cholesterol) helps move cholesterol from atherogenic lipoproteins and peripheral tissues to the liver. Low HDL-C correlates with higher ASCVD risk and high HDL-C with lower risk."
+    "explanation": "HDL ('good' cholesterol) helps move cholesterol from atherogenic lipoproteins and peripheral tissues to the liver. Low HDL-C correlates with higher ASCVD risk and high HDL-C with lower risk.",
+    "why": [
+      "That is what LDL does; HDL removes cholesterol rather than delivering it to arteries.",
+      "Correct. HDL moves cholesterol from atherogenic lipoproteins and tissues to the liver (reverse cholesterol transport).",
+      "HDL does not increase LDL-receptor destruction; that is related to PCSK9.",
+      "HDL is cardioprotective, not a promoter of triglyceride storage."
+    ]
   },
   {
     "id": "lp-012",
@@ -1548,7 +1600,11 @@ const QUESTIONS = [
       "False"
     ],
     "answer": 1,
-    "explanation": "False. Although high HDL-C correlates with lower ASCVD risk, the data do NOT support raising HDL-C pharmacologically to improve outcomes."
+    "explanation": "False. Although high HDL-C correlates with lower ASCVD risk, the data do NOT support raising HDL-C pharmacologically to improve outcomes.",
+    "why": [
+      "Incorrect. The data do not support raising HDL-C with drugs to improve outcomes.",
+      "Correct. High HDL-C correlates with lower risk, but raising it pharmacologically has not improved outcomes."
+    ]
   },
   {
     "id": "lp-013",
@@ -1597,7 +1653,13 @@ const QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Most lipid panels report total cholesterol, triglycerides, LDL-C, and HDL-C."
+    "explanation": "Most lipid panels report total cholesterol, triglycerides, LDL-C, and HDL-C.",
+    "why": [
+      "Correct. Total cholesterol is reported on a standard panel.",
+      "Correct. Triglycerides are reported on a standard panel.",
+      "Correct. LDL-C is reported on a standard panel.",
+      "Correct. HDL-C is reported on a standard panel."
+    ]
   },
   {
     "id": "lp-015",
@@ -1614,7 +1676,13 @@ const QUESTIONS = [
       "Post-prandial only"
     ],
     "answer": 1,
-    "explanation": "For initial screening, non-fasting samples are acceptable. Fasting is preferred when diagnosing pancreatitis or evaluating premature ASCVD, metabolic syndrome, or hypertriglyceridemia."
+    "explanation": "For initial screening, non-fasting samples are acceptable. Fasting is preferred when diagnosing pancreatitis or evaluating premature ASCVD, metabolic syndrome, or hypertriglyceridemia.",
+    "why": [
+      "Fasting is preferred in specific situations but is not required for initial screening.",
+      "Correct. Non-fasting samples are acceptable for initial lipid screening.",
+      "A 24-hour fast is not required.",
+      "A post-prandial-only sample is not a screening requirement."
+    ]
   },
   {
     "id": "lp-016",
@@ -1631,7 +1699,13 @@ const QUESTIONS = [
       "Checking HDL only"
     ],
     "answer": 1,
-    "explanation": "Fasting is preferred for diagnosing pancreatitis or when treating premature ASCVD, metabolic syndrome, or hypertriglyceridemia."
+    "explanation": "Fasting is preferred for diagnosing pancreatitis or when treating premature ASCVD, metabolic syndrome, or hypertriglyceridemia.",
+    "why": [
+      "Routine first-time screening can be done non-fasting.",
+      "Correct. Fasting is preferred when evaluating hypertriglyceridemia or premature ASCVD.",
+      "A quick health-fair screen does not require fasting.",
+      "Checking HDL alone does not require fasting."
+    ]
   },
   {
     "id": "lp-017",
@@ -1648,7 +1722,13 @@ const QUESTIONS = [
       "Only after a cardiac event"
     ],
     "answer": 0,
-    "explanation": "The 2026 AHA/ACC Multisociety guidelines recommend screening all adults aged 20 years or older. (USPSTF screens men at 35 and women at 45 if at increased risk, and younger adults with risk factors.)"
+    "explanation": "The 2026 AHA/ACC Multisociety guidelines recommend screening all adults aged 20 years or older. (USPSTF screens men at 35 and women at 45 if at increased risk, and younger adults with risk factors.)",
+    "why": [
+      "Correct. The 2026 AHA/ACC Multisociety guidelines screen all adults aged 20 or older.",
+      "That is closer to the USPSTF approach, not the 2026 Multisociety guideline.",
+      "Screening begins earlier than 40, at age 20.",
+      "Screening is not deferred until after a cardiac event."
+    ]
   },
   {
     "id": "lp-018",
@@ -1665,7 +1745,13 @@ const QUESTIONS = [
       "Only if symptomatic"
     ],
     "answer": 1,
-    "explanation": "The American Academy of Pediatrics recommends screening for high cholesterol between ages 9 and 11."
+    "explanation": "The American Academy of Pediatrics recommends screening for high cholesterol between ages 9 and 11.",
+    "why": [
+      "Too young; the AAP screens between ages 9 and 11.",
+      "Correct. The AAP recommends screening for high cholesterol between ages 9 and 11.",
+      "Later than recommended; the window is ages 9 to 11.",
+      "Screening is routine in this age window, not only if symptomatic."
+    ]
   },
   {
     "id": "lp-019",
@@ -1687,7 +1773,13 @@ const QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Dyslipidemia is any lipid abnormality: elevated TG, elevated total cholesterol, elevated LDL-C, and/or decreased HDL-C (any one or a combination)."
+    "explanation": "Dyslipidemia is any lipid abnormality: elevated TG, elevated total cholesterol, elevated LDL-C, and/or decreased HDL-C (any one or a combination).",
+    "why": [
+      "Correct. Elevated triglycerides is a form of dyslipidemia.",
+      "Correct. Elevated total cholesterol is a form of dyslipidemia.",
+      "Correct. Elevated LDL-C is a form of dyslipidemia.",
+      "Correct. Decreased HDL-C is a form of dyslipidemia."
+    ]
   },
   {
     "id": "lp-020",
@@ -1704,7 +1796,13 @@ const QUESTIONS = [
       "Nearly 90%"
     ],
     "answer": 2,
-    "explanation": "Almost 50% of the population has dyslipidemia, and risk increases with age."
+    "explanation": "Almost 50% of the population has dyslipidemia, and risk increases with age.",
+    "why": [
+      "Underestimates; almost half the population has dyslipidemia.",
+      "Underestimates; the figure is closer to 50 percent.",
+      "Correct. Almost 50 percent of the population has dyslipidemia, and risk rises with age.",
+      "Overestimates; it is closer to half."
+    ]
   },
   {
     "id": "lp-021",
@@ -1719,7 +1817,11 @@ const QUESTIONS = [
       "False"
     ],
     "answer": 0,
-    "explanation": "True. Men have lower HDL than women, and women have lower LDL than men until about age 55 (after menopause). Familial hypercholesterolemia has a prevalence of about 1 in 500."
+    "explanation": "True. Men have lower HDL than women, and women have lower LDL than men until about age 55 (after menopause). Familial hypercholesterolemia has a prevalence of about 1 in 500.",
+    "why": [
+      "Correct. Women have lower LDL than men until about age 55, after menopause.",
+      "Incorrect. Women's LDL is typically lower than men's until around age 55."
+    ]
   },
   {
     "id": "lp-022",
@@ -1736,7 +1838,13 @@ const QUESTIONS = [
       "1 in 50,000"
     ],
     "answer": 1,
-    "explanation": "Familial hypercholesterolemia has a prevalence of roughly 1 in 500."
+    "explanation": "Familial hypercholesterolemia has a prevalence of roughly 1 in 500.",
+    "why": [
+      "Too common; FH is about 1 in 500.",
+      "Correct. Familial hypercholesterolemia has a prevalence of roughly 1 in 500.",
+      "Too rare; it is about 1 in 500.",
+      "Far too rare; it is about 1 in 500."
+    ]
   },
   {
     "id": "lp-023",
@@ -1753,7 +1861,13 @@ const QUESTIONS = [
       "LDL receptors clear all circulating LDL"
     ],
     "answer": 1,
-    "explanation": "LDL not taken up by LDL receptors is scavenged by arterial-wall macrophages. These macrophages become engorged with LDL-derived cholesterol, forming foam cells, a key component of atherogenic plaques."
+    "explanation": "LDL not taken up by LDL receptors is scavenged by arterial-wall macrophages. These macrophages become engorged with LDL-derived cholesterol, forming foam cells, a key component of atherogenic plaques.",
+    "why": [
+      "HDL delivering cholesterol to the liver is protective, not foam-cell formation.",
+      "Correct. Arterial-wall macrophages engorged with LDL-derived cholesterol become foam cells.",
+      "Chylomicrons entering the intestine is normal digestion, not foam-cell formation.",
+      "Full LDL clearance would prevent foam cells, not create them."
+    ]
   },
   {
     "id": "lp-024",
@@ -1768,7 +1882,11 @@ const QUESTIONS = [
       "False"
     ],
     "answer": 0,
-    "explanation": "True. LDL can be oxidized into toxic intermediates that drive inflammation, contributing to plaque formation."
+    "explanation": "True. LDL can be oxidized into toxic intermediates that drive inflammation, contributing to plaque formation.",
+    "why": [
+      "Correct. Oxidized LDL forms toxic intermediates that drive arterial inflammation.",
+      "Incorrect. Oxidized LDL does form toxic, pro-inflammatory intermediates."
+    ]
   },
   {
     "id": "lp-025",
@@ -1785,7 +1903,13 @@ const QUESTIONS = [
       "Vitamin deficiency"
     ],
     "answer": 1,
-    "explanation": "Occlusive plaques are often the result of rupture compounded by thrombosis, producing ASCVD events such as coronary heart disease or stroke."
+    "explanation": "Occlusive plaques are often the result of rupture compounded by thrombosis, producing ASCVD events such as coronary heart disease or stroke.",
+    "why": [
+      "Events are usually acute, from rupture and clot, not just gradual narrowing.",
+      "Correct. Occlusive plaques often result from rupture compounded by thrombosis, causing CHD or stroke.",
+      "HDL is protective and does not form occlusive plaques.",
+      "Vitamin deficiency is not the mechanism of occlusive plaque events."
+    ]
   },
   {
     "id": "lp-026",
@@ -1802,7 +1926,13 @@ const QUESTIONS = [
       "Bile acids"
     ],
     "answer": 0,
-    "explanation": "LDL not cleared by hepatic or peripheral LDL receptors is taken up by scavenger macrophages on the arterial wall, a first step toward foam-cell and plaque formation."
+    "explanation": "LDL not cleared by hepatic or peripheral LDL receptors is taken up by scavenger macrophages on the arterial wall, a first step toward foam-cell and plaque formation.",
+    "why": [
+      "Correct. LDL not cleared by receptors is taken up by scavenger macrophages on the arterial wall.",
+      "Red blood cells do not scavenge LDL.",
+      "Chylomicrons carry dietary fat from the gut; they do not scavenge LDL.",
+      "Bile acids emulsify fat; they do not take up arterial LDL."
+    ]
   },
   {
     "id": "lp-027",
@@ -1824,7 +1954,13 @@ const QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Listed ASCVD risk factors include age, hypertension, dyslipidemia, diabetes, diet, cigarette smoking, overweight/obesity, sedentary lifestyle, and stress/depression."
+    "explanation": "Listed ASCVD risk factors include age, hypertension, dyslipidemia, diabetes, diet, cigarette smoking, overweight/obesity, sedentary lifestyle, and stress/depression.",
+    "why": [
+      "Correct. Hypertension is a listed ASCVD risk factor.",
+      "Correct. Diabetes is a listed ASCVD risk factor.",
+      "Correct. Cigarette smoking is a listed ASCVD risk factor.",
+      "Correct. A sedentary lifestyle is a listed ASCVD risk factor."
+    ]
   },
   {
     "id": "lp-028",
@@ -1841,7 +1977,13 @@ const QUESTIONS = [
       "No relationship to family history"
     ],
     "answer": 1,
-    "explanation": "Familial hypercholesterolemia is autosomal co-dominant (about 1/500), caused by an LDL-receptor defect producing very high LDL-C (and TG). Suspect it with a family history of premature ASCVD."
+    "explanation": "Familial hypercholesterolemia is autosomal co-dominant (about 1/500), caused by an LDL-receptor defect producing very high LDL-C (and TG). Suspect it with a family history of premature ASCVD.",
+    "why": [
+      "FH raises LDL through a receptor defect; it does not lower it.",
+      "Correct. FH is an LDL-receptor defect with very high LDL-C and autosomal co-dominant inheritance.",
+      "FH involves high LDL, not a triglyceride deficiency.",
+      "FH is strongly familial; suspect it with a family history of premature ASCVD."
+    ]
   },
   {
     "id": "lp-029",
@@ -1858,7 +2000,13 @@ const QUESTIONS = [
       "Nephrotic syndrome"
     ],
     "answer": 1,
-    "explanation": "Primary dyslipidemia is genetic: overproduction of lipids or beta-apolipoproteins (LDL) or underproduction of alpha-apolipoproteins (HDL). Secondary causes include diet and metabolic/hormonal conditions."
+    "explanation": "Primary dyslipidemia is genetic: overproduction of lipids or beta-apolipoproteins (LDL) or underproduction of alpha-apolipoproteins (HDL). Secondary causes include diet and metabolic/hormonal conditions.",
+    "why": [
+      "That is a secondary (acquired) cause, not primary.",
+      "Correct. Primary dyslipidemia is genetic, such as overproduction of LDL apolipoproteins.",
+      "Medication-induced dyslipidemia is a secondary cause.",
+      "Nephrotic syndrome is a secondary cause, not primary."
+    ]
   },
   {
     "id": "lp-030",
@@ -1880,7 +2028,13 @@ const QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Listed secondary causes: hypothyroidism, nephrotic syndrome, cholestasis, acute intermittent porphyria, and medications such as glucocorticoids, anabolic steroids, thiazide diuretics, and amiodarone."
+    "explanation": "Listed secondary causes: hypothyroidism, nephrotic syndrome, cholestasis, acute intermittent porphyria, and medications such as glucocorticoids, anabolic steroids, thiazide diuretics, and amiodarone.",
+    "why": [
+      "Correct. Hypothyroidism is a listed secondary cause.",
+      "Correct. Nephrotic syndrome is a listed secondary cause.",
+      "Correct. Cholestasis is a listed secondary cause.",
+      "Correct. Thiazide diuretics are a listed medication cause."
+    ]
   },
   {
     "id": "lp-031",
@@ -1902,7 +2056,13 @@ const QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Risk enhancers include premature family ASCVD, higher-risk ancestry, high polygenic risk, chronic inflammatory disease, elevated Lp(a), elevated hsCRP, persistently high TG, CKM syndrome, persistently high LDL-C/apoB, and reproductive risk markers."
+    "explanation": "Risk enhancers include premature family ASCVD, higher-risk ancestry, high polygenic risk, chronic inflammatory disease, elevated Lp(a), elevated hsCRP, persistently high TG, CKM syndrome, persistently high LDL-C/apoB, and reproductive risk markers.",
+    "why": [
+      "Correct. Premature ASCVD in a parent or sibling is a risk enhancer.",
+      "Correct. Chronic inflammatory disease such as lupus or RA is a risk enhancer.",
+      "Correct. Elevated Lp(a) is a risk enhancer.",
+      "Correct. Persistently elevated hsCRP is a risk enhancer."
+    ]
   },
   {
     "id": "lp-032",
@@ -1919,7 +2079,13 @@ const QUESTIONS = [
       "Men <45 and women <35"
     ],
     "answer": 0,
-    "explanation": "Premature/early cardiac disease is defined as men younger than 55 and women younger than 65. A general clinical approach inquires about this family history, assesses ASCVD risk, and performs a complete CV exam."
+    "explanation": "Premature/early cardiac disease is defined as men younger than 55 and women younger than 65. A general clinical approach inquires about this family history, assesses ASCVD risk, and performs a complete CV exam.",
+    "why": [
+      "Correct. Premature disease is men younger than 55 and women younger than 65.",
+      "The sexes are reversed; it is men under 55 and women under 65.",
+      "Over age 70 is not premature.",
+      "The thresholds are too low; it is men under 55 and women under 65."
+    ]
   },
   {
     "id": "lp-033",
@@ -1932,15 +2098,18 @@ const QUESTIONS = [
     "pairs": [
       {
         "left": "Xanthoma",
-        "right": "Cholesterol deposit in skin/tendons"
+        "right": "Cholesterol deposit in skin/tendons",
+        "why": "A cholesterol deposit in the skin or tendons."
       },
       {
         "left": "Xanthelasma",
-        "right": "Yellow cholesterol plaque on the eyelids"
+        "right": "Yellow cholesterol plaque on the eyelids",
+        "why": "A yellow cholesterol plaque on the eyelids."
       },
       {
         "left": "Arcus senilis (<40 y)",
-        "right": "Corneal ring that can signal elevated cholesterol"
+        "right": "Corneal ring that can signal elevated cholesterol",
+        "why": "A corneal ring that, in someone under 40, can signal elevated cholesterol."
       }
     ],
     "explanation": "Cutaneous manifestations of dyslipidemia include xanthomas and xanthelasma. Arcus senilis in people under 40 can be a sign of elevated cholesterol."
@@ -1960,7 +2129,13 @@ const QUESTIONS = [
       "Only in children"
     ],
     "answer": 1,
-    "explanation": "Arcus senilis is common with aging, but when it appears in people under 40 it can be a sign of elevated cholesterol."
+    "explanation": "Arcus senilis is common with aging, but when it appears in people under 40 it can be a sign of elevated cholesterol.",
+    "why": [
+      "Arcus is common with aging and less concerning in the elderly.",
+      "Correct. Arcus senilis under age 40 can signal elevated cholesterol.",
+      "It is more concerning specifically in the young, under 40.",
+      "It is a concern in adults under 40, not limited to children."
+    ]
   },
   {
     "id": "lp-035",
@@ -1977,7 +2152,13 @@ const QUESTIONS = [
       "Hypothyroidism alone"
     ],
     "answer": 1,
-    "explanation": "Very high LDL-C with cutaneous xanthomas and a family history of premature ASCVD suggests familial hypercholesterolemia, an LDL-receptor defect."
+    "explanation": "Very high LDL-C with cutaneous xanthomas and a family history of premature ASCVD suggests familial hypercholesterolemia, an LDL-receptor defect.",
+    "why": [
+      "Diet-related secondary hyperlipidemia does not typically cause xanthomas with a strong familial pattern.",
+      "Correct. Xanthomas plus a family history of premature heart disease suggest familial hypercholesterolemia.",
+      "This combination is not normal aging.",
+      "Hypothyroidism alone does not explain xanthomas with this family history."
+    ]
   },
   {
     "id": "lp-036",
@@ -1998,7 +2179,13 @@ const QUESTIONS = [
       1,
       2
     ],
-    "explanation": "The PREVENT calculator includes A1c, eGFR, zip code, and BMI but does NOT include race. It was created because the older ASCVD calculator overestimated risk."
+    "explanation": "The PREVENT calculator includes A1c, eGFR, zip code, and BMI but does NOT include race. It was created because the older ASCVD calculator overestimated risk.",
+    "why": [
+      "Correct. The PREVENT calculator includes A1c.",
+      "Correct. The PREVENT calculator includes eGFR.",
+      "Correct. PREVENT includes zip code and BMI.",
+      "Incorrect. PREVENT deliberately does NOT include race."
+    ]
   },
   {
     "id": "lp-037",
@@ -2013,7 +2200,11 @@ const QUESTIONS = [
       "False"
     ],
     "answer": 0,
-    "explanation": "True. The PREVENT calculator drops race and instead uses A1c, eGFR, zip code, and BMI. The prior ASCVD calculator tended to overestimate risk."
+    "explanation": "True. The PREVENT calculator drops race and instead uses A1c, eGFR, zip code, and BMI. The prior ASCVD calculator tended to overestimate risk.",
+    "why": [
+      "Correct. PREVENT drops race and uses A1c, eGFR, zip code, and BMI instead.",
+      "Incorrect. PREVENT does not include race, unlike the older calculator."
+    ]
   },
   {
     "id": "lp-038",
@@ -2026,19 +2217,23 @@ const QUESTIONS = [
     "pairs": [
       {
         "left": "Low",
-        "right": "<3%"
+        "right": "<3%",
+        "why": "Low risk is under 3 percent over 10 years."
       },
       {
         "left": "Borderline",
-        "right": "3% to <5%"
+        "right": "3% to <5%",
+        "why": "Borderline is 3 to under 5 percent."
       },
       {
         "left": "Intermediate",
-        "right": "5% to <10%"
+        "right": "5% to <10%",
+        "why": "Intermediate is 5 to under 10 percent."
       },
       {
         "left": "High",
-        "right": "≥10%"
+        "right": "≥10%",
+        "why": "High is 10 percent or more."
       }
     ],
     "explanation": "PREVENT-ASCVD 10-year categories for ages 30-79: low (<3%), borderline (3 to <5%), intermediate (5 to <10%), and high (≥10%)."
@@ -2058,7 +2253,13 @@ const QUESTIONS = [
       "High"
     ],
     "answer": 2,
-    "explanation": "A 10-year risk of 5% to <10% is intermediate. Low is <3%, borderline is 3 to <5%, and high is ≥10%."
+    "explanation": "A 10-year risk of 5% to <10% is intermediate. Low is <3%, borderline is 3 to <5%, and high is ≥10%.",
+    "why": [
+      "Low is under 3 percent.",
+      "Borderline is 3 to under 5 percent.",
+      "Correct. 5 to under 10 percent is intermediate, so 7 percent is intermediate.",
+      "High is 10 percent or more."
+    ]
   },
   {
     "id": "lp-040",
@@ -2075,7 +2276,13 @@ const QUESTIONS = [
       "Order coronary bypass"
     ],
     "answer": 1,
-    "explanation": "For adults with borderline or intermediate risk, evaluate risk enhancers to refine the decision about lipid-lowering therapy."
+    "explanation": "For adults with borderline or intermediate risk, evaluate risk enhancers to refine the decision about lipid-lowering therapy.",
+    "why": [
+      "Do not automatically start a statin; refine the estimate first.",
+      "Correct. For borderline or intermediate risk, evaluate risk enhancers next.",
+      "Screening does not stop; you refine the risk estimate.",
+      "Bypass surgery is not a risk-refinement step."
+    ]
   },
   {
     "id": "lp-041",
@@ -2092,7 +2299,13 @@ const QUESTIONS = [
       "Never screen again"
     ],
     "answer": 1,
-    "explanation": "A CAC of zero: reasonable to withhold statin and reassess in 5-10 years. CAC 1-99: start a statin in patients ≥55 years. CAC ≥100: start statin therapy."
+    "explanation": "A CAC of zero: reasonable to withhold statin and reassess in 5-10 years. CAC 1-99: start a statin in patients ≥55 years. CAC ≥100: start statin therapy.",
+    "why": [
+      "A CAC of zero argues against, not for, immediately starting a statin.",
+      "Correct. With CAC of zero it is reasonable to withhold the statin and reassess in 5 to 10 years.",
+      "A CAC of zero does not warrant urgent catheterization.",
+      "Reassessment is still recommended in 5 to 10 years, not never."
+    ]
   },
   {
     "id": "lp-042",
@@ -2105,19 +2318,23 @@ const QUESTIONS = [
     "pairs": [
       {
         "left": "Lifestyle changes",
-        "right": "10%-15% reduction"
+        "right": "10%-15% reduction",
+        "why": "Lifestyle changes lower LDL by about 10 to 15 percent."
       },
       {
         "left": "Moderate-intensity statin",
-        "right": "30%-49% reduction"
+        "right": "30%-49% reduction",
+        "why": "A moderate-intensity statin lowers LDL by about 30 to 49 percent."
       },
       {
         "left": "High-intensity statin",
-        "right": ">50% reduction"
+        "right": ">50% reduction",
+        "why": "A high-intensity statin lowers LDL by more than 50 percent."
       },
       {
         "left": "Adding ezetimibe/bile sequestrant",
-        "right": "Extra 15%-20% reduction"
+        "right": "Extra 15%-20% reduction",
+        "why": "Adding ezetimibe or a bile sequestrant gives an extra 15 to 20 percent."
       }
     ],
     "explanation": "LDL outcomes: lifestyle 10-15%, low-intensity statin <30%, moderate-intensity 30-49%, high-intensity >50%, and adding a bile-sequestering agent or ezetimibe gives an additional 15-20%."
@@ -2137,7 +2354,13 @@ const QUESTIONS = [
       "A diet high in red meat and sugar-sweetened beverages"
     ],
     "answer": 2,
-    "explanation": "Lifestyle is the cornerstone: a diet high in fruits, vegetables, and lean protein (fish) and low in sweets/sugar-sweetened beverages/red meat, a goal BMI of 20-25, and regular aerobic exercise (~40 min moderate-to-intense, 3-4 times/week)."
+    "explanation": "Lifestyle is the cornerstone: a diet high in fruits, vegetables, and lean protein (fish) and low in sweets/sugar-sweetened beverages/red meat, a goal BMI of 20-25, and regular aerobic exercise (~40 min moderate-to-intense, 3-4 times/week).",
+    "why": [
+      "The BMI goal is 20 to 25, not 30 to 35.",
+      "Exercise is recommended even when the diet is good.",
+      "Correct. Regular aerobic exercise, about 40 minutes moderate-to-intense 3 to 4 times weekly, is a cornerstone.",
+      "A diet high in red meat and sugary drinks is discouraged, not recommended."
+    ]
   },
   {
     "id": "lp-044",
@@ -2154,7 +2377,13 @@ const QUESTIONS = [
       "Start ezetimibe as first-line monotherapy"
     ],
     "answer": 1,
-    "explanation": "For severe primary hypercholesterolemia (LDL ≥190), no risk assessment is needed: use a high-intensity statin."
+    "explanation": "For severe primary hypercholesterolemia (LDL ≥190), no risk assessment is needed: use a high-intensity statin.",
+    "why": [
+      "With LDL 190 or higher, no risk assessment is needed before treating.",
+      "Correct. For LDL-C 190 or higher, start a high-intensity statin without a risk assessment.",
+      "Lifestyle alone is insufficient for LDL 190 or higher.",
+      "A statin, not ezetimibe monotherapy, is first-line here."
+    ]
   },
   {
     "id": "lp-045",
@@ -2171,7 +2400,13 @@ const QUESTIONS = [
       "PCSK9 inhibitor first-line"
     ],
     "answer": 1,
-    "explanation": "In patients with diabetes aged 40-75, a moderate-intensity statin is recommended regardless of the 10-year ASCVD risk."
+    "explanation": "In patients with diabetes aged 40-75, a moderate-intensity statin is recommended regardless of the 10-year ASCVD risk.",
+    "why": [
+      "Diabetes aged 40 to 75 warrants a statin regardless of 10-year risk.",
+      "Correct. In diabetes aged 40 to 75, a moderate-intensity statin is recommended regardless of 10-year risk.",
+      "A bile acid sequestrant is not the recommended first step here.",
+      "A PCSK9 inhibitor is not first-line for this patient."
+    ]
   },
   {
     "id": "lp-046",
@@ -2188,7 +2423,13 @@ const QUESTIONS = [
       "130 mg/dL"
     ],
     "answer": 1,
-    "explanation": "For secondary prevention at 'not very high risk,' reduce LDL-C by ≥50% with a high-intensity statin, goal <70 mg/dL. Very-high-risk patients use a threshold of 50 mg/dL."
+    "explanation": "For secondary prevention at 'not very high risk,' reduce LDL-C by ≥50% with a high-intensity statin, goal <70 mg/dL. Very-high-risk patients use a threshold of 50 mg/dL.",
+    "why": [
+      "The goal here is below 70, not 100.",
+      "Correct. For secondary prevention at not very high risk, reduce LDL by at least 50 percent, goal below 70.",
+      "That is not the stated threshold; very-high-risk uses 50.",
+      "Far above goal; the target is below 70."
+    ]
   },
   {
     "id": "lp-047",
@@ -2205,7 +2446,13 @@ const QUESTIONS = [
       "Add a thiazide diuretic"
     ],
     "answer": 1,
-    "explanation": "In very-high-risk patients using an LDL threshold of 50 mg/dL, if LDL is still >50 on a statin, add ezetimibe and then a PCSK9 inhibitor. PCSK9 inhibitors are monoclonal antibodies that prevent LDL-receptor destruction."
+    "explanation": "In very-high-risk patients using an LDL threshold of 50 mg/dL, if LDL is still >50 on a statin, add ezetimibe and then a PCSK9 inhibitor. PCSK9 inhibitors are monoclonal antibodies that prevent LDL-receptor destruction.",
+    "why": [
+      "Do not stop the statin; add another agent.",
+      "Correct. Add ezetimibe, then a PCSK9 inhibitor if LDL stays above 50 on a maximal statin.",
+      "Lifestyle-only is not appropriate for a very-high-risk patient above goal.",
+      "A thiazide does not lower LDL."
+    ]
   },
   {
     "id": "lp-048",
@@ -2220,7 +2467,11 @@ const QUESTIONS = [
       "False"
     ],
     "answer": 1,
-    "explanation": "False. Added medications like ezetimibe and PCSK9 inhibitors can help ASCVD patients reach goal, but should NOT be used as primary prevention in patients with no ASCVD history."
+    "explanation": "False. Added medications like ezetimibe and PCSK9 inhibitors can help ASCVD patients reach goal, but should NOT be used as primary prevention in patients with no ASCVD history.",
+    "why": [
+      "Incorrect. These agents are for ASCVD patients, not primary prevention.",
+      "Correct. Ezetimibe and PCSK9 inhibitors should not be used as primary prevention in patients with no ASCVD history."
+    ]
   },
   {
     "id": "lp-049",
@@ -2237,7 +2488,13 @@ const QUESTIONS = [
       "They increase triglyceride storage"
     ],
     "answer": 1,
-    "explanation": "PCSK9 inhibitors are monoclonal antibodies that bind the PCSK9 receptor, preventing LDL-receptor destruction so more LDL is cleared from the blood."
+    "explanation": "PCSK9 inhibitors are monoclonal antibodies that bind the PCSK9 receptor, preventing LDL-receptor destruction so more LDL is cleared from the blood.",
+    "why": [
+      "That describes ezetimibe, which blocks gut absorption, not PCSK9 inhibitors.",
+      "Correct. PCSK9 inhibitors are monoclonal antibodies that prevent LDL-receptor destruction, so more LDL is cleared.",
+      "They do not dissolve existing plaques.",
+      "They lower LDL; they do not increase triglyceride storage."
+    ]
   },
   {
     "id": "lp-050",
@@ -2259,7 +2516,13 @@ const QUESTIONS = [
       2,
       3
     ],
-    "explanation": "The guideline framework: (1) lifestyle modification (smoking, sedentary lifestyle, obesity, diet), (2) primary prevention in high-risk conditions, (3) secondary prevention in ASCVD patients, and (4) use the PREVENT equation to calculate risk."
+    "explanation": "The guideline framework: (1) lifestyle modification (smoking, sedentary lifestyle, obesity, diet), (2) primary prevention in high-risk conditions, (3) secondary prevention in ASCVD patients, and (4) use the PREVENT equation to calculate risk.",
+    "why": [
+      "Correct. Lifestyle modification of risk factors is part of the framework.",
+      "Correct. Primary prevention in high-risk conditions is part of the framework.",
+      "Correct. Secondary prevention in ASCVD patients is part of the framework.",
+      "Correct. Using the PREVENT equation to calculate risk is part of the framework."
+    ]
   },
   {
     "id": "lp-051",
@@ -2281,7 +2544,13 @@ const QUESTIONS = [
       2,
       3
     ],
-    "explanation": "Increased-risk characteristics include age ≥65, low BMI, female sex, obesity, hypothyroidism, diabetes, chronic liver or kidney disease, alcohol use, vigorous exercise, high-dose statin therapy, myalgia-associated diseases, and gene variants (e.g., SLCO1B1)."
+    "explanation": "Increased-risk characteristics include age ≥65, low BMI, female sex, obesity, hypothyroidism, diabetes, chronic liver or kidney disease, alcohol use, vigorous exercise, high-dose statin therapy, myalgia-associated diseases, and gene variants (e.g., SLCO1B1).",
+    "why": [
+      "Correct. Age 65 or older raises the risk of statin muscle symptoms.",
+      "Correct. Female sex is a listed risk characteristic.",
+      "Correct. Hypothyroidism is a listed risk characteristic.",
+      "Correct. High-dose statin therapy raises the risk."
+    ]
   },
   {
     "id": "lp-052",
@@ -2296,7 +2565,11 @@ const QUESTIONS = [
       "False"
     ],
     "answer": 1,
-    "explanation": "False. The increased risk is associated with higher DOSES within the approved range, not with statin potency. Higher-potency statins do not carry higher muscle-symptom risk; high doses do."
+    "explanation": "False. The increased risk is associated with higher DOSES within the approved range, not with statin potency. Higher-potency statins do not carry higher muscle-symptom risk; high doses do.",
+    "why": [
+      "Incorrect. Higher doses within the approved range, not potency, drive the risk.",
+      "Correct. The risk tracks with higher doses, not with statin potency."
+    ]
   },
   {
     "id": "lp-053",
@@ -2313,7 +2586,13 @@ const QUESTIONS = [
       "Over 60%"
     ],
     "answer": 1,
-    "explanation": "Lifestyle changes produce roughly a 10%-15% reduction in LDL. That is meaningful but generally less than statin therapy (moderate-intensity 30-49%, high-intensity >50%), which supports a shared-decision discussion about starting a statin."
+    "explanation": "Lifestyle changes produce roughly a 10%-15% reduction in LDL. That is meaningful but generally less than statin therapy (moderate-intensity 30-49%, high-intensity >50%), which supports a shared-decision discussion about starting a statin.",
+    "why": [
+      "Too low; lifestyle changes give roughly 10 to 15 percent.",
+      "Correct. Lifestyle changes lower LDL by about 10 to 15 percent.",
+      "That is statin-level reduction, more than lifestyle alone achieves.",
+      "Higher than any single therapy; lifestyle gives about 10 to 15 percent."
+    ]
   },
   {
     "id": "lp-054",
@@ -2330,7 +2609,13 @@ const QUESTIONS = [
       "A fasting glucose alone"
     ],
     "answer": 1,
-    "explanation": "The guideline directs use of the PREVENT equation to calculate 10-year ASCVD risk. Risk stratification then guides lifestyle and statin decisions, with risk enhancers considered in borderline/intermediate patients."
+    "explanation": "The guideline directs use of the PREVENT equation to calculate 10-year ASCVD risk. Risk stratification then guides lifestyle and statin decisions, with risk enhancers considered in borderline/intermediate patients.",
+    "why": [
+      "The 2026 guideline directs the PREVENT equation, not Framingham alone.",
+      "Correct. The 2026 guideline uses the PREVENT-ASCVD equation to calculate 10-year risk.",
+      "Angiography is not the risk-calculation tool for primary prevention.",
+      "A single glucose does not calculate ASCVD risk."
+    ]
   }
 ];
 

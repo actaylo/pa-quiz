@@ -9363,6 +9363,1824 @@ const QUESTIONS = [
       "Correct. The ABI is an inexpensive, practical screen for peripheral arterial disease.",
       "Incorrect. The ABI is in fact an inexpensive first-line peripheral test."
     ]
+  },
+  {
+    "id": "can-001",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Pericardium & Heart Layers",
+    "source": "Cardiac Anatomy, slide 7 (Pericardial sac)",
+    "question": "Which layer is the innermost layer of the pericardium and is closely adherent to the surface of the heart?",
+    "options": [
+      "Epicardium (visceral pericardium)",
+      "Parietal pericardium",
+      "Myocardium",
+      "Endocardium"
+    ],
+    "answer": 0,
+    "explanation": "The epicardium, or visceral pericardium, is the innermost pericardial layer and lies directly on the heart. The pericardial cavity, with its small amount of fluid, sits between it and the parietal pericardium.",
+    "why": [
+      "Correct. The visceral pericardium (epicardium) is adherent to the heart surface.",
+      "The parietal pericardium is the outer layer of the sac, separated from the epicardium by the pericardial cavity.",
+      "The myocardium is the muscle layer, not part of the pericardium.",
+      "The endocardium is the inner lining of the chambers, not a pericardial layer."
+    ]
+  },
+  {
+    "id": "can-002",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Pericardium & Heart Layers",
+    "source": "Cardiac Anatomy, slide 8 (Layers of the heart)",
+    "question": "Which layer of the heart generates the force required for contraction and blood ejection?",
+    "options": [
+      "Myocardium",
+      "Epicardium",
+      "Endocardium",
+      "Parietal pericardium"
+    ],
+    "answer": 0,
+    "explanation": "The myocardium is the thick muscular layer composed of cardiac myocytes. It generates contractile force and contains the conduction system and coronary vessels.",
+    "why": [
+      "Correct. The myocardium is the muscular layer responsible for contraction.",
+      "The epicardium is the outer surface layer, not the force generator.",
+      "The endocardium is a thin endothelial lining, not contractile.",
+      "The parietal pericardium is part of the surrounding sac, not the heart wall muscle."
+    ]
+  },
+  {
+    "id": "can-003",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Pericardium & Heart Layers",
+    "source": "Cardiac Anatomy, slide 45 (Pericardial pathology)",
+    "question": "Compression of the heart caused by increased pericardial pressure that impairs cardiac filling and output is called what?",
+    "options": [
+      "Cardiac tamponade",
+      "Pericardial effusion",
+      "Pericarditis",
+      "Cardiomegaly"
+    ],
+    "answer": 0,
+    "explanation": "Cardiac tamponade is compression of the heart from increased pericardial pressure that impairs filling and output. A simple effusion is fluid accumulation, and pericarditis is inflammation of the pericardium.",
+    "why": [
+      "Correct. Tamponade is the pressure-driven compression that impairs filling.",
+      "A pericardial effusion is fluid accumulation, which may or may not compress the heart.",
+      "Pericarditis is inflammation, classically causing chest pain and a friction rub.",
+      "Cardiomegaly is enlargement of the heart, not pericardial compression."
+    ]
+  },
+  {
+    "id": "can-004",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Pericardium & Heart Layers",
+    "source": "Cardiac Anatomy, slide 9 (Key takeaway on layers)",
+    "question": "Match each heart layer to its description.",
+    "pairs": [
+      {
+        "left": "Epicardium",
+        "right": "Outer surface layer of the heart",
+        "why": "The epicardium is the outermost layer, also the visceral pericardium."
+      },
+      {
+        "left": "Myocardium",
+        "right": "Muscle layer responsible for contraction",
+        "why": "The myocardium is the contractile muscular layer."
+      },
+      {
+        "left": "Endocardium",
+        "right": "Inner endothelial lining of chambers and valves",
+        "why": "The endocardium lines the chambers and valves with squamous endothelium."
+      }
+    ],
+    "explanation": "From outside in: epicardium (outer), myocardium (muscle), and endocardium (inner endothelial lining continuous with vessel endothelium)."
+  },
+  {
+    "id": "can-005",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Cardiac Orientation",
+    "source": "Cardiac Anatomy, slide 5 (PMI)",
+    "question": "Where is the normal point of maximal impulse (PMI) located?",
+    "options": [
+      "The 5th intercostal space at the left midclavicular line",
+      "The 2nd intercostal space at the right sternal border",
+      "The xiphoid process",
+      "The 5th intercostal space at the right midclavicular line"
+    ],
+    "answer": 0,
+    "explanation": "The normal PMI is at the 5th intercostal space in the left midclavicular line. Displacement of the PMI can indicate cardiomegaly.",
+    "why": [
+      "Correct. The 5th intercostal space, left midclavicular line, is the normal PMI.",
+      "That location is the aortic auscultation area, not the PMI.",
+      "The xiphoid is not the normal apical impulse location.",
+      "The PMI is on the left, reflecting the leftward-pointing cardiac apex."
+    ]
+  },
+  {
+    "id": "can-006",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Cardiac Orientation",
+    "source": "Cardiac Anatomy, slide 5 (Cardiac orientation)",
+    "question": "Because the heart is rotated slightly counter-clockwise, which chamber sits directly behind the sternum and forms most of the anterior surface?",
+    "options": [
+      "Right ventricle",
+      "Left ventricle",
+      "Left atrium",
+      "Right atrium"
+    ],
+    "answer": 0,
+    "explanation": "Anterior rotation places the right ventricle directly behind the sternum, forming most of the front surface of the heart, while the left ventricle is pushed to the back and left.",
+    "why": [
+      "Correct. The right ventricle forms most of the anterior cardiac surface.",
+      "The left ventricle is pushed posteriorly and to the left.",
+      "The left atrium is the most posterior chamber.",
+      "The right atrium forms part of the right border, not most of the anterior surface."
+    ]
+  },
+  {
+    "id": "can-007",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Myocytes & Contractile Apparatus",
+    "source": "Cardiac Anatomy, slide 13 (The sarcomere)",
+    "question": "What is the smallest functional contractile unit of cardiac muscle?",
+    "options": [
+      "The sarcomere",
+      "The mitochondrion",
+      "The intercalated disc",
+      "The T-tubule"
+    ],
+    "answer": 0,
+    "explanation": "The sarcomere, composed of thick (myosin) and thin (actin, troponin, tropomyosin) filaments, is the smallest functional contractile unit of cardiac muscle.",
+    "why": [
+      "Correct. The sarcomere is the basic contractile unit.",
+      "Mitochondria produce ATP but are not the contractile unit.",
+      "Intercalated discs connect cells; they are not contractile units.",
+      "T-tubules conduct action potentials inward; they are not contractile units."
+    ]
+  },
+  {
+    "id": "can-008",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Myocytes & Contractile Apparatus",
+    "source": "Cardiac Anatomy, slide 13 (Thin filament proteins)",
+    "question": "Which thin-filament protein binds calcium to initiate contraction?",
+    "options": [
+      "Troponin",
+      "Tropomyosin",
+      "Actin",
+      "Myosin"
+    ],
+    "answer": 0,
+    "explanation": "Troponin binds calcium, which shifts tropomyosin away from the myosin-binding sites on actin, allowing cross-bridge formation. Myosin is the thick-filament motor protein.",
+    "why": [
+      "Correct. Troponin is the calcium-binding regulatory protein.",
+      "Tropomyosin blocks the binding sites at rest; it does not bind calcium.",
+      "Actin provides the binding sites for myosin but does not bind calcium.",
+      "Myosin is the thick-filament motor protein, not the calcium sensor."
+    ]
+  },
+  {
+    "id": "can-009",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Myocytes & Contractile Apparatus",
+    "source": "Cardiac Anatomy, slide 12 (Intercalated discs)",
+    "question": "Which intercalated-disc structures permit direct movement of ions between neighboring myocytes and provide low-resistance pathways for electrical conduction?",
+    "options": [
+      "Gap junctions",
+      "Desmosomes",
+      "T-tubules",
+      "Ryanodine receptors"
+    ],
+    "answer": 0,
+    "explanation": "Gap junctions are channels that allow ions to move directly between cells, giving low-resistance electrical coupling that propagates action potentials. Desmosomes provide mechanical anchoring.",
+    "why": [
+      "Correct. Gap junctions electrically couple adjacent myocytes.",
+      "Desmosomes are mechanical junctions that anchor cells, not electrical channels.",
+      "T-tubules conduct impulses into a single cell, not between cells.",
+      "Ryanodine receptors release calcium from the sarcoplasmic reticulum; they are not intercalated-disc structures."
+    ]
+  },
+  {
+    "id": "can-010",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Myocytes & Contractile Apparatus",
+    "source": "Cardiac Anatomy, slide 11 (Mitochondria and ischemia)",
+    "question": "Cardiac myocytes devote roughly 30 to 40% of their volume to mitochondria. What is the main clinical consequence of this high mitochondrial content?",
+    "options": [
+      "A high dependence on aerobic metabolism that makes the heart very sensitive to ischemia",
+      "An ability to function indefinitely without oxygen",
+      "A reliance on anaerobic glycolysis as the primary energy source",
+      "Resistance to the effects of coronary artery occlusion"
+    ],
+    "answer": 0,
+    "explanation": "The heart's continuous contraction demands constant ATP from aerobic oxidative phosphorylation, which requires a steady oxygen supply. This dependence is why myocardium is so sensitive to ischemia.",
+    "why": [
+      "Correct. Continuous aerobic ATP demand makes the myocardium ischemia-sensitive.",
+      "The heart cannot function long without oxygen; it depends on aerobic metabolism.",
+      "Cardiac myocytes rely on aerobic metabolism, not primarily anaerobic glycolysis.",
+      "High oxygen dependence makes the heart vulnerable, not resistant, to occlusion."
+    ]
+  },
+  {
+    "id": "can-011",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Chambers & Septum",
+    "source": "Cardiac Anatomy, slide 21 (Two pumps in one)",
+    "question": "Why is the left ventricular wall thicker than the right ventricular wall?",
+    "options": [
+      "Systemic vascular resistance is greater than pulmonary vascular resistance",
+      "The left ventricle holds more blood than the right ventricle",
+      "Pulmonary vascular resistance is greater than systemic vascular resistance",
+      "The right ventricle contracts more forcefully than the left"
+    ],
+    "answer": 0,
+    "explanation": "The left ventricle is a high-pressure pump (about 120/80 mmHg) working against high systemic vascular resistance, whereas the right ventricle is a low-pressure pump (about 25/5 mmHg) against low pulmonary resistance. The higher workload builds a thicker LV wall.",
+    "why": [
+      "Correct. Higher systemic resistance demands a thicker, more powerful LV.",
+      "Both ventricles eject similar stroke volumes; wall thickness reflects pressure, not volume.",
+      "This reverses the relationship; pulmonary resistance is lower than systemic.",
+      "The left ventricle generates the higher pressure, driving its greater thickness."
+    ]
+  },
+  {
+    "id": "can-012",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Chambers & Septum",
+    "source": "Cardiac Anatomy, slide 20 (Patent foramen ovale)",
+    "question": "A persistent flap-like opening between the right and left atria at the fossa ovalis is best described as which of the following?",
+    "options": [
+      "Patent foramen ovale (PFO)",
+      "Ventricular septal defect (VSD)",
+      "Patent ductus arteriosus (PDA)",
+      "Coarctation of the aorta"
+    ],
+    "answer": 0,
+    "explanation": "A patent foramen ovale is a persistent flap-like communication between the atria at the fossa ovalis. In utero the foramen ovale lets blood bypass the fetal lungs; it usually closes after birth but may remain patent.",
+    "why": [
+      "Correct. A PFO is a persistent flap-like interatrial opening at the fossa ovalis.",
+      "A VSD is a communication between the ventricles, not the atria.",
+      "A PDA is a persistent connection between the pulmonary artery and aorta.",
+      "Coarctation is a narrowing of the aorta, not an atrial opening."
+    ]
+  },
+  {
+    "id": "can-013",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Chambers & Septum",
+    "source": "Cardiac Anatomy, slide 16 (Flow of blood)",
+    "question": "Which of the following statements about the chambers and blood flow are correct? Select all that apply.",
+    "options": [
+      "The right atrium receives systemic venous blood",
+      "The left atrium receives oxygenated blood from the pulmonary veins",
+      "The right ventricle pumps blood to the lungs",
+      "The pulmonary arteries carry oxygenated blood"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The right atrium receives systemic venous return, the right ventricle pumps to the lungs, and the left atrium receives oxygenated blood from the pulmonary veins. The pulmonary arteries carry deoxygenated blood, and the pulmonary veins carry oxygenated blood, the important exception to the usual rule.",
+    "why": [
+      "Correct. The right atrium receives deoxygenated systemic venous blood.",
+      "Correct. The left atrium receives oxygenated blood via the pulmonary veins.",
+      "Correct. The right ventricle pumps blood to the lungs.",
+      "Incorrect. The pulmonary arteries carry deoxygenated blood to the lungs."
+    ]
+  },
+  {
+    "id": "can-014",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Valves",
+    "source": "Cardiac Anatomy, slide 28 (AV valve leaflets)",
+    "question": "How many leaflets does the tricuspid valve have?",
+    "options": [
+      "Three",
+      "Two",
+      "Four",
+      "One"
+    ],
+    "answer": 0,
+    "explanation": "The tricuspid (right AV) valve has three leaflets (anterior, posterior, and septal), whereas the mitral (left AV) valve has two leaflets (anterior and posterior).",
+    "why": [
+      "Correct. The tricuspid valve has three leaflets.",
+      "Two leaflets describes the mitral valve.",
+      "The tricuspid valve has three leaflets, not four.",
+      "The tricuspid valve is not a single-leaflet valve."
+    ]
+  },
+  {
+    "id": "can-015",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Valves",
+    "source": "Cardiac Anatomy, slide 27 (Chordae tendineae and papillary muscles)",
+    "question": "What is the role of the chordae tendineae and papillary muscles during ventricular systole?",
+    "options": [
+      "They stabilize the AV valve leaflets and prevent prolapse into the atria",
+      "They actively snap the AV valves shut",
+      "They open the semilunar valves",
+      "They generate the pressure that ejects blood"
+    ],
+    "answer": 0,
+    "explanation": "The papillary muscles contract with the ventricles, keeping tension on the chordae tendineae so the AV valve leaflets do not prolapse into the atria. They stabilize the leaflets; they do not close the valves, which close due to the pressure gradient.",
+    "why": [
+      "Correct. They maintain leaflet tension and prevent prolapse and regurgitation.",
+      "The valves close because of the pressure gradient, not because the cords pull them shut.",
+      "They act on the AV valves, not the semilunar valves.",
+      "Ejection pressure is generated by the myocardium, not the chordae."
+    ]
+  },
+  {
+    "id": "can-016",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Valves",
+    "source": "Cardiac Anatomy, slide 29 (Heart sounds)",
+    "question": "The first heart sound (S1) is produced by closure of which valves?",
+    "options": [
+      "The mitral and tricuspid (AV) valves",
+      "The aortic and pulmonic (semilunar) valves",
+      "The aortic and mitral valves",
+      "The pulmonic and tricuspid valves"
+    ],
+    "answer": 0,
+    "explanation": "S1 (the lub) occurs at the beginning of systole from closure of the mitral and tricuspid AV valves. S2 (the dub) occurs at the beginning of diastole from closure of the aortic and pulmonic semilunar valves.",
+    "why": [
+      "Correct. S1 is closure of the AV valves at the start of systole.",
+      "That describes S2, produced by semilunar valve closure.",
+      "S1 is both AV valves closing together, not one AV and one semilunar.",
+      "S1 is the two AV valves, not this mixed pair."
+    ]
+  },
+  {
+    "id": "can-017",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Valves",
+    "source": "Cardiac Anatomy, slide 29 (Murmurs vs normal sounds)",
+    "question": "Heart murmurs are generated by turbulent blood flow, whereas normal heart sounds are produced by blood hitting closed valves.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "explanation": "Normal heart sounds come from blood hitting closed valves, while murmurs are the sound of turbulent flow, which may indicate valvular stenosis or regurgitation.",
+    "why": [
+      "Correct. Turbulence causes murmurs; closed valves cause the normal sounds.",
+      "Incorrect. This is the accurate distinction between murmurs and normal sounds."
+    ]
+  },
+  {
+    "id": "can-018",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Valves",
+    "source": "Cardiac Anatomy, slide 23 (Four valves)",
+    "question": "Match each cardiac valve to its location.",
+    "pairs": [
+      {
+        "left": "Mitral valve",
+        "right": "Between the left atrium and left ventricle",
+        "why": "The mitral valve is the left AV valve."
+      },
+      {
+        "left": "Tricuspid valve",
+        "right": "Between the right atrium and right ventricle",
+        "why": "The tricuspid valve is the right AV valve."
+      },
+      {
+        "left": "Aortic valve",
+        "right": "Between the left ventricle and the aorta",
+        "why": "The aortic valve is a semilunar valve at the LV outflow."
+      },
+      {
+        "left": "Pulmonic valve",
+        "right": "Between the right ventricle and the pulmonary artery",
+        "why": "The pulmonic valve is a semilunar valve at the RV outflow."
+      }
+    ],
+    "explanation": "The two AV valves (mitral, tricuspid) sit between atria and ventricles; the two semilunar valves (aortic, pulmonic) sit at the ventricular outflows into the great vessels."
+  },
+  {
+    "id": "can-019",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Conduction System",
+    "source": "Cardiac Anatomy, slide 31 (SA node)",
+    "question": "Which structure serves as the intrinsic pacemaker of the heart?",
+    "options": [
+      "The sinoatrial (SA) node",
+      "The atrioventricular (AV) node",
+      "The Bundle of His",
+      "The Purkinje fibers"
+    ],
+    "answer": 0,
+    "explanation": "The SA node, located in the right atrium near the junction of the superior vena cava, is the intrinsic pacemaker. It initiates impulses that spread across both atria.",
+    "why": [
+      "Correct. The SA node is the primary pacemaker.",
+      "The AV node is a backup pacemaker and the site of conduction delay, not the primary pacemaker.",
+      "The Bundle of His conducts impulses to the ventricles; it is not the primary pacemaker.",
+      "Purkinje fibers rapidly distribute impulses in the ventricles; they are a slow backup pacemaker."
+    ]
+  },
+  {
+    "id": "can-020",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Conduction System",
+    "source": "Cardiac Anatomy, slide 31 (AV nodal delay)",
+    "question": "The roughly 0.1-second conduction delay in the heart occurs at which site, and what does it accomplish?",
+    "options": [
+      "The AV node, allowing adequate ventricular filling before contraction",
+      "The SA node, setting the resting heart rate",
+      "The Purkinje fibers, speeding ventricular depolarization",
+      "The Bundle of His, blocking atrial impulses"
+    ],
+    "answer": 0,
+    "explanation": "Conduction is delayed about 0.1 second at the AV node, which allows the ventricles to fill adequately before they contract. The impulse then travels rapidly through the His-Purkinje system.",
+    "why": [
+      "Correct. The AV nodal delay times ventricular filling before contraction.",
+      "The SA node initiates impulses; it is not where the delay occurs.",
+      "Purkinje fibers conduct rapidly; they do not create the delay.",
+      "The Bundle of His conducts the impulse onward rather than blocking it."
+    ]
+  },
+  {
+    "id": "can-021",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Coronary Circulation",
+    "source": "Cardiac Anatomy, slide 33 (Coronary origins)",
+    "question": "The first branches of the ascending aorta, arising from the sinuses of Valsalva just above the aortic valve, are which vessels?",
+    "options": [
+      "The left main coronary artery and the right coronary artery",
+      "The carotid and subclavian arteries",
+      "The pulmonary arteries",
+      "The coronary sinus and the great cardiac vein"
+    ],
+    "answer": 0,
+    "explanation": "The left main coronary artery and the right coronary artery are the first branches of the ascending aorta, both originating from the aortic root within the sinuses of Valsalva.",
+    "why": [
+      "Correct. The left main and RCA arise from the aortic root sinuses of Valsalva.",
+      "The carotid and subclavian arteries arise from the aortic arch, not the root sinuses.",
+      "The pulmonary arteries arise from the right ventricle, not the aorta.",
+      "The coronary sinus and cardiac veins are venous structures, not aortic branches."
+    ]
+  },
+  {
+    "id": "can-022",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Coronary Circulation",
+    "source": "Cardiac Anatomy, slide 36 (Coronary dominance)",
+    "question": "In a right-dominant coronary circulation, which is the case for about 85% of people, the posterior descending artery (PDA) arises from which vessel?",
+    "options": [
+      "The right coronary artery (RCA)",
+      "The left circumflex artery (LCx)",
+      "The left anterior descending artery (LAD)",
+      "The left main coronary artery"
+    ],
+    "answer": 0,
+    "explanation": "About 85% of people are right dominant, meaning the PDA arises from the RCA. Roughly 10% are left dominant (PDA from the LCx) and about 5% are co-dominant.",
+    "why": [
+      "Correct. Right dominance means the PDA comes off the RCA.",
+      "PDA from the LCx defines left dominance, seen in about 10%.",
+      "The PDA does not arise from the LAD in this classification.",
+      "The left main gives rise to the LAD and LCx, not directly to the PDA."
+    ]
+  },
+  {
+    "id": "can-023",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Coronary Circulation",
+    "source": "Cardiac Anatomy, slide 37 (Coronary venous drainage)",
+    "question": "Most of the cardiac veins drain deoxygenated blood into which structure, which then empties into the right atrium?",
+    "options": [
+      "The coronary sinus",
+      "The superior vena cava",
+      "The pulmonary veins",
+      "The aortic root"
+    ],
+    "answer": 0,
+    "explanation": "Most cardiac veins drain into the coronary sinus, a large venous structure on the posterior heart, which empties into the right atrium.",
+    "why": [
+      "Correct. The coronary sinus collects cardiac venous blood and drains to the right atrium.",
+      "The superior vena cava returns systemic venous blood, not coronary venous blood.",
+      "The pulmonary veins carry oxygenated blood from the lungs to the left atrium.",
+      "The aortic root is arterial; it gives off the coronary arteries."
+    ]
+  },
+  {
+    "id": "can-024",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Coronary Circulation",
+    "source": "Cardiac Anatomy, slide 39 (Diastolic coronary perfusion)",
+    "question": "Coronary perfusion occurs predominantly during which phase, and what is the consequence for a patient with marked tachycardia?",
+    "options": [
+      "During diastole, so a shortened diastole from tachycardia can reduce myocardial oxygen supply",
+      "During systole, so a faster heart rate improves myocardial oxygen supply",
+      "During diastole, so tachycardia has no effect on myocardial oxygen supply",
+      "During systole, so tachycardia reduces oxygen demand"
+    ],
+    "answer": 0,
+    "explanation": "The coronary arteries fill predominantly during diastole. Tachycardia shortens diastole, reducing coronary filling time and myocardial oxygen supply, which can provoke ischemia even without a fixed occlusion.",
+    "why": [
+      "Correct. Diastolic perfusion means a short diastole from tachycardia lowers supply.",
+      "Perfusion is diastolic, and tachycardia reduces rather than improves supply.",
+      "Tachycardia does affect supply by shortening diastolic filling time.",
+      "Coronary filling is diastolic, and tachycardia raises, not lowers, demand."
+    ]
+  },
+  {
+    "id": "can-025",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Coronary Circulation",
+    "source": "Cardiac Anatomy, slide 40 (STEMI territories)",
+    "question": "ST-segment elevation in leads II, III, and aVF localizes to which wall, and which artery is the most common culprit?",
+    "options": [
+      "Inferior wall, most commonly the right coronary artery (RCA)",
+      "Anterior wall, most commonly the LAD",
+      "Lateral wall, most commonly the LCx",
+      "Septal wall, most commonly the LAD septal branches"
+    ],
+    "answer": 0,
+    "explanation": "Leads II, III, and aVF face the inferior wall. Inferior STEMI is most commonly caused by the right coronary artery. Anterior (V1 to V4) points to the LAD, and lateral (I, aVL, V5 to V6) to the LCx or a diagonal branch.",
+    "why": [
+      "Correct. II, III, aVF is inferior, most often an RCA occlusion.",
+      "Anterior wall with LAD corresponds to V1 to V4, not the inferior leads.",
+      "Lateral wall with LCx corresponds to I, aVL, V5 to V6.",
+      "Septal changes appear in V1 to V2, not II, III, aVF."
+    ]
+  },
+  {
+    "id": "can-026",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Anatomy",
+    "section": "Coronary Circulation",
+    "source": "Cardiac Anatomy, slide 43 (EKG ischemia progression)",
+    "question": "Match each EKG finding to what it typically indicates.",
+    "pairs": [
+      {
+        "left": "ST depression",
+        "right": "Subendocardial ischemia",
+        "why": "ST depression reflects subendocardial (non-transmural) ischemia."
+      },
+      {
+        "left": "T-wave inversion",
+        "right": "Altered repolarization",
+        "why": "T-wave inversion reflects a repolarization abnormality."
+      },
+      {
+        "left": "ST elevation",
+        "right": "Acute transmural myocardial injury",
+        "why": "ST elevation indicates acute full-thickness (transmural) injury."
+      },
+      {
+        "left": "Q waves",
+        "right": "Prior infarction or necrosis",
+        "why": "Pathologic Q waves indicate established, prior infarction."
+      }
+    ],
+    "explanation": "The EKG evolution of ischemia runs from ST depression (subendocardial ischemia) and T-wave inversion (repolarization change) to ST elevation (acute transmural injury) and, later, Q waves (prior necrosis)."
+  },
+  {
+    "id": "cph-001",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Cardiac Action Potential",
+    "source": "Cardiac Physiology, slide 45 (Phase 0)",
+    "question": "What causes phase 0 (rapid depolarization) of the ventricular myocyte action potential?",
+    "options": [
+      "Opening of fast voltage-gated sodium channels with rapid sodium influx",
+      "Opening of L-type calcium channels with calcium influx",
+      "Rapid potassium efflux",
+      "Closure of all ion channels"
+    ],
+    "answer": 0,
+    "explanation": "Phase 0 is driven by fast voltage-gated sodium channels opening, causing a rapid sodium influx that makes the membrane potential rise sharply toward positive.",
+    "why": [
+      "Correct. Fast sodium channel opening and sodium influx cause phase 0.",
+      "L-type calcium influx maintains the phase 2 plateau, not phase 0.",
+      "Potassium efflux drives repolarization (phases 1 and 3), not depolarization.",
+      "Depolarization requires channel opening and ion flux, not closure."
+    ]
+  },
+  {
+    "id": "cph-002",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Cardiac Action Potential",
+    "source": "Cardiac Physiology, slide 46 (Phase 2 plateau)",
+    "question": "During phase 2 (the plateau) of the ventricular myocyte action potential, which ion movement is primarily responsible for maintaining the plateau?",
+    "options": [
+      "Calcium influx balanced by potassium efflux",
+      "Rapid sodium influx alone",
+      "Chloride influx",
+      "Potassium influx"
+    ],
+    "answer": 0,
+    "explanation": "In phase 2, L-type calcium channels open and calcium enters the cell, balanced by potassium leaving, so the membrane potential stays near 0 mV. This prolonged plateau creates the refractory period that allows time for ventricular ejection.",
+    "why": [
+      "Correct. Calcium influx balanced by potassium efflux sustains the plateau.",
+      "Sodium influx drives phase 0, not the plateau.",
+      "Chloride influx is not the primary plateau mechanism.",
+      "Potassium influx does not maintain the plateau; potassium efflux is what balances calcium entry."
+    ]
+  },
+  {
+    "id": "cph-003",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Cardiac Action Potential",
+    "source": "Cardiac Physiology, slide 45 (Phase 4 resting potential)",
+    "question": "The resting membrane potential of a ventricular myocyte (about -90 mV) is maintained by high permeability to which ion?",
+    "options": [
+      "Potassium",
+      "Sodium",
+      "Calcium",
+      "Chloride"
+    ],
+    "answer": 0,
+    "explanation": "In phase 4, the cell is polarized at about -90 mV due to high potassium permeability, leaving it ready for activation.",
+    "why": [
+      "Correct. High potassium permeability sets the resting potential near -90 mV.",
+      "Sodium permeability rises during depolarization, not at rest.",
+      "Calcium entry occurs during the plateau, not at rest.",
+      "Chloride is not the primary determinant of the resting potential here."
+    ]
+  },
+  {
+    "id": "cph-004",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Cardiac Action Potential",
+    "source": "Cardiac Physiology, slide 47 (Absolute refractory period)",
+    "question": "Ventricular myocytes have a prolonged absolute refractory period. What is the main physiologic benefit of this?",
+    "options": [
+      "It prevents a second action potential during most of the cardiac action potential, avoiding tetanic contraction",
+      "It allows progressively stronger contractions with repeated stimulation",
+      "It increases spontaneous depolarization of ventricular myocytes",
+      "It shortens repolarization and increases heart rate"
+    ],
+    "answer": 0,
+    "explanation": "The prolonged absolute refractory period means no new action potential can be generated during most of repolarization, preventing premature re-excitation and sustained (tetanic) contraction so the ventricle can relax and fill.",
+    "why": [
+      "Correct. It blocks premature re-excitation and prevents tetany.",
+      "Cardiac muscle does not summate into stronger contractions like this; the refractory period prevents that.",
+      "It suppresses, rather than increases, extra depolarizations.",
+      "It does not shorten repolarization to speed the rate; it protects against premature beats."
+    ]
+  },
+  {
+    "id": "cph-005",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Cardiac Action Potential",
+    "source": "Cardiac Physiology, slide 47 (Relative refractory period)",
+    "question": "A premature ventricular impulse arriving during the relative refractory period is dangerous mainly because it can do what?",
+    "options": [
+      "Trigger a dangerous ventricular arrhythmia",
+      "Permanently stop the SA node",
+      "Cause the ventricle to relax completely",
+      "Prolong the absolute refractory period"
+    ],
+    "answer": 0,
+    "explanation": "The relative refractory period is an electrically vulnerable window; a stronger-than-normal stimulus can trigger an action potential, and a premature impulse here may set off a dangerous ventricular arrhythmia.",
+    "why": [
+      "Correct. This vulnerable window can allow a premature impulse to trigger an arrhythmia.",
+      "It does not permanently stop the SA node.",
+      "It can provoke excitation, not complete relaxation.",
+      "It does not lengthen the absolute refractory period."
+    ]
+  },
+  {
+    "id": "cph-006",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Excitation-Contraction Coupling",
+    "source": "Cardiac Physiology, slide 51 (Calcium-induced calcium release)",
+    "question": "In cardiac excitation-contraction coupling, a small amount of calcium entering through L-type channels triggers a much larger calcium release from the sarcoplasmic reticulum. What mediates that larger release?",
+    "options": [
+      "Ryanodine receptors (RyR2) on the sarcoplasmic reticulum",
+      "The SERCA pump",
+      "The sodium-potassium ATPase",
+      "Voltage-gated sodium channels"
+    ],
+    "answer": 0,
+    "explanation": "This is calcium-induced calcium release: the small trigger calcium activates ryanodine receptors (RyR2) on the sarcoplasmic reticulum, releasing large amounts of calcium that then bind troponin to start cross-bridge cycling.",
+    "why": [
+      "Correct. RyR2 receptors release the large store of SR calcium.",
+      "SERCA pumps calcium back into the SR during relaxation, not release.",
+      "The sodium-potassium ATPase maintains ionic gradients, not SR calcium release.",
+      "Sodium channels drive depolarization, not SR calcium release."
+    ]
+  },
+  {
+    "id": "cph-007",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Excitation-Contraction Coupling",
+    "source": "Cardiac Physiology, slide 52 (SERCA and relaxation)",
+    "question": "During myocardial relaxation, which pump returns calcium into the sarcoplasmic reticulum?",
+    "options": [
+      "SERCA (sarco/endoplasmic reticulum calcium ATPase)",
+      "The ryanodine receptor",
+      "The L-type calcium channel",
+      "The sodium-calcium exchanger on the T-tubule only"
+    ],
+    "answer": 0,
+    "explanation": "SERCA pumps calcium back into the sarcoplasmic reticulum, lowering cytosolic calcium so it dissociates from troponin, allowing tropomyosin to re-block actin and the myocyte to relax. This requires ATP.",
+    "why": [
+      "Correct. SERCA re-sequesters calcium into the SR during relaxation.",
+      "Ryanodine receptors release calcium; they do not pump it back.",
+      "L-type channels admit trigger calcium during the plateau, not reuptake.",
+      "SERCA, not solely a T-tubule exchanger, is the answer described in this deck."
+    ]
+  },
+  {
+    "id": "cph-008",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Excitation-Contraction Coupling",
+    "source": "Cardiac Physiology, slide 53 (Calcium as inotrope)",
+    "question": "Which electrolyte is described as \"nature's inotrope\" because it triggers calcium-induced calcium release and facilitates actin-myosin interaction?",
+    "options": [
+      "Calcium",
+      "Potassium",
+      "Sodium",
+      "Magnesium"
+    ],
+    "answer": 0,
+    "explanation": "Calcium is nature's inotrope: it triggers calcium-induced calcium release and enables actin-myosin cross-bridge cycling, driving contractile force.",
+    "why": [
+      "Correct. Calcium directly drives contractile force.",
+      "Potassium sets the resting potential and repolarization, not inotropy.",
+      "Sodium drives depolarization, not the contractile trigger.",
+      "Magnesium is an ATPase cofactor that stabilizes myocytes, not the inotrope itself."
+    ]
+  },
+  {
+    "id": "cph-009",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "The Cardiac Cycle",
+    "source": "Cardiac Physiology, slide 57 (All valves closed)",
+    "question": "During which periods of the cardiac cycle are ALL four valves closed?",
+    "options": [
+      "Isovolumetric ventricular contraction and isovolumetric ventricular relaxation",
+      "Rapid ventricular ejection and ventricular filling",
+      "Atrial systole and rapid ejection",
+      "Ventricular filling and atrial systole"
+    ],
+    "answer": 0,
+    "explanation": "All valves are closed during isovolumetric ventricular contraction (ventricle developing pressure before the semilunar valves open) and isovolumetric ventricular relaxation (after the semilunar valves close but before the AV valves open). Ventricular volume does not change during these phases.",
+    "why": [
+      "Correct. Both isovolumetric phases have all four valves closed.",
+      "During ejection the semilunar valves are open and during filling the AV valves are open.",
+      "During ejection the semilunar valves are open, so not all valves are closed.",
+      "During filling and atrial systole the AV valves are open."
+    ]
+  },
+  {
+    "id": "cph-010",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "The Cardiac Cycle",
+    "source": "Cardiac Physiology, slide 54 (Isovolumetric contraction)",
+    "question": "Immediately after closure of the mitral and tricuspid valves but before opening of the aortic and pulmonic valves, which phase is occurring?",
+    "options": [
+      "Isovolumetric ventricular contraction",
+      "Ventricular filling",
+      "Atrial systole",
+      "Isovolumetric ventricular relaxation"
+    ],
+    "answer": 0,
+    "explanation": "Once the AV valves close and before the semilunar valves open, the ventricle contracts with all valves shut and no volume change: isovolumetric ventricular contraction.",
+    "why": [
+      "Correct. AV valves closed and semilunar valves not yet open defines isovolumetric contraction.",
+      "Ventricular filling occurs with the AV valves open.",
+      "Atrial systole occurs before AV valve closure, at end diastole.",
+      "Isovolumetric relaxation occurs after the semilunar valves close, at the start of diastole."
+    ]
+  },
+  {
+    "id": "cph-011",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "The Cardiac Cycle",
+    "source": "Cardiac Physiology, slide 54 (Atrial kick)",
+    "question": "The atrial kick, in which atrial contraction tops off ventricular filling, occurs at what point and adds to an already substantially filled ventricle?",
+    "options": [
+      "At the end of diastole, when the ventricle is already about 80% filled",
+      "At the beginning of systole, before the AV valves close",
+      "During isovolumetric relaxation",
+      "During rapid ventricular ejection"
+    ],
+    "answer": 0,
+    "explanation": "Most ventricular filling is passive; atrial contraction at the end of diastole provides the atrial kick when the ventricle is already about 80% filled, contributing the final portion of end-diastolic volume.",
+    "why": [
+      "Correct. The atrial kick occurs at end diastole on top of about 80% passive filling.",
+      "It occurs at the end of diastole, not the start of systole.",
+      "Isovolumetric relaxation is before filling begins.",
+      "Ejection is a systolic phase, not when the atrium fills the ventricle."
+    ]
+  },
+  {
+    "id": "cph-012",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Cardiac Output & Hemodynamics",
+    "source": "Cardiac Physiology, slide 60 (Cardiac output equation)",
+    "question": "Which equation correctly expresses cardiac output, and what is the approximate normal resting value?",
+    "options": [
+      "CO = heart rate times stroke volume, about 5 L/min",
+      "CO = stroke volume divided by heart rate, about 1 L/min",
+      "CO = end-diastolic volume minus end-systolic volume, about 70 L/min",
+      "CO = heart rate divided by stroke volume, about 100 L/min"
+    ],
+    "answer": 0,
+    "explanation": "Cardiac output equals heart rate times stroke volume. With a normal heart rate of 60 to 100 bpm and a stroke volume near 70 mL, resting cardiac output is about 5 L/min.",
+    "why": [
+      "Correct. CO = HR times SV, roughly 5 L/min at rest.",
+      "This inverts the relationship and gives an implausible value.",
+      "EDV minus ESV defines stroke volume, not cardiac output, and the units are wrong.",
+      "Dividing HR by SV is not the cardiac output formula."
+    ]
+  },
+  {
+    "id": "cph-013",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Cardiac Output & Hemodynamics",
+    "source": "Cardiac Physiology, slide 61 (Ejection fraction)",
+    "question": "Ejection fraction is calculated as stroke volume divided by end-diastolic volume. What is the normal range for left ventricular ejection fraction?",
+    "options": [
+      "About 55 to 65%",
+      "About 20 to 30%",
+      "About 80 to 90%",
+      "About 40 to 45%"
+    ],
+    "answer": 0,
+    "explanation": "Ejection fraction (SV divided by EDV, times 100) is the percentage of ventricular volume ejected per beat. Normal LV ejection fraction is about 55 to 65%.",
+    "why": [
+      "Correct. Normal LV ejection fraction is roughly 55 to 65%.",
+      "20 to 30% represents significantly reduced systolic function.",
+      "80 to 90% is above the normal range.",
+      "40 to 45% is mildly reduced, below the normal range."
+    ]
+  },
+  {
+    "id": "cph-014",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Cardiac Output & Hemodynamics",
+    "source": "Cardiac Physiology, slide 62 (Tachycardia and ischemia)",
+    "question": "A 68-year-old man develops atrial fibrillation with a ventricular rate of 170/min and new substernal chest pressure despite no acute coronary occlusion. Which physiologic change most likely contributes to his myocardial ischemia?",
+    "options": [
+      "Decreased duration of diastole",
+      "Increased duration of systole",
+      "Increased left ventricular filling time",
+      "Decreased myocardial oxygen demand"
+    ],
+    "answer": 0,
+    "explanation": "A very fast rate shortens diastole. Because coronary perfusion and ventricular filling occur mainly in diastole, the shortened diastole reduces coronary oxygen supply while a fast rate raises demand, producing ischemia even without a fixed occlusion.",
+    "why": [
+      "Correct. A short diastole cuts coronary filling time and oxygen supply.",
+      "Tachycardia shortens diastole disproportionately; systole does not lengthen to cause this.",
+      "Filling time decreases, not increases, at high rates.",
+      "A fast rate raises myocardial oxygen demand rather than lowering it."
+    ]
+  },
+  {
+    "id": "cph-015",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Cardiac Output & Hemodynamics",
+    "source": "Cardiac Physiology, slide 60 (Optimizing cardiac output)",
+    "question": "Which of the following changes would increase cardiac output? Select all that apply.",
+    "options": [
+      "Increasing preload",
+      "Increasing contractility",
+      "Increasing heart rate (within physiologic limits)",
+      "Increasing afterload"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Cardiac output rises with increased preload, contractility, or heart rate (within limits), and with decreased afterload. Increasing afterload raises the resistance the ventricle must overcome and tends to lower stroke volume.",
+    "why": [
+      "Correct. More preload raises stroke volume via Frank-Starling.",
+      "Correct. Greater contractility raises stroke volume and output.",
+      "Correct. A higher heart rate raises output within physiologic limits.",
+      "Incorrect. Increasing afterload tends to reduce stroke volume and output."
+    ]
+  },
+  {
+    "id": "cph-016",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Autonomic Control of Heart Rate",
+    "source": "Cardiac Physiology, slide 66 (Parasympathetic control)",
+    "question": "Which nerve provides the primary parasympathetic innervation to the heart, and what is its effect on heart rate?",
+    "options": [
+      "The vagus nerve, releasing acetylcholine to slow the heart rate",
+      "The phrenic nerve, releasing norepinephrine to speed the heart rate",
+      "The vagus nerve, releasing norepinephrine to speed the heart rate",
+      "The sympathetic chain, releasing acetylcholine to slow the heart rate"
+    ],
+    "answer": 0,
+    "explanation": "The vagus nerve (CN X) provides the main parasympathetic supply to the heart, releasing acetylcholine that acts on muscarinic receptors to slow the heart rate (negative chronotropy) and slow AV conduction.",
+    "why": [
+      "Correct. Vagal acetylcholine on muscarinic receptors slows the heart.",
+      "The phrenic nerve innervates the diaphragm, and this describes sympathetic transmitters.",
+      "The vagus releases acetylcholine, not norepinephrine.",
+      "The sympathetic system releases norepinephrine and speeds the heart, not acetylcholine."
+    ]
+  },
+  {
+    "id": "cph-017",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Autonomic Control of Heart Rate",
+    "source": "Cardiac Physiology, slide 65 (Sympathetic effects)",
+    "question": "Sympathetic stimulation of the heart, through beta-adrenergic receptors, produces which of the following effects? Select all that apply.",
+    "options": [
+      "Increased heart rate (positive chronotropy)",
+      "Increased AV nodal conduction (positive dromotropy)",
+      "Increased contractility (positive inotropy)",
+      "Decreased contractility (negative inotropy)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Sympathetic activation, via norepinephrine and epinephrine on beta-adrenergic receptors, increases heart rate, speeds AV conduction, and increases contractility.",
+    "why": [
+      "Correct. Positive chronotropy increases heart rate.",
+      "Correct. Positive dromotropy speeds AV conduction.",
+      "Correct. Positive inotropy increases contractility.",
+      "Incorrect. Sympathetic stimulation increases, not decreases, contractility."
+    ]
+  },
+  {
+    "id": "cph-018",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Autonomic Control of Heart Rate",
+    "source": "Cardiac Physiology, slide 67 (Atropine)",
+    "question": "Atropine, a muscarinic antagonist, has what effect on heart rate and why?",
+    "options": [
+      "It increases heart rate by blocking parasympathetic (vagal) activity",
+      "It decreases heart rate by blocking sympathetic activity",
+      "It increases heart rate by directly stimulating beta receptors",
+      "It has no effect on heart rate"
+    ],
+    "answer": 0,
+    "explanation": "Atropine blocks muscarinic receptors, removing the parasympathetic (vagal) brake on the SA node, so heart rate increases.",
+    "why": [
+      "Correct. Blocking vagal muscarinic tone unmasks a faster intrinsic rate.",
+      "It blocks parasympathetic, not sympathetic, activity, and raises the rate.",
+      "It works by blocking muscarinic receptors, not by stimulating beta receptors.",
+      "Removing vagal tone clearly raises heart rate."
+    ]
+  },
+  {
+    "id": "cph-019",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Autonomic Control of Heart Rate",
+    "source": "Cardiac Physiology, slide 69 (Intrinsic pacemaker rates)",
+    "question": "Match each cardiac pacemaker structure to its intrinsic rate.",
+    "pairs": [
+      {
+        "left": "SA node",
+        "right": "60 to 100 beats per minute",
+        "why": "The SA node is the fastest and dominant pacemaker."
+      },
+      {
+        "left": "AV node",
+        "right": "40 to 60 beats per minute",
+        "why": "The AV node is the next-fastest backup pacemaker."
+      },
+      {
+        "left": "Purkinje fibers",
+        "right": "20 to 40 beats per minute",
+        "why": "Purkinje fibers are the slowest backup pacemaker."
+      }
+    ],
+    "explanation": "Intrinsic pacemaker rates descend down the conduction system: SA node 60 to 100, AV node 40 to 60, and Purkinje fibers 20 to 40 beats per minute."
+  },
+  {
+    "id": "cph-020",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Preload, Contractility & Afterload",
+    "source": "Cardiac Physiology, slide 71 (Preload)",
+    "question": "Preload (end-diastolic volume) is determined primarily by which of the following?",
+    "options": [
+      "Venous return to the heart",
+      "Systemic vascular resistance",
+      "The intrinsic contractility of the myocardium",
+      "Arterial blood pressure"
+    ],
+    "answer": 0,
+    "explanation": "Preload is the volume of blood in the ventricle just before contraction (end-diastolic volume), and it is determined primarily by venous return. More venous return raises preload and stretches the muscle fibers.",
+    "why": [
+      "Correct. Venous return is the main determinant of preload.",
+      "Systemic vascular resistance relates to afterload, not preload.",
+      "Contractility is an independent property, not the determinant of preload volume.",
+      "Arterial pressure relates to afterload rather than filling volume."
+    ]
+  },
+  {
+    "id": "cph-021",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Preload, Contractility & Afterload",
+    "source": "Cardiac Physiology, slide 72 (Frank-Starling)",
+    "question": "A healthy 24-year-old receives a rapid IV fluid bolus, and stroke volume increases. By the Frank-Starling mechanism, which change most directly explains this?",
+    "options": [
+      "Increased end-diastolic myocardial fiber stretch",
+      "Decreased ventricular afterload",
+      "A primary increase in myocardial contractility",
+      "Increased sympathetic stimulation"
+    ],
+    "answer": 0,
+    "explanation": "The fluid bolus increases venous return and end-diastolic volume, stretching the myocardial fibers. Greater stretch optimizes actin-myosin overlap, producing a more forceful contraction and a larger stroke volume, which is the Frank-Starling mechanism.",
+    "why": [
+      "Correct. Increased fiber stretch from higher EDV drives the larger stroke volume.",
+      "A fluid bolus raises preload; it does not primarily lower afterload.",
+      "Frank-Starling works through stretch, not a primary change in contractility.",
+      "The bolus works through preload and stretch, not by raising sympathetic tone."
+    ]
+  },
+  {
+    "id": "cph-022",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Preload, Contractility & Afterload",
+    "source": "Cardiac Physiology, slide 75 (Contractility and dobutamine)",
+    "question": "A patient in cardiogenic shock is started on dobutamine, which stimulates beta-adrenergic receptors. What is the most direct effect?",
+    "options": [
+      "Increased myocardial contractility",
+      "Decreased intracellular calcium",
+      "Increased venous capacitance",
+      "Decreased stroke volume"
+    ],
+    "answer": 0,
+    "explanation": "Contractility is the intrinsic ability of the myocardium to generate force, regulated mainly by sympathetic beta-adrenergic stimulation and intracellular calcium. Dobutamine's beta stimulation increases contractility, raising stroke volume and cardiac output.",
+    "why": [
+      "Correct. Beta stimulation increases contractility (positive inotropy).",
+      "Beta stimulation increases, not decreases, intracellular calcium availability.",
+      "Increased contractility does not primarily raise venous capacitance.",
+      "Contractility rises, which raises rather than lowers stroke volume."
+    ]
+  },
+  {
+    "id": "cph-023",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Physiology",
+    "section": "Preload, Contractility & Afterload",
+    "source": "Cardiac Physiology, slide 77 (Afterload)",
+    "question": "A 62-year-old has a blood pressure of 210/110 mmHg. Assuming preload and contractility are unchanged, this acute rise in left ventricular afterload would initially produce which change?",
+    "options": [
+      "Decreased stroke volume",
+      "Increased stroke volume",
+      "Increased ejection fraction",
+      "Decreased myocardial oxygen demand"
+    ],
+    "answer": 0,
+    "explanation": "Afterload is the resistance the ventricle must overcome to eject blood. If afterload rises acutely and contractility does not change, myocardial fibers shorten less during contraction, so stroke volume falls. Chronically, high afterload drives LV hypertrophy.",
+    "why": [
+      "Correct. Higher afterload with fixed contractility lowers stroke volume.",
+      "Stroke volume falls, not rises, with increased afterload.",
+      "Ejection fraction tends to fall, not rise, when stroke volume drops.",
+      "Higher afterload increases myocardial work and oxygen demand."
+    ]
+  },
+  {
+    "id": "vap-001",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Vessel Structure & Function",
+    "source": "Vascular Anatomy & Physiology, slide 84 (Functional organization)",
+    "question": "Which vessels are the primary resistance vessels of the circulation?",
+    "options": [
+      "Arterioles",
+      "Elastic arteries",
+      "Capillaries",
+      "Veins"
+    ],
+    "answer": 0,
+    "explanation": "Arterioles are the primary resistance vessels because their vascular smooth muscle regulates diameter, making them the major determinant of systemic vascular resistance.",
+    "why": [
+      "Correct. Arterioles are the main resistance vessels and set SVR.",
+      "Elastic arteries buffer pulsatile flow (Windkessel), not primary resistance.",
+      "Capillaries are exchange vessels; their parallel arrangement lowers overall resistance.",
+      "Veins are capacitance vessels, not the main resistance vessels."
+    ]
+  },
+  {
+    "id": "vap-002",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Vessel Structure & Function",
+    "source": "Vascular Anatomy & Physiology, slide 82 (Veins as capacitance vessels)",
+    "question": "Veins are highly compliant capacitance vessels. Approximately what fraction of total blood volume do they contain, and which cardiac parameter do they most affect?",
+    "options": [
+      "About 60 to 70% of blood volume, most affecting preload",
+      "About 10 to 20% of blood volume, most affecting afterload",
+      "About 60 to 70% of blood volume, most affecting afterload",
+      "About 5% of blood volume, most affecting contractility"
+    ],
+    "answer": 0,
+    "explanation": "Veins hold roughly 60 to 70% of total blood volume and are compliant, serving as a reservoir. By governing venous return, they most affect preload. Arteries, by contrast, most affect afterload.",
+    "why": [
+      "Correct. Veins hold about 60 to 70% of blood volume and set preload via venous return.",
+      "The volume figure is far too low, and veins affect preload, not afterload.",
+      "The volume is right, but veins affect preload, not afterload.",
+      "The volume is far too low, and veins do not directly set contractility."
+    ]
+  },
+  {
+    "id": "vap-003",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Vessel Structure & Function",
+    "source": "Vascular Anatomy & Physiology, slide 99 (Capillary function)",
+    "question": "What is the primary function of capillaries?",
+    "options": [
+      "Gas, nutrient, fluid, and waste exchange with the tissues",
+      "Generating systemic vascular resistance",
+      "Storing the majority of blood volume",
+      "Buffering pulsatile pressure via elastic recoil"
+    ],
+    "answer": 0,
+    "explanation": "Capillaries have thin, single-endothelial-cell walls and the slowest flow, making them the primary site of gas, nutrient, fluid, and waste exchange.",
+    "why": [
+      "Correct. Capillaries are the site of exchange with tissues.",
+      "Arterioles generate most resistance, not capillaries.",
+      "Veins store most of the blood volume, not capillaries.",
+      "Elastic arteries buffer pulsatile pressure, not capillaries."
+    ]
+  },
+  {
+    "id": "vap-004",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Arterial Pressure & Compliance",
+    "source": "Vascular Anatomy & Physiology, slide 86 (Windkessel effect)",
+    "question": "The Windkessel effect describes how the elastic aorta and large arteries maintain continuous blood flow. How does it work?",
+    "options": [
+      "Elastic arteries expand and store energy during systole, then recoil during diastole to propel blood forward",
+      "Arterioles constrict during systole and dilate during diastole to smooth flow",
+      "Veins store blood during systole and release it during diastole",
+      "The heart contracts continuously to avoid any pause in flow"
+    ],
+    "answer": 0,
+    "explanation": "During systole the elastic arteries expand and store part of the stroke volume as elastic potential energy; during diastole they recoil, propelling blood forward. This maintains diastolic pressure and continuous perfusion, including coronary flow.",
+    "why": [
+      "Correct. Systolic expansion and diastolic recoil of elastic arteries sustain flow.",
+      "The Windkessel effect is an elastic-artery phenomenon, not arteriolar constriction cycling.",
+      "It involves elastic arteries, not venous storage.",
+      "The heart pumps intermittently; the Windkessel effect compensates for that, it does not eliminate the pause."
+    ]
+  },
+  {
+    "id": "vap-005",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Arterial Pressure & Compliance",
+    "source": "Vascular Anatomy & Physiology, slide 89 (Pulse pressure)",
+    "question": "Pulse pressure equals systolic pressure minus diastolic pressure. Which of the following increases pulse pressure?",
+    "options": [
+      "Increased stroke volume or stiffer, less compliant arteries",
+      "Decreased stroke volume or more compliant arteries",
+      "Increased venous capacitance",
+      "Decreased systemic vascular resistance alone"
+    ],
+    "answer": 0,
+    "explanation": "Pulse pressure widens with a larger stroke volume or with stiffer, less compliant arteries. Aging and atherosclerosis reduce compliance, which raises systolic pressure and widens pulse pressure.",
+    "why": [
+      "Correct. Larger stroke volume and stiffer arteries both widen pulse pressure.",
+      "These changes would narrow, not widen, pulse pressure.",
+      "Increased venous capacitance affects preload, not directly pulse pressure.",
+      "Pulse pressure is driven by stroke volume and arterial compliance, not SVR alone."
+    ]
+  },
+  {
+    "id": "vap-006",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Arterial Pressure & Compliance",
+    "source": "Vascular Anatomy & Physiology, slide 89 (Mean arterial pressure)",
+    "question": "Which statement best describes mean arterial pressure (MAP)?",
+    "options": [
+      "It is the average pressure driving blood into the tissues and the most clinically useful measure of organ perfusion",
+      "It is simply the average of systolic and diastolic pressure, weighted equally",
+      "It equals systolic pressure minus diastolic pressure",
+      "It is highest in the capillaries"
+    ],
+    "answer": 0,
+    "explanation": "MAP represents the average pressure driving blood into the tissues and is the most clinically useful measure of organ perfusion. Because the heart spends more time in diastole, MAP is weighted toward diastolic pressure, approximated as DBP plus one-third of the pulse pressure.",
+    "why": [
+      "Correct. MAP is the perfusion pressure and the key measure of organ perfusion.",
+      "MAP is weighted toward diastole, not a simple equal average.",
+      "That defines pulse pressure, not MAP.",
+      "Pressure is highest in the aorta and falls toward the capillaries, not highest in capillaries."
+    ]
+  },
+  {
+    "id": "vap-007",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Arterial Pressure & Compliance",
+    "source": "Vascular Anatomy & Physiology, slide 90 (Korotkoff sounds)",
+    "question": "When measuring blood pressure with a cuff and stethoscope, what do the first Korotkoff sound and the disappearance of sounds represent?",
+    "options": [
+      "The first sound marks systolic pressure; disappearance marks diastolic pressure",
+      "The first sound marks diastolic pressure; disappearance marks systolic pressure",
+      "Both mark the mean arterial pressure",
+      "The first sound marks pulse pressure; disappearance marks MAP"
+    ],
+    "answer": 0,
+    "explanation": "As cuff pressure drops just below systolic, blood spurts through turbulently, creating the first Korotkoff sound, which marks systolic pressure. When the cuff falls below diastolic, flow becomes laminar and the sounds disappear, marking diastolic pressure.",
+    "why": [
+      "Correct. First sound equals systolic; disappearance equals diastolic.",
+      "This reverses the two landmarks.",
+      "The sounds mark systolic and diastolic pressures, not the mean.",
+      "The landmarks are systolic and diastolic, not pulse pressure and MAP."
+    ]
+  },
+  {
+    "id": "vap-008",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Vascular Resistance & Blood Flow",
+    "source": "Vascular Anatomy & Physiology, slide 94 (Determinant of resistance)",
+    "question": "A small arteriole undergoes vasoconstriction. Which property has the greatest effect on the resulting increase in vascular resistance?",
+    "options": [
+      "Vessel radius",
+      "Vessel length",
+      "Blood density",
+      "Vessel wall thickness"
+    ],
+    "answer": 0,
+    "explanation": "Vessel radius is the primary determinant of resistance. Because resistance is inversely proportional to the radius raised to the fourth power, even small changes in radius have a large effect on resistance and flow.",
+    "why": [
+      "Correct. Radius is raised to the fourth power, so it dominates resistance.",
+      "Vessel length contributes but is relatively fixed and far less influential.",
+      "Blood viscosity matters somewhat, but radius has the greatest effect.",
+      "Wall thickness is not the primary resistance determinant in this relationship."
+    ]
+  },
+  {
+    "id": "vap-009",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Vascular Resistance & Blood Flow",
+    "source": "Vascular Anatomy & Physiology, slide 95 (Determinants of flow)",
+    "question": "Blood flow (Q) is described by Q = pressure gradient divided by resistance. Based on this, blood flow decreases when which of the following happens?",
+    "options": [
+      "The pressure gradient falls or vascular resistance rises, as with coronary artery stenosis",
+      "The pressure gradient rises or vascular resistance falls",
+      "Vessel radius increases",
+      "Blood viscosity decreases"
+    ],
+    "answer": 0,
+    "explanation": "Since flow equals the pressure gradient divided by resistance, flow decreases when the pressure gradient falls or resistance rises. Coronary artery stenosis raises resistance and reduces flow.",
+    "why": [
+      "Correct. A smaller gradient or higher resistance reduces flow.",
+      "These changes would increase flow, not decrease it.",
+      "A larger radius lowers resistance and increases flow.",
+      "Lower viscosity reduces resistance and tends to increase flow."
+    ]
+  },
+  {
+    "id": "vap-010",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Vascular Resistance & Blood Flow",
+    "source": "Vascular Anatomy & Physiology, slide 98 (Capillary velocity)",
+    "question": "Blood velocity is lowest in the systemic capillaries primarily because capillaries have which feature?",
+    "options": [
+      "The greatest total cross-sectional area of any region of the circulation",
+      "The lowest individual vascular resistance",
+      "The thickest vascular walls",
+      "The highest hydrostatic pressure"
+    ],
+    "answer": 0,
+    "explanation": "Because millions of capillaries are arranged in parallel, they have the greatest total cross-sectional area. Since flow equals velocity times cross-sectional area, this large area markedly slows velocity, allowing time for exchange.",
+    "why": [
+      "Correct. The huge total cross-sectional area slows capillary velocity.",
+      "Each capillary actually has high individual resistance; velocity is set by cross-sectional area.",
+      "Capillaries have thin single-cell walls, not thick walls.",
+      "Capillary hydrostatic pressure is not the highest in the circulation, and it is not why velocity is low."
+    ]
+  },
+  {
+    "id": "vap-011",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Endothelium & Vasomotor Control",
+    "source": "Vascular Anatomy & Physiology, slide 102 (Endothelial vasodilators)",
+    "question": "The endothelium produces which vasodilator that relaxes vascular smooth muscle and helps maintain basal vascular tone?",
+    "options": [
+      "Nitric oxide (NO)",
+      "Endothelin-1",
+      "Thromboxane A2",
+      "Angiotensin II"
+    ],
+    "answer": 0,
+    "explanation": "The endothelium produces nitric oxide, which relaxes vascular smooth muscle (vasodilation), and prostacyclin, which inhibits platelet aggregation. Reduced NO production is an early step in atherosclerosis.",
+    "why": [
+      "Correct. Nitric oxide is the key endothelial vasodilator.",
+      "Endothelin-1 is a potent vasoconstrictor, not a vasodilator.",
+      "Thromboxane A2 causes vasoconstriction and platelet aggregation.",
+      "Angiotensin II is a vasoconstrictor produced via the RAAS."
+    ]
+  },
+  {
+    "id": "vap-012",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Endothelium & Vasomotor Control",
+    "source": "Vascular Anatomy & Physiology, slide 106 (Endothelin-1)",
+    "question": "Which potent endothelial vasoconstrictor is implicated in pulmonary arterial hypertension?",
+    "options": [
+      "Endothelin-1",
+      "Nitric oxide",
+      "Prostacyclin",
+      "Bradykinin"
+    ],
+    "answer": 0,
+    "explanation": "Endothelin-1 is a potent vasoconstrictor released in response to vascular injury, inflammation, hypoxia, and shear stress. Its excess activity contributes to pulmonary arterial hypertension through pulmonary vasoconstriction and remodeling.",
+    "why": [
+      "Correct. Endothelin-1 is the vasoconstrictor implicated in pulmonary arterial hypertension.",
+      "Nitric oxide is a vasodilator, the opposite effect.",
+      "Prostacyclin causes vasodilation and inhibits platelets.",
+      "Bradykinin promotes vasodilation, not vasoconstriction."
+    ]
+  },
+  {
+    "id": "vap-013",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Endothelium & Vasomotor Control",
+    "source": "Vascular Anatomy & Physiology, slide 104 (Adenosine and ischemia)",
+    "question": "When myocardial oxygen delivery decreases and ATP is broken down, which metabolite accumulates and causes vasodilation to improve blood flow?",
+    "options": [
+      "Adenosine",
+      "Endothelin-1",
+      "Thromboxane A2",
+      "Norepinephrine"
+    ],
+    "answer": 0,
+    "explanation": "As oxygen delivery falls, ATP is broken down into adenosine, a local vasodilator that increases blood flow to match supply to metabolic demand. This is a key intrinsic mechanism of local flow regulation.",
+    "why": [
+      "Correct. Adenosine accumulates during ischemia and causes local vasodilation.",
+      "Endothelin-1 is a vasoconstrictor, the opposite effect.",
+      "Thromboxane A2 causes vasoconstriction and platelet aggregation.",
+      "Norepinephrine generally causes vasoconstriction via alpha receptors."
+    ]
+  },
+  {
+    "id": "vap-014",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Endothelium & Vasomotor Control",
+    "source": "Vascular Anatomy & Physiology, slide 102 (Endothelial dysfunction)",
+    "question": "Endothelial dysfunction, with reduced nitric oxide production, is considered one of the earliest events in the development of which condition?",
+    "options": [
+      "Atherosclerosis",
+      "Anemia",
+      "Pulmonary fibrosis",
+      "Peptic ulcer disease"
+    ],
+    "answer": 0,
+    "explanation": "Reduced NO and endothelial dysfunction, driven by hypertension, diabetes, smoking, and hyperlipidemia, promote inflammation, platelet activation, and a prothrombotic state, making it one of the earliest steps in atherosclerosis.",
+    "why": [
+      "Correct. Endothelial dysfunction is an early event in atherosclerosis.",
+      "Anemia is a red-cell disorder, not primarily an endothelial one.",
+      "Pulmonary fibrosis is not the condition this describes.",
+      "Peptic ulcer disease is unrelated to endothelial NO dysfunction."
+    ]
+  },
+  {
+    "id": "vap-015",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Hormonal Blood Pressure Regulation",
+    "source": "Vascular Anatomy & Physiology, slide 113 (RAAS)",
+    "question": "In the renin-angiotensin-aldosterone system, angiotensin II has which two major direct effects?",
+    "options": [
+      "Potent vasoconstriction and stimulation of aldosterone release",
+      "Vasodilation and inhibition of aldosterone",
+      "Increased sodium excretion and diuresis",
+      "Suppression of sympathetic activity"
+    ],
+    "answer": 0,
+    "explanation": "Renin (from juxtaglomerular cells when renal blood flow falls) converts angiotensinogen to angiotensin I, and ACE converts it to angiotensin II. Angiotensin II is a potent vasoconstrictor that also stimulates the adrenal cortex to release aldosterone, raising SVR and volume.",
+    "why": [
+      "Correct. Angiotensin II vasoconstricts and drives aldosterone release.",
+      "Angiotensin II vasoconstricts and stimulates aldosterone, the opposite of this.",
+      "Natriuretic peptides increase sodium excretion; angiotensin II promotes retention.",
+      "Angiotensin II tends to support, not suppress, pressor responses."
+    ]
+  },
+  {
+    "id": "vap-016",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Hormonal Blood Pressure Regulation",
+    "source": "Vascular Anatomy & Physiology, slide 112 (Aldosterone)",
+    "question": "What is the primary effect of aldosterone on blood pressure regulation?",
+    "options": [
+      "Increased sodium and water reabsorption by the kidney, raising intravascular volume",
+      "Increased sodium excretion, lowering intravascular volume",
+      "Direct vasodilation of arterioles",
+      "Suppression of the renin-angiotensin system"
+    ],
+    "answer": 0,
+    "explanation": "Aldosterone, from the adrenal cortex (zona glomerulosa), increases renal sodium reabsorption, and water follows sodium. This raises intravascular volume, preload, and blood pressure.",
+    "why": [
+      "Correct. Aldosterone drives sodium and water retention, raising volume and pressure.",
+      "It promotes sodium retention, not excretion.",
+      "Aldosterone acts on the kidney, not as a direct arteriolar vasodilator.",
+      "Aldosterone is an effector of RAAS activation, not a suppressor of it."
+    ]
+  },
+  {
+    "id": "vap-017",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Hormonal Blood Pressure Regulation",
+    "source": "Vascular Anatomy & Physiology, slide 114 (ADH receptors)",
+    "question": "Antidiuretic hormone (vasopressin) acts on two receptor types. What do its V1 and V2 receptors do?",
+    "options": [
+      "V1 causes vasoconstriction; V2 promotes water reabsorption in the collecting ducts",
+      "V1 promotes water reabsorption; V2 causes vasoconstriction",
+      "Both cause vasodilation",
+      "Both promote sodium excretion"
+    ],
+    "answer": 0,
+    "explanation": "ADH acts on V1 receptors on vascular smooth muscle to cause vasoconstriction (raising SVR) and on V2 receptors in the collecting ducts to insert aquaporins and reabsorb water. Together these support blood pressure.",
+    "why": [
+      "Correct. V1 vasoconstricts and V2 drives renal water reabsorption.",
+      "This reverses the two receptor functions.",
+      "V1 causes vasoconstriction, not vasodilation.",
+      "ADH promotes water reabsorption, not sodium excretion."
+    ]
+  },
+  {
+    "id": "vap-018",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Hormonal Blood Pressure Regulation",
+    "source": "Vascular Anatomy & Physiology, slide 117 (Natriuretic peptides)",
+    "question": "B-type natriuretic peptide (BNP) is released from ventricular myocytes in response to ventricular stretch. Which set of effects does it produce?",
+    "options": [
+      "Sodium and water excretion, vasodilation, and suppression of RAAS and sympathetic activity",
+      "Sodium and water retention, vasoconstriction, and activation of RAAS",
+      "Increased contractility and heart rate only",
+      "Water reabsorption via aquaporin insertion"
+    ],
+    "answer": 0,
+    "explanation": "BNP is released with ventricular stretch and wall stress. It promotes natriuresis and diuresis, causes vasodilation, and suppresses RAAS and sympathetic activation. It is elevated in heart failure and serves as a biomarker of ventricular strain.",
+    "why": [
+      "Correct. BNP promotes salt and water loss, vasodilation, and RAAS suppression.",
+      "These are the opposite effects, characteristic of RAAS activation.",
+      "BNP does more than affect rate and contractility; it drives natriuresis and vasodilation.",
+      "Aquaporin-mediated water reabsorption is an ADH effect, not BNP."
+    ]
+  },
+  {
+    "id": "vap-019",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Hormonal Blood Pressure Regulation",
+    "source": "Vascular Anatomy & Physiology, slide 110 (Adrenal medulla and pheochromocytoma)",
+    "question": "The adrenal medulla releases catecholamines (about 80% epinephrine). A catecholamine-secreting tumor of its chromaffin cells is called what?",
+    "options": [
+      "Pheochromocytoma",
+      "Aldosteronoma",
+      "Insulinoma",
+      "Craniopharyngioma"
+    ],
+    "answer": 0,
+    "explanation": "The adrenal medulla is the endocrine arm of the sympathetic nervous system, releasing mostly epinephrine. A chromaffin cell tumor is a pheochromocytoma, causing excess catecholamines with episodic hypertension, tachycardia, sweating, and headaches.",
+    "why": [
+      "Correct. A chromaffin cell (adrenal medulla) tumor is a pheochromocytoma.",
+      "An aldosteronoma arises from the adrenal cortex and secretes aldosterone.",
+      "An insulinoma is a pancreatic tumor secreting insulin.",
+      "A craniopharyngioma is a brain tumor unrelated to catecholamines."
+    ]
+  },
+  {
+    "id": "vap-020",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Hormonal Blood Pressure Regulation",
+    "source": "Vascular Anatomy & Physiology, slide 113 (Vasoactive hormones)",
+    "question": "Match each hormone to its primary action on blood pressure.",
+    "pairs": [
+      {
+        "left": "Angiotensin II",
+        "right": "Potent vasoconstriction and stimulation of aldosterone",
+        "why": "Angiotensin II raises SVR and drives aldosterone release."
+      },
+      {
+        "left": "Aldosterone",
+        "right": "Renal sodium and water retention, raising volume",
+        "why": "Aldosterone increases sodium and water reabsorption."
+      },
+      {
+        "left": "ADH (vasopressin)",
+        "right": "Vasoconstriction and renal water reabsorption",
+        "why": "ADH acts on V1 (vasoconstriction) and V2 (water reabsorption) receptors."
+      },
+      {
+        "left": "BNP",
+        "right": "Natriuresis, diuresis, and vasodilation",
+        "why": "BNP promotes salt and water loss and vasodilation, lowering pressure."
+      }
+    ],
+    "explanation": "Angiotensin II, aldosterone, and ADH all raise blood pressure (by vasoconstriction and volume retention), while BNP opposes them by promoting natriuresis, diuresis, and vasodilation."
+  },
+  {
+    "id": "vap-021",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Capillary Fluid Balance & Edema",
+    "source": "Vascular Anatomy & Physiology, slide 119 (Starling forces)",
+    "question": "Across the capillary wall, which force primarily promotes filtration of fluid out of the capillary, and which primarily promotes reabsorption back in?",
+    "options": [
+      "Capillary hydrostatic pressure promotes filtration; plasma oncotic pressure (from albumin) promotes reabsorption",
+      "Plasma oncotic pressure promotes filtration; capillary hydrostatic pressure promotes reabsorption",
+      "Both hydrostatic and oncotic pressure promote filtration",
+      "Neither force affects fluid movement"
+    ],
+    "answer": 0,
+    "explanation": "Capillary hydrostatic pressure pushes fluid out (filtration), while plasma oncotic pressure, generated mainly by albumin, pulls water back in (reabsorption). The balance of these Starling forces determines net fluid movement.",
+    "why": [
+      "Correct. Hydrostatic pressure filters out; oncotic pressure reabsorbs in.",
+      "This reverses the two forces.",
+      "Oncotic pressure opposes filtration by pulling fluid back in.",
+      "These opposing forces are precisely what govern capillary fluid movement."
+    ]
+  },
+  {
+    "id": "vap-022",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Capillary Fluid Balance & Edema",
+    "source": "Vascular Anatomy & Physiology, slide 123 (Edema mechanisms)",
+    "question": "By what mechanism does heart failure most directly cause edema?",
+    "options": [
+      "Increased capillary hydrostatic pressure",
+      "Decreased plasma oncotic pressure from low albumin",
+      "Increased capillary permeability from endothelial injury",
+      "Lymphatic obstruction"
+    ],
+    "answer": 0,
+    "explanation": "Heart failure raises venous pressure, which increases capillary hydrostatic pressure and pushes fluid out into the interstitium, producing edema when lymphatic capacity is overwhelmed. Low-albumin states cause edema by reduced oncotic pressure, and sepsis by capillary leak.",
+    "why": [
+      "Correct. Heart failure raises hydrostatic pressure, driving filtration and edema.",
+      "Low albumin (nephrotic syndrome, cirrhosis) reduces oncotic pressure; that is a different mechanism.",
+      "Increased permeability describes capillary leak in sepsis or burns, not heart failure.",
+      "Lymphatic obstruction causes lymphedema, a distinct mechanism."
+    ]
+  },
+  {
+    "id": "vap-023",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Venous Return & Integrated Regulation",
+    "source": "Vascular Anatomy & Physiology, slide 124 (Regulation of venous return)",
+    "question": "Which of the following increase venous return to the heart? Select all that apply.",
+    "options": [
+      "The skeletal muscle pump",
+      "Venous valves maintaining one-way flow",
+      "The respiratory pump during inspiration",
+      "Loss of sympathetic venous tone (venodilation)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Venous return is increased by the skeletal muscle pump, one-way venous valves, the respiratory pump (inspiration lowers intrathoracic pressure and increases the gradient to the right atrium), and sympathetic venoconstriction. Venodilation would reduce venous return.",
+    "why": [
+      "Correct. The skeletal muscle pump compresses veins and propels blood toward the heart.",
+      "Correct. Venous valves keep flow moving toward the right atrium.",
+      "Correct. Inspiration increases the pressure gradient favoring venous return.",
+      "Incorrect. Sympathetic venoconstriction increases venous return; venodilation decreases it."
+    ]
+  },
+  {
+    "id": "vap-024",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Venous Return & Integrated Regulation",
+    "source": "Vascular Anatomy & Physiology, slide 130 (MAP equation)",
+    "question": "Which equation correctly relates mean arterial pressure to cardiac output and vascular resistance?",
+    "options": [
+      "MAP = cardiac output times systemic vascular resistance",
+      "MAP = cardiac output divided by systemic vascular resistance",
+      "MAP = stroke volume times heart rate",
+      "MAP = systemic vascular resistance divided by cardiac output"
+    ],
+    "answer": 0,
+    "explanation": "MAP equals cardiac output times systemic vascular resistance (also called total peripheral resistance). MAP is the dependent variable, while CO and SVR are the regulated variables. Note that SVR and TPR are used interchangeably.",
+    "why": [
+      "Correct. MAP = CO times SVR.",
+      "Dividing inverts the true relationship.",
+      "Stroke volume times heart rate gives cardiac output, not MAP.",
+      "This inverts and misorders the relationship."
+    ]
+  },
+  {
+    "id": "vap-025",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Venous Return & Integrated Regulation",
+    "source": "Vascular Anatomy & Physiology, slide 132 (Baroreceptors)",
+    "question": "Where are the arterial baroreceptors located, and what do they detect?",
+    "options": [
+      "In the carotid sinus and aortic arch, detecting changes in arterial wall stretch",
+      "In the right atrium, detecting changes in venous oxygen content",
+      "In the medulla, detecting changes in cerebrospinal fluid pressure",
+      "In the kidneys, detecting changes in serum sodium"
+    ],
+    "answer": 0,
+    "explanation": "Arterial baroreceptors are stretch receptors in the carotid sinus and aortic arch. They detect changes in arterial wall stretch (reflecting MAP) and signal the medullary cardiovascular center, which adjusts autonomic output to restore pressure.",
+    "why": [
+      "Correct. Baroreceptors sit in the carotid sinus and aortic arch and sense stretch.",
+      "Those are not the arterial baroreceptor locations or stimulus.",
+      "The medulla is the integration center, not the location of the stretch receptors.",
+      "Renal sensing of sodium and perfusion relates to RAAS, not the arterial baroreceptors."
+    ]
+  },
+  {
+    "id": "vap-026",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Venous Return & Integrated Regulation",
+    "source": "Vascular Anatomy & Physiology, slide 136 (Baroreceptor response to standing)",
+    "question": "A healthy person rapidly stands from a supine position. Which response helps maintain arterial pressure against the effects of gravity?",
+    "options": [
+      "Increased sympathetic venoconstriction",
+      "Decreased sympathetic activity",
+      "Decreased heart rate",
+      "Arteriolar vasodilation"
+    ],
+    "answer": 0,
+    "explanation": "On standing, gravity pools blood in the legs, reducing venous return, stroke volume, cardiac output, and pressure. Baroreceptors detect the drop and the medulla increases sympathetic output, causing increased heart rate, contractility, arteriolar vasoconstriction, and venoconstriction to restore pressure.",
+    "why": [
+      "Correct. Increased sympathetic venoconstriction helps restore venous return and pressure.",
+      "Sympathetic activity increases, not decreases, to compensate.",
+      "Heart rate increases, not decreases, in the compensatory response.",
+      "Arteriolar vasoconstriction, not vasodilation, helps maintain pressure."
+    ]
+  },
+  {
+    "id": "vap-027",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Venous Return & Integrated Regulation",
+    "source": "Vascular Anatomy & Physiology, slide 136 (Orthostatic hypotension definition)",
+    "question": "By clinical definition, orthostatic hypotension is a drop in blood pressure within 3 minutes of standing of at least which magnitude?",
+    "options": [
+      "A fall in systolic BP of at least 20 mmHg or diastolic BP of at least 10 mmHg",
+      "A fall in systolic BP of at least 5 mmHg or diastolic BP of at least 2 mmHg",
+      "A fall in systolic BP of at least 40 mmHg or diastolic BP of at least 30 mmHg",
+      "Any measurable fall in mean arterial pressure"
+    ],
+    "answer": 0,
+    "explanation": "Orthostatic hypotension is defined as a fall in systolic BP of at least 20 mmHg or in diastolic BP of at least 10 mmHg within 3 minutes of standing, reflecting inadequate baroreceptor-mediated compensation.",
+    "why": [
+      "Correct. The threshold is a 20 mmHg systolic or 10 mmHg diastolic drop within 3 minutes.",
+      "These thresholds are too small to meet the definition.",
+      "These thresholds are larger than the accepted definition.",
+      "A specific threshold, not any fall at all, defines orthostatic hypotension."
+    ]
+  },
+  {
+    "id": "vap-028",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Vascular Anatomy & Physiology",
+    "section": "Venous Return & Integrated Regulation",
+    "source": "Vascular Anatomy & Physiology, slide 135 (Compensatory response to hypovolemia)",
+    "question": "A patient with severe dehydration becomes hypotensive. Which combination represents the expected compensatory response?",
+    "options": [
+      "Increased heart rate, increased systemic vascular resistance, and increased renin",
+      "Decreased heart rate, decreased systemic vascular resistance, and decreased renin",
+      "Increased heart rate, decreased systemic vascular resistance, and decreased renin",
+      "Decreased heart rate, increased systemic vascular resistance, and increased renin"
+    ],
+    "answer": 0,
+    "explanation": "Hypovolemia lowers venous return, cardiac output, and MAP. Baroreceptor unloading increases sympathetic output (raising heart rate and vasoconstriction, hence higher SVR), and reduced renal perfusion activates RAAS (increased renin), all working to restore arterial pressure.",
+    "why": [
+      "Correct. The expected response is a higher heart rate, higher SVR, and higher renin.",
+      "This is the opposite of the compensatory response.",
+      "SVR rises and renin rises in compensation, not falls.",
+      "Heart rate rises, not falls, during compensation for hypotension."
+    ]
   }
 ];
 

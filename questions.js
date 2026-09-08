@@ -3857,6 +3857,1425 @@ const QUESTIONS = [
       "Rapid normalization risks hypoperfusion and is not recommended here.",
       "It does require treatment, just gradual and oral."
     ]
+  },
+  {
+    "id": "acs-001",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "CAD Terminology & Clinical Spectrum",
+    "source": "Ischemic Heart Disease & ACS, slide 4 (CAD Terminology)",
+    "question": "The term ischemic heart disease (IHD) emphasizes:",
+    "options": [
+      "Reduced blood supply and oxygen delivery to the myocardium",
+      "Plaque buildup specifically within the coronary arteries",
+      "Disease of the heart valves",
+      "Inflammation of the pericardium"
+    ],
+    "answer": 0,
+    "explanation": "Ischemic heart disease (IHD) emphasizes reduced blood supply and oxygen delivery to the myocardium. Coronary atherosclerosis refers specifically to plaque buildup within the coronary arteries, and CAD is disease of the coronary arteries due to atherosclerosis.",
+    "why": [
+      "Correct. IHD emphasizes reduced blood supply and oxygen delivery to the myocardium.",
+      "That defines coronary atherosclerosis, not the emphasis of IHD.",
+      "IHD concerns myocardial blood supply, not the valves.",
+      "That is pericarditis, unrelated to the IHD term."
+    ]
+  },
+  {
+    "id": "acs-002",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "CAD Terminology & Clinical Spectrum",
+    "source": "Ischemic Heart Disease & ACS, slide 5 (CAD Overview)",
+    "question": "Coronary artery disease is caused by:",
+    "options": [
+      "Atherosclerotic plaque formation narrowing the coronary artery lumen",
+      "A congenital absence of the coronary arteries",
+      "Bacterial infection of the myocardium",
+      "Excess pericardial fluid"
+    ],
+    "answer": 0,
+    "explanation": "CAD is caused by atherosclerotic plaque formation within the coronary arteries, narrowing the vessel lumen: atherosclerosis leads to plaque formation, reduced coronary blood flow, and myocardial ischemia.",
+    "why": [
+      "Correct. Atherosclerotic plaque narrows the lumen and reduces coronary flow.",
+      "The coronary arteries are present; the problem is plaque narrowing.",
+      "CAD is atherosclerotic, not an infectious myocarditis.",
+      "That describes a pericardial effusion, not CAD."
+    ]
+  },
+  {
+    "id": "acs-003",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "CAD Terminology & Clinical Spectrum",
+    "source": "Ischemic Heart Disease & ACS, slide 6 (Clinical Spectrum: CAD)",
+    "question": "CAD is often asymptomatic early in the disease process.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "explanation": "True. CAD is often asymptomatic early. As it progresses, gradual plaque growth causes stenosis and stable angina, or plaque rupture causes thrombus and acute coronary syndrome.",
+    "why": [
+      "Correct. CAD is frequently silent early, becoming symptomatic as it progresses.",
+      "Incorrect. Early CAD is commonly asymptomatic."
+    ]
+  },
+  {
+    "id": "acs-004",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "CAD Terminology & Clinical Spectrum",
+    "source": "Ischemic Heart Disease & ACS, slide 6 (Clinical Spectrum: CAD)",
+    "question": "As CAD progresses it can follow two paths. Which pairing is correct?",
+    "options": [
+      "Gradual plaque growth leads to stable angina; plaque rupture leads to ACS/MI",
+      "Gradual plaque growth leads to STEMI; plaque rupture leads to stable angina",
+      "Both paths always lead to sudden death",
+      "Neither path produces symptoms"
+    ],
+    "answer": 0,
+    "explanation": "Gradual plaque growth causes coronary stenosis and decreased oxygen delivery, producing stable angina. Alternatively, plaque rupture causes thrombus formation and an acute reduction in blood flow, producing acute coronary syndrome or myocardial infarction.",
+    "why": [
+      "Correct. Slow growth causes stable angina; rupture causes ACS/MI.",
+      "Reversed; rupture, not slow growth, causes STEMI.",
+      "Not all CAD leads to sudden death.",
+      "Progressive CAD does produce symptoms such as angina."
+    ]
+  },
+  {
+    "id": "acs-005",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Epidemiology & Risk Factors",
+    "source": "Ischemic Heart Disease & ACS, slide 9 (Epidemiology of CAD)",
+    "question": "Approximately how many US adults have chronic coronary disease?",
+    "options": [
+      "About 2 million",
+      "About 20 million",
+      "About 200,000",
+      "About 100 million"
+    ],
+    "answer": 1,
+    "explanation": "Approximately 20 million US adults have chronic coronary disease. ACS accounts for about 1 million annual hospital admissions, with roughly 605,000 new and 210,000 recurrent MIs each year.",
+    "why": [
+      "Underestimates; about 20 million US adults are affected.",
+      "Correct. About 20 million US adults have chronic coronary disease.",
+      "Far too low; the figure is about 20 million.",
+      "Too high; it is about 20 million, not 100 million."
+    ]
+  },
+  {
+    "id": "acs-006",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Epidemiology & Risk Factors",
+    "source": "Ischemic Heart Disease & ACS, slide 11 (Risk Factors)",
+    "question": "Select ALL MODIFIABLE risk factors for CAD.",
+    "options": [
+      "Hypertension and dyslipidemia",
+      "Tobacco use",
+      "Type II diabetes",
+      "Male sex"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Modifiable risk factors include hypertension, dyslipidemia, type II diabetes, obesity, metabolic syndrome, sedentary lifestyle, tobacco, the Standard American Diet, alcohol, cocaine, stress, and shift work. Age, male sex, family history of premature CAD, and genetics are non-modifiable.",
+    "why": [
+      "Correct. Hypertension and dyslipidemia are modifiable.",
+      "Correct. Tobacco use is modifiable.",
+      "Correct. Type II diabetes (hyperglycemia) is modifiable.",
+      "Incorrect. Male sex is a non-modifiable risk factor."
+    ]
+  },
+  {
+    "id": "acs-007",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Epidemiology & Risk Factors",
+    "source": "Ischemic Heart Disease & ACS, slide 11 (Risk Factors)",
+    "question": "Family history of premature CAD is defined as a fatal or non-fatal cardiovascular event before what age?",
+    "options": [
+      "Before 55 in men and before 65 in women",
+      "Before 65 in men and before 55 in women",
+      "Before 40 in both sexes",
+      "Before 75 in both sexes"
+    ],
+    "answer": 0,
+    "explanation": "A family history of premature CAD means a fatal or non-fatal cardiovascular event before age 55 in male relatives and before age 65 in female relatives.",
+    "why": [
+      "Correct. The cutoffs are under 55 for men and under 65 for women.",
+      "Reversed; it is under 55 for men and under 65 for women.",
+      "The cutoffs are 55 (men) and 65 (women), not 40.",
+      "The cutoffs are 55 (men) and 65 (women), not 75."
+    ]
+  },
+  {
+    "id": "acs-008",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Epidemiology & Risk Factors",
+    "source": "Ischemic Heart Disease & ACS, slide 12 (Psychological Risk Factors)",
+    "question": "Select ALL psychological risk factors associated with increased CAD.",
+    "options": [
+      "Depression and anxiety",
+      "Social isolation",
+      "Chronic hostility (anger)",
+      "High self-esteem"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Psychological risk factors associated with increased CAD include low socioeconomic status, work and family stress, social isolation, depression, anxiety, hostility, PTSD, and a distressed personality.",
+    "why": [
+      "Correct. Depression and anxiety are psychological CAD risk factors.",
+      "Correct. Social isolation is a psychological CAD risk factor.",
+      "Correct. Chronic hostility is a psychological CAD risk factor.",
+      "Incorrect. High self-esteem is not a listed risk factor."
+    ]
+  },
+  {
+    "id": "acs-009",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Epidemiology & Risk Factors",
+    "source": "Ischemic Heart Disease & ACS, slide 13 (Infectious Risk Factor)",
+    "question": "Periodontal disease is listed as an infectious risk factor for CAD.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "explanation": "True. The deck lists periodontal disease as an infectious risk factor associated with CAD.",
+    "why": [
+      "Correct. Periodontal disease is the listed infectious risk factor.",
+      "Incorrect. Periodontal disease is specifically listed as an infectious risk factor."
+    ]
+  },
+  {
+    "id": "acs-010",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Pathophysiology: Endothelium to Plaque",
+    "source": "Ischemic Heart Disease & ACS, slide 16 (The Healthy Endothelium)",
+    "question": "Which substance produced by healthy endothelium causes vasodilation?",
+    "options": [
+      "Nitric oxide",
+      "Endothelin-1",
+      "Tissue factor",
+      "Thromboxane"
+    ],
+    "answer": 0,
+    "explanation": "Healthy endothelium produces nitric oxide (vasodilation) and prostacyclin (vasodilation plus platelet inhibition). Endothelin-1 causes vasoconstriction. A healthy endothelium is a vasodilatory, anti-inflammatory, and antithrombotic surface.",
+    "why": [
+      "Correct. Nitric oxide is the endothelial vasodilator.",
+      "Endothelin-1 causes vasoconstriction, not vasodilation.",
+      "Tissue factor promotes coagulation, not vasodilation.",
+      "Thromboxane promotes platelet aggregation and vasoconstriction."
+    ]
+  },
+  {
+    "id": "acs-011",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Pathophysiology: Endothelium to Plaque",
+    "source": "Ischemic Heart Disease & ACS, slide 18 (The Fatty Streak)",
+    "question": "In the fatty streak, which cells consume oxidized LDL to become foam cells?",
+    "options": [
+      "Macrophages (derived from monocytes)",
+      "Erythrocytes",
+      "Neutrophils only",
+      "Platelets"
+    ],
+    "answer": 0,
+    "explanation": "After LDL enters the intima and is oxidized, monocytes enter and become macrophages that consume the LDL, forming foam cells. Foam cells plus lipid form the fatty streak.",
+    "why": [
+      "Correct. Monocyte-derived macrophages engulf oxidized LDL to become foam cells.",
+      "Erythrocytes carry oxygen and do not form foam cells.",
+      "The key cells are macrophages, not neutrophils.",
+      "Platelets drive thrombosis, not foam-cell formation."
+    ]
+  },
+  {
+    "id": "acs-012",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Pathophysiology: Endothelium to Plaque",
+    "source": "Ischemic Heart Disease & ACS, slide 19 (Plaque Formation)",
+    "question": "A mature fibroatheroma contains a lipid-rich necrotic core covered by:",
+    "options": [
+      "A fibrous cap of smooth muscle and collagen",
+      "A layer of red blood cells",
+      "Only endothelium",
+      "Calcified valve tissue"
+    ],
+    "answer": 0,
+    "explanation": "As inflammation persists, foam cells accumulate and die, forming a necrotic lipid core. Smooth muscle migration and collagen production create a fibrous cap. The mature plaque contains a lipid-rich necrotic center, inflammatory cells, smooth muscle cells, and a fibrous cap.",
+    "why": [
+      "Correct. A fibrous cap of smooth muscle and collagen overlies the necrotic core.",
+      "The cap is fibrous tissue, not red blood cells.",
+      "The plaque is more than endothelium; it has a fibrous cap and necrotic core.",
+      "That describes valvular calcification, not a coronary plaque."
+    ]
+  },
+  {
+    "id": "acs-013",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Pathophysiology: Endothelium to Plaque",
+    "source": "Ischemic Heart Disease & ACS, slide 20 (Stable vs Unstable Plaque)",
+    "question": "A vulnerable (unstable) plaque is characterized by:",
+    "options": [
+      "A thin fibrous cap, large lipid core, and high inflammation",
+      "A thick fibrous cap and small lipid core",
+      "Complete absence of lipid",
+      "Dense calcification with no lipid core"
+    ],
+    "answer": 0,
+    "explanation": "A vulnerable plaque has a thin fibrous cap, large lipid core, and high inflammation, making it prone to rupture. A stable plaque has a thick fibrous cap, smaller lipid core, and less inflammation, causing gradual narrowing and predictable (stable) angina.",
+    "why": [
+      "Correct. Thin cap, large lipid core, and high inflammation define a vulnerable plaque.",
+      "That describes a stable plaque, not a vulnerable one.",
+      "Vulnerable plaques have a large lipid core, not an absence of lipid.",
+      "Vulnerability is driven by a thin cap and lipid core, not dense calcification."
+    ]
+  },
+  {
+    "id": "acs-014",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Pathophysiology: Endothelium to Plaque",
+    "source": "Ischemic Heart Disease & ACS, slide 21 (Why Plaque Rupture Causes MI)",
+    "question": "After plaque rupture and thrombus formation, complete coronary occlusion typically produces:",
+    "options": [
+      "STEMI",
+      "Stable angina",
+      "A normal ECG",
+      "Partial occlusion with NSTEMI"
+    ],
+    "answer": 0,
+    "explanation": "Plaque rupture exposes collagen, tissue factor, and lipid, triggering platelet adhesion, activation, aggregation, and thrombus. Partial occlusion causes ischemia or NSTEMI; complete occlusion causes STEMI. Plaque stability, not just blockage size, predicts danger.",
+    "why": [
+      "Correct. Complete occlusion produces a STEMI.",
+      "Stable angina reflects fixed stenosis, not acute complete occlusion.",
+      "Complete occlusion causes ST elevation, not a normal ECG.",
+      "Partial occlusion causes NSTEMI; complete occlusion causes STEMI."
+    ]
+  },
+  {
+    "id": "acs-015",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Pathophysiology: Endothelium to Plaque",
+    "source": "Ischemic Heart Disease & ACS, slide 21 (Why Plaque Rupture Causes MI)",
+    "question": "The size of the blockage always predicts the danger of a coronary plaque.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "explanation": "False. The size of the blockage does not always predict the danger; plaque stability matters. A smaller but vulnerable plaque can rupture and cause a major event.",
+    "why": [
+      "Incorrect. Blockage size alone does not predict danger.",
+      "Correct. Plaque stability, not just size, determines the risk of a major event."
+    ]
+  },
+  {
+    "id": "acs-016",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Angina: Features & Classification",
+    "source": "Ischemic Heart Disease & ACS, slide 22 (Why do Patients Become Symptomatic?)",
+    "question": "Myocardial ischemia develops when:",
+    "options": [
+      "Myocardial oxygen demand exceeds myocardial oxygen supply",
+      "Oxygen supply exceeds demand",
+      "Heart rate falls below 40",
+      "The coronary arteries dilate excessively"
+    ],
+    "answer": 0,
+    "explanation": "Ischemia develops when myocardial oxygen demand exceeds supply. Demand rises with tachycardia, hypertension, increased contractility, and exercise; supply falls with coronary stenosis, vasospasm, hypotension, anemia, or hypoxemia.",
+    "why": [
+      "Correct. Ischemia occurs when demand outstrips supply.",
+      "Reversed; ischemia is demand exceeding supply.",
+      "Bradycardia itself is not the mechanism of anginal ischemia.",
+      "Vasodilation improves supply; ischemia is a supply-demand mismatch."
+    ]
+  },
+  {
+    "id": "acs-017",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Angina: Features & Classification",
+    "source": "Ischemic Heart Disease & ACS, slide 27 (Classic Features of Angina)",
+    "question": "Typical angina is defined by which three features?",
+    "options": [
+      "Substernal discomfort, provoked by exertion or stress, relieved by rest or nitroglycerin",
+      "Sharp pain, worse with breathing, relieved by leaning forward",
+      "Burning pain, worse when lying flat, relieved by antacids",
+      "Tearing pain radiating to the back, unrelated to activity"
+    ],
+    "answer": 0,
+    "explanation": "Typical angina has three features: substernal chest discomfort (pressure, tightness, heaviness, squeezing), provoked by physical exertion or emotional stress, and relieved by rest or nitroglycerin.",
+    "why": [
+      "Correct. These are the three classic features of typical angina.",
+      "Pleuritic, positional pain suggests pericarditis, not angina.",
+      "That pattern suggests GERD, not angina.",
+      "Tearing pain to the back suggests aortic dissection, not angina."
+    ]
+  },
+  {
+    "id": "acs-018",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Angina: Features & Classification",
+    "source": "Ischemic Heart Disease & ACS, slide 28 (Typical vs Atypical Angina)",
+    "question": "A patient reports exertional shortness of breath, fatigue, and nausea without chest pain. This is best described as:",
+    "options": [
+      "An angina equivalent",
+      "Typical angina",
+      "Atypical angina with all three features",
+      "Definite non-cardiac pain"
+    ],
+    "answer": 0,
+    "explanation": "An angina equivalent presents with symptoms such as shortness of breath, fatigue, epigastric discomfort, nausea, or decreased exercise tolerance instead of chest pain. Typical angina has all three features; atypical angina has only two.",
+    "why": [
+      "Correct. Exertional dyspnea, fatigue, and nausea without chest pain is an angina equivalent.",
+      "Typical angina requires substernal chest discomfort, which is absent here.",
+      "Atypical angina still involves chest discomfort as one of its features.",
+      "These exertional symptoms can be cardiac and should not be dismissed."
+    ]
+  },
+  {
+    "id": "acs-019",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Angina: Features & Classification",
+    "source": "Ischemic Heart Disease & ACS, slide 27 (Classic Features of Angina)",
+    "question": "Nitroglycerin relieves angina primarily by:",
+    "options": [
+      "Venodilation that reduces preload and oxygen demand, plus coronary vasodilation",
+      "Increasing heart rate and contractility",
+      "Constricting the coronary arteries",
+      "Raising systemic blood pressure"
+    ],
+    "answer": 0,
+    "explanation": "Nitroglycerin causes venodilation, reducing preload and wall stress and thus myocardial oxygen demand. It also causes coronary vasodilation, especially of larger epicardial vessels, and relieves coronary vasospasm.",
+    "why": [
+      "Correct. Venodilation lowers preload and demand, and coronary vasodilation improves flow.",
+      "Nitroglycerin lowers demand; raising heart rate and contractility would worsen angina.",
+      "Nitroglycerin dilates, not constricts, coronary arteries.",
+      "Nitroglycerin lowers, not raises, blood pressure through vasodilation."
+    ]
+  },
+  {
+    "id": "acs-020",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Angina: Features & Classification",
+    "source": "Ischemic Heart Disease & ACS, slide 26 (Understanding Angina)",
+    "question": "Levine's sign, a clenched fist held over the sternum, is a classic gesture describing anginal chest discomfort.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "explanation": "True. Levine's sign, a clenched fist held over the sternum when describing chest discomfort, is a classic gesture associated with angina.",
+    "why": [
+      "Correct. Levine's sign is the clenched-fist gesture describing anginal chest discomfort.",
+      "Incorrect. Levine's sign is a recognized gesture associated with angina."
+    ]
+  },
+  {
+    "id": "acs-021",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Stable Angina Workup",
+    "source": "Ischemic Heart Disease & ACS, slide 36 (Pretest Probability)",
+    "question": "Before ordering tests, the pretest probability of CAD is estimated using:",
+    "options": [
+      "Symptoms, age and sex, and risk factors",
+      "Troponin alone",
+      "The patient's zip code only",
+      "A coronary calcium score alone"
+    ],
+    "answer": 0,
+    "explanation": "Pretest probability is estimated from symptoms plus age and sex plus risk factors. Low probability (under 15%) makes CAD unlikely; intermediate to high probability (over 15%) with an uncertain diagnosis prompts noninvasive testing such as CCTA, stress echo, or nuclear perfusion imaging.",
+    "why": [
+      "Correct. Symptoms, age and sex, and risk factors set the pretest probability.",
+      "Troponin is used in ACS workup, not for chronic pretest probability.",
+      "Zip code alone does not estimate pretest CAD probability.",
+      "A calcium score is one test, not the full pretest-probability estimate."
+    ]
+  },
+  {
+    "id": "acs-022",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Stable Angina Workup",
+    "source": "Ischemic Heart Disease & ACS, slide 45 (The EKG)",
+    "question": "A normal resting ECG excludes coronary artery disease.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "explanation": "False. More than 50% of patients with chronic stable angina have a normal resting ECG. A normal ECG does not exclude CAD.",
+    "why": [
+      "Incorrect. Over half of chronic stable angina patients have a normal resting ECG.",
+      "Correct. A normal resting ECG does not rule out CAD."
+    ]
+  },
+  {
+    "id": "acs-023",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Stable Angina Workup",
+    "source": "Ischemic Heart Disease & ACS, slide 46 (EKG Findings Suggestive of CAD)",
+    "question": "Match each ECG finding to what it represents.",
+    "pairs": [
+      {
+        "left": "ST depression",
+        "right": "Subendocardial ischemia",
+        "why": "ST depression reflects subendocardial (inner-layer) ischemia."
+      },
+      {
+        "left": "ST elevation",
+        "right": "Acute transmural injury",
+        "why": "ST elevation reflects acute transmural (full-thickness) injury."
+      },
+      {
+        "left": "Pathologic Q waves",
+        "right": "Prior infarction (scar)",
+        "why": "Pathologic Q waves represent prior myocardial necrosis and scar."
+      },
+      {
+        "left": "T-wave inversion",
+        "right": "Ischemia or prior injury",
+        "why": "T-wave inversion suggests ischemia or prior injury."
+      }
+    ],
+    "explanation": "ECG correlations: ST depression = subendocardial ischemia; ST elevation = acute transmural injury; pathologic Q waves = prior infarction (scar); T-wave inversion = ischemia or prior injury."
+  },
+  {
+    "id": "acs-024",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Stable Angina Workup",
+    "source": "Ischemic Heart Disease & ACS, slide 55 (Stress Tests)",
+    "question": "A stress test:",
+    "options": [
+      "Detects ischemia but does not directly visualize coronary anatomy",
+      "Directly visualizes coronary plaque and stenosis",
+      "Is the anatomic gold standard for CAD",
+      "Is only useful after a STEMI"
+    ],
+    "answer": 0,
+    "explanation": "Stress testing evaluates whether the heart receives enough blood flow under increased demand. It detects ischemia but does not visualize CAD directly. Options include exercise ECG, stress echocardiography (wall motion), and nuclear perfusion imaging.",
+    "why": [
+      "Correct. Stress testing detects ischemia functionally, not coronary anatomy.",
+      "CCTA and angiography visualize anatomy; stress testing does not.",
+      "Invasive coronary angiography, not stress testing, is the anatomic gold standard.",
+      "Stress testing is used in chronic stable angina workup, not only post-STEMI."
+    ]
+  },
+  {
+    "id": "acs-025",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Stable Angina Workup",
+    "source": "Ischemic Heart Disease & ACS, slide 57 (Stress Test vs CCTA)",
+    "question": "Coronary CT angiography (CCTA) is preferred for:",
+    "options": [
+      "Younger patients with intermediate-high pretest probability and no known CAD",
+      "Patients with known CAD",
+      "Patients with a contraindication to CCTA",
+      "Confirming ischemia functionally"
+    ],
+    "answer": 0,
+    "explanation": "CCTA (a Class I option) is preferred for younger patients, those with intermediate-high pretest probability, and no known CAD. Stress testing is preferred with known CAD, a contraindication to CCTA, or low-intermediate risk. A normal stress test does not exclude CAD.",
+    "why": [
+      "Correct. CCTA suits younger patients with intermediate-high probability and no known CAD.",
+      "With known CAD, stress testing is generally preferred.",
+      "A contraindication to CCTA points toward stress testing instead.",
+      "Functional ischemia confirmation is the role of stress testing, not CCTA."
+    ]
+  },
+  {
+    "id": "acs-026",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Stable Angina Workup",
+    "source": "Ischemic Heart Disease & ACS, slide 58 (When to Proceed with Cardiac Cath)",
+    "question": "The gold-standard anatomic assessment of coronary stenosis, which also allows PCI, is:",
+    "options": [
+      "Invasive coronary angiography (cardiac catheterization)",
+      "Resting ECG",
+      "Stress echocardiography",
+      "Chest X-ray"
+    ],
+    "answer": 0,
+    "explanation": "Invasive coronary angiography (cardiac catheterization / left heart cath) is the gold-standard anatomic assessment. Contrast is injected into the coronary arteries to identify the location and severity of stenosis, and it allows PCI when appropriate.",
+    "why": [
+      "Correct. Invasive coronary angiography is the anatomic gold standard and enables PCI.",
+      "A resting ECG does not assess coronary anatomy.",
+      "Stress echo is a functional test, not the anatomic gold standard.",
+      "A chest X-ray does not visualize coronary stenosis."
+    ]
+  },
+  {
+    "id": "acs-027",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Stable Angina Management",
+    "source": "Ischemic Heart Disease & ACS, slide 65 (Management of Stable CAD)",
+    "question": "The first-line anti-anginal medication class for stable angina is:",
+    "options": [
+      "Beta-blockers",
+      "Long-acting nitrates",
+      "Ranolazine",
+      "Calcium channel blockers"
+    ],
+    "answer": 0,
+    "explanation": "Beta-blockers are the first-line anti-anginal therapy for stable angina. Calcium channel blockers, long-acting nitrates, and ranolazine are additional options. All patients also receive aspirin and a statin.",
+    "why": [
+      "Correct. Beta-blockers are first-line anti-anginal therapy.",
+      "Long-acting nitrates are an additional option, not first-line.",
+      "Ranolazine is an add-on option, not first-line.",
+      "CCBs are an alternative or add-on, not the first-line anti-anginal."
+    ]
+  },
+  {
+    "id": "acs-028",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Stable Angina Management",
+    "source": "Ischemic Heart Disease & ACS, slide 65 (Management of Stable CAD)",
+    "question": "Select ALL recommended lifestyle modifications for stable CAD.",
+    "options": [
+      "Smoking cessation",
+      "Mediterranean diet",
+      "Weight control and stress management",
+      "Increasing saturated fat intake"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Lifestyle modifications for stable CAD include weight control, smoking cessation, a Mediterranean diet, and stress management. Increasing saturated fat is counterproductive.",
+    "why": [
+      "Correct. Smoking cessation is a core lifestyle intervention.",
+      "Correct. A Mediterranean diet is recommended.",
+      "Correct. Weight control and stress management are recommended.",
+      "Incorrect. Increasing saturated fat worsens CAD risk."
+    ]
+  },
+  {
+    "id": "acs-029",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Stable Angina Management",
+    "source": "Ischemic Heart Disease & ACS, slide 65 (Management of Stable CAD)",
+    "question": "Beyond anti-anginal therapy, which medications does the deck recommend for stable CAD patients?",
+    "options": [
+      "Aspirin",
+      "Statin",
+      "A beta-blocker or other anti-anginal",
+      "A routine antibiotic"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Medical therapy for stable CAD includes an anti-anginal (beta-blocker first-line), aspirin, and a statin. Antibiotics are not part of routine CAD management.",
+    "why": [
+      "Correct. Aspirin is recommended for stable CAD.",
+      "Correct. A statin is recommended for stable CAD.",
+      "Correct. An anti-anginal such as a beta-blocker is part of therapy.",
+      "Incorrect. Routine antibiotics are not part of CAD management."
+    ]
+  },
+  {
+    "id": "acs-030",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Stable Angina Management",
+    "source": "Ischemic Heart Disease & ACS, slide 66 (When to Revascularize)",
+    "question": "Revascularization for stable angina is considered when there is:",
+    "options": [
+      "Lifestyle-limiting angina with significant stenosis and symptoms despite optimal medical therapy",
+      "Any degree of coronary calcium on CT",
+      "A single episode of chest pain with a normal workup",
+      "Patient preference alone with no stenosis"
+    ],
+    "answer": 0,
+    "explanation": "Revascularization (elective PCI or CABG) is considered when there is persistent lifestyle-limiting angina, significant coronary stenosis, and symptoms despite optimal medical therapy.",
+    "why": [
+      "Correct. Limiting angina, significant stenosis, and failure of optimal therapy together drive revascularization.",
+      "Coronary calcium alone does not warrant revascularization.",
+      "A single episode with a normal workup does not warrant revascularization.",
+      "Revascularization requires significant stenosis, not preference alone."
+    ]
+  },
+  {
+    "id": "acs-031",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "ACS Overview & Spectrum",
+    "source": "Ischemic Heart Disease & ACS, slide 70 (Acute Coronary Syndrome)",
+    "question": "Acute coronary syndrome is most commonly caused by:",
+    "options": [
+      "Atherosclerotic plaque rupture with thrombus formation",
+      "Slow, progressive plaque growth alone",
+      "Coronary artery aneurysm",
+      "Pericardial inflammation"
+    ],
+    "answer": 0,
+    "explanation": "ACS is a spectrum caused by a sudden reduction in coronary blood flow, most commonly from atherosclerotic plaque rupture, platelet activation, and thrombus formation, rather than progressive plaque growth alone.",
+    "why": [
+      "Correct. Most ACS results from plaque rupture and thrombus.",
+      "Progressive growth causes stable angina; ACS is usually acute rupture.",
+      "A coronary aneurysm is not the common ACS mechanism.",
+      "Pericardial inflammation is pericarditis, not ACS."
+    ]
+  },
+  {
+    "id": "acs-032",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "ACS Overview & Spectrum",
+    "source": "Ischemic Heart Disease & ACS, slide 71 (The Spectrum of CAD: ACS)",
+    "question": "Match each point on the CAD/ACS spectrum to its defining feature.",
+    "pairs": [
+      {
+        "left": "Stable angina",
+        "right": "Negative markers, chest pain with activity",
+        "why": "Stable angina has negative markers with predictable chest pain on activity, relieved by rest."
+      },
+      {
+        "left": "Unstable angina",
+        "right": "Negative troponin, symptoms at rest or increasing",
+        "why": "Unstable angina has a negative troponin with ischemic symptoms at rest or increasing in frequency."
+      },
+      {
+        "left": "NSTEMI",
+        "right": "Positive troponin, no ST elevation",
+        "why": "NSTEMI has a positive troponin without ST elevation on ECG."
+      },
+      {
+        "left": "STEMI",
+        "right": "Complete occlusion, ST elevation, positive troponin",
+        "why": "STEMI reflects complete coronary occlusion with ST elevation and elevated troponin."
+      }
+    ],
+    "explanation": "Across the spectrum: stable angina (negative markers, exertional pain relieved by rest), unstable angina (negative troponin, symptoms at rest or increasing), NSTEMI (positive troponin, no ST elevation), and STEMI (complete occlusion, ST elevation, positive troponin, needs emergent reperfusion)."
+  },
+  {
+    "id": "acs-033",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "ACS Overview & Spectrum",
+    "source": "Ischemic Heart Disease & ACS, slide 105 (ACS: UA, NSTEMI, STEMI)",
+    "question": "The key difference between unstable angina and NSTEMI is:",
+    "options": [
+      "NSTEMI has a positive troponin (myocyte death); unstable angina has a negative troponin",
+      "Unstable angina shows ST elevation; NSTEMI does not",
+      "NSTEMI never causes chest pain",
+      "Unstable angina always requires emergent PCI"
+    ],
+    "answer": 0,
+    "explanation": "Both unstable angina and NSTEMI lack ST elevation. The distinction is troponin: NSTEMI has a positive troponin reflecting myocyte death, while unstable angina has a negative troponin (ischemia without necrosis).",
+    "why": [
+      "Correct. A positive troponin distinguishes NSTEMI from unstable angina.",
+      "Neither unstable angina nor NSTEMI shows ST elevation.",
+      "NSTEMI does cause chest pain or anginal-equivalent symptoms.",
+      "Unstable angina does not automatically require emergent PCI like STEMI."
+    ]
+  },
+  {
+    "id": "acs-034",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "ACS Overview & Spectrum",
+    "source": "Ischemic Heart Disease & ACS, slide 73 (ACS vs Stable Angina Presentation)",
+    "question": "Which presentation is most consistent with ACS rather than stable angina?",
+    "options": [
+      "Sudden symptoms at rest that fail to improve with rest or nitroglycerin",
+      "Predictable chest discomfort with exertion that improves with rest",
+      "Symptoms only during heavy exercise, relieved within minutes of stopping",
+      "A stable pattern of exertional angina unchanged over years"
+    ],
+    "answer": 0,
+    "explanation": "ACS presents with sudden-onset symptoms, often at rest, that fail to improve with rest or nitroglycerin, frequently with diaphoresis, nausea, or dyspnea. Stable angina is a predictable, exertional pattern relieved by rest and medication.",
+    "why": [
+      "Correct. Sudden rest symptoms not relieved by rest or nitro suggest ACS.",
+      "Exertional discomfort relieved by rest is the stable angina pattern.",
+      "Exercise-limited symptoms relieved by stopping fit stable angina.",
+      "An unchanged exertional pattern over years is stable angina, not ACS."
+    ]
+  },
+  {
+    "id": "acs-035",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "ACS Overview & Spectrum",
+    "source": "Ischemic Heart Disease & ACS, slide 74 (ACS Presentation)",
+    "question": "Select ALL features consistent with an ACS presentation.",
+    "options": [
+      "Chest pressure radiating to the arm or jaw",
+      "Diaphoresis",
+      "Nausea and dyspnea",
+      "Symptoms that reliably resolve with rest"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Classic ACS symptoms include chest pain, pressure, tightness, or heaviness radiating to the arm, jaw, neck, or back, failing to improve with rest or nitroglycerin. Associated symptoms include diaphoresis, nausea and vomiting, dyspnea, and lightheadedness.",
+    "why": [
+      "Correct. Radiating chest pressure is a classic ACS symptom.",
+      "Correct. Diaphoresis is a common associated symptom.",
+      "Correct. Nausea and dyspnea are associated ACS symptoms.",
+      "Incorrect. In ACS, symptoms fail to improve reliably with rest."
+    ]
+  },
+  {
+    "id": "acs-036",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "ACS Initial Treatment",
+    "source": "Ischemic Heart Disease & ACS, slide 75 (ACS Initial Treatment: Aspirin)",
+    "question": "The initial aspirin dose in suspected ACS is:",
+    "options": [
+      "162 to 325 mg chewed, then 81 mg daily",
+      "81 mg swallowed once, with no further doses",
+      "650 mg chewed once only",
+      "No aspirin until troponin returns"
+    ],
+    "answer": 0,
+    "explanation": "In ACS, give a loading dose of 162 to 325 mg of aspirin chewed, then 81 mg daily. Aspirin decreases platelet aggregation.",
+    "why": [
+      "Correct. Load 162 to 325 mg chewed, then 81 mg daily.",
+      "A single 81 mg dose is maintenance, not the loading dose.",
+      "The loading range is 162 to 325 mg, not 650 mg.",
+      "Aspirin should not wait for troponin in suspected ACS."
+    ]
+  },
+  {
+    "id": "acs-037",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "ACS Initial Treatment",
+    "source": "Ischemic Heart Disease & ACS, slide 75 (ACS Initial Treatment)",
+    "question": "In ACS, supplemental oxygen should be given:",
+    "options": [
+      "Only if oxygen saturation is below 90%",
+      "To every patient routinely",
+      "Only after PCI",
+      "Never"
+    ],
+    "answer": 0,
+    "explanation": "Supplemental oxygen in ACS is indicated only if the oxygen saturation is below 90%. Routine oxygen for normally saturated patients is not recommended.",
+    "why": [
+      "Correct. Give oxygen only if saturation is below 90%.",
+      "Routine oxygen for all patients is not recommended.",
+      "Oxygen is guided by saturation, not tied to after PCI.",
+      "Oxygen is given when saturation drops below 90%."
+    ]
+  },
+  {
+    "id": "acs-038",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "ACS Initial Treatment",
+    "source": "Ischemic Heart Disease & ACS, slide 75 (ACS Initial Treatment)",
+    "question": "Sublingual nitroglycerin in ACS is dosed as:",
+    "options": [
+      "0.3 to 0.4 mg every 5 minutes, up to 3 doses",
+      "One dose only, never repeated",
+      "10 mg every minute",
+      "Only intravenously"
+    ],
+    "answer": 0,
+    "explanation": "Sublingual nitroglycerin is given 0.3 to 0.4 mg every 5 minutes, up to a maximum of 3 doses. It causes venodilation (reducing preload and oxygen demand) and vasodilation (improving coronary flow and reducing afterload).",
+    "why": [
+      "Correct. 0.3 to 0.4 mg sublingually every 5 minutes, up to 3 doses.",
+      "Nitroglycerin can be repeated up to 3 doses at 5-minute intervals.",
+      "10 mg every minute is far above the sublingual dose.",
+      "The initial route here is sublingual, not intravenous."
+    ]
+  },
+  {
+    "id": "acs-039",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "ACS Initial Treatment",
+    "source": "Ischemic Heart Disease & ACS, slide 89 (Should we Start Heparin?)",
+    "question": "Select ALL higher-risk features that favor starting heparin in ACS.",
+    "options": [
+      "Positive troponin",
+      "GRACE score above 140",
+      "Hemodynamic instability",
+      "A single negative troponin with low-risk chest pain"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Higher-risk features favoring heparin include a positive troponin, GRACE score above 140, recurrent ischemic symptoms despite therapy, hemodynamic instability, new heart failure, ventricular arrhythmias, diabetes, and prior MI or PCI/CABG. Low-risk chest pain with negative serial troponins does not require heparin.",
+    "why": [
+      "Correct. A positive troponin favors anticoagulation.",
+      "Correct. A GRACE score above 140 is a higher-risk feature.",
+      "Correct. Hemodynamic instability favors heparin.",
+      "Incorrect. Low-risk pain with negative serial troponins does not need heparin."
+    ]
+  },
+  {
+    "id": "acs-040",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "ACS Initial Treatment",
+    "source": "Ischemic Heart Disease & ACS, slide 89 (Should we Start Heparin?)",
+    "question": "A typical unfractionated heparin regimen for ACS is:",
+    "options": [
+      "60 units/kg bolus (max 4,000), then a 12 units/kg/hr infusion, monitored by aPTT or anti-Xa",
+      "A fixed 10,000 unit bolus with no monitoring",
+      "Oral heparin twice daily",
+      "A one-time subcutaneous dose only"
+    ],
+    "answer": 0,
+    "explanation": "A typical UFH regimen is a 60 units/kg IV bolus (maximum 4,000 units), then a 12 units/kg/hr infusion (maximum 1,000 units/hr), monitored with aPTT or anti-Xa.",
+    "why": [
+      "Correct. Weight-based bolus and infusion with aPTT or anti-Xa monitoring.",
+      "UFH is weight-based and monitored, not a fixed unmonitored bolus.",
+      "Heparin is not given orally.",
+      "ACS UFH uses a bolus plus a monitored infusion, not a single subcutaneous dose."
+    ]
+  },
+  {
+    "id": "acs-041",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Risk Scores & Biomarkers",
+    "source": "Ischemic Heart Disease & ACS, slide 80 (HEART Score)",
+    "question": "The HEART score is used to:",
+    "options": [
+      "Estimate the risk of major adverse cardiac events (MACE) to guide disposition in possible ACS",
+      "Diagnose STEMI on ECG",
+      "Calculate the door-to-balloon time",
+      "Measure the ejection fraction"
+    ],
+    "answer": 0,
+    "explanation": "The HEART score estimates the risk of major adverse cardiac events (MACE) in patients with possible ACS to guide disposition. Its components (History, ECG, Age, Risk factors, Troponin) each score 0 to 2, for a maximum of 10.",
+    "why": [
+      "Correct. HEART estimates MACE risk to guide disposition.",
+      "STEMI is diagnosed on ECG, not by the HEART score.",
+      "Door-to-balloon is a STEMI treatment target, not the HEART score.",
+      "The HEART score does not measure ejection fraction."
+    ]
+  },
+  {
+    "id": "acs-042",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Risk Scores & Biomarkers",
+    "source": "Ischemic Heart Disease & ACS, slide 81 (HEART Score Interpretation)",
+    "question": "A HEART score of 0 to 3 indicates:",
+    "options": [
+      "Low risk: discharge if serial troponins are negative and follow-up is arranged",
+      "High risk requiring immediate catheterization",
+      "Intermediate risk requiring admission",
+      "A confirmed NSTEMI"
+    ],
+    "answer": 0,
+    "explanation": "A HEART score of 0 to 3 is low risk; discharge is reasonable if serial troponins are negative and follow-up is arranged. A score of 4 to 6 is intermediate (observation, serial troponins, stress test or CCTA), and 7 to 10 is high risk (admit, cardiology consult, early invasive evaluation).",
+    "why": [
+      "Correct. 0 to 3 is low risk with discharge if serial troponins are negative.",
+      "High risk is a score of 7 to 10, not 0 to 3.",
+      "Intermediate risk is 4 to 6, not 0 to 3.",
+      "A low HEART score does not confirm an NSTEMI."
+    ]
+  },
+  {
+    "id": "acs-043",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Risk Scores & Biomarkers",
+    "source": "Ischemic Heart Disease & ACS, slide 82 (High Sensitivity Troponin)",
+    "question": "An elevated troponin indicates:",
+    "options": [
+      "Myocardial injury or necrosis, not merely ischemia",
+      "Ischemia without any cell death",
+      "Coronary anatomy on imaging",
+      "The presence of ST elevation"
+    ],
+    "answer": 0,
+    "explanation": "Troponin is a regulatory protein released when myocardial injury or necrosis occurs; it detects injury, not ischemia. Ischemia without cell death (unstable angina) has a negative troponin, while myocardial infarction has an elevated troponin.",
+    "why": [
+      "Correct. Troponin marks myocyte injury or necrosis.",
+      "Ischemia without cell death (unstable angina) gives a negative troponin.",
+      "Troponin is a blood biomarker, not a coronary imaging finding.",
+      "ST elevation is an ECG finding, separate from troponin."
+    ]
+  },
+  {
+    "id": "acs-044",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Risk Scores & Biomarkers",
+    "source": "Ischemic Heart Disease & ACS, slide 82 (Troponin Kinetics)",
+    "question": "After myocardial injury, high-sensitivity troponin typically:",
+    "options": [
+      "Begins to rise within 1 to 3 hours, peaks at 12 to 24 hours, and returns toward baseline over 7 to 14 days",
+      "Rises only after 24 hours",
+      "Peaks within 10 minutes",
+      "Never returns to baseline"
+    ],
+    "answer": 0,
+    "explanation": "High-sensitivity troponin begins to rise 1 to 3 hours after myocardial injury, peaks at 12 to 24 hours, and gradually returns toward baseline over 7 to 14 days.",
+    "why": [
+      "Correct. Rise at 1 to 3 hours, peak at 12 to 24 hours, baseline by 7 to 14 days.",
+      "hs-troponin begins rising within 1 to 3 hours, not only after 24 hours.",
+      "It peaks at 12 to 24 hours, not within 10 minutes.",
+      "Troponin gradually returns toward baseline over 7 to 14 days."
+    ]
+  },
+  {
+    "id": "acs-045",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Risk Scores & Biomarkers",
+    "source": "Ischemic Heart Disease & ACS, slide 84 (Wellens Syndrome)",
+    "question": "Wellens syndrome (biphasic or deeply inverted T waves in V2 to V3 during a pain-free period) indicates:",
+    "options": [
+      "Critical proximal LAD narrowing; stress testing is contraindicated and catheterization is needed",
+      "A benign finding needing no follow-up",
+      "A definite completed inferior STEMI",
+      "Right coronary artery occlusion requiring only aspirin"
+    ],
+    "answer": 0,
+    "explanation": "Wellens syndrome is a specific ECG pattern (type A biphasic or type B deep symmetric T-wave inversions in V2 to V3 during a pain-free period, with normal or minimally elevated troponin) indicating critical LAD narrowing and impending anterior MI. Stress testing is strictly contraindicated; the patient needs catheterization.",
+    "why": [
+      "Correct. Wellens signals critical LAD disease; avoid stress testing and pursue cath.",
+      "Wellens is high-risk, not benign.",
+      "Wellens warns of impending anterior MI, not a completed inferior STEMI.",
+      "It reflects critical LAD disease and needs catheterization, not aspirin alone."
+    ]
+  },
+  {
+    "id": "acs-046",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "STEMI Diagnosis & Management",
+    "source": "Ischemic Heart Disease & ACS, slide 95 (STEMI Diagnosis)",
+    "question": "The ECG diagnosis of STEMI requires:",
+    "options": [
+      "New ST elevation in two contiguous leads",
+      "T-wave inversion in a single lead",
+      "ST depression in two leads",
+      "A pathologic Q wave alone"
+    ],
+    "answer": 0,
+    "explanation": "STEMI is diagnosed by new ST elevation in two contiguous leads, obtained on a 12-lead ECG within 10 minutes of first medical contact. Examples: inferior (II, III, aVF), anterior (V1 to V4), lateral (I, aVL, V5 to V6).",
+    "why": [
+      "Correct. New ST elevation in two contiguous leads defines STEMI on ECG.",
+      "A single lead T-wave inversion does not define STEMI.",
+      "ST depression is not the STEMI criterion, though it can be a posterior mirror image.",
+      "A Q wave alone reflects prior infarction, not acute STEMI."
+    ]
+  },
+  {
+    "id": "acs-047",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "STEMI Diagnosis & Management",
+    "source": "Ischemic Heart Disease & ACS, slide 100 (Reperfusion Therapy)",
+    "question": "For STEMI, the preferred reperfusion strategy and time goal is:",
+    "options": [
+      "Primary PCI with a door-to-balloon time under 90 minutes",
+      "Fibrinolytics for all patients regardless of PCI availability",
+      "Elective PCI within 2 weeks",
+      "Beta-blockers alone"
+    ],
+    "answer": 0,
+    "explanation": "For STEMI, primary PCI is preferred when available, with a door-to-balloon time under 90 minutes. Fibrinolytic therapy is considered when PCI is unavailable in the appropriate timeframe and there are no contraindications. Time is myocardium.",
+    "why": [
+      "Correct. Primary PCI within 90 minutes door-to-balloon is the goal.",
+      "Fibrinolytics are a fallback when timely PCI is unavailable, not for all.",
+      "STEMI needs emergent, not elective, reperfusion.",
+      "Beta-blockers do not restore coronary flow; reperfusion does."
+    ]
+  },
+  {
+    "id": "acs-048",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "STEMI Diagnosis & Management",
+    "source": "Ischemic Heart Disease & ACS, slide 98 (Culprit Lesion on EKG)",
+    "question": "Match each set of ECG leads to the wall and usual culprit artery.",
+    "pairs": [
+      {
+        "left": "II, III, aVF",
+        "right": "Inferior wall, RCA",
+        "why": "Inferior leads II, III, aVF localize to the RCA (usually)."
+      },
+      {
+        "left": "V1 to V4",
+        "right": "Anterior wall, LAD",
+        "why": "Anterior leads V1 to V4 localize to the LAD."
+      },
+      {
+        "left": "I, aVL, V5 to V6",
+        "right": "Lateral wall, LCx or diagonal",
+        "why": "Lateral leads I, aVL, V5 to V6 localize to the LCx or a diagonal branch."
+      },
+      {
+        "left": "V7 to V9",
+        "right": "Posterior wall, LCx or RCA",
+        "why": "Posterior leads V7 to V9 localize to the LCx or RCA."
+      }
+    ],
+    "explanation": "ECG localization: inferior (II, III, aVF) = RCA; anterior (V1 to V4) = LAD; lateral (I, aVL, V5 to V6) = LCx or diagonal; posterior (V7 to V9) = LCx or RCA. ST depression in V1 to V3 can be the mirror image of a posterior STEMI."
+  },
+  {
+    "id": "acs-049",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "STEMI Diagnosis & Management",
+    "source": "Ischemic Heart Disease & ACS, slide 101 (Antithrombotic Therapy)",
+    "question": "Dual antiplatelet therapy (DAPT) after STEMI consists of:",
+    "options": [
+      "Aspirin plus a P2Y12 inhibitor (clopidogrel, ticagrelor, or prasugrel)",
+      "Aspirin plus warfarin",
+      "Two statins",
+      "Aspirin plus a beta-blocker"
+    ],
+    "answer": 0,
+    "explanation": "DAPT is aspirin plus a P2Y12 inhibitor (clopidogrel, ticagrelor, or prasugrel). It reduces platelet activation and thrombus growth after revascularization; anticoagulation such as unfractionated heparin is given separately to limit clot propagation.",
+    "why": [
+      "Correct. DAPT is aspirin plus a P2Y12 inhibitor.",
+      "Warfarin is an anticoagulant, not the second antiplatelet in DAPT.",
+      "DAPT combines two antiplatelets, not two statins.",
+      "A beta-blocker is not an antiplatelet agent."
+    ]
+  },
+  {
+    "id": "acs-050",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "STEMI Diagnosis & Management",
+    "source": "Ischemic Heart Disease & ACS, slide 102 (Additional STEMI Medications)",
+    "question": "After stabilization, which medications are recommended following a STEMI?",
+    "options": [
+      "High-intensity statin",
+      "Beta-blocker",
+      "ACE inhibitor or ARB",
+      "Routine long-term antibiotics"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "After stabilization, post-STEMI medications include a high-intensity statin, a beta-blocker (reduces heart rate, contractility, and oxygen demand), an ACE inhibitor or ARB (especially with LV dysfunction, diabetes, or hypertension), and an aldosterone antagonist with reduced EF or heart failure. Antibiotics are not routine.",
+    "why": [
+      "Correct. A high-intensity statin is standard post-STEMI.",
+      "Correct. A beta-blocker is given when appropriate.",
+      "Correct. An ACE inhibitor or ARB is recommended, especially with LV dysfunction.",
+      "Incorrect. Routine long-term antibiotics are not part of post-STEMI care."
+    ]
+  },
+  {
+    "id": "acs-051",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "STEMI Diagnosis & Management",
+    "source": "Ischemic Heart Disease & ACS, slide 103 (STEMI Complications)",
+    "question": "Which is a mechanical complication of STEMI?",
+    "options": [
+      "Papillary muscle rupture causing mitral regurgitation",
+      "T-wave inversion",
+      "Sinus tachycardia",
+      "A normal echocardiogram"
+    ],
+    "answer": 0,
+    "explanation": "Mechanical complications of STEMI include papillary muscle rupture (causing mitral regurgitation), ventricular septal rupture, and free wall rupture. Other complications include ventricular arrhythmias, heart block, heart failure, cardiogenic shock, pericarditis, RV infarction, and thromboembolism.",
+    "why": [
+      "Correct. Papillary muscle rupture causing MR is a mechanical complication.",
+      "T-wave inversion is an ECG finding, not a mechanical complication.",
+      "Sinus tachycardia is not a mechanical complication.",
+      "A normal echo is not a complication."
+    ]
+  },
+  {
+    "id": "acs-052",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Secondary Prevention & Special Cases",
+    "source": "Ischemic Heart Disease & ACS, slide 112 (Lifestyle Modification)",
+    "question": "After which conditions is cardiac rehabilitation recommended?",
+    "options": [
+      "Myocardial infarction",
+      "PCI or CABG",
+      "Spontaneous coronary artery dissection (SCAD)",
+      "A single benign palpitation"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Cardiac rehabilitation is recommended after myocardial infarction, PCI or CABG, stable angina, and spontaneous coronary artery dissection (SCAD). It improves functional capacity, reduces recurrent events, and improves long-term outcomes.",
+    "why": [
+      "Correct. Cardiac rehab is recommended after MI.",
+      "Correct. Cardiac rehab is recommended after PCI or CABG.",
+      "Correct. Cardiac rehab is recommended after SCAD.",
+      "Incorrect. A single benign palpitation is not an indication for cardiac rehab."
+    ]
+  },
+  {
+    "id": "acs-053",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Secondary Prevention & Special Cases",
+    "source": "Ischemic Heart Disease & ACS, slide 114 (Exercise & Risk Factor Modification)",
+    "question": "The recommended aerobic exercise goal for CAD patients is:",
+    "options": [
+      "150 minutes/week of moderate intensity or 75 minutes/week of vigorous intensity",
+      "30 minutes once a week",
+      "Vigorous exercise every day without limit",
+      "No exercise until fully asymptomatic"
+    ],
+    "answer": 0,
+    "explanation": "The goal is 150 minutes per week of moderate-intensity or 75 minutes per week of vigorous-intensity aerobic exercise, plus resistance training 2 days per week.",
+    "why": [
+      "Correct. 150 min/week moderate or 75 min/week vigorous, plus resistance twice weekly.",
+      "30 minutes weekly is well below the goal.",
+      "The recommendation is a weekly target, not unlimited daily vigorous exercise.",
+      "Exercise, often via cardiac rehab, is part of recovery, not withheld until asymptomatic."
+    ]
+  },
+  {
+    "id": "acs-054",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Secondary Prevention & Special Cases",
+    "source": "Ischemic Heart Disease & ACS, slide 118 (Blood Pressure & Neurohormonal Therapy)",
+    "question": "For most CAD patients, the deck recommends a blood pressure goal of:",
+    "options": [
+      "Below 130/80 mmHg",
+      "Below 140/90 mmHg",
+      "Below 120/70 mmHg",
+      "Below 150/90 mmHg"
+    ],
+    "answer": 0,
+    "explanation": "The blood pressure goal is below 130/80 mmHg in most CAD patients. High-intensity statin therapy (atorvastatin 40 to 80 mg or rosuvastatin 20 to 40 mg) is the cornerstone lipid therapy, lowering LDL, reducing inflammation, and stabilizing plaque.",
+    "why": [
+      "Correct. The goal is below 130/80 mmHg for most CAD patients.",
+      "Below 140/90 is higher than the recommended CAD goal.",
+      "Below 120/70 is lower than the stated goal of below 130/80.",
+      "Below 150/90 is well above the recommended goal."
+    ]
+  },
+  {
+    "id": "acs-055",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Secondary Prevention & Special Cases",
+    "source": "Ischemic Heart Disease & ACS, slide 121 (Type I vs Type II MI)",
+    "question": "A Type II myocardial infarction is caused by:",
+    "options": [
+      "An oxygen supply-demand mismatch without plaque rupture (such as sepsis, severe anemia, or tachyarrhythmia)",
+      "Plaque rupture with coronary thrombosis",
+      "A congenital coronary anomaly only",
+      "A pericardial effusion"
+    ],
+    "answer": 0,
+    "explanation": "Type II MI results from an oxygen supply-demand mismatch without plaque rupture, from causes such as sepsis, severe anemia, SVT, hypertensive emergency, or hypotension. Treatment targets the underlying cause; not everyone needs PCI. Type I MI is plaque rupture with coronary thrombosis, treated with cath, DAPT, and anticoagulation.",
+    "why": [
+      "Correct. Type II MI is a supply-demand mismatch without plaque rupture.",
+      "Plaque rupture with thrombosis is a Type I MI.",
+      "A congenital anomaly alone is not the definition of Type II MI.",
+      "A pericardial effusion is not the mechanism of Type II MI."
+    ]
+  },
+  {
+    "id": "acs-056",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Secondary Prevention & Special Cases",
+    "source": "Ischemic Heart Disease & ACS, slide 124 (Coronary Vasospasm / Prinzmetal)",
+    "question": "Chest pain at rest with transient ST elevation that resolves with nitroglycerin, in a patient with normal coronaries, suggests coronary vasospasm (Prinzmetal). Appropriate treatment includes:",
+    "options": [
+      "Calcium channel blockers and nitrates, avoiding nonselective beta-blockers",
+      "Nonselective beta-blockers as first-line",
+      "Emergent CABG for all",
+      "No treatment, as it is benign"
+    ],
+    "answer": 0,
+    "explanation": "Vasospastic (variant/Prinzmetal) angina is transient coronary vasospasm causing ischemia with ST elevation during episodes. It is treated with calcium channel blockers and nitrates, avoiding nonselective beta-blockers, which can worsen spasm. Triggers include smoking, cocaine, cold exposure, and emotional stress.",
+    "why": [
+      "Correct. CCBs and nitrates treat vasospasm; avoid nonselective beta-blockers.",
+      "Nonselective beta-blockers can worsen coronary spasm and are avoided.",
+      "Vasospasm is managed medically, not with CABG for all.",
+      "Vasospastic angina causes real ischemia and requires treatment."
+    ]
+  },
+  {
+    "id": "acs-057",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Secondary Prevention & Special Cases",
+    "source": "Ischemic Heart Disease & ACS, slide 123 (MINOCA)",
+    "question": "MINOCA (myocardial infarction with non-obstructive coronary arteries) can be caused by:",
+    "options": [
+      "Coronary spasm, SCAD, microvascular disease, or thromboembolism",
+      "Only a completely occluded LAD",
+      "A normal stress test",
+      "A pericardial effusion exclusively"
+    ],
+    "answer": 0,
+    "explanation": "MINOCA is myocardial infarction without obstructive CAD. Possible causes include coronary spasm, spontaneous coronary artery dissection (SCAD), microvascular disease, and thromboembolism.",
+    "why": [
+      "Correct. Spasm, SCAD, microvascular disease, and thromboembolism cause MINOCA.",
+      "MINOCA is defined by non-obstructive arteries, not a fully occluded LAD.",
+      "A normal stress test is not a cause of MINOCA.",
+      "A pericardial effusion is not the mechanism of MINOCA."
+    ]
+  },
+  {
+    "id": "acs-058",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "Angina: Features & Classification",
+    "source": "Ischemic Heart Disease & ACS, slide 30 (Patient Scenario)",
+    "question": "A 55-year-old man, a former smoker with HTN and DM, reports 2 months of chest tightness while climbing stairs that is relieved by rest. He denies pain at rest, dyspnea, or nausea; his father had an MI at 55. How is this presentation best classified?",
+    "options": [
+      "Stable angina",
+      "Unstable angina",
+      "STEMI",
+      "Non-cardiac chest pain"
+    ],
+    "answer": 0,
+    "explanation": "Exertional chest tightness relieved by rest, stable over 2 months, in a patient with multiple risk factors, is classic stable angina.",
+    "why": [
+      "Correct. Predictable exertional discomfort relieved by rest is stable angina.",
+      "Unstable angina occurs at rest or with increasing frequency, unlike this stable pattern.",
+      "There is no acute presentation or ST elevation to suggest STEMI.",
+      "The exertional, reproducible pattern with risk factors is cardiac, not non-cardiac."
+    ]
+  },
+  {
+    "id": "acs-059",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "STEMI Diagnosis & Management",
+    "source": "Ischemic Heart Disease & ACS, slide 93 (STEMI Patient Scenario)",
+    "question": "A 59-year-old man has acute substernal chest pain with nausea and diaphoresis after an argument. A prehospital 12-lead ECG shows ST elevation. What is the best next step?",
+    "options": [
+      "Activate the cath lab for emergent PCI (door-to-balloon under 90 minutes)",
+      "Wait for troponin results before any intervention",
+      "Discharge with outpatient stress testing",
+      "Start oral beta-blockers and observe at home"
+    ],
+    "answer": 0,
+    "explanation": "Acute chest pain with ST elevation is a STEMI. Activate the cath lab for emergent primary PCI with a door-to-balloon goal under 90 minutes. Treatment should not wait for troponin if the ECG confirms STEMI.",
+    "why": [
+      "Correct. STEMI needs emergent reperfusion; activate the cath lab without delay.",
+      "Do not wait for troponin when the ECG confirms STEMI.",
+      "STEMI is an emergency; outpatient stress testing is inappropriate.",
+      "Home observation on oral beta-blockers is unsafe for a STEMI."
+    ]
+  },
+  {
+    "id": "acs-060",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Ischemic Heart Disease & ACS",
+    "section": "ACS Overview & Spectrum",
+    "source": "Ischemic Heart Disease & ACS, slide 88 (NSTEMI Patient Scenario)",
+    "question": "A 72-year-old woman presents with nausea, vomiting, malaise, and epigastric discomfort. She appears pale and diaphoretic. Her ECG shows ST depression and high-sensitivity troponin is elevated at 250. What is the diagnosis?",
+    "options": [
+      "NSTEMI",
+      "STEMI",
+      "Stable angina",
+      "Prinzmetal angina"
+    ],
+    "answer": 0,
+    "explanation": "Elevated troponin with ST depression (no ST elevation) and an anginal-equivalent presentation is an NSTEMI. Management includes admission to telemetry, serial troponin and ECG, echocardiography, heparin if suspicion is high, and urgent catheterization, especially with an uptrending troponin.",
+    "why": [
+      "Correct. Positive troponin without ST elevation defines NSTEMI.",
+      "STEMI requires ST elevation, which is absent here; ST depression is present.",
+      "Stable angina has negative markers; her troponin is elevated.",
+      "Prinzmetal causes transient ST elevation with spasm, not this picture."
+    ]
   }
 ];
 

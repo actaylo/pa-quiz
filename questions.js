@@ -2616,6 +2616,1247 @@ const QUESTIONS = [
       "Angiography is not the risk-calculation tool for primary prevention.",
       "A single glucose does not calculate ASCVD risk."
     ]
+  },
+  {
+    "id": "htn-001",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Epidemiology & Cost",
+    "source": "Hypertensive Vascular Disease, slide 5 (Hypertension is a world-wide problem)",
+    "question": "In 2019, roughly what share of adults aged 30 to 79 worldwide had hypertension?",
+    "options": [
+      "About 5% of adults",
+      "About one third of adults (32% of women, 34% of men)",
+      "About two thirds of adults",
+      "Fewer than 10% of adults"
+    ],
+    "answer": 1,
+    "explanation": "In 2019 the global prevalence of hypertension in adults aged 30 to 79 was about 32% in women and 34% in men, roughly one third of adults.",
+    "why": [
+      "Far too low; global prevalence is about one third of adults.",
+      "Correct. In 2019 it was about 32% in women and 34% in men.",
+      "Too high; it is closer to one third, not two thirds.",
+      "Underestimates; about a third of adults are affected."
+    ]
+  },
+  {
+    "id": "htn-002",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Epidemiology & Cost",
+    "source": "Hypertensive Vascular Disease, slide 5 (Hypertension is a world-wide problem)",
+    "question": "Worldwide, approximately what portion of people with hypertension have it controlled?",
+    "options": [
+      "Only 10 to 25%",
+      "About 50%",
+      "About 75%",
+      "Over 90%"
+    ],
+    "answer": 0,
+    "explanation": "Only about 10 to 25 percent of people with hypertension worldwide have it controlled.",
+    "why": [
+      "Correct. Only about 10 to 25 percent are controlled worldwide.",
+      "Too high; worldwide control is only 10 to 25 percent.",
+      "Far too high; control is 10 to 25 percent worldwide.",
+      "Control rates are nowhere near that high."
+    ]
+  },
+  {
+    "id": "htn-003",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Epidemiology & Cost",
+    "source": "Hypertensive Vascular Disease, slide 8 (US National data)",
+    "question": "Of US adults with hypertension, approximately what percentage have controlled blood pressure (below 130/80)?",
+    "options": [
+      "About 24%",
+      "About 50%",
+      "About 81%",
+      "About 95%"
+    ],
+    "answer": 0,
+    "explanation": "In US national data, 81% of adults with HTN are treated with medication and lifestyle modification, but only about 24% have controlled blood pressure (below 130/80).",
+    "why": [
+      "Correct. Only about 24% of US adults with HTN are controlled to below 130/80.",
+      "Too high; only about 24% are controlled.",
+      "81% are treated, but only about 24% are actually controlled.",
+      "Control is far lower, about 24%."
+    ]
+  },
+  {
+    "id": "htn-004",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Epidemiology & Cost",
+    "source": "Hypertensive Vascular Disease, slide 9 (Hypertension - cost)",
+    "question": "Hypertension is the most prevalent modifiable CVD risk factor and the leading cause of death and disability worldwide.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "explanation": "True. Hypertension is the most prevalent modifiable CVD risk factor and the leading cause of death and disability worldwide, with total direct costs projected around $200 billion by 2030.",
+    "why": [
+      "Correct. HTN is the most prevalent modifiable CVD risk factor and leading cause of death and disability worldwide.",
+      "Incorrect. HTN is in fact the leading modifiable cause of death and disability worldwide."
+    ]
+  },
+  {
+    "id": "htn-005",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Epidemiology & Cost",
+    "source": "Hypertensive Vascular Disease, slide 11 (Hypertension in children)",
+    "question": "How does hypertension in children differ from hypertension in adults?",
+    "options": [
+      "It is almost always essential (primary)",
+      "It is more often due to secondary causes and defined as BP above the 90th percentile for age, height, and sex",
+      "It is defined by the same 130/80 threshold as adults",
+      "It never occurs before adolescence"
+    ],
+    "answer": 1,
+    "explanation": "In children, HTN is more often secondary and is defined as BP above the 90th percentile for age, height, and sex. About 3 to 5% of children have HTN, and roughly 30% of obese adolescents.",
+    "why": [
+      "The opposite; childhood HTN is more often secondary than essential.",
+      "Correct. Childhood HTN is more often secondary and defined as BP above the 90th percentile for age, height, and sex.",
+      "Children use a percentile-based definition, not the adult 130/80 threshold.",
+      "HTN does occur in children, in about 3 to 5%."
+    ]
+  },
+  {
+    "id": "htn-006",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Definition & Diagnosis",
+    "source": "Hypertensive Vascular Disease, slide 6 (2025 Definition of HTN in Adults)",
+    "question": "Per the 2025 ACC/AHA guideline, the diagnosis of hypertension is based on:",
+    "options": [
+      "A single elevated office reading",
+      "The average of two or more BP measurements taken during two or more encounters",
+      "A home reading above 140/90 on one day",
+      "Any reading above 120/80"
+    ],
+    "answer": 1,
+    "explanation": "Hypertension is diagnosed using the average of two or more blood pressure measurements taken during two or more separate encounters, not a single reading.",
+    "why": [
+      "A single reading is not enough; diagnosis needs averaged readings across encounters.",
+      "Correct. Diagnosis uses the average of two or more readings across two or more encounters.",
+      "Home readings can help, but the definition requires averaging across two or more encounters.",
+      "120/80 is not the diagnostic threshold for HTN."
+    ]
+  },
+  {
+    "id": "htn-007",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Definition & Diagnosis",
+    "source": "Hypertensive Vascular Disease, slide 50 (2025 AHA/ACC Management Guidelines)",
+    "question": "The overarching blood pressure treatment goal in the 2025 AHA/ACC guideline is:",
+    "options": [
+      "Below 140/90",
+      "Below 130/80",
+      "Below 120/70",
+      "Below 150/90"
+    ],
+    "answer": 1,
+    "explanation": "The 2025 AHA/ACC guideline sets an overarching treatment goal of below 130/80 mm Hg.",
+    "why": [
+      "That was an older, higher goal; the 2025 goal is below 130/80.",
+      "Correct. The overarching 2025 goal is below 130/80 mm Hg.",
+      "Lower than the guideline goal of below 130/80.",
+      "Higher than the guideline goal of below 130/80."
+    ]
+  },
+  {
+    "id": "htn-008",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Definition & Diagnosis",
+    "source": "Hypertensive Vascular Disease, slide 50 (2025 AHA/ACC Management Guidelines)",
+    "question": "For adults with stage 2 hypertension, the 2025 guideline recommends initiating:",
+    "options": [
+      "A single agent, titrated slowly",
+      "Two first-line agents, ideally as a single combination pill",
+      "Lifestyle changes alone for 6 months",
+      "A beta blocker first-line"
+    ],
+    "answer": 1,
+    "explanation": "For stage 2 HTN, initiating two first-line agents (ideally as a single combination pill) is recommended, along with lifestyle changes.",
+    "why": [
+      "Stage 2 usually needs two agents, not a single drug, to reach goal.",
+      "Correct. Stage 2 HTN warrants two first-line agents, ideally one combination pill.",
+      "Lifestyle changes are recommended for all, but stage 2 also needs two agents up front.",
+      "Beta blockers are not first-line unless HF or CHD is present."
+    ]
+  },
+  {
+    "id": "htn-009",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Definition & Diagnosis",
+    "source": "Hypertensive Vascular Disease, slide 50 (2025 AHA/ACC Management Guidelines)",
+    "question": "Lifestyle changes are recommended for all adults, regardless of blood pressure stage.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "explanation": "True. Lifestyle changes are recommended for all adults in the 2025 guideline, across every blood pressure category.",
+    "why": [
+      "Correct. Lifestyle modification is recommended for all adults regardless of stage.",
+      "Incorrect. Lifestyle change is universally recommended, not reserved for higher stages."
+    ]
+  },
+  {
+    "id": "htn-010",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "End-Organ Damage",
+    "source": "Hypertensive Vascular Disease, slide 18 (Cardiovascular)",
+    "question": "What is the most common cause of death in hypertensive patients?",
+    "options": [
+      "Renal failure",
+      "Heart disease",
+      "Stroke",
+      "Cancer"
+    ],
+    "answer": 1,
+    "explanation": "Heart disease is the most common cause of death in hypertensive patients.",
+    "why": [
+      "Renal failure is a serious complication but not the most common cause of death.",
+      "Correct. Heart disease is the most common cause of death in hypertensive patients.",
+      "Stroke is strongly linked to HTN, but heart disease is the leading cause of death.",
+      "Cancer is not the leading cause of death in hypertensive patients."
+    ]
+  },
+  {
+    "id": "htn-011",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "End-Organ Damage",
+    "source": "Hypertensive Vascular Disease, slide 18 (Cardiovascular)",
+    "question": "Select ALL cardiac consequences of chronic hypertension.",
+    "options": [
+      "Left ventricular hypertrophy",
+      "Heart failure",
+      "Atrial fibrillation",
+      "Coronary artery disease"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Hypertension leads to left ventricular hypertrophy, atrial enlargement, heart failure, atherosclerotic coronary artery disease, microvascular disease, and arrhythmias such as atrial fibrillation.",
+    "why": [
+      "Correct. LVH is a hallmark cardiac consequence of hypertension.",
+      "Correct. Heart failure is a cardiac consequence of hypertension.",
+      "Correct. Atrial fibrillation is an arrhythmia linked to hypertension.",
+      "Correct. Atherosclerotic coronary artery disease is a cardiac consequence."
+    ]
+  },
+  {
+    "id": "htn-012",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "End-Organ Damage",
+    "source": "Hypertensive Vascular Disease, slide 18 (Cardiovascular)",
+    "question": "Left ventricular hypertrophy is an independent risk factor for CHD, stroke, CHF, and sudden death.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "explanation": "True. Left ventricular hypertrophy is an independent risk factor for CHD, stroke, CHF, and sudden death.",
+    "why": [
+      "Correct. LVH independently raises the risk of CHD, stroke, CHF, and sudden death.",
+      "Incorrect. LVH is an independent risk factor for those outcomes."
+    ]
+  },
+  {
+    "id": "htn-013",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "End-Organ Damage",
+    "source": "Hypertensive Vascular Disease, slide 19 (Brain)",
+    "question": "Which statement about hypertension and stroke is correct?",
+    "options": [
+      "HTN is a minor contributor and most strokes are hemorrhagic",
+      "Elevated BP is the strongest risk factor, and about 85% of strokes are ischemic (infarction)",
+      "HTN only causes hemorrhagic strokes",
+      "Treating HTN does not change stroke risk"
+    ],
+    "answer": 1,
+    "explanation": "Elevated blood pressure is the strongest risk factor for stroke. About 85% of strokes are due to infarction (ischemic), the rest hemorrhagic. Treating HTN lowers both ischemic and hemorrhagic stroke incidence.",
+    "why": [
+      "HTN is the strongest risk factor, and most strokes are ischemic, not hemorrhagic.",
+      "Correct. Elevated BP is the strongest stroke risk factor, and about 85% of strokes are ischemic.",
+      "HTN causes both ischemic and hemorrhagic strokes; most are ischemic.",
+      "Treating HTN does lower stroke incidence."
+    ]
+  },
+  {
+    "id": "htn-014",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "End-Organ Damage",
+    "source": "Hypertensive Vascular Disease, slide 20 (Kidney)",
+    "question": "Regarding hypertension and the kidney, HTN is:",
+    "options": [
+      "Not related to kidney disease",
+      "A major risk factor for renal injury and the second most common cause of renal failure",
+      "The single leading cause of kidney stones",
+      "Protective against ESRD"
+    ],
+    "answer": 1,
+    "explanation": "HTN is a major risk factor for renal injury and ESRD, and the second most common cause of renal failure. Preglomerular arteriolar lesions cause ischemic glomerular damage.",
+    "why": [
+      "HTN is strongly linked to kidney damage.",
+      "Correct. HTN is a major risk factor for renal injury and the second most common cause of renal failure.",
+      "HTN drives vascular kidney injury, not kidney stones specifically.",
+      "HTN worsens, not protects against, ESRD."
+    ]
+  },
+  {
+    "id": "htn-015",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "End-Organ Damage",
+    "source": "Hypertensive Vascular Disease, slide 21 (Peripheral vessels)",
+    "question": "Independent of blood pressure level, which finding is associated with target-organ disease (stroke, heart disease, renal failure)?",
+    "options": [
+      "Arterial stiffness (carotid-femoral pulse wave velocity)",
+      "Height",
+      "Resting heart rate alone",
+      "Skin turgor"
+    ],
+    "answer": 0,
+    "explanation": "Independent of BP, arterial stiffness (measured as carotid-femoral pulse wave velocity or carotid pulse pressure) is associated with target-organ disease including stroke, heart disease, and renal failure.",
+    "why": [
+      "Correct. Arterial stiffness independently tracks with target-organ disease.",
+      "Height is not the associated measure.",
+      "Resting heart rate alone is not the described marker.",
+      "Skin turgor reflects hydration, not vascular target-organ disease."
+    ]
+  },
+  {
+    "id": "htn-016",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Blood Pressure Regulation",
+    "source": "Hypertensive Vascular Disease, slide 25 (Blood pressure regulation)",
+    "question": "Select ALL systems and mechanisms that regulate blood pressure.",
+    "options": [
+      "Intravascular volume and sodium concentration",
+      "Renin-Angiotensin-Aldosterone System",
+      "Autonomic nervous system",
+      "Vascular constriction and dilation"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Blood pressure is regulated by intravascular volume (sodium), the renin-angiotensin-aldosterone system, the autonomic nervous system, and vascular mechanisms (vasoconstriction and vasodilation).",
+    "why": [
+      "Correct. Intravascular volume and sodium influence blood pressure.",
+      "Correct. The RAAS is a key blood pressure regulator.",
+      "Correct. The autonomic nervous system regulates blood pressure.",
+      "Correct. Vascular constriction and dilation regulate blood pressure."
+    ]
+  },
+  {
+    "id": "htn-017",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Blood Pressure Regulation",
+    "source": "Hypertensive Vascular Disease, slide 28 (At the level of the Glomerulus, RAAS)",
+    "question": "Renin, the initiating enzyme of the RAAS, is released from:",
+    "options": [
+      "Juxtaglomerular cells of the kidney",
+      "The adrenal medulla",
+      "Hepatocytes",
+      "Cardiac myocytes"
+    ],
+    "answer": 0,
+    "explanation": "Renin is released from the juxtaglomerular cells at the level of the glomerulus, initiating the renin-angiotensin-aldosterone system that regulates blood pressure.",
+    "why": [
+      "Correct. Juxtaglomerular cells release renin to initiate the RAAS.",
+      "The adrenal medulla releases catecholamines, not renin.",
+      "Hepatocytes make angiotensinogen, not renin.",
+      "Cardiac myocytes do not release renin."
+    ]
+  },
+  {
+    "id": "htn-018",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Blood Pressure Regulation",
+    "source": "Hypertensive Vascular Disease, slide 29 (RAAS)",
+    "question": "In the RAAS, blood pressure is raised primarily through:",
+    "options": [
+      "Angiotensin II causing vasoconstriction and aldosterone causing sodium and water retention",
+      "Vasodilation and sodium excretion",
+      "Decreased cardiac output only",
+      "Increased renal sodium loss"
+    ],
+    "answer": 0,
+    "explanation": "The RAAS raises BP mainly through angiotensin II (vasoconstriction) and aldosterone (renal sodium and water retention, which expands volume).",
+    "why": [
+      "Correct. Angiotensin II constricts vessels and aldosterone retains sodium and water, both raising BP.",
+      "That would lower BP, the opposite of the RAAS effect.",
+      "The RAAS raises BP through vasoconstriction and volume, not by cutting cardiac output.",
+      "The RAAS retains sodium, it does not increase sodium loss."
+    ]
+  },
+  {
+    "id": "htn-019",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Blood Pressure Regulation",
+    "source": "Hypertensive Vascular Disease, slide 25 (Blood pressure regulation)",
+    "question": "The autonomic nervous system regulates blood pressure largely through:",
+    "options": [
+      "Alpha and beta adrenergic receptors",
+      "Insulin receptors",
+      "Histamine receptors only",
+      "GABA receptors"
+    ],
+    "answer": 0,
+    "explanation": "The autonomic nervous system regulates BP largely through alpha and beta adrenergic receptors, affecting vascular tone and cardiac output.",
+    "why": [
+      "Correct. Alpha and beta adrenergic receptors mediate autonomic BP control.",
+      "Insulin receptors are not the autonomic BP mediators described.",
+      "Histamine receptors are not the primary autonomic BP mediators.",
+      "GABA receptors are not involved in this pathway."
+    ]
+  },
+  {
+    "id": "htn-020",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Primary vs Secondary HTN",
+    "source": "Hypertensive Vascular Disease, slide 30 (Primary essential vs Secondary HTN)",
+    "question": "What proportion of adult hypertension is primary (essential)?",
+    "options": [
+      "5 to 10%",
+      "About 50%",
+      "90 to 95%",
+      "Less than 1%"
+    ],
+    "answer": 2,
+    "explanation": "Primary (essential) hypertension accounts for 90 to 95% of adult HTN; secondary HTN is 5 to 10%, and severe hypertension/hypertensive emergency about 1%.",
+    "why": [
+      "That is the share for secondary HTN, not primary.",
+      "Underestimates; primary HTN is 90 to 95%.",
+      "Correct. Primary (essential) HTN is 90 to 95% of adult cases.",
+      "That is roughly the share of hypertensive emergency, not primary HTN."
+    ]
+  },
+  {
+    "id": "htn-021",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Primary vs Secondary HTN",
+    "source": "Hypertensive Vascular Disease, slide 31 (Primary essential Hypertension)",
+    "question": "Primary (essential) hypertension is multifactorial, with more than one identifiable contributing factor.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "explanation": "True. Primary (essential) HTN is multifactorial: genetics, obesity and sedentary lifestyle, alcohol, sodium intake, smoking, diabetes and dyslipidemia, and older age all contribute.",
+    "why": [
+      "Correct. Primary HTN is multifactorial with several contributing factors.",
+      "Incorrect. Primary HTN is multifactorial, not from a single cause."
+    ]
+  },
+  {
+    "id": "htn-022",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Primary vs Secondary HTN",
+    "source": "Hypertensive Vascular Disease, slide 32 (Modifiable vs unmodifiable Risk Factors)",
+    "question": "Select ALL MODIFIABLE risk factors for hypertension.",
+    "options": [
+      "Smoking",
+      "Obesity",
+      "High sodium diet and alcohol",
+      "Family history"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Modifiable risk factors include smoking, obesity, high sodium/alcohol/other drug intake, and physical inactivity. Family history, ethnicity, increasing age, and male sex are non-modifiable.",
+    "why": [
+      "Correct. Smoking is a modifiable risk factor.",
+      "Correct. Obesity is a modifiable risk factor.",
+      "Correct. High sodium intake and alcohol are modifiable.",
+      "Incorrect. Family history is non-modifiable."
+    ]
+  },
+  {
+    "id": "htn-023",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Primary vs Secondary HTN",
+    "source": "Hypertensive Vascular Disease, slide 33 (Secondary Hypertension)",
+    "question": "Which scenario should raise concern for secondary hypertension?",
+    "options": [
+      "Gradual BP rise in a 55-year-old controlled on one medication",
+      "Abrupt onset in a patient under 30 with HTN resistant to three or more medications",
+      "Well-controlled BP on lifestyle alone",
+      "A single mildly elevated reading at a health fair"
+    ],
+    "answer": 1,
+    "explanation": "Suspect secondary HTN with abrupt onset, age under 30, HTN resistant to three or more medications, or excessive end-organ damage.",
+    "why": [
+      "That is a typical primary HTN picture, not a red flag for secondary.",
+      "Correct. Abrupt onset, young age, and treatment resistance are red flags for secondary HTN.",
+      "Well-controlled BP does not suggest a secondary cause.",
+      "A single mild reading is not a red flag for secondary HTN."
+    ]
+  },
+  {
+    "id": "htn-024",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Primary vs Secondary HTN",
+    "source": "Hypertensive Vascular Disease, slide 33 (Secondary Hypertension)",
+    "question": "What is the most common cause of secondary hypertension?",
+    "options": [
+      "Obstructive sleep apnea",
+      "Pheochromocytoma",
+      "Cushing syndrome",
+      "Aortic coarctation"
+    ],
+    "answer": 0,
+    "explanation": "Obstructive sleep apnea is the most common cause of secondary HTN (25 to 50%), followed by primary aldosteronism (5 to 25%).",
+    "why": [
+      "Correct. OSA is the most common secondary cause, 25 to 50%.",
+      "Pheochromocytoma is rare, about 0.6%.",
+      "Cushing syndrome is uncommon, about 0.1%.",
+      "Aortic coarctation is uncommon, about 0.1%."
+    ]
+  },
+  {
+    "id": "htn-025",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Secondary Causes",
+    "source": "Hypertensive Vascular Disease, slide 35 (Secondary HTN cause/test table)",
+    "question": "Match each secondary cause of hypertension to its diagnostic test.",
+    "pairs": [
+      {
+        "left": "Renal artery stenosis",
+        "right": "Doppler ultrasound, CTA, or MRA",
+        "why": "Imaging of the renal arteries (Doppler ultrasound, CTA, or MRA) confirms renal artery stenosis."
+      },
+      {
+        "left": "Primary aldosteronism",
+        "right": "Aldosterone-to-renin ratio",
+        "why": "An elevated aldosterone-to-renin ratio screens for primary aldosteronism."
+      },
+      {
+        "left": "Pheochromocytoma",
+        "right": "24-hour urine metanephrines",
+        "why": "24-hour urine metanephrines (and MRI) evaluate for pheochromocytoma."
+      },
+      {
+        "left": "Obstructive sleep apnea",
+        "right": "Sleep study",
+        "why": "A sleep study diagnoses obstructive sleep apnea."
+      }
+    ],
+    "explanation": "Each secondary cause has a targeted test: renal artery stenosis (Doppler ultrasound, CTA, or MRA), primary aldosteronism (aldosterone-to-renin ratio, adrenal CT), pheochromocytoma (24-hour urine metanephrines, MRI), and OSA (sleep study)."
+  },
+  {
+    "id": "htn-026",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Secondary Causes",
+    "source": "Hypertensive Vascular Disease, slide 35 (Secondary HTN cause/test table)",
+    "question": "An abdominal bruit with resistant hypertension, especially early-onset in a young woman, suggests:",
+    "options": [
+      "Renal artery stenosis (fibromuscular dysplasia)",
+      "Hypothyroidism",
+      "Cushing syndrome",
+      "Primary aldosteronism"
+    ],
+    "answer": 0,
+    "explanation": "Abdominal bruits with resistant HTN, especially early onset in women (fibromuscular dysplasia), point to renal artery stenosis.",
+    "why": [
+      "Correct. Abdominal bruit plus resistant, early-onset HTN in a young woman suggests renal artery stenosis from fibromuscular dysplasia.",
+      "Hypothyroidism presents with weight gain, cold intolerance, and dry skin.",
+      "Cushing presents with weight gain and other cortisol-excess features.",
+      "Primary aldosteronism is screened by the aldosterone/renin ratio and often shows hypokalemia."
+    ]
+  },
+  {
+    "id": "htn-027",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Secondary Causes",
+    "source": "Hypertensive Vascular Disease, slide 35 (Secondary HTN cause/test table)",
+    "question": "A patient with resistant HTN and unprovoked or diuretic-associated hypokalemia should be screened for:",
+    "options": [
+      "Primary aldosteronism (aldosterone-to-renin ratio)",
+      "Hyperthyroidism",
+      "Renal artery stenosis",
+      "Pheochromocytoma"
+    ],
+    "answer": 0,
+    "explanation": "Hypokalemia (especially with diuretic use), muscle cramps, and weakness with resistant HTN suggest primary aldosteronism; screen with the aldosterone-to-renin ratio.",
+    "why": [
+      "Correct. Hypokalemia with resistant HTN points to primary aldosteronism, screened by the aldosterone/renin ratio.",
+      "Hyperthyroidism causes weight loss, heat intolerance, and tremor rather than this pattern.",
+      "Renal artery stenosis is suggested by abdominal bruits, not primarily hypokalemia.",
+      "Pheochromocytoma causes labile BP with headache, palpitations, and sweating."
+    ]
+  },
+  {
+    "id": "htn-028",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Secondary Causes",
+    "source": "Hypertensive Vascular Disease, slide 35 (Secondary HTN cause/test table)",
+    "question": "Labile blood pressure with episodic headache, palpitations, and sweating is most suggestive of:",
+    "options": [
+      "Pheochromocytoma",
+      "Obstructive sleep apnea",
+      "Hypothyroidism",
+      "Aortic coarctation"
+    ],
+    "answer": 0,
+    "explanation": "Labile BP with headache, palpitations, and sweating suggests pheochromocytoma; confirm with 24-hour urine metanephrines and MRI.",
+    "why": [
+      "Correct. Labile BP with headache, palpitations, and sweating is the classic pheochromocytoma picture.",
+      "OSA presents with snoring and daytime sleepiness, not episodic catecholamine surges.",
+      "Hypothyroidism causes fatigue and cold intolerance, not this pattern.",
+      "Coarctation presents with differential blood pressure between the arms and legs."
+    ]
+  },
+  {
+    "id": "htn-029",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Secondary Causes",
+    "source": "Hypertensive Vascular Disease, slide 36 (Secondary HTN causes by age)",
+    "question": "In children aged 0 to 12 with hypertension, the likelihood and most common cause of a secondary etiology is:",
+    "options": [
+      "An underlying cause is rare (under 5%)",
+      "70 to 85% have an identifiable underlying cause, most commonly renal parenchymal disease",
+      "Essential HTN accounts for nearly all cases",
+      "Pheochromocytoma is the most common cause"
+    ],
+    "answer": 1,
+    "explanation": "In children 0 to 12, an underlying (secondary) cause is found in 70 to 85%, most commonly renal parenchymal disease. Secondary causes become progressively less common with age.",
+    "why": [
+      "The opposite; most young children with HTN have a secondary cause.",
+      "Correct. 70 to 85% of young children with HTN have a secondary cause, usually renal parenchymal disease.",
+      "Essential HTN dominates in adults, not young children.",
+      "Renal parenchymal disease, not pheochromocytoma, is the most common cause in this age group."
+    ]
+  },
+  {
+    "id": "htn-030",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Secondary Causes",
+    "source": "Hypertensive Vascular Disease, slide 33 (Secondary Hypertension)",
+    "question": "Select ALL listed common causes of secondary hypertension.",
+    "options": [
+      "Obstructive sleep apnea",
+      "Primary aldosteronism",
+      "Renal artery stenosis",
+      "Seasonal allergies"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Common secondary causes include OSA, primary aldosteronism, renal artery stenosis, Cushing syndrome, aortic coarctation, and pheochromocytoma. Seasonal allergies are not a cause.",
+    "why": [
+      "Correct. OSA is a common secondary cause.",
+      "Correct. Primary aldosteronism is a common secondary cause.",
+      "Correct. Renal artery stenosis is a listed secondary cause.",
+      "Incorrect. Seasonal allergies are not a cause of secondary HTN."
+    ]
+  },
+  {
+    "id": "htn-031",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "History & Physical Exam",
+    "source": "Hypertensive Vascular Disease, slide 40 (Risk Assessment/History taking in HTN)",
+    "question": "Select ALL history elements important in assessing a hypertensive patient.",
+    "options": [
+      "Duration of HTN and prior therapies",
+      "Family history of HTN and CV disease",
+      "Symptoms suggesting a secondary cause",
+      "Favorite color"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Key history includes duration of HTN, prior therapies and side effects, family history of HTN and CVD, diet and psychosocial factors, comorbidities, and clues to secondary causes or end-organ damage.",
+    "why": [
+      "Correct. Duration and prior therapy responses guide management.",
+      "Correct. Family history of HTN and CVD is important.",
+      "Correct. Symptoms of a secondary cause should be sought.",
+      "Incorrect. Favorite color has no clinical relevance."
+    ]
+  },
+  {
+    "id": "htn-032",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "History & Physical Exam",
+    "source": "Hypertensive Vascular Disease, slide 44 (Physical exam)",
+    "question": "On cardiac exam of a hypertensive patient, an S4 gallop reflects:",
+    "options": [
+      "Atrial contraction forcing blood into a stiff, non-compliant left ventricle",
+      "Rapid filling of a dilated ventricle in heart failure",
+      "A normal finding in all adults",
+      "Severe mitral regurgitation"
+    ],
+    "answer": 0,
+    "explanation": "S4 is a late-diastolic presystolic gallop from atrial contraction against a stiff, non-compliant LV, common in HTN with LVH. S3 by contrast reflects sudden decreased filling of a dilated LV in heart failure.",
+    "why": [
+      "Correct. S4 is atrial contraction into a stiff, non-compliant LV.",
+      "That describes S3, not S4.",
+      "S4 is not a normal finding; it reflects a stiff ventricle.",
+      "S4 relates to ventricular compliance, not mitral regurgitation."
+    ]
+  },
+  {
+    "id": "htn-033",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "History & Physical Exam",
+    "source": "Hypertensive Vascular Disease, slide 47 (Fundoscopic findings in HTN)",
+    "question": "Match each hypertensive fundoscopic finding to its description.",
+    "pairs": [
+      {
+        "left": "AV nicking",
+        "right": "Arteriolar narrowing indenting the veins",
+        "why": "AV nicking is arteriolar narrowing that indents the crossing venules in chronic HTN."
+      },
+      {
+        "left": "Hard exudates",
+        "right": "Leaked lipids and proteins",
+        "why": "Hard exudates are leaked lipids and proteins."
+      },
+      {
+        "left": "Papilledema",
+        "right": "Swelling from increased intracranial pressure",
+        "why": "Papilledema is optic disc swelling from increased intracranial pressure."
+      },
+      {
+        "left": "Cotton wool spots",
+        "right": "Retinal ischemia",
+        "why": "Cotton wool spots reflect retinal nerve-fiber-layer ischemia."
+      }
+    ],
+    "explanation": "Hypertensive fundoscopic findings: AV nicking (arteriolar narrowing indenting veins), hemorrhages (extravasation), hard exudates (leaked lipids and proteins), papilledema (swelling from raised intracranial pressure), and cotton wool spots (ischemia)."
+  },
+  {
+    "id": "htn-034",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "History & Physical Exam",
+    "source": "Hypertensive Vascular Disease, slide 44 (Physical exam)",
+    "question": "Select ALL components of the physical exam in a hypertensive patient.",
+    "options": [
+      "Accurate BP measurement",
+      "Fundoscopic exam",
+      "Palpation of the thyroid",
+      "Genetic karyotyping"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The HTN physical exam includes accurate BP measurement, cardiac auscultation, peripheral pulses and carotid bruits, fundoscopic exam, abdominal exam (AAA, renal bruits), and thyroid palpation. Karyotyping is not routine.",
+    "why": [
+      "Correct. Accurate BP measurement is central.",
+      "Correct. Fundoscopic exam checks for hypertensive retinopathy.",
+      "Correct. Thyroid palpation screens for a contributing thyroid disorder.",
+      "Incorrect. Genetic karyotyping is not part of the routine HTN exam."
+    ]
+  },
+  {
+    "id": "htn-035",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "History & Physical Exam",
+    "source": "Hypertensive Vascular Disease, slide 40 (Risk Assessment/History taking in HTN)",
+    "question": "Which history finding is evidence of hypertensive end-organ damage?",
+    "options": [
+      "Prior stroke or TIA",
+      "Recent common cold",
+      "Seasonal allergies",
+      "Occasional caffeine use"
+    ],
+    "answer": 0,
+    "explanation": "Evidence of end-organ damage on history includes acute coronary syndrome, heart failure, stroke or TIA, and erectile dysfunction.",
+    "why": [
+      "Correct. A prior stroke or TIA is evidence of hypertensive end-organ damage.",
+      "A common cold is unrelated to end-organ damage.",
+      "Seasonal allergies are not end-organ damage.",
+      "Occasional caffeine use is not end-organ damage."
+    ]
+  },
+  {
+    "id": "htn-036",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Labs & Workup",
+    "source": "Hypertensive Vascular Disease, slide 49 (Basic Lab Testing)",
+    "question": "Select ALL tests that are part of the basic laboratory workup for hypertension.",
+    "options": [
+      "Fasting glucose or HbA1c",
+      "Lipid profile",
+      "12-lead ECG",
+      "Bone density scan"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Basic HTN labs: fasting glucose or HbA1c, CBC, metabolic profile, lipid profile, TSH, urinalysis with albumin/creatinine ratio, and a 12-lead ECG. Bone density scanning is not part of the workup.",
+    "why": [
+      "Correct. Fasting glucose or HbA1c is part of the basic workup.",
+      "Correct. A lipid profile is part of the basic workup.",
+      "Correct. A 12-lead ECG is part of the basic workup.",
+      "Incorrect. Bone density scanning is not part of the HTN workup."
+    ]
+  },
+  {
+    "id": "htn-037",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Labs & Workup",
+    "source": "Hypertensive Vascular Disease, slide 49 (Basic Lab Testing)",
+    "question": "Which test is listed as OPTIONAL in the basic hypertension workup?",
+    "options": [
+      "Coronary artery calcium score",
+      "Urinalysis",
+      "Metabolic profile",
+      "12-lead ECG"
+    ],
+    "answer": 0,
+    "explanation": "Optional tests include serum uric acid, echocardiogram, CXR, and coronary artery calcium. Urinalysis, metabolic profile, and a 12-lead ECG are part of the basic panel.",
+    "why": [
+      "Correct. Coronary artery calcium is an optional test.",
+      "Urinalysis is part of the basic panel, not optional.",
+      "The metabolic profile is part of the basic panel.",
+      "A 12-lead ECG is part of the basic panel."
+    ]
+  },
+  {
+    "id": "htn-038",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Labs & Workup",
+    "source": "Hypertensive Vascular Disease, slide 49 (Basic Lab Testing)",
+    "question": "A urinalysis with albumin/creatinine ratio is part of the basic hypertension workup.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "explanation": "True. Urinalysis, including an albumin/creatinine ratio, is part of the basic hypertension workup and screens for renal end-organ damage.",
+    "why": [
+      "Correct. Urinalysis with albumin/creatinine ratio is part of the basic workup.",
+      "Incorrect. It is included, and it screens for renal damage."
+    ]
+  },
+  {
+    "id": "htn-039",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "2025 Management Guidelines",
+    "source": "Hypertensive Vascular Disease, slide 60 (Medications for HTN)",
+    "question": "Match each first-line antihypertensive drug class to its example medications.",
+    "pairs": [
+      {
+        "left": "Thiazide diuretic",
+        "right": "Chlorthalidone, HCTZ",
+        "why": "Thiazide diuretics include chlorthalidone and HCTZ."
+      },
+      {
+        "left": "Long-acting calcium channel blocker",
+        "right": "Amlodipine, Nifedipine LA",
+        "why": "Dihydropyridine calcium channel blockers include amlodipine and nifedipine LA."
+      },
+      {
+        "left": "ACE inhibitor",
+        "right": "Enalapril, Lisinopril",
+        "why": "ACE inhibitors include enalapril and lisinopril."
+      },
+      {
+        "left": "ARB",
+        "right": "Valsartan, Losartan",
+        "why": "ARBs include valsartan and losartan."
+      }
+    ],
+    "explanation": "The four first-line classes and examples: thiazide diuretics (chlorthalidone, HCTZ), long-acting dihydropyridine CCBs (amlodipine, nifedipine LA), ACE inhibitors (enalapril, lisinopril), and ARBs (valsartan, losartan)."
+  },
+  {
+    "id": "htn-040",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "2025 Management Guidelines",
+    "source": "Hypertensive Vascular Disease, slide 60 (Medications for HTN)",
+    "question": "Select ALL first-line drug classes for uncomplicated hypertension.",
+    "options": [
+      "Thiazide diuretics",
+      "ACE inhibitors or ARBs",
+      "Calcium channel blockers",
+      "Beta blockers"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The four first-line classes for uncomplicated HTN are thiazide diuretics, ACE inhibitors, ARBs, and calcium channel blockers. Beta blockers are first-line only in patients with heart failure or CHD.",
+    "why": [
+      "Correct. Thiazide diuretics are a first-line class.",
+      "Correct. ACE inhibitors and ARBs are first-line.",
+      "Correct. Calcium channel blockers are first-line.",
+      "Incorrect. Beta blockers are first-line only with HF or CHD, not uncomplicated HTN."
+    ]
+  },
+  {
+    "id": "htn-041",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "2025 Management Guidelines",
+    "source": "Hypertensive Vascular Disease, slide 60 (Medications for HTN)",
+    "question": "Beta blockers should be used as first-line antihypertensives only in patients with:",
+    "options": [
+      "Heart failure or coronary heart disease",
+      "Uncomplicated stage 1 HTN",
+      "White-coat hypertension",
+      "No comorbidities"
+    ],
+    "answer": 0,
+    "explanation": "Beta blockers (atenolol, metoprolol, bisoprolol) should be first-line only in patients with heart failure or coronary heart disease, not in uncomplicated HTN.",
+    "why": [
+      "Correct. Beta blockers are first-line only with HF or CHD.",
+      "Uncomplicated HTN is treated with the other four classes first.",
+      "White-coat HTN is not an indication for first-line beta blockade.",
+      "Without a compelling comorbidity, beta blockers are not first-line."
+    ]
+  },
+  {
+    "id": "htn-042",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "2025 Management Guidelines",
+    "source": "Hypertensive Vascular Disease, slide 61 (Where do these medications work?)",
+    "question": "ACE inhibitors and ARBs lower blood pressure in part by:",
+    "options": [
+      "Dilating the efferent arteriole",
+      "Constricting the afferent arteriole",
+      "Blocking calcium channels in the heart",
+      "Increasing aldosterone"
+    ],
+    "answer": 0,
+    "explanation": "ACE inhibitors and ARBs dilate the efferent arteriole (by reducing angiotensin II), lowering glomerular pressure and blood pressure.",
+    "why": [
+      "Correct. ACE inhibitors and ARBs dilate the efferent arteriole.",
+      "They do not constrict the afferent arteriole.",
+      "Calcium channel blockade is a different class's mechanism.",
+      "ACE inhibitors and ARBs decrease aldosterone, they do not increase it."
+    ]
+  },
+  {
+    "id": "htn-043",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "2025 Management Guidelines",
+    "source": "Hypertensive Vascular Disease, slide 58 (DASH Diet and lifestyle modification)",
+    "question": "Select ALL recommended lifestyle modifications for hypertension.",
+    "options": [
+      "Weight loss and a DASH-style diet",
+      "Sodium reduction and potassium supplementation",
+      "Regular physical activity and reduced alcohol",
+      "Increasing red meat and sodium"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Recommended lifestyle modifications: a healthful (DASH) diet, weight loss, sodium reduction, potassium supplementation, physical activity, and reduced alcohol intake. Increasing sodium is counterproductive.",
+    "why": [
+      "Correct. Weight loss and a DASH-style diet are recommended.",
+      "Correct. Sodium reduction and potassium supplementation are recommended.",
+      "Correct. Physical activity and reduced alcohol are recommended.",
+      "Incorrect. Increasing red meat and sodium would raise blood pressure."
+    ]
+  },
+  {
+    "id": "htn-044",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "2025 Management Guidelines",
+    "source": "Hypertensive Vascular Disease, slide 52 (PREVENT-CVD risk calculator)",
+    "question": "Which statement about the PREVENT CVD risk calculator is TRUE?",
+    "options": [
+      "It includes race as a variable",
+      "It predicts 10-year CVD risk in patients 30 to 79 with no known CVD and uses zip code instead of race",
+      "It requires a fasting LDL",
+      "It is only for patients over 80"
+    ],
+    "answer": 1,
+    "explanation": "PREVENT predicts 10-year CVD risk in patients 30 to 79 with no known CVD. It drops race, adds zip code (as a social deprivation index), and is no longer based on LDL.",
+    "why": [
+      "PREVENT deliberately no longer includes race.",
+      "Correct. PREVENT estimates 10-year risk in ages 30 to 79 without known CVD and uses zip code instead of race.",
+      "PREVENT is no longer based on LDL.",
+      "PREVENT is for ages 30 to 79, not only over 80."
+    ]
+  },
+  {
+    "id": "htn-045",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "2025 Management Guidelines",
+    "source": "Hypertensive Vascular Disease, slides 51, 54 (2025 guideline updates; case)",
+    "question": "A 47-year-old man is seen for possible new-onset hypertension. His BP averages 134/82, his PREVENT 10-year CVD risk is 5%, and he has no diabetes, CKD, or ASCVD. Per the 2025 guideline, the best next step is:",
+    "options": [
+      "Start two medications immediately",
+      "Try lifestyle modification first and start medication if BP is not controlled after 3 to 6 months",
+      "Never offer medication",
+      "Start a beta blocker first-line"
+    ],
+    "answer": 1,
+    "explanation": "With BP above 130/80 and PREVENT risk below 7.5% (and no diabetes, CKD, or ASCVD), start with lifestyle modification and add medication if lifestyle changes do not work after 3 to 6 months. Patients with diabetes, CKD, or risk above 7.5% should start medication.",
+    "why": [
+      "Immediate two-drug therapy is for stage 2 HTN, not this lower-risk scenario.",
+      "Correct. Lower-risk patients try lifestyle first, adding medication if uncontrolled after 3 to 6 months.",
+      "Medication is still an option if lifestyle change fails.",
+      "Beta blockers are not first-line here."
+    ]
+  },
+  {
+    "id": "htn-046",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "2025 Management Guidelines",
+    "source": "Hypertensive Vascular Disease, slide 56 (Ambulatory blood pressure monitoring)",
+    "question": "Ambulatory blood pressure monitoring (ABPM) is especially useful for:",
+    "options": [
+      "Confirming suspected white-coat or masked hypertension",
+      "Replacing all office visits permanently",
+      "Diagnosing sleep apnea",
+      "Measuring cholesterol"
+    ],
+    "answer": 0,
+    "explanation": "ABPM (a 24-hour device averaging day and night readings) helps evaluate BP discrepancies, suspected white-coat HTN (15 to 20% of patients), masked HTN, episodic HTN, and resistant HTN.",
+    "why": [
+      "Correct. ABPM helps confirm white-coat and masked hypertension.",
+      "ABPM complements office monitoring, it does not replace it.",
+      "Sleep apnea is diagnosed with a sleep study, not ABPM.",
+      "ABPM measures blood pressure, not cholesterol."
+    ]
+  },
+  {
+    "id": "htn-047",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Disparities, Adherence & Crisis",
+    "source": "Hypertensive Vascular Disease, slide 66 (racial and ethnic differences in HTN)",
+    "question": "In the US, non-Hispanic Black adults with hypertension tend to have:",
+    "options": [
+      "Lower rates and better control than other groups",
+      "Higher rates, earlier onset, less adequate control, and higher CVD/stroke/ESRD morbidity",
+      "No difference from other groups",
+      "Higher rates but better outcomes"
+    ],
+    "answer": 1,
+    "explanation": "Non-Hispanic Black patients have higher HTN rates, earlier diagnosis, less adequate control, and higher morbidity and mortality from CVD, stroke, and ESRD.",
+    "why": [
+      "The opposite; rates are higher and control is worse in this group.",
+      "Correct. Non-Hispanic Black adults have higher rates, earlier onset, worse control, and worse outcomes.",
+      "There are significant disparities, not an absence of difference.",
+      "Outcomes are worse, not better."
+    ]
+  },
+  {
+    "id": "htn-048",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Disparities, Adherence & Crisis",
+    "source": "Hypertensive Vascular Disease, slide 67 (Race is a social construct)",
+    "question": "The deck frames race as a social construct rather than a biologic reality, with disparities reflecting diet, environment, socioeconomics, structural racism, and physiology.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "explanation": "True. The deck emphasizes that race is a social construct, not a biologic reality, and that disparities reflect dietary, environmental, and socioeconomic factors, structural racism and stress, and physiology.",
+    "why": [
+      "Correct. Race is framed as a social construct, and disparities are multifactorial.",
+      "Incorrect. The deck explicitly frames race as a social construct, not a biologic one."
+    ]
+  },
+  {
+    "id": "htn-049",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Disparities, Adherence & Crisis",
+    "source": "Hypertensive Vascular Disease, slide 69 (Effects of SDOH on HTN)",
+    "question": "Select ALL social determinants of health that worsen hypertension control.",
+    "options": [
+      "Limited access to care and lack of insurance",
+      "Food insecurity and poor diet",
+      "Low English proficiency",
+      "High health literacy"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Social determinants worsening HTN include limited access to care, lack of insurance, food insecurity and poor diet, and low English proficiency. High health literacy is protective, not a barrier.",
+    "why": [
+      "Correct. Limited care access and lack of insurance worsen HTN.",
+      "Correct. Food insecurity and poor diet worsen HTN.",
+      "Correct. Low English proficiency is a barrier to control.",
+      "Incorrect. High health literacy helps control, it is not a barrier."
+    ]
+  },
+  {
+    "id": "htn-050",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Disparities, Adherence & Crisis",
+    "source": "Hypertensive Vascular Disease, slide 75 (Hypertensive crisis)",
+    "question": "A hypertensive crisis is generally defined as a blood pressure of:",
+    "options": [
+      "140/90 or higher",
+      "160/100 or higher",
+      "180/120 or higher",
+      "200/140 or higher"
+    ],
+    "answer": 2,
+    "explanation": "A hypertensive crisis is a BP of 180/120 mm Hg or an acute rise above baseline. It is divided into severe hypertension (urgency) and hypertensive emergency.",
+    "why": [
+      "That is stage 2 HTN, not a crisis.",
+      "Still below the crisis threshold.",
+      "Correct. A hypertensive crisis is BP of 180/120 or an acute rise above baseline.",
+      "Higher than the defining threshold of 180/120."
+    ]
+  },
+  {
+    "id": "htn-051",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Disparities, Adherence & Crisis",
+    "source": "Hypertensive Vascular Disease, slides 76-77 (Severe HTN vs Hypertensive Emergency)",
+    "question": "The key difference between hypertensive urgency (severe hypertension) and a hypertensive emergency is:",
+    "options": [
+      "The presence of acute target-organ damage in an emergency",
+      "The exact systolic number",
+      "Whether the patient is over 65",
+      "Whether the patient is on medication"
+    ],
+    "answer": 0,
+    "explanation": "Both involve BP around 180/120. A hypertensive emergency has acute target-organ damage (such as encephalopathy, stroke, MI, pulmonary edema, AKI, or aortic dissection) and needs ICU IV therapy; urgency is asymptomatic without target-organ damage and is managed with gradual oral adjustment over 24 to 48 hours.",
+    "why": [
+      "Correct. Target-organ damage defines a hypertensive emergency versus urgency.",
+      "Both share a similar BP; the distinction is target-organ damage.",
+      "Age does not define the difference.",
+      "Medication status does not define the difference."
+    ]
+  },
+  {
+    "id": "htn-052",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Hypertensive Vascular Disease",
+    "section": "Disparities, Adherence & Crisis",
+    "source": "Hypertensive Vascular Disease, slide 76 (Severe Hypertension / Hypertensive Urgency)",
+    "question": "A 58-year-old woman presents with BP 184/122 and no symptoms; her exam and basic labs show no signs of acute target-organ damage. The most appropriate management is:",
+    "options": [
+      "Immediate IV antihypertensives in the ICU",
+      "Gradual lowering with oral medications over 24 to 48 hours in the outpatient setting",
+      "Rapid normalization within 1 hour",
+      "No treatment at all"
+    ],
+    "answer": 1,
+    "explanation": "This is hypertensive urgency (asymptomatic, no target-organ damage). It does not require the ER or hospital; restart or adjust oral medications and lower BP gradually over 24 to 48 hours. A hypertensive emergency instead needs ICU IV therapy with controlled MAP reduction.",
+    "why": [
+      "ICU IV therapy is for a hypertensive emergency with target-organ damage.",
+      "Correct. Urgency is managed with gradual oral adjustment over 24 to 48 hours as an outpatient.",
+      "Rapid normalization risks hypoperfusion and is not recommended here.",
+      "It does require treatment, just gradual and oral."
+    ]
   }
 ];
 

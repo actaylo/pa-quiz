@@ -12296,6 +12296,1851 @@ const QUESTIONS = [
       "Anticoagulation does not reverse established atheroembolic ischemia.",
       "The prognosis is poor, especially with renal failure or stroke, not excellent."
     ]
+  },
+  {
+    "id": "ven-001",
+    "type": "mcq",
+    "section": "Venous Anatomy & Physiology",
+    "source": "Venous Disease, slide 4 (Venous Anatomy)",
+    "question": "In the normal lower extremity, in which direction do the perforating (communicating) veins carry blood?",
+    "options": [
+      "From the deep veins into the superficial veins",
+      "From the superficial veins into the deep veins",
+      "From the deep veins directly into the lymphatics",
+      "From the arterial system into the superficial veins"
+    ],
+    "answer": 1,
+    "why": [
+      "Backward flow from deep to superficial is what happens when perforator valves fail, not normal physiology.",
+      "Correct. Perforators connect the superficial system to the deep system, and their one-way valves direct blood from superficial into the lower-pressure deep veins.",
+      "Perforators connect superficial to deep veins, not veins to lymphatics.",
+      "Perforators are part of the venous system and do not connect arteries to veins."
+    ],
+    "explanation": "The venous system has dual superficial and deep channels. Superficial veins drain through perforating (communicating) veins into the deep veins, and one-way valves throughout ensure flow proceeds into the low-pressure deep system.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-002",
+    "type": "tf",
+    "section": "Venous Anatomy & Physiology",
+    "source": "Venous Disease, slide 6 (Venous system valves)",
+    "question": "One-way valves are present throughout most of the venous system to ensure blood flows into the low-pressure deep veins.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. One-way valves are present throughout most of the venous system and ensure flow proceeds into the low-pressure deep veins; their failure underlies varicose veins and post-thrombotic syndrome.",
+      "Incorrect. Venous valves are indeed present throughout most of the system and are essential for directing flow toward the deep veins and the heart."
+    ],
+    "explanation": "Competent one-way valves keep venous blood moving centrally into the low-pressure deep system and prevent retrograde pooling. Loss of valve competence causes venous hypertension and its sequelae.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-003",
+    "type": "mcq",
+    "section": "Venous Anatomy & Physiology",
+    "source": "Venous Disease, slide 9 (Deep Pelvic Veins)",
+    "question": "A woman develops a deep pelvic vein thrombosis after pelvic surgery. Why is this location difficult to evaluate, and what test is diagnostic?",
+    "options": [
+      "It is easily seen on compression ultrasound, which is diagnostic",
+      "It is inaccessible to physical exam and ultrasound, so MR imaging is diagnostic",
+      "It is best diagnosed by D-dimer alone with no imaging",
+      "It requires contrast venography of the foot to visualize"
+    ],
+    "answer": 1,
+    "why": [
+      "Pelvic veins are exactly the site compression ultrasound cannot reach, so this is wrong.",
+      "Correct. Deep pelvic veins are a common DVT site after pelvic surgery, postpartum, or pelvic fracture, and they are inaccessible to both physical exam and ultrasound, so MR imaging (MR venography) is diagnostic.",
+      "D-dimer cannot localize or confirm a pelvic thrombus; it only helps rule out VTE in low-risk patients.",
+      "Foot contrast venography opacifies the lower extremity deep system, not the deep pelvic veins."
+    ],
+    "explanation": "Deep pelvic veins are a site of DVT after pelvic surgery, childbirth, or pelvic fracture. Because they lie beyond the reach of physical exam and ultrasound, MR imaging is the diagnostic study.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-004",
+    "type": "mcq",
+    "section": "Varicose Veins",
+    "source": "Venous Disease, slide 14 (Primary Varicose Veins)",
+    "question": "Primary varicose veins are most directly caused by which underlying problem?",
+    "options": [
+      "Deep vein thrombosis damaging the deep venous valves",
+      "Incompetent valves in the great saphenous vein and at the saphenofemoral junction",
+      "Arterial insufficiency reducing perfusion of the leg",
+      "Lymphatic obstruction from prior lymph node dissection"
+    ],
+    "answer": 1,
+    "why": [
+      "That describes secondary varicose veins, which follow deep venous injury such as DVT.",
+      "Correct. Primary varicose veins arise from incompetent valves in the great saphenous vein and at the saphenofemoral junction. They are hereditary and seen about twice as often in women.",
+      "Varicose veins are a venous valvular problem, not an arterial perfusion problem.",
+      "Lymphatic obstruction causes lymphedema, not varicose veins."
+    ],
+    "explanation": "Primary varicose veins result from incompetent valves in the great saphenous vein and saphenofemoral junction. They are hereditary, twice as common in women, and worsened by anything that raises intraabdominal or venous pressure.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-005",
+    "type": "multi",
+    "section": "Varicose Veins",
+    "source": "Venous Disease, slide 14 (Primary Varicose Veins)",
+    "question": "Which of the following exacerbate primary varicose veins? Select all that apply.",
+    "options": [
+      "Heavy lifting",
+      "Prolonged standing",
+      "Obesity",
+      "Pregnancy",
+      "Regular aerobic exercise"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "why": [
+      "Correct. Heavy lifting raises intraabdominal pressure, which is transmitted to the leg veins.",
+      "Correct. Prolonged standing increases hydrostatic pressure in the leg veins.",
+      "Correct. Obesity raises intraabdominal pressure and venous load.",
+      "Correct. Pregnancy raises intraabdominal pressure and hormonally relaxes vein walls.",
+      "Regular aerobic exercise engages the calf muscle pump and helps venous return; it is not an aggravating factor."
+    ],
+    "explanation": "Primary varicose veins are exacerbated by heavy lifting, prolonged standing, obesity, pregnancy, and any other cause of increased intraabdominal pressure. All of these raise the pressure the venous valves must work against.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-006",
+    "type": "mcq",
+    "section": "Varicose Veins",
+    "source": "Venous Disease, slide 16 (Secondary Varicose Veins)",
+    "question": "Secondary varicose veins are typically the result of which process?",
+    "options": [
+      "Hereditary weakness of the saphenofemoral valve",
+      "Deep venous injury and incompetent perforating veins, often after DVT",
+      "Chronic arterial insufficiency",
+      "Congenital absence of venous valves at birth"
+    ],
+    "answer": 1,
+    "why": [
+      "That describes primary varicose veins, which are hereditary.",
+      "Correct. Secondary varicose veins result from deep venous injury and incompetent perforating veins, often caused by deep vein thrombosis, and are often unilateral following injury or surgery.",
+      "Varicose veins are a venous, not arterial, problem.",
+      "Congenital valve absence is not the described mechanism; secondary varicosities follow acquired deep venous injury."
+    ],
+    "explanation": "Secondary varicose veins follow deep venous injury with incompetent perforating veins, classically after DVT, and are often unilateral following injury or surgery.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-007",
+    "type": "mcq",
+    "section": "Varicose Veins",
+    "source": "Venous Disease, slide 20 (Varicose Veins Signs/Symptoms)",
+    "question": "Which symptom pattern is most characteristic of symptomatic varicose veins?",
+    "options": [
+      "Sharp calf pain that worsens with leg elevation",
+      "A dull ache or pressure in the legs after prolonged standing that is relieved by leg elevation",
+      "Sudden painless loss of the pedal pulse",
+      "Burning foot pain that is worst at night and relieved by dangling the foot"
+    ],
+    "answer": 1,
+    "why": [
+      "Varicose vein discomfort improves, not worsens, with elevation.",
+      "Correct. Varicose veins cause a dull ache or heaviness after prolonged standing that is relieved by leg elevation, and patients are prone to pedal edema and itching from eczematoid dermatitis.",
+      "Loss of a pulse is an arterial finding, not a varicose vein symptom.",
+      "Night pain relieved by dangling the foot describes critical limb ischemia (rest pain), an arterial problem."
+    ],
+    "explanation": "Symptomatic varicose veins cause a dull ache or pressure after prolonged standing, relieved by elevation, along with pedal edema and itching from eczematoid dermatitis. Over time skin atrophy, hyperpigmentation, and ulceration can develop.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-008",
+    "type": "mcq",
+    "section": "Varicose Veins",
+    "source": "Venous Disease, slide 22 (Varicose Vein Imaging)",
+    "question": "What is the imaging test of choice for diagnosing varicose veins and deep vein thrombosis?",
+    "options": [
+      "Contrast venography",
+      "Duplex Doppler ultrasonography",
+      "CT angiography",
+      "Plain radiography"
+    ],
+    "answer": 1,
+    "why": [
+      "Contrast venography is very accurate but invasive and seldom used.",
+      "Correct. Duplex Doppler ultrasound is noninvasive and is the imaging test of choice for both varicose veins and DVT. It combines M-mode imaging with blood-flow velocity estimates.",
+      "CT angiography is an arterial study and is not the test of choice for varicose veins or DVT.",
+      "Plain films do not image venous flow or clot."
+    ],
+    "explanation": "Duplex Doppler ultrasound combines standard ultrasound imaging with blood-flow velocity estimates and is the noninvasive test of choice for varicose veins and DVT. It also localizes incompetent perforating veins to guide ablation.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-009",
+    "type": "multi",
+    "section": "Varicose Veins",
+    "source": "Venous Disease, slide 23 (Varicose Veins Treatment)",
+    "question": "Which are appropriate conservative measures for varicose veins? Select all that apply.",
+    "options": [
+      "Avoid prolonged sitting or standing",
+      "Frequent leg elevation above the level of the heart",
+      "Graduated compression stockings worn during the day",
+      "Strict bed rest with the legs kept dependent"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. Avoiding prolonged sitting or standing limits venous pooling.",
+      "Correct. Elevating the legs above the heart minimizes edema.",
+      "Correct. Graduated compression stockings (usually 20-30 mm Hg) worn during the day are a mainstay of conservative care.",
+      "Bed rest with dependent legs worsens pooling; the goal is elevation and the calf muscle pump, not immobility with the legs down."
+    ],
+    "explanation": "Conservative care is first-line: avoid prolonged sitting or standing, elevate the legs frequently above the heart, and wear graduated compression stockings during the day (typically 20-30 mm Hg, or 30-40 mm Hg for venous stasis ulcers).",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-010",
+    "type": "mcq",
+    "section": "Varicose Veins",
+    "source": "Venous Disease, slide 23 (Varicose Veins Treatment)",
+    "question": "Graduated compression stockings for venous disease are contraindicated in which coexisting condition?",
+    "options": [
+      "Peripheral arterial disease",
+      "Obesity",
+      "Prior deep vein thrombosis",
+      "Chronic venous insufficiency"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Compression stockings are contraindicated in peripheral arterial disease, because external compression can further reduce already-compromised arterial inflow.",
+      "Obesity is a risk factor for varicose veins, not a contraindication to compression.",
+      "Prior DVT is a reason to use compression, not to avoid it.",
+      "Chronic venous insufficiency is treated with compression, not a contraindication."
+    ],
+    "explanation": "Graduated compression is a mainstay of venous therapy but is contraindicated in peripheral arterial disease, where added external pressure can worsen limb ischemia. Arterial inflow should be confirmed adequate before prescribing compression.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-011",
+    "type": "mcq",
+    "section": "Varicose Veins",
+    "source": "Venous Disease, slide 24 (Varicose Veins Treatment)",
+    "question": "Severely symptomatic varicosities from an incompetent communicating vein are best treated with which of the following?",
+    "options": [
+      "Lifelong oral anticoagulation",
+      "Sclerotherapy or radiofrequency ablation of the incompetent vein under ultrasound guidance",
+      "Systemic thrombolysis",
+      "Arterial bypass grafting"
+    ],
+    "answer": 1,
+    "why": [
+      "Anticoagulation treats thrombosis, not incompetent varicose veins.",
+      "Correct. After duplex ultrasound localizes the incompetent perforating vein, severely symptomatic varicosities are treated with sclerotherapy or radiofrequency (endovenous) ablation of the involved vein under ultrasound guidance.",
+      "Thrombolysis dissolves clot; it does not correct valvular incompetence.",
+      "Bypass grafting is an arterial procedure and has no role in varicose vein treatment."
+    ],
+    "explanation": "When conservative measures fail, duplex ultrasound pinpoints the incompetent perforating vein and the involved segment is ablated by sclerotherapy or radiofrequency thermal ablation under ultrasound guidance.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-012",
+    "type": "vignette",
+    "section": "Varicose Veins",
+    "source": "Venous Disease, slide 84 (Case: varicose vein workup)",
+    "question": "A 64-year-old woman reports a persistent dull ache and heaviness in her lower legs that worsens after standing at her retail job all day and improves when she elevates her legs at night. Exam shows dilated, tortuous superficial veins about 4 mm in diameter on the medial calf and mild ankle pitting edema. Which is the most appropriate initial diagnostic modality to confirm the underlying cause?",
+    "options": [
+      "Brodie-Trendelenburg bedside maneuver",
+      "Venous duplex ultrasonography",
+      "CT venography",
+      "Contrast venography"
+    ],
+    "answer": 1,
+    "why": [
+      "The Brodie-Trendelenburg maneuver is a historical bedside test that has been superseded by duplex ultrasound and does not confirm the anatomic source of reflux.",
+      "Correct. Venous duplex ultrasonography is the noninvasive test of choice; it identifies the incompetent valves and refluxing segments driving her varicosities.",
+      "CT venography is not the initial study for varicose veins and adds contrast and radiation without advantage here.",
+      "Contrast venography is invasive and seldom used; it is not the appropriate initial modality."
+    ],
+    "explanation": "This is classic symptomatic varicose vein disease. Venous duplex ultrasound is the initial test of choice, localizing valvular incompetence and reflux noninvasively and guiding any later ablation.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-013",
+    "type": "tf",
+    "section": "Superficial & Septic Thrombophlebitis",
+    "source": "Venous Disease, slide 25 (Superficial Thrombophlebitis)",
+    "question": "Superficial thrombophlebitis generally does not result in pulmonary embolism.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Superficial thrombophlebitis is an inflammatory response to thrombosis in a superficial vein and generally does not cause pulmonary embolism, although DVT must still be excluded.",
+      "Incorrect. Superficial thrombophlebitis generally does not embolize to the lungs; the concern is extension into the deep system, which is why DVT must be ruled out."
+    ],
+    "explanation": "Superficial thrombophlebitis causes an inflammatory response and generally does not cause PE. The main concern is progression into the deep venous system, so DVT must always be excluded with Doppler ultrasound.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-014",
+    "type": "mcq",
+    "section": "Superficial & Septic Thrombophlebitis",
+    "source": "Venous Disease, slide 25 (Superficial Thrombophlebitis)",
+    "question": "Migrating superficial vein thrombosis is often a marker of which underlying condition?",
+    "options": [
+      "Iron deficiency anemia",
+      "Cancer or vasculitis",
+      "Hyperthyroidism",
+      "Osteoarthritis"
+    ],
+    "answer": 1,
+    "why": [
+      "Anemia is not associated with migratory thrombophlebitis.",
+      "Correct. Migrating (migratory) superficial vein thrombosis is often a marker of an occult cancer or a vasculitis, sometimes called Trousseau sign of malignancy.",
+      "Hyperthyroidism is not linked to migratory thrombophlebitis.",
+      "Osteoarthritis has no relationship to migratory thrombophlebitis."
+    ],
+    "explanation": "Migratory superficial thrombophlebitis raises concern for an underlying malignancy or vasculitis and should prompt an appropriate workup.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-015",
+    "type": "mcq",
+    "section": "Superficial & Septic Thrombophlebitis",
+    "source": "Venous Disease, slide 25 (Superficial Thrombophlebitis)",
+    "question": "Thromboangiitis obliterans (Buerger's disease), a cause of superficial thrombophlebitis, is most strongly associated with which factor?",
+    "options": [
+      "Cigarette smoking",
+      "Diabetes mellitus",
+      "Hyperlipidemia",
+      "Chronic alcohol use"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Thromboangiitis obliterans (Buerger's disease) is strongly associated with cigarette smoking, and smoking cessation is central to management.",
+      "Diabetes is a major risk factor for atherosclerotic disease but is not the defining association of Buerger's.",
+      "Hyperlipidemia drives atherosclerosis rather than Buerger's disease.",
+      "Alcohol is not the characteristic association of Buerger's disease."
+    ],
+    "explanation": "Buerger's disease (thromboangiitis obliterans) is strongly tied to cigarette smoking. Behcet disease, an autoimmune vasculopathy with oral, eye, and genital ulcers, is another listed cause of superficial thrombophlebitis.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-016",
+    "type": "mcq",
+    "section": "Superficial & Septic Thrombophlebitis",
+    "source": "Venous Disease, slide 26 (Superficial Thrombophlebitis: Physical Exam)",
+    "question": "What is the classic physical exam finding of superficial thrombophlebitis?",
+    "options": [
+      "A cool, pulseless, pale limb",
+      "A reddened or darkened, warm, tender cord extending along a superficial vein",
+      "Painless pitting edema of the entire limb",
+      "A cold blue toe with intact proximal pulses"
+    ],
+    "answer": 1,
+    "why": [
+      "A cool, pulseless, pale limb is an acute arterial finding, not superficial thrombophlebitis.",
+      "Correct. Superficial thrombophlebitis presents as a reddened or darkened, warm, tender palpable cord along the course of a superficial vein or a varicosity.",
+      "Painless pitting edema of the whole limb suggests DVT or a systemic cause, not localized superficial phlebitis.",
+      "A blue toe with intact pulses suggests atheroembolism, not superficial thrombophlebitis."
+    ],
+    "explanation": "The hallmark of superficial thrombophlebitis is a tender, warm, erythematous palpable cord along a superficial vein or varicosity.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-017",
+    "type": "multi",
+    "section": "Superficial & Septic Thrombophlebitis",
+    "source": "Venous Disease, slide 27 (Superficial Thrombophlebitis: Treatment)",
+    "question": "Which are appropriate treatments for superficial thrombophlebitis? Select all that apply.",
+    "options": [
+      "Leg elevation and warm compresses",
+      "NSAIDs for pain",
+      "Low-molecular-weight heparin for severe disease or extension into the deep system",
+      "Routine surgical stripping of the entire superficial system"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. Leg elevation and warm compresses are standard supportive care.",
+      "Correct. NSAIDs treat the inflammatory pain.",
+      "Correct. Low-molecular-weight heparin (enoxaparin) is used in severe disease or when the process is progressing into the deep system; fondaparinux is an alternative.",
+      "Routine surgical stripping is not part of standard treatment for superficial thrombophlebitis."
+    ],
+    "explanation": "Superficial thrombophlebitis is treated with leg elevation, warm compresses, and NSAIDs, with LMWH (or fondaparinux) reserved for severe disease or extension toward the deep system. DVT must always be excluded with Doppler ultrasound.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-018",
+    "type": "mcq",
+    "section": "Superficial & Septic Thrombophlebitis",
+    "source": "Venous Disease, slide 27 (Superficial Thrombophlebitis: Treatment)",
+    "question": "By what mechanism does low-molecular-weight heparin (enoxaparin) act?",
+    "options": [
+      "It directly inhibits thrombin by binding its active site",
+      "It activates antithrombin III and inhibits factor Xa, preventing thrombin and fibrin formation",
+      "It antagonizes vitamin K-dependent clotting factor synthesis",
+      "It blocks platelet ADP receptors"
+    ],
+    "answer": 1,
+    "why": [
+      "That describes direct thrombin inhibitors; LMWH works indirectly through antithrombin III.",
+      "Correct. LMWH activates antithrombin III and thereby inhibits factor Xa, preventing the formation of thrombin and fibrin.",
+      "That describes warfarin, which inhibits vitamin K-dependent factor synthesis.",
+      "That describes antiplatelet agents such as clopidogrel, not LMWH."
+    ],
+    "explanation": "LMWH (enoxaparin) potentiates antithrombin III to inhibit factor Xa, halting conversion of prothrombin to thrombin and the formation of fibrin. Fondaparinux is a synthetic factor Xa inhibitor with no HIT risk and lower bleeding risk.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-019",
+    "type": "mcq",
+    "section": "Superficial & Septic Thrombophlebitis",
+    "source": "Venous Disease, slide 27 (Superficial Thrombophlebitis: Treatment)",
+    "question": "Which anticoagulant is a synthetic factor Xa inhibitor that carries no risk of heparin-induced thrombocytopenia (HIT)?",
+    "options": [
+      "Warfarin",
+      "Fondaparinux",
+      "Unfractionated heparin",
+      "Enoxaparin"
+    ],
+    "answer": 1,
+    "why": [
+      "Warfarin is a vitamin K antagonist and is unrelated to HIT.",
+      "Correct. Fondaparinux is a synthetic factor Xa inhibitor with no HIT risk and lower bleeding risk.",
+      "Unfractionated heparin carries the highest HIT risk of the listed agents.",
+      "Enoxaparin (LMWH) carries a lower but real HIT risk, unlike fondaparinux."
+    ],
+    "explanation": "Fondaparinux is a synthetic factor Xa inhibitor that does not cause HIT and has a lower bleeding risk, making it useful when heparin-induced thrombocytopenia is a concern.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-020",
+    "type": "tf",
+    "section": "Superficial & Septic Thrombophlebitis",
+    "source": "Venous Disease, slide 27 (Superficial Thrombophlebitis: Treatment)",
+    "question": "A patient with superficial thrombophlebitis should always have DVT excluded with Doppler ultrasound.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. DVT must always be excluded with Doppler ultrasound, because superficial thrombophlebitis can coexist with or extend into a deep vein thrombosis.",
+      "Incorrect. Excluding DVT with Doppler ultrasound is a required step; superficial phlebitis can accompany or progress to DVT."
+    ],
+    "explanation": "Because superficial thrombophlebitis can coexist with or progress into the deep system, DVT must always be excluded with Doppler ultrasound.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-021",
+    "type": "mcq",
+    "section": "Superficial & Septic Thrombophlebitis",
+    "source": "Venous Disease, slide 31 (Septic Thrombophlebitis)",
+    "question": "Septic thrombophlebitis is most commonly a complication of what?",
+    "options": [
+      "Peripheral or central venous catheters",
+      "Untreated varicose veins",
+      "Prolonged air travel",
+      "Oral contraceptive use"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Septic thrombophlebitis is a potential complication of peripheral or central venous catheters, which is why antiseptic dressing, regular dressing changes, and line changes are emphasized for prevention.",
+      "Varicose veins predispose to bland superficial thrombophlebitis, not typically the septic form.",
+      "Air travel is a DVT risk factor, not a cause of septic thrombophlebitis.",
+      "Oral contraceptives raise VTE risk but do not cause septic thrombophlebitis."
+    ],
+    "explanation": "Septic thrombophlebitis complicates peripheral or central venous catheters. Prevention centers on antiseptic technique, IV site dressing changes every 48 hours, and changing temporary central lines about every 2 weeks.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-022",
+    "type": "multi",
+    "section": "Superficial & Septic Thrombophlebitis",
+    "source": "Venous Disease, slide 32 (Septic Thrombophlebitis)",
+    "question": "Which are components of managing septic thrombophlebitis? Select all that apply.",
+    "options": [
+      "Obtain culture with sensitivity",
+      "Incision and removal of the segment of infected vein",
+      "IV antibiotics appropriate for the infection",
+      "Leave the suspected catheter in place to preserve access"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. Culture with sensitivity guides antibiotic selection.",
+      "Correct. Incision and removal of the infected vein segment is part of treatment.",
+      "Correct. IV antibiotics appropriate to the organism are given.",
+      "The suspect line must be removed and replaced, not left in place."
+    ],
+    "explanation": "Septic thrombophlebitis presents with erythema and pain at the IV site, sometimes with pus on catheter removal. Management includes culture with sensitivity, incision and removal of the infected vein segment, appropriate IV antibiotics, and removal and replacement of the suspect line.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-023",
+    "type": "vignette",
+    "section": "Superficial & Septic Thrombophlebitis",
+    "source": "Venous Disease, slide 29 (Case: endovenous ablation complication)",
+    "question": "A 38-year-old man undergoes uneventful ultrasound-guided endovenous radiofrequency ablation of the right great saphenous vein for symptomatic varicose veins. Which of the following is an uncommon but serious complication of endovenous thermal ablation that involves the deep venous system?",
+    "options": [
+      "Deep vein thrombosis adjacent to the saphenofemoral junction",
+      "Saphenous nerve transection causing permanent foot drop",
+      "Anaphylactic shock from systemic thermal tissue absorption",
+      "High-output arteriovenous fistula formation in the calf"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. DVT of the common femoral vein adjacent to the saphenofemoral junction is an uncommon but potential complication of endovenous thermal ablation, because thrombus can propagate from the treated saphenous vein into the deep system.",
+      "The saphenous nerve is sensory; its injury causes numbness, not foot drop, and this is not a deep venous complication.",
+      "Anaphylaxis from systemic thermal tissue absorption is not a recognized mechanism of thermal ablation.",
+      "High-output AV fistula is not a described complication of endovenous thermal ablation."
+    ],
+    "explanation": "Endovenous thermal ablation can rarely propagate thrombus from the treated great saphenous vein into the adjacent common femoral vein at the saphenofemoral junction, producing a deep vein thrombosis. This is the serious deep-system complication to counsel about.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-024",
+    "type": "mcq",
+    "section": "VTE Risk Factors & Pathophysiology",
+    "source": "Venous Disease, slide 36 (Virchow's Triad)",
+    "question": "Virchow's triad describes the three broad contributors to venous thrombosis. Which set names them?",
+    "options": [
+      "Hypertension, hyperlipidemia, and hyperglycemia",
+      "Venous stasis, endothelial (vessel wall) injury, and hypercoagulability",
+      "Arterial plaque, platelet aggregation, and vasospasm",
+      "Anemia, leukocytosis, and thrombocytopenia"
+    ],
+    "answer": 1,
+    "why": [
+      "Those are cardiovascular risk factors, not the elements of Virchow's triad.",
+      "Correct. Virchow's triad is venous stasis, endothelial or vessel wall injury, and hypercoagulability. Risk factors map onto these three categories.",
+      "Those describe arterial thrombosis mechanisms, not the venous triad.",
+      "Those are blood count abnormalities, not the triad."
+    ],
+    "explanation": "Virchow's triad, stasis plus endothelial injury plus hypercoagulability, organizes VTE risk factors. Immobility and surgery cause stasis and injury, while pregnancy, cancer, estrogen, and inherited thrombophilias increase coagulability.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-025",
+    "type": "multi",
+    "section": "VTE Risk Factors & Pathophysiology",
+    "source": "Venous Disease, slide 37 (VTE risk factors)",
+    "question": "Which of the following are acquired risk factors for venous thromboembolism? Select all that apply.",
+    "options": [
+      "Pregnancy",
+      "Oral contraceptives or estrogen replacement therapy",
+      "Immobility",
+      "Active cancer and chemotherapy",
+      "Factor V Leiden mutation"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "why": [
+      "Correct. Pregnancy is a major acquired VTE risk factor.",
+      "Correct. Estrogen-containing contraceptives and ERT raise VTE risk.",
+      "Correct. Immobility promotes venous stasis.",
+      "Correct. Cancer and chemotherapy are acquired hypercoagulable states.",
+      "Factor V Leiden is a congenital (inherited) risk factor, not an acquired one."
+    ],
+    "explanation": "Acquired VTE risk factors include age, pregnancy, estrogen therapy, smoking, obesity, immobility, lower-extremity surgery, cancer, and chemotherapy. Factor V Leiden and protein C or S dysfunction are congenital contributors.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-026",
+    "type": "mcq",
+    "section": "VTE Risk Factors & Pathophysiology",
+    "source": "Venous Disease, slide 40 (Venous Thromboembolism)",
+    "question": "Factor V Leiden increases thrombosis risk through which mechanism?",
+    "options": [
+      "It causes resistance to the anticoagulant activated protein C",
+      "It depletes antithrombin III",
+      "It blocks tissue plasminogen activator",
+      "It increases platelet count"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Factor V Leiden is an autosomal dominant mutation that makes factor V resistant to cleavage by activated protein C, so this natural anticoagulant cannot turn off coagulation efficiently.",
+      "Antithrombin III deficiency is a separate thrombophilia; it is not the Factor V Leiden mechanism.",
+      "Factor V Leiden does not act on tissue plasminogen activator.",
+      "Factor V Leiden does not raise the platelet count."
+    ],
+    "explanation": "Factor V Leiden is an autosomal dominant mutation causing resistance to activated protein C, so the mutated factor V escapes normal downregulation and promotes thrombosis. Protein C and S deficiency and antiphospholipid syndrome are other prothrombotic states.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-027",
+    "type": "mcq",
+    "section": "VTE Risk Factors & Pathophysiology",
+    "source": "Venous Disease, slide 39 (Sites of VTE)",
+    "question": "By the distribution taught in this lecture, what fraction of deep vein thromboses arise in the lower extremity?",
+    "options": [
+      "About 80 percent",
+      "About 50 percent",
+      "About 20 percent",
+      "About 10 percent"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. About 80 percent of DVTs occur in the lower extremity, with roughly 10 percent in the pelvis and 10 percent in the upper extremity.",
+      "50 percent understates lower-extremity predominance.",
+      "20 percent is far too low for lower-extremity DVT.",
+      "10 percent is the share attributed to pelvic and to upper-extremity DVT, not lower extremity."
+    ],
+    "explanation": "DVT distribution is roughly 80 percent lower extremity, 10 percent pelvis, and 10 percent upper extremity. About 90 percent of pulmonary emboli arise from lower-extremity DVT.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-028",
+    "type": "mcq",
+    "section": "VTE Risk Factors & Pathophysiology",
+    "source": "Venous Disease, slide 39 (Sites of VTE)",
+    "question": "Which set of conditions is most associated with upper extremity DVT?",
+    "options": [
+      "Pregnancy and pelvic surgery",
+      "Thoracic outlet syndrome, intravenous devices, and trauma",
+      "Prolonged air travel and obesity",
+      "Factor V Leiden and protein C deficiency"
+    ],
+    "answer": 1,
+    "why": [
+      "Pregnancy and pelvic surgery predispose to pelvic and lower-extremity DVT, not upper extremity.",
+      "Correct. Upper extremity DVT is associated with thoracic outlet syndrome, intravenous devices (catheters), and trauma.",
+      "Air travel and obesity are general lower-extremity DVT risks.",
+      "Inherited thrombophilias raise overall VTE risk but are not the specific upper-extremity associations listed."
+    ],
+    "explanation": "Upper extremity DVT is linked to thoracic outlet syndrome, indwelling intravenous devices, and trauma.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-029",
+    "type": "mcq",
+    "section": "DVT Clinical Features & Differential",
+    "source": "Venous Disease, slide 42 (DVT Symptoms/Signs)",
+    "question": "Which finding is described as the most specific symptom of deep vein thrombosis?",
+    "options": [
+      "Bilateral symmetric edema",
+      "Asymmetric edema",
+      "Fever",
+      "Chest pain"
+    ],
+    "answer": 1,
+    "why": [
+      "Bilateral symmetric edema points toward systemic causes such as heart, kidney, or liver disease rather than DVT.",
+      "Correct. Asymmetric (usually unilateral) edema is the most specific symptom of DVT. Leg pain occurs in about 50 percent and tenderness in about 75 percent but are nonspecific.",
+      "Fever is nonspecific and not the most specific DVT symptom.",
+      "Chest pain suggests pulmonary embolism, not the local DVT finding asked about."
+    ],
+    "explanation": "DVT symptoms are often nonspecific or absent. Asymmetric edema is the most specific symptom; leg pain (about 50 percent) and tenderness (about 75 percent) are common but nonspecific, and the Homan sign is unreliable.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-030",
+    "type": "mcq",
+    "section": "DVT Clinical Features & Differential",
+    "source": "Venous Disease, slide 42 (DVT Symptoms/Signs)",
+    "question": "What is the Homan sign, and how reliable is it for DVT?",
+    "options": [
+      "Calf pain on passive dorsiflexion of the foot; it is an unreliable sign",
+      "A palpable thrill over the femoral vein; it is highly reliable",
+      "Loss of the dorsalis pedis pulse; it is diagnostic",
+      "Blanching of the toes on elevation; it is confirmatory"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. The Homan sign is calf pain on passive dorsiflexion of the foot, but it is unreliable and cannot be used to confirm or exclude DVT.",
+      "A femoral thrill is not the Homan sign and is not a DVT finding.",
+      "Loss of the pedal pulse is an arterial finding, not the Homan sign.",
+      "Toe blanching on elevation is an arterial insufficiency test, not the Homan sign."
+    ],
+    "explanation": "The Homan sign is calf pain elicited by passive dorsiflexion of the foot. It is classically taught but unreliable, so it does not rule DVT in or out.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-031",
+    "type": "multi",
+    "section": "DVT Clinical Features & Differential",
+    "source": "Venous Disease, slide 44 (Signs of DVT)",
+    "question": "Which of the following are signs of DVT? Select all that apply.",
+    "options": [
+      "Tenderness along the course of the involved vein, sometimes with a palpable cord",
+      "Distention of superficial veins from collateral flow",
+      "Cyanosis of the limb with advanced obstruction of venous collaterals",
+      "Absent femoral and pedal pulses"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. Tenderness along the involved vein, sometimes with a palpable cord, is a sign of DVT.",
+      "Correct. Distention of superficial veins occurs as collateral flow develops.",
+      "Correct. Limb cyanosis appears only with advanced obstruction of the venous collaterals.",
+      "Absent pulses indicate arterial disease; DVT does not abolish arterial pulses until the extreme of phlegmasia with secondary arterial compromise."
+    ],
+    "explanation": "Signs of DVT include tenderness along the involved vein with a possible palpable cord, distention of superficial collateral veins, and, only in advanced collateral obstruction, limb cyanosis.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-032",
+    "type": "multi",
+    "section": "DVT Clinical Features & Differential",
+    "source": "Venous Disease, slide 45 (Lower extremity DVT differential)",
+    "question": "Which conditions belong in the differential diagnosis of a swollen, painful lower extremity that mimics DVT? Select all that apply.",
+    "options": [
+      "Calf muscle strain or contusion",
+      "Cellulitis",
+      "Lymphedema or lymphatic or iliac vein obstruction by tumor",
+      "Anasarca from heart, kidney, or liver disease",
+      "Acute appendicitis"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "why": [
+      "Correct. Calf strain, contusion, or trauma can mimic DVT.",
+      "Correct. Cellulitis causes a red, warm, tender leg resembling DVT.",
+      "Correct. Lymphedema and obstruction of the lymphatics or iliac vein by retroperitoneal tumor mimic DVT.",
+      "Correct. Bilateral leg and buttock edema (anasarca) should prompt consideration of heart, kidney, or liver disease.",
+      "Appendicitis presents with abdominal pain, not a swollen painful leg, and is not in this differential."
+    ],
+    "explanation": "The DVT differential includes calf strain or contusion, cellulitis, lymphatic or iliac vein obstruction by tumor, lymphedema, and anasarca from cardiac, renal, or hepatic disease. Bilateral symmetric edema in particular points to a systemic cause.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-033",
+    "type": "mcq",
+    "section": "DVT Clinical Features & Differential",
+    "source": "Venous Disease, slide 46 (Venous causes of leg swelling)",
+    "question": "May-Thurner syndrome, a venous cause of unilateral leg swelling, refers to which anatomic problem?",
+    "options": [
+      "Compression of the left common iliac vein by the right common iliac artery",
+      "Compression of the popliteal vein by a Baker cyst",
+      "Thrombosis of the superior vena cava by a mediastinal tumor",
+      "Reflux through an incompetent saphenofemoral junction"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. May-Thurner syndrome is compression of the left common iliac vein by the overlying right common iliac artery, causing left leg swelling and predisposing to left-sided iliofemoral DVT.",
+      "Popliteal vein compression behind the knee is a separate entity (popliteal vein compression syndrome), not May-Thurner.",
+      "SVC thrombosis by tumor is SVC syndrome, not May-Thurner.",
+      "Saphenofemoral reflux describes varicose vein disease, not May-Thurner."
+    ],
+    "explanation": "May-Thurner syndrome is compression of the left common iliac vein by the right common iliac artery, producing left leg swelling and a predisposition to left iliofemoral DVT. Klippel-Trenaunay and popliteal vein compression syndrome are other listed venous causes of leg swelling.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-034",
+    "type": "mcq",
+    "section": "DVT Diagnosis",
+    "source": "Venous Disease, slide 49 (Two-tiered assessment for DVT)",
+    "question": "The Wells criteria are used at which point in the DVT diagnostic pathway?",
+    "options": [
+      "To definitively confirm DVT without any imaging",
+      "To assign a pretest probability that guides whether to use D-dimer or proceed to imaging",
+      "To determine the duration of anticoagulation after diagnosis",
+      "To decide whether an IVC filter is needed"
+    ],
+    "answer": 1,
+    "why": [
+      "Wells is a clinical probability tool, not a confirmatory test; it never confirms DVT by itself.",
+      "Correct. The Wells criteria stratify pretest probability in a two-tiered assessment analogous to the PE approach, guiding whether a D-dimer is sufficient or imaging is required.",
+      "Anticoagulation duration is based on the clinical scenario, not the Wells score.",
+      "IVC filter decisions depend on anticoagulation contraindications or failure, not the Wells score."
+    ],
+    "explanation": "Wells criteria assign a pretest probability of DVT in a two-tiered scheme. Low-probability patients can be evaluated with a D-dimer, while higher-probability patients proceed to compression ultrasound.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-035",
+    "type": "mcq",
+    "section": "DVT Diagnosis",
+    "source": "Venous Disease, slide 51 (DVT/PE diagnosis)",
+    "question": "What is the best diagnostic tool for a suspected lower-extremity DVT?",
+    "options": [
+      "Compression ultrasound of the lower extremity",
+      "CT pulmonary angiography",
+      "D-dimer alone",
+      "Plain radiography of the leg"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Compression ultrasound (compression duplex) of the lower extremity is the best diagnostic tool for DVT; a non-compressible vein indicates clot.",
+      "CT pulmonary angiography is the best study when pulmonary embolism is suspected, not for lower-extremity DVT.",
+      "D-dimer has high negative predictive value in low-risk patients but does not confirm DVT.",
+      "Plain films do not image venous clot."
+    ],
+    "explanation": "Compression ultrasound is the best test for lower-extremity DVT. CT pulmonary angiography is preferred when PE is suspected, and D-dimer, with about 94 percent negative predictive value, is useful mainly in low-risk, previously healthy outpatients.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-036",
+    "type": "mcq",
+    "section": "DVT Diagnosis",
+    "source": "Venous Disease, slide 53 (DVT Imaging)",
+    "question": "On compression duplex ultrasound, what finding indicates a deep vein thrombosis?",
+    "options": [
+      "A vein that collapses completely with probe compression",
+      "A vein that is non-compressible with probe pressure",
+      "Absence of an arterial Doppler signal",
+      "A thickened but fully compressible vein wall"
+    ],
+    "answer": 1,
+    "why": [
+      "A vein that fully collapses with compression is normal, indicating no clot.",
+      "Correct. A non-compressible vein indicates clot; predictive value is about 95 percent for proximal DVT, though only 50 to 75 percent accurate in the calf.",
+      "DVT is a venous diagnosis; the arterial signal is not the criterion.",
+      "Wall thickening alone is not the diagnostic criterion; non-compressibility is."
+    ],
+    "explanation": "Normal veins collapse with gentle probe compression. A non-compressible vein signifies thrombus, with about 95 percent predictive value for proximal DVT but lower accuracy (50 to 75 percent) in the calf. Compression ultrasound cannot diagnose pelvic vein DVT.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-037",
+    "type": "mcq",
+    "section": "DVT Diagnosis",
+    "source": "Venous Disease, slide 53 (DVT Imaging)",
+    "question": "A patient has a suspected pelvic vein or vena caval thrombosis that compression ultrasound cannot assess. Which imaging study is most appropriate?",
+    "options": [
+      "Repeat compression ultrasound of the calf",
+      "MR venography",
+      "Chest radiograph",
+      "Echocardiography"
+    ],
+    "answer": 1,
+    "why": [
+      "Compression ultrasound cannot image pelvic or caval veins no matter how often it is repeated.",
+      "Correct. MR venography has accuracy similar to compression ultrasound and is useful for suspected thrombosis of the superior or inferior vena cava or the pelvic veins.",
+      "A chest radiograph does not evaluate pelvic or caval venous thrombosis.",
+      "Echocardiography images the heart, not the pelvic or caval veins."
+    ],
+    "explanation": "MR venography matches compression ultrasound in accuracy and, importantly, can evaluate the pelvic veins and the superior and inferior vena cava, which ultrasound cannot reach.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-038",
+    "type": "mcq",
+    "section": "DVT Diagnosis",
+    "source": "Venous Disease, slide 51 (DVT/PE diagnosis)",
+    "question": "Which statement about D-dimer testing in the DVT and PE pathway is correct?",
+    "options": [
+      "It has a high positive predictive value and confirms VTE",
+      "It has a high negative predictive value and is useful to help exclude VTE in low-risk patients",
+      "It is only valid in hospitalized patients",
+      "It replaces imaging in high-risk patients"
+    ],
+    "answer": 1,
+    "why": [
+      "D-dimer is nonspecific, so a positive result does not confirm VTE.",
+      "Correct. D-dimer has a very high negative predictive value (about 94 percent) and is most useful for excluding VTE in low-risk, previously healthy, non-hospitalized patients.",
+      "It is most useful in low-risk outpatients, not hospitalized patients, in whom it is often falsely elevated.",
+      "High-risk patients need imaging regardless of the D-dimer result."
+    ],
+    "explanation": "D-dimer's strength is its negative predictive value (about 94 percent). It helps exclude VTE in low-risk outpatients but cannot confirm it, and high-risk patients still require imaging.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-039",
+    "type": "vignette",
+    "section": "DVT Diagnosis",
+    "source": "Venous Disease, slide 86 (Case: low pretest probability PE)",
+    "question": "A 28-year-old woman has sudden pleuritic right-sided chest pain and dyspnea for 4 hours after a 14-hour flight. She takes an oral contraceptive. Vitals: T 36.8 C, P 94, RR 22, BP 118/74, SpO2 96 percent on room air. There is no calf swelling, tenderness, or erythema; lungs are clear; chest x-ray and ECG are unremarkable. Wells criteria indicate a low pretest probability (PE-unlikely). Which is the most appropriate next step?",
+    "options": [
+      "CT pulmonary angiography",
+      "D-dimer assay",
+      "Duplex ultrasonography of the lower extremities",
+      "Ventilation-perfusion lung scanning"
+    ],
+    "answer": 1,
+    "why": [
+      "CT pulmonary angiography is reserved for higher pretest probability or a positive D-dimer, not the first step in a PE-unlikely patient.",
+      "Correct. With a low pretest probability (PE-unlikely) on Wells criteria, a D-dimer assay is the appropriate next step; a normal result reliably excludes PE and avoids imaging.",
+      "Lower-extremity duplex is not the next step when the question is PE and the pretest probability is low.",
+      "V/Q scanning is a second-line imaging study, not the next step ahead of a D-dimer in a low-probability patient."
+    ],
+    "explanation": "In a hemodynamically stable patient with a PE-unlikely Wells score, a D-dimer is the correct next step. A normal D-dimer excludes PE given the high negative predictive value, sparing the patient CT contrast and radiation.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-040",
+    "type": "mcq",
+    "section": "DVT Treatment & Complications",
+    "source": "Venous Disease, slide 58 (DVT Treatment)",
+    "question": "For an uncomplicated DVT with a known, resolved provoking risk factor, what is the typical duration of anticoagulation?",
+    "options": [
+      "About 3 months",
+      "About 2 weeks",
+      "Lifelong in all cases",
+      "Until the D-dimer normalizes"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. An uncomplicated DVT with a known (provoked) risk factor is typically treated for about 3 months.",
+      "Two weeks is too short to treat an acute DVT.",
+      "Lifelong anticoagulation is reserved for ongoing risk such as active cancer, heart failure, recurrent VTE, or a persistent hypercoagulable state, not every DVT.",
+      "D-dimer normalization is not used to set the treatment duration."
+    ],
+    "explanation": "A provoked, uncomplicated DVT is treated about 3 months. Unprovoked events, PE, or atypical sites warrant 3 to 6 months or longer, and permanent anticoagulation is used with ongoing risk such as active cancer, heart failure, post-thrombotic syndrome, hypercoagulable states, or recurrent VTE.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-041",
+    "type": "multi",
+    "section": "DVT Treatment & Complications",
+    "source": "Venous Disease, slide 58 (DVT Treatment)",
+    "question": "Which situations warrant considering permanent (indefinite) anticoagulation after VTE? Select all that apply.",
+    "options": [
+      "Ongoing active cancer",
+      "Recurrent VTE",
+      "A persistent hypercoagulable state",
+      "A single provoked DVT after a resolved surgical risk"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. Active cancer is an ongoing prothrombotic risk favoring indefinite anticoagulation.",
+      "Correct. Recurrent VTE favors permanent anticoagulation.",
+      "Correct. A persistent hypercoagulable state is an ongoing risk.",
+      "A single provoked DVT with a resolved risk factor is treated for a defined course (about 3 months), not indefinitely."
+    ],
+    "explanation": "Permanent anticoagulation is considered when risk is ongoing: heart failure, active cancer, post-thrombotic syndrome, a hypercoagulable state, or recurrent VTE. A single provoked event with a resolved trigger gets a time-limited course.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-042",
+    "type": "mcq",
+    "section": "DVT Treatment & Complications",
+    "source": "Venous Disease, slide 59 (DVT Treatment)",
+    "question": "Which agents are the preferred first-line anticoagulants for most DVT according to this lecture?",
+    "options": [
+      "Direct-acting oral anticoagulants such as apixaban or rivaroxaban",
+      "Aspirin monotherapy",
+      "Warfarin started alone without bridging",
+      "Intravenous unfractionated heparin indefinitely"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Direct-acting oral anticoagulants (DOACs) such as apixaban or rivaroxaban are the preferred first-line therapy. LMWH or fondaparinux is an alternative, and LMWH bridging to warfarin is used only when DOACs are contraindicated.",
+      "Aspirin is not effective anticoagulation for DVT treatment.",
+      "Warfarin requires bridging and is used mainly when DOACs are contraindicated, discontinuing the bridge once INR is above 2.",
+      "Indefinite IV heparin is not standard outpatient DVT therapy."
+    ],
+    "explanation": "DOACs (apixaban, rivaroxaban) are first-line. LMWH (enoxaparin) or fondaparinux is an alternative, and LMWH followed by warfarin (stopping LMWH once INR is above 2) is reserved for when DOACs are contraindicated. Anticoagulants prevent thrombus propagation and let endogenous fibrinolysis work.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-043",
+    "type": "mcq",
+    "section": "DVT Treatment & Complications",
+    "source": "Venous Disease, slide 62 (Venous Gangrene)",
+    "question": "Phlegmasia cerulea dolens is best described as which of the following?",
+    "options": [
+      "A benign superficial phlebitis that resolves spontaneously",
+      "A painful blue swelling from massive venous thrombosis that occludes the main channel and collaterals, risking venous gangrene",
+      "An arterial embolus causing a cold white leg",
+      "A lymphatic obstruction causing painless swelling"
+    ],
+    "answer": 1,
+    "why": [
+      "Phlegmasia cerulea dolens is limb-threatening, not benign.",
+      "Correct. Phlegmasia cerulea dolens (painful blue inflammation) is massive venous thrombosis occluding the main venous channel and its collaterals, causing capillary stasis, impaired arterial inflow, and impending venous gangrene. Fibrinolytics are used.",
+      "It is a venous, not arterial, catastrophe, and the limb is blue and swollen rather than white.",
+      "It is not a lymphatic process and is intensely painful, not painless."
+    ],
+    "explanation": "Phlegmasia cerulea dolens is propagation of venous thrombus that occludes both the main venous channel and its collaterals. The resulting capillary stasis and impaired arterial inflow render tissue ischemic (venous gangrene), and fibrinolytics are used for impending gangrene.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-044",
+    "type": "multi",
+    "section": "DVT Treatment & Complications",
+    "source": "Venous Disease, slide 63 (IVC Filter indications)",
+    "question": "Which are accepted indications for an inferior vena cava filter? Select all that apply.",
+    "options": [
+      "A contraindication to anticoagulation, such as active GI bleed or recent CNS surgery or trauma",
+      "Documented PE despite adequate anticoagulation",
+      "Major pelvic fracture or crush and lower-extremity trauma",
+      "A first uncomplicated DVT that responds well to a DOAC"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. A contraindication to anticoagulation (active GI bleed, CNS trauma or recent surgery, preexisting coagulopathy) is a filter indication.",
+      "Correct. A PE occurring despite adequate anticoagulation is an indication.",
+      "Correct. Major pelvic fracture or crush and lower-extremity trauma, where PE mortality is high, can warrant a prophylactic filter.",
+      "A first uncomplicated DVT responding to a DOAC is treated with anticoagulation alone and does not need a filter."
+    ],
+    "explanation": "IVC filter indications include a contraindication to anticoagulation, PE despite adequate anticoagulation, and major pelvic-fracture or crush and lower-extremity trauma with high PE mortality. Anticoagulation is the default when it is safe and effective.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-045",
+    "type": "mcq",
+    "section": "DVT Treatment & Complications",
+    "source": "Venous Disease, slide 65 (Retrievable IVC filter)",
+    "question": "Why are retrievable IVC filters preferred over permanent ones when the need is temporary?",
+    "options": [
+      "Permanent filters cannot prevent pulmonary embolism",
+      "Indwelling filters are a liability for IVC occlusion after their period of need, and retrievable filters can be removed via the internal jugular vein",
+      "Retrievable filters provide lifelong anticoagulation",
+      "Permanent filters require daily warfarin"
+    ],
+    "answer": 1,
+    "why": [
+      "Both filter types are placed to prevent PE; that is not the distinction.",
+      "Correct. IVC filters become a liability for IVC occlusion once the period of PE risk has passed, so retrievable filters, which can be removed via the internal jugular vein, are preferred when the need is temporary.",
+      "Filters are mechanical and do not provide anticoagulation.",
+      "Filters do not mandate daily warfarin; that is a separate decision."
+    ],
+    "explanation": "An indwelling IVC filter risks caval occlusion once its protective period ends. Retrievable filters address this by allowing removal through the internal jugular vein after the risk of PE has resolved.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-046",
+    "type": "mcq",
+    "section": "DVT Treatment & Complications",
+    "source": "Venous Disease, slide 67 (VTE in Pregnancy)",
+    "question": "Which statement about venous thromboembolism in pregnancy is correct?",
+    "options": [
+      "VTE incidence is lower in pregnancy than in nonpregnant women",
+      "VTE incidence is 4 to 5 times higher, and the preferred treatment is LMWH continued 6 weeks postpartum",
+      "Warfarin is the preferred anticoagulant throughout pregnancy",
+      "DOACs are the first-line treatment in pregnancy"
+    ],
+    "answer": 1,
+    "why": [
+      "Pregnancy raises, not lowers, VTE risk.",
+      "Correct. VTE incidence in pregnancy is 4 to 5 times higher than in nonpregnant women, it is a leading cause of maternal death, and the preferred treatment is LMWH continued 6 weeks postpartum. Risk is increased in the early postpartum period.",
+      "Warfarin is teratogenic and is not the preferred agent in pregnancy.",
+      "DOACs are not the first-line choice in pregnancy; LMWH is preferred."
+    ],
+    "explanation": "Pregnancy raises VTE risk 4 to 5 fold and accounts for roughly 10 percent of US maternal deaths, with heightened early postpartum risk. LMWH is preferred and continued 6 weeks postpartum. V/Q scanning is used in stable patients and CTPA in unstable patients, with MR venography for pelvic vein thrombosis when compression ultrasound is negative.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-047",
+    "type": "multi",
+    "section": "DVT Prophylaxis",
+    "source": "Venous Disease, slide 69 (DVT Prophylaxis)",
+    "question": "Which are appropriate approaches to DVT prophylaxis? Select all that apply.",
+    "options": [
+      "Subcutaneous LMWH or fondaparinux",
+      "Intermittent pneumatic compression for patients with high bleeding risk",
+      "Warfarin or a DOAC for joint replacement or other high-risk procedures",
+      "Aspirin alone as effective prophylaxis"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. Subcutaneous LMWH or fondaparinux is a mainstay of pharmacologic prophylaxis.",
+      "Correct. Intermittent pneumatic compression is used when bleeding risk is high and anticoagulation is unsafe.",
+      "Correct. Warfarin or a DOAC is used for joint replacement and other high-risk procedures.",
+      "Aspirin alone is NOT effective DVT prophylaxis."
+    ],
+    "explanation": "Prophylaxis uses subcutaneous LMWH or fondaparinux, intermittent pneumatic compression for high bleeding risk, and warfarin or a DOAC for joint replacement or other high-risk procedures. Aspirin alone is not effective prophylaxis.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-048",
+    "type": "mcq",
+    "section": "DVT Prophylaxis",
+    "source": "Venous Disease, slide 71 (Caprini Score)",
+    "question": "How is the Caprini score used in perioperative VTE prevention?",
+    "options": [
+      "It estimates bleeding risk to decide on transfusion",
+      "It stratifies VTE risk so that moderate-risk and higher patients receive prophylaxis",
+      "It sets the target INR for warfarin",
+      "It predicts the duration of surgery"
+    ],
+    "answer": 1,
+    "why": [
+      "The Caprini score estimates thrombosis risk, not bleeding or transfusion need.",
+      "Correct. The Caprini score stratifies perioperative VTE risk into low, moderate, high, and very high, and moderate-risk and above receive prophylaxis.",
+      "It does not set an INR target.",
+      "It does not predict operative duration."
+    ],
+    "explanation": "The Caprini score sums risk factors to classify perioperative VTE risk from low to very high. Patients at moderate risk and above receive prophylaxis, with predicted DVT incidence rising steeply across the risk levels.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-049",
+    "type": "mcq",
+    "section": "DVT Prophylaxis",
+    "source": "Venous Disease, slide 73 (Perioperative VTE prophylaxis in Ortho Surgery)",
+    "question": "Why is perioperative VTE prophylaxis particularly emphasized in orthopedic spine and lower-extremity surgery?",
+    "options": [
+      "Because these operations rarely injure veins",
+      "Because bony and soft tissue manipulation injures veins, healing requires immobilization, and the population is older with comorbidities",
+      "Because these patients are anticoagulated preoperatively as a rule",
+      "Because these procedures never require postoperative immobility"
+    ],
+    "answer": 1,
+    "why": [
+      "These operations frequently injure veins, which is the opposite of the stem.",
+      "Correct. Spine and lower-extremity surgery injures veins through bony and soft tissue manipulation, requires immobilization for healing, and involves an older population with comorbidities. Thrombi can even form on the operating table.",
+      "Routine preoperative anticoagulation is not the reason and is not standard.",
+      "These procedures typically do require postoperative immobility, which raises risk."
+    ],
+    "explanation": "Orthopedic spine and lower-extremity surgery combines venous injury from tissue manipulation, mandatory immobilization for healing, and an aging population with comorbidities. Thrombi can form intraoperatively, so structured prophylaxis (typically 14 to 35 days) is emphasized.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-050",
+    "type": "mcq",
+    "section": "Post-Thrombotic Syndrome",
+    "source": "Venous Disease, slide 76 (Post-Thrombotic Syndrome)",
+    "question": "What is the underlying mechanism of post-thrombotic syndrome (PTS)?",
+    "options": [
+      "Arterial insufficiency from atherosclerosis",
+      "Thrombosis injures venous valves, which thicken and become incompetent, allowing retrograde flow and venous hypertension",
+      "Lymphatic channel hypoplasia present from birth",
+      "Compression of the popliteal artery by muscle"
+    ],
+    "answer": 1,
+    "why": [
+      "PTS is a venous problem, not arterial insufficiency.",
+      "Correct. In PTS, thrombosis injures the venous valves so they thicken and fail to prevent retrograde flow, producing chronic venous hypertension. Up to 40 percent of people with DVT can develop PTS.",
+      "That describes primary lymphedema (Milroy's), not PTS.",
+      "That describes an arterial compression syndrome, not PTS."
+    ],
+    "explanation": "PTS follows DVT: valve injury from thrombosis leaves the valves incompetent, so blood refluxes and venous pressure stays high. Up to 40 percent of DVT patients develop PTS, diagnosed with the Villalta scale.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-051",
+    "type": "mcq",
+    "section": "Post-Thrombotic Syndrome",
+    "source": "Venous Disease, slide 77 (Post-Thrombotic Syndrome)",
+    "question": "Which clinical scale is used to diagnose post-thrombotic syndrome, and what finding automatically indicates severe PTS?",
+    "options": [
+      "The Wells score; a positive D-dimer indicates severe PTS",
+      "The Villalta scale; the presence of a venous ulcer automatically indicates severe PTS",
+      "The Caprini score; bilateral edema indicates severe PTS",
+      "The Homan sign; a palpable cord indicates severe PTS"
+    ],
+    "answer": 1,
+    "why": [
+      "The Wells score is for DVT probability, not PTS severity, and D-dimer does not grade PTS.",
+      "Correct. The Villalta scale diagnoses PTS using symptoms and signs, and the presence of a venous ulcer automatically indicates severe PTS.",
+      "The Caprini score is for perioperative VTE risk, not PTS grading.",
+      "The Homan sign is an unreliable DVT test, not a PTS scale."
+    ],
+    "explanation": "The Villalta scale grades PTS from symptoms (pain, cramps, heaviness, paresthesia, pruritus) and signs (pretibial edema, induration, hyperpigmentation, redness, venous ectasia, pain on calf compression). A venous ulcer automatically denotes severe PTS.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-052",
+    "type": "multi",
+    "section": "Post-Thrombotic Syndrome",
+    "source": "Venous Disease, slide 79 (Post-Thrombotic Syndrome: Treatment)",
+    "question": "Which are appropriate treatments for post-thrombotic syndrome? Select all that apply.",
+    "options": [
+      "Intermittent leg elevation during the day and elevation at night",
+      "Prescription-grade graduated compression stockings if arterial inflow is adequate",
+      "Venous stents to restore flow when major veins are occluded",
+      "Strict continuous bed rest with the legs dependent"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. Intermittent leg elevation during the day and elevation at night reduce venous pressure.",
+      "Correct. Prescription-grade graduated compression (mid-foot to below the knee) is used when arterial inflow is good.",
+      "Correct. Venous stents can restore flow when major veins are occluded, though this is uncommon.",
+      "Continuous bed rest with dependent legs worsens venous pooling and is not treatment."
+    ],
+    "explanation": "PTS is managed with intermittent leg elevation, avoidance of prolonged sitting or standing, prescription graduated compression (with adequate arterial inflow confirmed), and occasionally venous stents for major vein occlusion.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-053",
+    "type": "mcq",
+    "section": "Post-Thrombotic Syndrome",
+    "source": "Venous Disease, slide 80 (Treatment of PTS ulcer)",
+    "question": "What is the Unna boot used to treat in post-thrombotic syndrome?",
+    "options": [
+      "An arterial ulcer over the lateral malleolus",
+      "A venous stasis ulcer, using a zinc oxide medicated elastic dressing to facilitate healing",
+      "An acute DVT of the femoral vein",
+      "A pulmonary embolism"
+    ],
+    "answer": 1,
+    "why": [
+      "The Unna boot is for venous ulcers, and arterial ulcers, which need improved perfusion, are typically over pressure points; compression can harm them.",
+      "Correct. The Unna boot is a zinc oxide medicated elastic dressing (with calamine, glycerin, and gelatin) that facilitates healing of a venous stasis ulcer, alongside elevation and padding of the ulcer and bony prominences.",
+      "The Unna boot does not treat acute DVT, which requires anticoagulation.",
+      "The Unna boot has no role in PE."
+    ],
+    "explanation": "The venous stasis ulcer of PTS is treated with an Unna boot, a zinc oxide medicated elastic dressing containing calamine, glycerin, and gelatin, plus elevation and padding of the ulcer, tendons, and bony prominences.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-054",
+    "type": "vignette",
+    "section": "Post-Thrombotic Syndrome",
+    "source": "Venous Disease, slide 87 (Case: venous stasis ulcer)",
+    "question": "A 58-year-old man with a DVT 10 years ago has severe bilateral lower-extremity swelling and skin thickening, with brawny indurated edema to mid-calf, dark brown hyperpigmentation, and a shallow irregular ulcer with a granulation base near the medial malleolus. Which conservative strategy provides the most effective standard of care to optimize healing of this active venous ulcer?",
+    "options": [
+      "Topical antibiotics applied to the ulcer base",
+      "A course of prophylactic oral antibiotics",
+      "Graduated compression stockings providing 30 to 40 mmHg of pressure",
+      "Continuous leg immobilization and strict bed rest"
+    ],
+    "answer": 2,
+    "why": [
+      "Topical antibiotics do not address the venous hypertension driving the ulcer and are not standard of care.",
+      "Prophylactic oral antibiotics are not indicated without infection and do not heal the ulcer.",
+      "Correct. Graduated compression at 30 to 40 mmHg counteracts venous hypertension and is the most effective standard of care for healing a venous stasis ulcer, provided arterial inflow is adequate.",
+      "Continuous immobilization and bed rest worsen venous stasis and do not heal the ulcer."
+    ],
+    "explanation": "This is a venous stasis ulcer from severe post-thrombotic syndrome. Graduated compression (30 to 40 mmHg for venous ulcers) is the cornerstone of healing, addressing the underlying venous hypertension when arterial inflow is adequate.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-055",
+    "type": "mcq",
+    "section": "Vena Cava Syndromes",
+    "source": "Venous Disease, slide 90 (Superior Vena Cava Obstruction)",
+    "question": "What is the most common cause of superior vena cava obstruction?",
+    "options": [
+      "A neoplastic process in the mediastinum, such as lung or breast cancer or lymphoma",
+      "Deep vein thrombosis of the calf",
+      "Primary varicose veins",
+      "An incompetent saphenofemoral valve"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. SVC obstruction is most often secondary to a mediastinal neoplasm such as lung cancer, breast cancer, or lymphoma; catheter-related thrombosis and fibrosing mediastinitis are other causes.",
+      "Calf DVT does not cause SVC obstruction.",
+      "Varicose veins are a lower-extremity superficial problem unrelated to the SVC.",
+      "Saphenofemoral incompetence causes varicose veins, not SVC obstruction."
+    ],
+    "explanation": "SVC obstruction is usually caused by a mediastinal malignancy (lung, breast, lymphoma) or a mediastinal mass, with catheter-related thrombosis and stenosis and inflammatory or fibrotic mediastinitis (TB, histoplasmosis) as other causes.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-056",
+    "type": "mcq",
+    "section": "Vena Cava Syndromes",
+    "source": "Venous Disease, slide 91 (SVC Obstruction: Clinical presentation)",
+    "question": "Which presentation is most characteristic of superior vena cava syndrome?",
+    "options": [
+      "Edema of the face, neck, and arms with prominent veins on the chest and neck",
+      "Unilateral calf swelling with a palpable cord",
+      "Painless swelling maximal on the dorsum of the foot",
+      "Cold, pulseless lower extremities"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. SVC syndrome causes edema of the face, neck, and arms, prominent collateral veins on the chest and neck, headache, and dyspnea or cough as venous drainage of the head, neck, and upper extremities is obstructed.",
+      "Unilateral calf swelling with a cord suggests lower-extremity DVT, not SVC syndrome.",
+      "Painless foot-dorsum swelling suggests lymphedema.",
+      "Cold, pulseless legs indicate arterial disease, not SVC obstruction."
+    ],
+    "explanation": "SVC syndrome obstructs venous drainage from the head, neck, and upper extremities, producing facial, neck, and arm edema, prominent chest and neck collateral veins, headache, and shortness of breath or cough.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-057",
+    "type": "mcq",
+    "section": "Vena Cava Syndromes",
+    "source": "Venous Disease, slide 94 (Inferior Vena Cava Obstruction)",
+    "question": "Which finding is characteristic of inferior vena cava obstruction, and what has become an increasingly common cause?",
+    "options": [
+      "Dilated venous collaterals of the abdominal wall; an occluded IVC filter",
+      "Facial and arm edema; a mediastinal mass",
+      "A palpable cord in the calf; superficial thrombophlebitis",
+      "Absent femoral pulses; aortic dissection"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. IVC obstruction produces dilated venous collaterals of the abdominal wall, and an occluded IVC filter has recently become a more common cause, alongside tumor compression or invasion and retroperitoneal inflammation.",
+      "Facial and arm edema with a mediastinal mass describe SVC, not IVC, obstruction.",
+      "A calf cord describes superficial thrombophlebitis, not IVC obstruction.",
+      "Absent femoral pulses point to arterial disease, not IVC obstruction."
+    ],
+    "explanation": "IVC obstruction shares etiologies with SVC obstruction (tumor compression or invasion, retroperitoneal inflammation) and increasingly follows an occluded IVC filter. The hallmark finding is dilated abdominal wall venous collaterals.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "ven-058",
+    "type": "mcq",
+    "section": "Vena Cava Syndromes",
+    "source": "Venous Disease, slide 94 (Inferior Vena Cava Obstruction)",
+    "question": "What is the general treatment approach to malignant vena cava obstruction?",
+    "options": [
+      "Observation alone",
+      "Tumor irradiation or chemotherapy followed by a venous stent and anticoagulation, and removal of an obstructed IVC filter when relevant",
+      "Immediate open surgical bypass in all cases",
+      "Compression stockings only"
+    ],
+    "answer": 1,
+    "why": [
+      "Symptomatic caval obstruction is not managed by observation alone.",
+      "Correct. Treatment is tumor irradiation or chemotherapy followed by a venous stent and anticoagulation, plus removal of an obstructed IVC filter when that is the cause. SVC syndrome is similarly managed with balloon dilation and stenting.",
+      "Open bypass is not the routine approach; endovascular stenting is preferred.",
+      "Compression stockings do not relieve central caval obstruction."
+    ],
+    "explanation": "Malignant caval obstruction is treated by reducing tumor burden with irradiation or chemotherapy, then restoring flow with a venous stent and anticoagulation. An obstructed IVC filter is removed. SVC syndrome is managed with balloon dilation and stenting.",
+    "class": "Cardiology",
+    "lecture": "Venous Disease"
+  },
+  {
+    "id": "lym-001",
+    "type": "multi",
+    "section": "Lymphatic System",
+    "source": "Lymphatic Disease, slide 97 (Lymphatic System)",
+    "question": "Which of the following are functions of the lymphatic system? Select all that apply.",
+    "options": [
+      "Balancing the volume of interstitial fluid",
+      "Immune surveillance by moving antigens and leukocytes to lymph nodes",
+      "Transporting interstitial fluid, immune cells, bacteria, and fats toward the heart",
+      "Pumping oxygenated blood to the systemic arteries"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. The lymphatics balance interstitial fluid volume by returning excess filtrate to the circulation.",
+      "Correct. They provide immune surveillance, carrying antigens and leukocytes to lymph nodes.",
+      "Correct. They transport interstitial fluid, immune cells, bacteria, and dietary fats toward the heart.",
+      "Pumping oxygenated blood to the arteries is the function of the left heart, not the lymphatic system."
+    ],
+    "explanation": "The lymphatic system balances interstitial fluid, performs immune surveillance by delivering antigens and leukocytes to lymph nodes, and transports fluid, immune cells, bacteria, and fats centrally. Structurally it follows venous pathways from peripheral capillaries into the main lymph trunks and ultimately the subclavian veins.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-002",
+    "type": "mcq",
+    "section": "Lymphatic System",
+    "source": "Lymphatic Disease, slide 97 (Lymphatic System)",
+    "question": "Where does the lymphatic system ultimately return lymph to the bloodstream?",
+    "options": [
+      "The subclavian veins",
+      "The pulmonary artery",
+      "The renal arteries",
+      "The coronary sinus"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Lymph generally follows the venous pathways from peripheral capillaries into the main lymph trunks and ultimately drains into the subclavian veins.",
+      "The pulmonary artery carries deoxygenated blood from the right ventricle, not lymph.",
+      "The renal arteries supply the kidneys and receive no lymphatic drainage.",
+      "The coronary sinus drains cardiac venous blood into the right atrium, not lymph."
+    ],
+    "explanation": "Lymphatic channels parallel the venous system, coalescing into the main lymph trunks that empty into the subclavian veins, returning filtered interstitial fluid to the circulation.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-003",
+    "type": "matching",
+    "section": "Lymphedema",
+    "source": "Lymphatic Disease, slide 98 (Primary Lymphedema)",
+    "question": "Match each form of primary lymphedema to its defining feature.",
+    "pairs": [
+      {
+        "left": "Congenital (Milroy's disease)",
+        "right": "Present from birth, from hypoplasia of the lymphatics",
+        "why": "Milroy's disease is congenital primary lymphedema caused by hypoplasia of the lymphatics."
+      },
+      {
+        "left": "Lymphedema praecox (Meige's disease)",
+        "right": "Onset at puberty, with a female-to-male ratio of about 3.5 to 1",
+        "why": "Lymphedema praecox (Meige's disease) begins around puberty and predominates in females (about 3.5 to 1)."
+      },
+      {
+        "left": "Lymphedema tarda",
+        "right": "Onset after age 35, affecting females and males equally",
+        "why": "Lymphedema tarda begins after age 35 and affects the sexes about equally."
+      }
+    ],
+    "explanation": "Primary lymphedema has three classic forms by age of onset: congenital (Milroy's) from lymphatic hypoplasia, praecox (Meige's) at puberty with female predominance, and tarda after age 35 with equal sex distribution.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-004",
+    "type": "mcq",
+    "section": "Lymphedema",
+    "source": "Lymphatic Disease, slide 98 (Primary Lymphedema)",
+    "question": "Congenital primary lymphedema (Milroy's disease) results from which abnormality?",
+    "options": [
+      "Hypoplasia of the lymphatics",
+      "Metastatic tumor in the lymph nodes",
+      "Surgical lymph node dissection",
+      "Filarial nematode infection"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Milroy's disease is congenital primary lymphedema caused by hypoplasia of the lymphatics.",
+      "Nodal metastasis is a cause of secondary lymphedema, not congenital Milroy's disease.",
+      "Lymph node dissection causes secondary lymphedema.",
+      "Filariasis is a cause of secondary lymphedema, not congenital Milroy's disease."
+    ],
+    "explanation": "Milroy's disease is the congenital form of primary lymphedema, arising from hypoplasia of the lymphatic channels.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-005",
+    "type": "multi",
+    "section": "Lymphedema",
+    "source": "Lymphatic Disease, slide 99 (Secondary Lymphedema)",
+    "question": "Which of the following are causes of secondary lymphedema? Select all that apply.",
+    "options": [
+      "Lymph node tumor metastasis (breast cancer, melanoma, lymphoma, prostate, uterine)",
+      "Lymphadenectomy and radiation therapy",
+      "Filariasis from nematodes transmitted by mosquitoes",
+      "Congenital hypoplasia of the lymphatics"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. Metastatic tumor in lymph nodes (breast, melanoma, lymphoma, prostate, uterine) obstructs lymphatic drainage.",
+      "Correct. Lymphadenectomy and radiation, including saphenous vein harvest for CABG, damage lymphatics.",
+      "Correct. Filariasis, from mosquito-borne nematodes, is a major worldwide cause of secondary lymphedema.",
+      "Congenital lymphatic hypoplasia is primary lymphedema (Milroy's), not secondary."
+    ],
+    "explanation": "Secondary lymphedema follows damage or obstruction of previously normal lymphatics: nodal metastasis, lymphadenectomy and radiation, surgical injury, recurrent lymphangitis, filariasis, podoconiosis, and chronic venous insufficiency.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-006",
+    "type": "mcq",
+    "section": "Lymphedema",
+    "source": "Lymphatic Disease, slide 99 (Secondary Lymphedema)",
+    "question": "Filariasis, a worldwide cause of secondary lymphedema, is transmitted by what?",
+    "options": [
+      "Mosquitoes and other arthropods carrying nematodes",
+      "Contaminated drinking water carrying protozoa",
+      "Direct person-to-person respiratory spread",
+      "Walking barefoot on silica-rich soil"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Filariasis is caused by nematodes transmitted by mosquitoes and other arthropods.",
+      "Waterborne protozoa are not the mechanism of filariasis.",
+      "Filariasis is vector-borne, not spread respiratorily person to person.",
+      "Walking barefoot on soil describes podoconiosis, a separate cause of secondary lymphedema."
+    ],
+    "explanation": "Filariasis is caused by nematodes transmitted by mosquitoes and other arthropods. Podoconiosis, by contrast, is an inflammatory reaction to soil silica and aluminum from walking barefoot.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-007",
+    "type": "mcq",
+    "section": "Lymphedema",
+    "source": "Lymphatic Disease, slide 101 (Lymphedema clinical features)",
+    "question": "Which description best fits the clinical presentation of lymphedema?",
+    "options": [
+      "Painful pitting edema that resolves fully with elevation",
+      "Painless edema, non-pitting in late stages, maximal on the dorsum of the foot or hands, without varicosities or stasis pigmentation",
+      "A red, warm, tender cord along a superficial vein",
+      "Sudden unilateral calf swelling after a long flight"
+    ],
+    "answer": 1,
+    "why": [
+      "Lymphedema is painless and, in late stages, non-pitting, and it does not fully resolve with elevation.",
+      "Correct. Lymphedema is painless, becomes non-pitting in late stages, is maximal on the dorsum of the foot or hands, and lacks the varicosities and stasis pigmentation seen in venous disease.",
+      "A tender cord along a vein describes superficial thrombophlebitis, not lymphedema.",
+      "Sudden unilateral calf swelling after a flight suggests DVT, not lymphedema."
+    ],
+    "explanation": "Lymphedema causes painless swelling that becomes non-pitting in late stages, is maximal on the dorsum of the foot or hands, and lacks varicosities and stasis pigmentation. Unlike venous edema, it does not respond well to elevation.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-008",
+    "type": "mcq",
+    "section": "Lymphedema",
+    "source": "Lymphatic Disease, slide 102 (Stemmer's Sign)",
+    "question": "A positive Stemmer's sign, which supports a diagnosis of lymphedema, refers to what finding?",
+    "options": [
+      "Inability to pinch and lift a skin fold at the base of the second toe",
+      "Calf pain on passive dorsiflexion of the foot",
+      "A palpable thrill over the saphenofemoral junction",
+      "Blanching of the skin on firm pressure that refills slowly"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. A positive Stemmer's sign is the inability to pinch and lift a skin fold at the base of the toe, reflecting the thickened, fibrotic skin of lymphedema.",
+      "That is the Homan sign, associated with DVT, not lymphedema.",
+      "A saphenofemoral thrill is not Stemmer's sign and is not a lymphedema finding.",
+      "Slow capillary refill is a perfusion test, not Stemmer's sign."
+    ],
+    "explanation": "Stemmer's sign is the inability to tent or pinch a fold of skin at the base of the toe (or finger), reflecting the skin thickening of lymphedema. A positive sign supports lymphedema over other causes of swelling.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-009",
+    "type": "mcq",
+    "section": "Lymphedema",
+    "source": "Lymphatic Disease, slide 78 (PTS differential: lymphedema)",
+    "question": "How does lymphedema classically differ from venous edema on examination?",
+    "options": [
+      "Lymphedema pits deeply and resolves overnight with elevation",
+      "Lymphedema tends to be non-pitting and does not respond well to elevation",
+      "Lymphedema always spares the dorsum of the foot",
+      "Lymphedema is always accompanied by stasis pigmentation"
+    ],
+    "answer": 1,
+    "why": [
+      "Late lymphedema is non-pitting and does not resolve overnight with elevation.",
+      "Correct. Lymphedema tends to be non-pitting and, unlike venous edema, does not respond well to elevation, which helps distinguish it in the differential of leg swelling.",
+      "Lymphedema is actually maximal on the dorsum of the foot rather than sparing it.",
+      "Stasis pigmentation and varicosities are features of venous disease and do not occur in lymphedema."
+    ],
+    "explanation": "In the differential of leg swelling, lymphedema is non-pitting and does not respond to elevation, in contrast to venous edema, and it lacks the varicosities and stasis pigmentation of venous disease.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-010",
+    "type": "mcq",
+    "section": "Lymphedema",
+    "source": "Lymphatic Disease, slide 103 (Lymphedema: Treatment)",
+    "question": "What is the mainstay of treatment for lymphedema?",
+    "options": [
+      "Long-term systemic anticoagulation",
+      "Strict skin hygiene plus graduated compression stockings or gloves and intermittent pneumatic compression",
+      "Routine surgical lymph node dissection",
+      "High-dose diuretics as monotherapy"
+    ],
+    "answer": 1,
+    "why": [
+      "Anticoagulation treats thrombosis, not lymphedema.",
+      "Correct. Lymphedema care centers on strict skin hygiene and protective measures plus early graduated compression stockings or gloves and intermittent pneumatic compression devices.",
+      "Lymph node dissection can cause lymphedema and is not a treatment for it.",
+      "Diuretics alone are ineffective for lymphedema and are not the mainstay."
+    ],
+    "explanation": "Lymphedema treatment emphasizes strict skin hygiene and protection to prevent infection, plus early intervention with graduated compression stockings or gloves and intermittent pneumatic compression.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-011",
+    "type": "vignette",
+    "section": "Lymphedema",
+    "source": "Lymphatic Disease, slide 105 (Case: Stemmer's sign at puberty)",
+    "question": "A 19-year-old woman has asymmetric swelling of her right lower extremity that began around puberty, started in the foot, and has slowly progressed up the leg. Exam shows a positive Stemmer's sign. What is the most likely diagnosis?",
+    "options": [
+      "Congenital lymphedema (Milroy's disease)",
+      "Lymphedema praecox (Meige's disease)",
+      "Lymphedema tarda",
+      "Secondary podoconiosis"
+    ],
+    "answer": 1,
+    "why": [
+      "Milroy's disease is congenital and present from birth, not first appearing at puberty.",
+      "Correct. Onset at puberty in a young woman with a positive Stemmer's sign is classic for lymphedema praecox (Meige's disease), which has a female predominance of about 3.5 to 1.",
+      "Lymphedema tarda begins after age 35, not at puberty.",
+      "Podoconiosis is secondary lymphedema from walking barefoot on silica-rich soil, which does not fit a pubertal-onset primary presentation."
+    ],
+    "explanation": "Primary lymphedema beginning at puberty in a young woman is lymphedema praecox (Meige's disease), the most common primary form, with a female-to-male ratio of about 3.5 to 1. A positive Stemmer's sign supports lymphedema.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-012",
+    "type": "mcq",
+    "section": "Lymphangitis",
+    "source": "Lymphatic Disease, slide 106 (Lymphangitis)",
+    "question": "What is lymphangitis?",
+    "options": [
+      "Infection of a lymphatic vessel related to bacterial entry through the skin or deep tissue",
+      "Malignant infiltration of the lymph nodes",
+      "Congenital absence of lymphatic valves",
+      "Thrombosis of a deep vein"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Lymphangitis is infection of a lymphatic vessel following bacterial entry through the skin or deep tissue, often via lacerations, burns, or bites.",
+      "Malignant nodal infiltration causes secondary lymphedema, not lymphangitis.",
+      "Congenital valve absence relates to primary lymphedema, not infectious lymphangitis.",
+      "Deep vein thrombosis is a venous, not lymphatic infection, diagnosis."
+    ],
+    "explanation": "Lymphangitis is infection of a lymphatic vessel after bacteria enter through the skin or deep tissue. Common portals include skin lacerations and abrasions, burns, and bites from humans, other mammals, or insects.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-013",
+    "type": "multi",
+    "section": "Lymphangitis",
+    "source": "Lymphatic Disease, slide 106 (Lymphangitis)",
+    "question": "Which are common portals of entry for the bacteria that cause lymphangitis? Select all that apply.",
+    "options": [
+      "Skin lacerations and abrasions",
+      "Burns",
+      "Bites from humans, other mammals, or insects",
+      "Inhalation of airborne spores"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. Skin lacerations and abrasions are common portals of entry.",
+      "Correct. Burns disrupt the skin barrier and are a recognized portal.",
+      "Correct. Bites from humans, other mammals, and insects introduce bacteria.",
+      "Airborne spore inhalation is a respiratory route and is not a portal for lymphangitis."
+    ],
+    "explanation": "Bacteria causing lymphangitis enter through skin lacerations or abrasions, burns, and bites from humans, other mammals, or insects.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-014",
+    "type": "mcq",
+    "section": "Lymphangitis",
+    "source": "Lymphatic Disease, slide 107 (Lymphangitis)",
+    "question": "What is the classic physical finding of lymphangitis?",
+    "options": [
+      "A painless plaque with central clearing",
+      "An erythematous streak tracking upstream from a focus of infection along an inflamed lymph vessel",
+      "A cold, cyanotic toe with intact pulses",
+      "A palpable pulsatile abdominal mass"
+    ],
+    "answer": 1,
+    "why": [
+      "A painless target-like plaque is not the finding of lymphangitis.",
+      "Correct. Lymphangitis produces a typical erythematous streak, the inflamed lymph vessel, tracking upstream (proximally) from a focus of infection, often with tender regional lymph nodes.",
+      "A cold cyanotic toe with intact pulses suggests atheroembolism, not lymphangitis.",
+      "A pulsatile abdominal mass suggests an aortic aneurysm, unrelated to lymphangitis."
+    ],
+    "explanation": "The hallmark of lymphangitis is a tender erythematous streak running proximally from the site of infection along the inflamed lymphatic vessel, often with enlarged, tender regional lymph nodes.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-015",
+    "type": "mcq",
+    "section": "Lymphangitis",
+    "source": "Lymphatic Disease, slide 108 (Lymphangitis: Pathogens)",
+    "question": "Which organisms are the most common causes of lymphangitis?",
+    "options": [
+      "Streptococcus or Staphylococcus species",
+      "Pseudomonas aeruginosa",
+      "Pasteurella multocida",
+      "Aeromonas species"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Streptococcus and Staphylococcus species are the most common causes of lymphangitis.",
+      "Pseudomonas is a listed but less common cause, not the most common.",
+      "Pasteurella is associated specifically with dog or cat bites, not the most common overall.",
+      "Aeromonas is associated with water exposure, not the most common overall cause."
+    ],
+    "explanation": "Streptococcus and Staphylococcus are the most common causes of lymphangitis. Specific exposures point to other organisms: dog or cat bites to Pasteurella, human bites to Eikenella corrodens, and water exposure to Aeromonas.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-016",
+    "type": "matching",
+    "section": "Lymphangitis",
+    "source": "Lymphatic Disease, slide 108 (Lymphangitis: Pathogens)",
+    "question": "Match each exposure to the organism it classically suggests in lymphangitis or related soft-tissue infection.",
+    "pairs": [
+      {
+        "left": "Dog or cat bite",
+        "right": "Pasteurella",
+        "why": "Dog and cat bites classically introduce Pasteurella."
+      },
+      {
+        "left": "Human bite",
+        "right": "Eikenella corrodens",
+        "why": "Human bites are associated with Eikenella corrodens (along with Staphylococcus, Streptococcus, and Corynebacterium)."
+      },
+      {
+        "left": "Water exposure",
+        "right": "Aeromonas",
+        "why": "Aeromonas is linked to water exposure."
+      },
+      {
+        "left": "Mosquito-borne nematode",
+        "right": "Wuchereria",
+        "why": "Wuchereria is a mosquito-transmitted nematode."
+      }
+    ],
+    "explanation": "Exposure history guides the likely organism: dog or cat bites suggest Pasteurella, human bites Eikenella corrodens, water exposure Aeromonas, and mosquito-borne nematode infection Wuchereria.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-017",
+    "type": "multi",
+    "section": "Lymphangitis",
+    "source": "Lymphatic Disease, slide 109 (Lymphangitis: Treatment)",
+    "question": "Which are components of lymphangitis treatment? Select all that apply.",
+    "options": [
+      "Moist warm compresses and elevation of the infected limb",
+      "IV antibiotics transitioned to oral antibiotics",
+      "Vancomycin for MRSA in the inpatient setting",
+      "Withholding all antibiotics pending blood cultures"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. Moist warm compresses and elevation of the infected limb are supportive measures.",
+      "Correct. IV antibiotics are given and then transitioned to oral therapy.",
+      "Correct. For MRSA, inpatient treatment is vancomycin; oral options include TMP-SMX, clindamycin, or minocycline.",
+      "Antibiotics are started empirically, not withheld; blood cultures are uncommonly positive and should not delay therapy."
+    ],
+    "explanation": "Lymphangitis is treated with moist warm compresses, limb elevation, and IV antibiotics transitioned to oral (penicillin G, amoxicillin-clavulanate, ceftriaxone, cefuroxime, or others). For MRSA, use vancomycin inpatient or TMP-SMX, clindamycin, or minocycline orally.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-018",
+    "type": "multi",
+    "section": "Lymphangitis",
+    "source": "Lymphatic Disease, slide 110 (Lymphangitis: Treatment)",
+    "question": "Which factors increase the risk or severity of lymphangitis? Select all that apply.",
+    "options": [
+      "Diabetes mellitus and immunocompromised states",
+      "Lesions of the hands, feet, and face as portals of entry",
+      "Preexisting lymphedema",
+      "Regular use of graduated compression stockings"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. Diabetes and immunocompromised states increase risk.",
+      "Correct. Hand, foot, and face lesions warrant increased vigilance, and deep soft-tissue compartments and relatively avascular tendons are more vulnerable.",
+      "Correct. Preexisting lymphedema allows bacteria to evade neutrophils and lymphocytes.",
+      "Compression stockings are a treatment measure and do not increase lymphangitis risk."
+    ],
+    "explanation": "Risk is higher with diabetes, immunocompromise, and preexisting lymphedema (which lets bacteria evade immune cells). Hand, foot, and face lesions deserve extra vigilance because deep compartments and avascular tendons are vulnerable.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "lym-019",
+    "type": "vignette",
+    "section": "Lymphangitis",
+    "source": "Lymphatic Disease, slide 112 (Case: linear streaks after shin abrasion)",
+    "question": "A 24-year-old man has worsening pain and swelling in the left lower leg 3 days after scraping his shin while hiking. T 101.1 F, P 92, BP 120/78. Exam shows a small crusted abrasion on the anterior tibia with several distinct erythematous tender linear streaks extending proximally toward the groin and tender enlarged left inguinal lymph nodes. Which best describes the most likely organism and appropriate initial empiric management?",
+    "options": [
+      "Sporothrix schenckii; start oral itraconazole",
+      "Streptococcus pyogenes; start empiric antibiotics covering Gram-positive cocci",
+      "Staphylococcus aureus; perform urgent surgical incision and drainage",
+      "Mycobacterium marinum; obtain a skin biopsy and defer antibiotics pending culture"
+    ],
+    "answer": 1,
+    "why": [
+      "Sporotrichosis (Sporothrix) causes nodular lymphocutaneous lesions over weeks after plant or soil inoculation, not an acute febrile streaking infection after a simple abrasion.",
+      "Correct. Acute lymphangitis with tender proximal streaks and regional adenopathy after a skin break is most often Streptococcus pyogenes, and empiric antibiotics covering Gram-positive cocci are the appropriate initial management.",
+      "Without an abscess, urgent incision and drainage is not the initial step; empiric antibiotics are.",
+      "Mycobacterium marinum causes an indolent infection after aquatic or aquarium exposure, and deferring antibiotics in this acutely febrile patient is inappropriate."
+    ],
+    "explanation": "Acute lymphangitis, erythematous streaks tracking proximally from a skin break with tender regional nodes, is most commonly caused by Streptococcus pyogenes. Empiric antibiotics covering Gram-positive cocci are the correct initial management.",
+    "class": "Cardiology",
+    "lecture": "Lymphatic Disease"
   }
 ];
 

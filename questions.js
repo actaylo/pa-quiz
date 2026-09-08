@@ -11181,6 +11181,1121 @@ const QUESTIONS = [
       "SVR rises and renin rises in compensation, not falls.",
       "Heart rate rises, not falls, during compensation for hypotension."
     ]
+  },
+  {
+    "id": "aad-001",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Arterial Pathophysiology",
+    "source": "Aortic & Arterial Disease, slide 90 (Aneurysmal vs atherosclerotic disease)",
+    "question": "Which pathophysiologic process most distinguishes aneurysmal arterial disease from atherosclerosis?",
+    "options": [
+      "Proteolytic degradation of the arterial wall connective tissue, with loss of elastin and collagen",
+      "Proliferation of atheroma and smooth muscle narrowing the lumen",
+      "Deposition of calcium in the coronary arteries",
+      "Formation of a platelet-rich thrombus over a ruptured plaque"
+    ],
+    "answer": 0,
+    "explanation": "Aneurysmal disease involves weakening and thinning of the arterial wall from proteolytic breakdown of elastin and collagen (driven by matrix metalloproteinases), which is a genetically influenced process distinct from the atheroma proliferation of atherosclerosis. The two share risk factors but are different disease mechanisms.",
+    "why": [
+      "Correct. Proteolysis of wall connective tissue with loss of elastin and collagen defines aneurysmal disease.",
+      "Atheroma and smooth muscle proliferation describes stenotic atherosclerosis, not aneurysm formation.",
+      "Coronary calcification is a marker of atherosclerosis, not the defining aneurysm mechanism.",
+      "Thrombus over a ruptured plaque is an atherothrombotic event, not aneurysmal degeneration."
+    ]
+  },
+  {
+    "id": "aad-002",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Arterial Pathophysiology",
+    "source": "Aortic & Arterial Disease, slide 102 (Mechanism of dissection)",
+    "question": "What is the defining mechanism of an arterial dissection?",
+    "options": [
+      "The intima is sheared away from the media, creating true and false lumens",
+      "The entire arterial wall dilates uniformly beyond normal dimensions",
+      "Atheroma proliferates and narrows the lumen",
+      "The vessel wall calcifies and becomes rigid"
+    ],
+    "answer": 0,
+    "explanation": "In dissection, a tear or intramural hemorrhage separates the intima from the media, so blood tracks between the wall layers and creates a true and a false lumen. This differs mechanically from aneurysmal dilation. Causes include hypertension, connective tissue disorders, and trauma.",
+    "why": [
+      "Correct. Separation of the intima from the media forming true and false lumens defines dissection.",
+      "Uniform dilation beyond normal dimensions describes an aneurysm, not a dissection.",
+      "Luminal narrowing from atheroma describes stenotic atherosclerosis.",
+      "Wall calcification is a feature of atherosclerosis, not the dissection mechanism."
+    ]
+  },
+  {
+    "id": "aad-003",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Arterial Pathophysiology",
+    "source": "Aortic & Arterial Disease, slide 85 (Matrix metalloproteinase)",
+    "question": "Overexpression of matrix metalloproteinase (MMP) contributes to aneurysm formation because MMP does what?",
+    "options": [
+      "Breaks down elastin and collagen in the arterial wall",
+      "Deposits cholesterol within the intima",
+      "Promotes platelet aggregation on the endothelium",
+      "Increases nitric oxide release from the endothelium"
+    ],
+    "answer": 0,
+    "explanation": "Matrix metalloproteinases are enzymes that degrade elastin and collagen. Their overexpression weakens the structural connective tissue of the arterial wall, predisposing to aneurysmal dilation.",
+    "why": [
+      "Correct. MMP degrades elastin and collagen, weakening the wall.",
+      "Cholesterol deposition is an atherosclerotic process, not the action of MMP.",
+      "Platelet aggregation relates to thrombosis, not MMP-driven wall breakdown.",
+      "MMP breaks down structural proteins; it does not increase nitric oxide."
+    ]
+  },
+  {
+    "id": "aad-004",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Arterial Pathophysiology",
+    "source": "Aortic & Arterial Disease, slide 13 (Endothelial dysfunction)",
+    "question": "The vascular endothelium controls smooth muscle tone largely by releasing which potent vasodilator, whose loss is central to endothelial dysfunction and atherogenesis?",
+    "options": [
+      "Nitric oxide",
+      "Endothelin-1",
+      "Thromboxane A2",
+      "Angiotensin II"
+    ],
+    "answer": 0,
+    "explanation": "The endothelium regulates arterial and arteriolar dilation mainly through nitric oxide (along with prostacyclin). Loss of this physiologic control is loosely termed endothelial dysfunction, and endothelial injury initiates atherogenesis.",
+    "why": [
+      "Correct. Nitric oxide is the potent endothelial vasodilator whose loss drives dysfunction.",
+      "Endothelin-1 is a vasoconstrictor, the opposite effect.",
+      "Thromboxane A2 causes vasoconstriction and platelet aggregation.",
+      "Angiotensin II is a circulating vasoconstrictor, not the endothelial vasodilator."
+    ]
+  },
+  {
+    "id": "aad-005",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Arterial Pathophysiology",
+    "source": "Aortic & Arterial Disease, slide 12 (Sequelae of atherosclerosis)",
+    "question": "Disruption of an atherosclerotic plaque can lead to which of the following? Select all that apply.",
+    "options": [
+      "Transient ischemic attack from embolized platelet aggregate or atheroma",
+      "Unstable angina or NSTEMI from partial coronary occlusion",
+      "STEMI or thrombotic stroke from total thrombotic occlusion",
+      "Aneurysmal dilation of the vessel from loss of elastin"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Plaque disruption can shed emboli (platelet aggregate, atheroma, or thrombus) causing TIA or atheroembolism, cause partial occlusion producing unstable angina or NSTEMI, or cause total thrombotic occlusion producing STEMI or thrombotic stroke. Aneurysmal dilation is a separate, proteolytic process, not a direct sequela of plaque rupture.",
+    "why": [
+      "Correct. Embolized plaque debris can produce a TIA.",
+      "Correct. Partial occlusion produces unstable angina or NSTEMI.",
+      "Correct. Total thrombotic occlusion produces STEMI or thrombotic stroke.",
+      "Incorrect. Aneurysm formation is a distinct proteolytic process, not a consequence of plaque rupture."
+    ]
+  },
+  {
+    "id": "aad-006",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Arterial Pathophysiology",
+    "source": "Aortic & Arterial Disease, slide 108 (Rupture is not dissection)",
+    "question": "Rupture of an abdominal aortic aneurysm and aortic dissection are the same mechanical process.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "explanation": "Aneurysm rupture and dissection are two different mechanical processes. Aneurysm rupture is a full-thickness perforation of a dilated, weakened wall, whereas dissection is separation of wall layers. Abdominal aortic aneurysms generally do not dissect.",
+    "why": [
+      "Incorrect. These are distinct processes; conflating them is a common error.",
+      "Correct. Rupture and dissection are different mechanical processes, and AAAs generally do not dissect."
+    ]
+  },
+  {
+    "id": "aad-007",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Arterial Pathophysiology",
+    "source": "Aortic & Arterial Disease, slide 111 (Connective tissue disorders)",
+    "question": "Which connective tissue disorders classically predispose patients to both aneurysm formation and arterial dissection?",
+    "options": [
+      "Marfan syndrome and vascular Ehlers-Danlos syndrome",
+      "Sickle cell disease and hemophilia",
+      "Rheumatoid arthritis and gout",
+      "Cystic fibrosis and Wilson disease"
+    ],
+    "answer": 0,
+    "explanation": "Marfan syndrome and the vascular form of Ehlers-Danlos syndrome cause defects in elastin and connective tissue (cystic medial necrosis), predisposing to both aneurysm formation and dissection, often at younger ages.",
+    "why": [
+      "Correct. Marfan and vascular Ehlers-Danlos syndromes predispose to aneurysm and dissection.",
+      "Sickle cell disease and hemophilia are not classic aortic connective tissue disorders.",
+      "Rheumatoid arthritis and gout are not the classic connective tissue predispositions here.",
+      "Cystic fibrosis and Wilson disease are unrelated to aortic wall connective tissue defects."
+    ]
+  },
+  {
+    "id": "aad-008",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Arterial Pathophysiology",
+    "source": "Aortic & Arterial Disease, slide 10 (Three arterial disease processes)",
+    "question": "Match each arterial disease process to its defining pathology.",
+    "pairs": [
+      {
+        "left": "Atherosclerosis",
+        "right": "Luminal narrowing from atheroma and smooth muscle proliferation",
+        "why": "Atherosclerosis narrows the lumen through atheroma and fibrous proliferation."
+      },
+      {
+        "left": "Aneurysm",
+        "right": "Wall thinning from loss or defect of elastin and collagen",
+        "why": "Aneurysm results from weakening and thinning of the wall."
+      },
+      {
+        "left": "Dissection",
+        "right": "Intima sheared from media forming true and false lumens",
+        "why": "Dissection separates the wall layers into true and false lumens."
+      }
+    ],
+    "explanation": "Atherosclerosis narrows the lumen (atheroma proliferation), aneurysm weakens and dilates the wall (proteolytic loss of elastin and collagen), and dissection separates the wall layers into true and false lumens."
+  },
+  {
+    "id": "aad-009",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Vascular Evaluation & Exam",
+    "source": "Aortic & Arterial Disease, slide 25 (Pulse grading)",
+    "question": "On the 0 to 4+ peripheral pulse grading scale, what does a 4+ pulse indicate?",
+    "options": [
+      "A bounding, aneurysmal, wide pulse",
+      "A normal pulse",
+      "A weak pulse",
+      "An absent pulse"
+    ],
+    "answer": 0,
+    "explanation": "The scale runs 0 (absent), 1+ (weak), 2+ (normal), 3+ (bounding), and 4+ (aneurysmal, wide pulse). A 4+ pulse suggests an underlying aneurysmal, widely pulsatile vessel.",
+    "why": [
+      "Correct. 4+ denotes a bounding, aneurysmal, wide pulse.",
+      "A normal pulse is graded 2+.",
+      "A weak pulse is graded 1+.",
+      "An absent pulse is graded 0."
+    ]
+  },
+  {
+    "id": "aad-010",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Vascular Evaluation & Exam",
+    "source": "Aortic & Arterial Disease, slide 21 (Water hammer pulse)",
+    "question": "A patient has a bounding pulse with a rapid upstroke and rapid collapse (a \"water hammer\" pulse) and a wide pulse pressure. Which condition best explains this?",
+    "options": [
+      "Aortic valve insufficiency",
+      "Aortic stenosis",
+      "Cardiogenic shock",
+      "Hypovolemia"
+    ],
+    "answer": 0,
+    "explanation": "In aortic insufficiency, part of the stroke volume regurgitates into the ventricle during diastole, lowering diastolic pressure and widening pulse pressure. The large, rapidly decaying arterial expansion produces the water hammer pulse. Similar bounding pulses occur in hyperdynamic states such as anemia and thyrotoxicosis.",
+    "why": [
+      "Correct. Aortic insufficiency produces a wide pulse pressure and water hammer pulse.",
+      "Aortic stenosis classically produces a weak, delayed (parvus et tardus) pulse.",
+      "Cardiogenic shock produces a weak, thready pulse with narrow pulse pressure.",
+      "Hypovolemia produces a low-volume, thready pulse, not a bounding one."
+    ]
+  },
+  {
+    "id": "aad-011",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Vascular Evaluation & Exam",
+    "source": "Aortic & Arterial Disease, slide 20 (Thready pulse)",
+    "question": "A weak, \"thready\" pulse with a diminished pulse pressure and a slow upstroke most likely reflects which state?",
+    "options": [
+      "Reduced left ventricular stroke volume, as in heart failure or shock",
+      "Aortic insufficiency",
+      "Hyperthyroidism",
+      "Severe anemia"
+    ],
+    "answer": 0,
+    "explanation": "When left ventricular stroke volume falls, as in heart failure or shock, the pulse pressure narrows and the pulse rises weakly, giving a thready pulse. Hyperdynamic states such as anemia and hyperthyroidism produce the opposite, a bounding pulse.",
+    "why": [
+      "Correct. Low stroke volume in heart failure or shock gives a weak, thready pulse.",
+      "Aortic insufficiency gives a bounding, wide pulse, not a thready one.",
+      "Hyperthyroidism is a hyperdynamic state producing a bounding pulse.",
+      "Severe anemia is a hyperdynamic state producing a bounding pulse."
+    ]
+  },
+  {
+    "id": "aad-012",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Vascular Evaluation & Exam",
+    "source": "Aortic & Arterial Disease, slide 24 (Bruits)",
+    "question": "What causes an arterial bruit?",
+    "options": [
+      "Turbulent blood flow during systole, often at a stenosis",
+      "Laminar flow through a normal-caliber artery",
+      "Complete occlusion of the artery",
+      "Venous congestion in the limb"
+    ],
+    "answer": 0,
+    "explanation": "A bruit is the audible turbulence of blood flow during systole, typically at a region of narrowing where eddy currents form (carotid, renal, aorto-iliac, femoral). Tortuous non-stenotic vessels can also produce bruits, and bruits are accentuated in anemia. A palpable bruit is called a thrill.",
+    "why": [
+      "Correct. Turbulent systolic flow, often at a stenosis, produces a bruit.",
+      "Laminar flow through a normal artery is silent.",
+      "Complete occlusion abolishes flow, so there is no bruit through the occluded segment.",
+      "Venous congestion does not produce an arterial bruit."
+    ]
+  },
+  {
+    "id": "aad-013",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Vascular Evaluation & Exam",
+    "source": "Aortic & Arterial Disease, slide 19 (Diminished pulses)",
+    "question": "Diminished or absent peripheral pulses most directly indicate which of the following?",
+    "options": [
+      "Upstream arterial stenosis or obstruction proximal to the palpation site",
+      "Aneurysmal dilation at the palpation site",
+      "A hyperdynamic circulatory state",
+      "Aortic valve insufficiency"
+    ],
+    "answer": 0,
+    "explanation": "Diminished or absent pulses reflect the sum of stenotic or obstructive lesions proximal to the site being palpated. The overall pulse exam helps localize the anatomy and severity of arterial disease.",
+    "why": [
+      "Correct. Weak or absent pulses reflect upstream stenosis or obstruction.",
+      "Aneurysmal dilation gives a wide, bounding pulse, not a diminished one.",
+      "A hyperdynamic state produces bounding, not diminished, pulses.",
+      "Aortic insufficiency produces a bounding pulse, not diminished pulses."
+    ]
+  },
+  {
+    "id": "aad-014",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Vascular Evaluation & Exam",
+    "source": "Aortic & Arterial Disease, slide 25 (Ankle-brachial index)",
+    "question": "What does the ankle-brachial index (ABI) provide in the vascular exam?",
+    "options": [
+      "An objective measure of arterial perfusion pressure in the lower extremity",
+      "A direct measurement of cardiac ejection fraction",
+      "An estimate of central venous pressure",
+      "A measure of aortic aneurysm diameter"
+    ],
+    "answer": 0,
+    "explanation": "The ankle-brachial index compares ankle to brachial systolic pressures, giving an objective indicator of lower-extremity arterial perfusion pressure and screening for peripheral arterial disease.",
+    "why": [
+      "Correct. ABI objectively indicates lower-extremity arterial pressure and perfusion.",
+      "It does not measure ejection fraction, a cardiac imaging parameter.",
+      "It does not estimate central venous pressure.",
+      "Aneurysm diameter is measured by ultrasound or CT, not by ABI."
+    ]
+  },
+  {
+    "id": "aad-015",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Arterial Imaging",
+    "source": "Aortic & Arterial Disease, slide 40 (Selection of imaging)",
+    "question": "Which principle best guides the selection of arterial imaging studies?",
+    "options": [
+      "Start with the least invasive study, but in emergent cases use the readily available modality that rapidly directs intervention",
+      "Always begin with catheter angiography for its detail",
+      "Avoid CT in the emergency department because of contrast risk",
+      "Use MRI first in every unstable patient"
+    ],
+    "answer": 0,
+    "explanation": "In most situations, begin with the least invasive test. In emergent or urgent cases, use whatever modality is readily available and gives a rapid answer to direct intervention, often POCUS and/or CT in the emergency department.",
+    "why": [
+      "Correct. Least invasive first, but rapid available imaging in emergencies.",
+      "Catheter angiography is invasive and not the routine first step.",
+      "CT is in fact a mainstay in the emergency setting for rapid diagnosis.",
+      "MRI is often too slow for an unstable patient; CT is usually preferred."
+    ]
+  },
+  {
+    "id": "aad-016",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Arterial Imaging",
+    "source": "Aortic & Arterial Disease, slide 28 (Complications of conventional angiography)",
+    "question": "Which of the following are recognized complications of conventional catheter angiography? Select all that apply.",
+    "options": [
+      "Contrast-induced renal injury",
+      "Arterial injury such as pseudoaneurysm or dissection",
+      "Anaphylactoid reaction to iodinated contrast",
+      "Nephrogenic systemic fibrosis from gadolinium"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Catheter angiography can cause access-site hematoma, arterial injury (pseudoaneurysm, dissection), thromboembolism, contrast-induced nephropathy, and anaphylactoid reactions to iodinated contrast. Nephrogenic systemic fibrosis is a complication of gadolinium used in MRI, not of iodinated contrast angiography.",
+    "why": [
+      "Correct. Iodinated contrast can cause renal injury.",
+      "Correct. Catheter manipulation can injure the artery, causing pseudoaneurysm or dissection.",
+      "Correct. Iodinated contrast can trigger anaphylactoid reactions.",
+      "Incorrect. Nephrogenic systemic fibrosis is a gadolinium (MRI) complication, not a catheter angiography one."
+    ]
+  },
+  {
+    "id": "aad-017",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Arterial Imaging",
+    "source": "Aortic & Arterial Disease, slide 32 (Gadolinium risk)",
+    "question": "Gadolinium contrast used for MR angiography carries a small risk of which serious toxic effect in patients with chronic kidney disease?",
+    "options": [
+      "Nephrogenic systemic fibrosis",
+      "Contrast-induced anaphylaxis from iodine",
+      "Radiation-induced malignancy",
+      "Cystic medial necrosis"
+    ],
+    "answer": 0,
+    "explanation": "Gadolinium is generally low risk for allergic reaction, but in patients with chronic kidney disease it carries a small risk of nephrogenic systemic fibrosis. Note gadolinium is not iodine based.",
+    "why": [
+      "Correct. Gadolinium can cause nephrogenic systemic fibrosis in CKD.",
+      "Gadolinium is not iodine based, so iodine anaphylaxis does not apply.",
+      "MRI does not use ionizing radiation, so radiation malignancy does not apply.",
+      "Cystic medial necrosis is a connective tissue pathology, unrelated to contrast."
+    ]
+  },
+  {
+    "id": "aad-018",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Arterial Imaging",
+    "source": "Aortic & Arterial Disease, slide 63 (Ultrasound for AAA)",
+    "question": "Regarding abdominal ultrasound for abdominal aortic aneurysm, which statement is most accurate?",
+    "options": [
+      "It is the initial study of choice and accurate for size, but CT is more sensitive for detecting leak or rupture",
+      "It is the most sensitive test for detecting rupture",
+      "It cannot measure aneurysm diameter accurately",
+      "It requires intravenous contrast to visualize the aorta"
+    ],
+    "answer": 0,
+    "explanation": "Ultrasound is the initial study of choice for AAA and detects diameter to within a few millimeters, making it ideal for screening and following size. However, it is not highly reliable for detecting rupture; CT is more sensitive for leak or rupture.",
+    "why": [
+      "Correct. Ultrasound is first-line for size but CT is better for leak or rupture.",
+      "Ultrasound is not the most sensitive test for rupture; CT is more sensitive.",
+      "Ultrasound measures diameter accurately, to within about 3 mm.",
+      "Ultrasound does not require intravenous contrast."
+    ]
+  },
+  {
+    "id": "aad-019",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Arterial Imaging",
+    "source": "Aortic & Arterial Disease, slide 30 (Non-contrast CT for rupture)",
+    "question": "A non-contrast CT can identify a ruptured aortic aneurysm because acute hemorrhage is visible without contrast.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "explanation": "Contrast is not always required to diagnose vessel rupture. Acute extravasated blood is visible on non-contrast CT, so a non-contrast study can identify a ruptured thoracic or abdominal aortic aneurysm, which is useful when contrast must be avoided.",
+    "why": [
+      "Correct. Acute hemorrhage is visible on non-contrast CT, so rupture can be identified.",
+      "Incorrect. Contrast is not always required; acute blood is visible without it."
+    ]
+  },
+  {
+    "id": "aad-020",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Abdominal Aortic Aneurysm",
+    "source": "Aortic & Arterial Disease, slide 47 (Definition of AAA)",
+    "question": "What abdominal aortic diameter defines an abdominal aortic aneurysm?",
+    "options": [
+      "Focal widening greater than 3 cm",
+      "Focal widening greater than 1.5 cm",
+      "Focal widening greater than 5.5 cm",
+      "Any measurable widening of the aorta"
+    ],
+    "answer": 0,
+    "explanation": "An abdominal aortic aneurysm is defined as focal widening of the abdominal aorta greater than 3 cm. Most are infrarenal, and mural thrombus and wall calcification are commonly present.",
+    "why": [
+      "Correct. Greater than 3 cm defines an abdominal aortic aneurysm.",
+      "1.5 cm is within the normal caliber of the abdominal aorta.",
+      "5.5 cm is the common surgical threshold, not the definition of aneurysm.",
+      "A specific threshold of 3 cm, not any widening, defines the aneurysm."
+    ]
+  },
+  {
+    "id": "aad-021",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Abdominal Aortic Aneurysm",
+    "source": "Aortic & Arterial Disease, slide 46 (Most common aneurysm site)",
+    "question": "What is the most common site of an aortic aneurysm?",
+    "options": [
+      "The infrarenal abdominal aorta",
+      "The aortic arch",
+      "The ascending aorta",
+      "The suprarenal abdominal aorta"
+    ],
+    "answer": 0,
+    "explanation": "The infrarenal abdominal aorta is the most common site of aortic aneurysm. About 90% of AAAs are infrarenal, and many extend into one or both iliac arteries.",
+    "why": [
+      "Correct. The infrarenal abdominal aorta is the most common site.",
+      "The aortic arch is a less common thoracic aneurysm site.",
+      "The ascending aorta is a thoracic site, far less common than the infrarenal abdominal aorta.",
+      "Suprarenal extension occurs but is less common than infrarenal disease."
+    ]
+  },
+  {
+    "id": "aad-022",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Abdominal Aortic Aneurysm",
+    "source": "Aortic & Arterial Disease, slide 56 (AAA clinical presentation)",
+    "question": "How do most abdominal aortic aneurysms present before they become complicated?",
+    "options": [
+      "Asymptomatic, often found incidentally on imaging done for another reason",
+      "With severe tearing chest pain radiating to the back",
+      "With sudden hemiplegia and aphasia",
+      "With exertional substernal chest pressure relieved by rest"
+    ],
+    "answer": 0,
+    "explanation": "Most AAAs are asymptomatic until they are large or complicated, and small ones are typically incidental findings on abdominal imaging done for other reasons. Expansion can cause a steady, gnawing lower back or hypogastric discomfort, and the patient may notice a pulsation.",
+    "why": [
+      "Correct. Most AAAs are asymptomatic and found incidentally.",
+      "Tearing chest pain radiating to the back suggests aortic dissection, not an uncomplicated AAA.",
+      "Sudden hemiplegia and aphasia suggest stroke, not an uncomplicated AAA.",
+      "Exertional substernal pressure relieved by rest describes stable angina."
+    ]
+  },
+  {
+    "id": "aad-023",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Abdominal Aortic Aneurysm",
+    "source": "Aortic & Arterial Disease, slide 61 (Risk factors for AAA rupture)",
+    "question": "Which of the following are risk factors for rupture of an abdominal aortic aneurysm? Select all that apply.",
+    "options": [
+      "Rapid expansion from baseline diameter",
+      "Tobacco use",
+      "Hypertension",
+      "Diabetes mellitus"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Risk factors for AAA rupture include rapid expansion, tobacco use, hypertension, female gender, decreased FEV1 with COPD, recent surgery, and cardiac or renal transplant. Diabetes actually has a negative association with AAA rupture.",
+    "why": [
+      "Correct. Rapid expansion raises rupture risk.",
+      "Correct. Tobacco use is a strong risk factor.",
+      "Correct. Hypertension increases wall stress and rupture risk.",
+      "Incorrect. Diabetes has a negative association with AAA rupture."
+    ]
+  },
+  {
+    "id": "aad-024",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Abdominal Aortic Aneurysm",
+    "source": "Aortic & Arterial Disease, slide 69 (AAA screening)",
+    "question": "Which patient group is recommended for one-time ultrasound screening for abdominal aortic aneurysm?",
+    "options": [
+      "Men aged 65 to 75 who have ever smoked",
+      "All adults over age 40 regardless of history",
+      "Women under 50 with no risk factors",
+      "Only patients with known coronary disease"
+    ],
+    "answer": 0,
+    "explanation": "One-time ultrasound screening is recommended for men aged 65 to 75 who have ever smoked, the group with the highest prevalence. First-degree relatives of patients with known TAA or AAA should also be screened per AHA and ACC recommendations.",
+    "why": [
+      "Correct. Men 65 to 75 who have ever smoked are the classic screening group.",
+      "Universal screening of all adults over 40 is not recommended.",
+      "Young women without risk factors are not a recommended screening group.",
+      "Known coronary disease alone is not the basis for AAA screening."
+    ]
+  },
+  {
+    "id": "aad-025",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Abdominal Aortic Aneurysm",
+    "source": "Aortic & Arterial Disease, slide 71 (AAA management threshold)",
+    "question": "An asymptomatic patient has a 4.5 cm abdominal aortic aneurysm. What is the most appropriate management?",
+    "options": [
+      "Medical management with blood pressure control and surveillance imaging",
+      "Immediate open surgical repair",
+      "Emergent endovascular stent placement",
+      "No follow-up is needed"
+    ],
+    "answer": 0,
+    "explanation": "Most AAAs smaller than about 5 to 5.5 cm and asymptomatic can be managed medically, focusing on blood pressure control and periodic surveillance ultrasound to track size. Surgical or endovascular repair is indicated once the aneurysm reaches roughly 5.5 cm or becomes symptomatic or rapidly expanding.",
+    "why": [
+      "Correct. A 4.5 cm asymptomatic AAA is managed medically with surveillance.",
+      "Repair is generally reserved for aneurysms about 5.5 cm or larger, or symptomatic ones.",
+      "Emergent stenting is not indicated for a stable, sub-threshold aneurysm.",
+      "Surveillance imaging is required to detect expansion, so follow-up is needed."
+    ]
+  },
+  {
+    "id": "aad-026",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Abdominal Aortic Aneurysm",
+    "source": "Aortic & Arterial Disease, slide 50 (ER case, ruptured AAA presentation)",
+    "question": "A 59-year-old man with 22 years of hypertension and a 40 pack-year smoking history presents with 2 hours of severe back pain and syncope. He is lethargic with HR 126, BP 92/50, mottled cool skin, a distended tender abdomen with a faint epigastric bruit, and absent lower-extremity pulses. What is the most likely diagnosis?",
+    "options": [
+      "Ruptured abdominal aortic aneurysm",
+      "Acute pancreatitis",
+      "Perforated peptic ulcer",
+      "Inferior myocardial infarction"
+    ],
+    "answer": 0,
+    "explanation": "Severe back pain, syncope, hypotension with tachycardia (hemorrhagic shock), a distended tender abdomen, and absent lower-extremity pulses in an older hypertensive smoker point to a ruptured AAA. This is a surgical emergency and must be in the differential for any at-risk patient with abdominal or back pain and shock; POCUS is valuable at the bedside.",
+    "why": [
+      "Correct. Back pain, syncope, shock, and absent lower-extremity pulses in this patient indicate ruptured AAA.",
+      "Pancreatitis can cause abdominal pain but does not explain absent pulses and this hemorrhagic shock picture.",
+      "A perforated ulcer causes peritonitis but not absent lower-extremity pulses from aortic hemorrhage.",
+      "Inferior MI is in the differential for chest pain and shock but does not explain the pulsatile abdomen and absent leg pulses."
+    ]
+  },
+  {
+    "id": "aad-027",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Abdominal Aortic Aneurysm",
+    "source": "Aortic & Arterial Disease, slide 68 (Blood pressure in ruptured AAA)",
+    "question": "In a patient with a leaking or ruptured abdominal aortic aneurysm, how should blood pressure be managed before definitive repair?",
+    "options": [
+      "Permissive hypotension, keeping systolic pressure around 90 to 100 mmHg while maintaining organ perfusion",
+      "Aggressive wide-open IV fluids to normalize blood pressure quickly",
+      "Vasopressors to drive systolic pressure above 140 mmHg",
+      "No blood pressure management is needed"
+    ],
+    "answer": 0,
+    "explanation": "In a leaking or ruptured AAA, permissive hypotension is used: keep systolic pressure around 90 to 100 mmHg to minimize bleeding while still perfusing organs. Excessive IV fluids and a systolic pressure above 100 can rekindle bleeding, so wide-open resuscitation is avoided.",
+    "why": [
+      "Correct. Permissive hypotension around 90 to 100 mmHg systolic minimizes rebleeding.",
+      "Wide-open fluids raise pressure and can rekindle bleeding.",
+      "Driving pressure high with vasopressors would worsen hemorrhage.",
+      "Deliberate blood pressure control is essential in a leaking or ruptured AAA."
+    ]
+  },
+  {
+    "id": "aad-028",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Abdominal Aortic Aneurysm",
+    "source": "Aortic & Arterial Disease, slide 74 (Elective AAA repair)",
+    "question": "In open elective repair of an abdominal aortic aneurysm, what is done with the aneurysm and the graft?",
+    "options": [
+      "A synthetic Dacron graft is sutured inside the aneurysm lumen and the aneurysm wall is left intact around it, replacing the aortic route",
+      "The aneurysm is bypassed with a vein graft, leaving native flow through the aneurysm",
+      "The aneurysm is simply wrapped externally without a graft",
+      "The aneurysm is left untreated and only blood pressure is controlled"
+    ],
+    "answer": 0,
+    "explanation": "Open repair excludes the aneurysm by suturing a synthetic Dacron graft inside the aneurysm lumen, with the aneurysm wall left intact around the graft. This replaces the route of the native aorta and is not a bypass. Percutaneous endovascular stenting is an alternative for high-risk patients.",
+    "why": [
+      "Correct. A Dacron graft is sewn inside the aneurysm, which is left wrapped around it.",
+      "Aneurysm repair replaces the aortic route; it is not a bypass like occlusive-disease surgery.",
+      "External wrapping alone is not the standard repair; a graft is placed.",
+      "A 5.5 cm or symptomatic aneurysm needs repair, not blood pressure control alone."
+    ]
+  },
+  {
+    "id": "aad-029",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Abdominal Aortic Aneurysm",
+    "source": "Aortic & Arterial Disease, slide 88 (Artery of Adamkiewicz)",
+    "question": "Paraplegia after aortic aneurysm repair is most directly attributable to injury of which structure?",
+    "options": [
+      "The artery of Adamkiewicz",
+      "The femoral nerve",
+      "The recurrent laryngeal nerve",
+      "The inferior mesenteric artery"
+    ],
+    "answer": 0,
+    "explanation": "The artery of Adamkiewicz is a major supply to the lower spinal cord with variable location. Its interruption during aortic repair causes spinal cord ischemia and infarction with paraplegia, occurring in roughly 1% of cases.",
+    "why": [
+      "Correct. Injury to the artery of Adamkiewicz causes spinal cord infarction and paraplegia.",
+      "Femoral nerve injury causes leg weakness but not the spinal cord infarction pattern of paraplegia here.",
+      "Recurrent laryngeal nerve injury causes hoarseness, not paraplegia.",
+      "Inferior mesenteric artery compromise causes ischemic colitis, not paraplegia."
+    ]
+  },
+  {
+    "id": "aad-030",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Abdominal Aortic Aneurysm",
+    "source": "Aortic & Arterial Disease, slide 86 (Trash foot)",
+    "question": "A patient develops patchy violaceous discoloration of the toes with preserved pedal pulses shortly after aortic surgery (\"trash foot\"). What is the mechanism?",
+    "options": [
+      "Atheroembolism of cholesterol plaque debris to small distal arteries",
+      "Large-vessel thrombosis of the femoral artery",
+      "Deep venous thrombosis of the calf",
+      "Compartment syndrome from reperfusion"
+    ],
+    "answer": 0,
+    "explanation": "\"Trash foot\" is atheroembolism, in which cholesterol-rich plaque debris embolizes to small distal arteries during aortic manipulation, causing patchy ischemia with often preserved proximal pulses. Surveillance of skin and distal pulses is critical after aortic surgery.",
+    "why": [
+      "Correct. Trash foot is atheroembolism of plaque debris to small distal vessels.",
+      "Large-vessel femoral thrombosis would typically abolish distal pulses, unlike patchy atheroembolism.",
+      "Deep venous thrombosis is a venous problem, not arterial atheroembolism.",
+      "Compartment syndrome causes a tense, painful compartment, not patchy toe discoloration with pulses intact."
+    ]
+  },
+  {
+    "id": "aad-031",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Thoracic Aortic Aneurysm",
+    "source": "Aortic & Arterial Disease, slide 96 (TAA demographics)",
+    "question": "Which statement best characterizes thoracic aortic aneurysms (TAA) compared with abdominal aortic aneurysms?",
+    "options": [
+      "They account for less than 10% of aortic aneurysms and have a strong genetic and connective tissue association",
+      "They are more common than AAA and almost always atherosclerotic",
+      "They occur only in patients under age 40",
+      "They are unrelated to hypertension"
+    ],
+    "answer": 0,
+    "explanation": "TAAs make up less than 10% of aortic aneurysms and have a strong genetic association with collagen and elastin disorders, and are also seen in Turner syndrome and with coarctation. They are less often atherosclerotic than AAA but are still associated with and worsened by hypertension.",
+    "why": [
+      "Correct. TAAs are under 10% of aortic aneurysms with strong genetic and connective tissue links.",
+      "TAAs are less common than AAA and less often atherosclerotic.",
+      "TAAs occur most often in older patients, especially over 65, not only under 40.",
+      "TAAs are associated with and exacerbated by hypertension."
+    ]
+  },
+  {
+    "id": "aad-032",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Thoracic Aortic Aneurysm",
+    "source": "Aortic & Arterial Disease, slide 98 (Tracheal tug and hoarseness)",
+    "question": "A patient with an aortic arch aneurysm develops hoarseness (dysphonia) and a \"tracheal tug\" sign. Which structure is being compressed?",
+    "options": [
+      "The left recurrent laryngeal nerve",
+      "The phrenic nerve",
+      "The vagus nerve at the jugular foramen",
+      "The superior laryngeal nerve"
+    ],
+    "answer": 0,
+    "explanation": "The left recurrent laryngeal nerve loops under the aortic arch, so an arch aneurysm can stretch or compress it, producing hoarseness and the tracheal tug sign. Esophageal compression can also cause dysphagia.",
+    "why": [
+      "Correct. The left recurrent laryngeal nerve is compressed by an arch aneurysm, causing hoarseness.",
+      "Phrenic nerve compression affects the diaphragm, not the voice.",
+      "The relevant nerve here is the recurrent laryngeal branch under the arch, not the vagus at the skull base.",
+      "The superior laryngeal nerve is not the one that loops under the aortic arch."
+    ]
+  },
+  {
+    "id": "aad-033",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Thoracic Aortic Aneurysm",
+    "source": "Aortic & Arterial Disease, slide 97 (Aortic root aneurysm complications)",
+    "question": "An aneurysm of the aortic root can produce which complication due to dilation of the aortic ring?",
+    "options": [
+      "Aortic insufficiency (regurgitation)",
+      "Mitral stenosis",
+      "Tricuspid regurgitation",
+      "Pulmonic stenosis"
+    ],
+    "answer": 0,
+    "explanation": "Dilation of the aortic ring in a root aneurysm prevents the aortic valve leaflets from coapting, causing aortic insufficiency. Rupture of an ascending aortic aneurysm into the pericardial sac can also cause cardiac tamponade.",
+    "why": [
+      "Correct. Aortic root dilation causes aortic insufficiency.",
+      "Mitral stenosis is a left AV valve problem, unrelated to aortic root dilation.",
+      "Tricuspid regurgitation involves the right heart, not the aortic root.",
+      "Pulmonic stenosis involves the right ventricular outflow, not the aortic root."
+    ]
+  },
+  {
+    "id": "aad-034",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Thoracic Aortic Aneurysm",
+    "source": "Aortic & Arterial Disease, slide 100 (CXR widened mediastinum)",
+    "question": "Which chest x-ray finding, though not definitive, often first raises suspicion for a thoracic aortic aneurysm?",
+    "options": [
+      "A widened mediastinum",
+      "A boot-shaped heart",
+      "Kerley B lines",
+      "A right-sided aortic knob only"
+    ],
+    "answer": 0,
+    "explanation": "A widened mediastinal shadow, sometimes with tracheal or left main bronchus displacement, often first suggests a TAA on chest x-ray. It is nonspecific (also seen with neoplasm, cyst, or substernal goiter), so CT or MR angiography is used to confirm.",
+    "why": [
+      "Correct. A widened mediastinum commonly first raises suspicion for TAA.",
+      "A boot-shaped heart suggests tetralogy of Fallot, not TAA.",
+      "Kerley B lines indicate interstitial pulmonary edema, not TAA.",
+      "The finding is a widened mediastinum, not simply a right-sided aortic knob."
+    ]
+  },
+  {
+    "id": "aad-035",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Thoracic Aortic Aneurysm",
+    "source": "Aortic & Arterial Disease, slide 104 (TAA management threshold)",
+    "question": "A patient with Marfan syndrome has a thoracic aortic aneurysm. At what diameter is surgical repair generally recommended, compared with patients without a connective tissue disorder?",
+    "options": [
+      "At 5 cm in Marfan or Ehlers-Danlos syndrome, versus about 5.5 cm otherwise",
+      "At 3 cm in Marfan syndrome, versus 4 cm otherwise",
+      "At 7 cm regardless of underlying disease",
+      "Only after rupture has occurred"
+    ],
+    "answer": 0,
+    "explanation": "Surgical correction of a TAA is generally indicated when it is symptomatic, enlarging, or greater than about 5.5 cm. In Marfan, Ehlers-Danlos, or other progressive connective tissue disease, repair is done earlier, at about 5 cm, because of higher rupture and dissection risk. Blood pressure control slows growth.",
+    "why": [
+      "Correct. Repair at about 5 cm in connective tissue disease, versus about 5.5 cm otherwise.",
+      "These thresholds are too small and not the ones used.",
+      "Waiting until 7 cm regardless of disease would incur excess rupture risk.",
+      "Elective repair is done before rupture, not after."
+    ]
+  },
+  {
+    "id": "aad-036",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Aortic Dissection & Acute Aortic Syndrome",
+    "source": "Aortic & Arterial Disease, slide 114 (Type A dissection)",
+    "question": "A proximal (Stanford type A) aortic dissection originates where and carries what general management implication?",
+    "options": [
+      "Just distal to the aortic valve, involving the ascending aorta, and generally requires surgical repair",
+      "Distal to the left subclavian artery, involving only the descending aorta, and is usually managed medically",
+      "In the abdominal aorta below the renal arteries, and is managed with stenting",
+      "In the iliac arteries, and is managed with anticoagulation"
+    ],
+    "answer": 0,
+    "explanation": "Type A dissection begins just distal to the aortic valve and involves the ascending aorta. It accounts for about two-thirds of dissections and has high mortality if not treated surgically, given risks of tamponade, coronary occlusion, and aortic regurgitation.",
+    "why": [
+      "Correct. Type A involves the ascending aorta and generally needs surgery.",
+      "That description (distal to left subclavian, descending only, often medical) is type B.",
+      "Dissection classification is by ascending versus descending involvement, not an infrarenal abdominal origin.",
+      "Iliac origin with anticoagulation does not describe type A dissection."
+    ]
+  },
+  {
+    "id": "aad-037",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Aortic Dissection & Acute Aortic Syndrome",
+    "source": "Aortic & Arterial Disease, slide 114 (Type B dissection)",
+    "question": "A distal (Stanford type B) aortic dissection is defined by involvement beginning where?",
+    "options": [
+      "Distal to the left subclavian artery, involving only the descending aorta",
+      "Just distal to the aortic valve in the ascending aorta",
+      "At the aortic root",
+      "In the abdominal aorta only"
+    ],
+    "answer": 0,
+    "explanation": "Type B dissection begins distal to the left subclavian artery, near the ligamentum arteriosum, and involves only the descending aorta. Coarctation and patent ductus arteriosus predispose to type B.",
+    "why": [
+      "Correct. Type B begins distal to the left subclavian and involves the descending aorta.",
+      "Involvement of the ascending aorta just distal to the valve defines type A.",
+      "Aortic root involvement is part of proximal (type A) disease.",
+      "Type B is defined by descending thoracic involvement, not the abdominal aorta alone."
+    ]
+  },
+  {
+    "id": "aad-038",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Aortic Dissection & Acute Aortic Syndrome",
+    "source": "Aortic & Arterial Disease, slide 112 (Dissection etiologies)",
+    "question": "Which is the most common predisposing condition for aortic dissection?",
+    "options": [
+      "Hypertension",
+      "Diabetes mellitus",
+      "Hyperlipidemia",
+      "Chronic kidney disease"
+    ],
+    "answer": 0,
+    "explanation": "Hypertension is the most common predisposing factor for aortic dissection. Other causes include cystic medial necrosis (Marfan and Ehlers-Danlos), Turner syndrome, pregnancy, and deceleration trauma; many patients have no identifiable underlying disorder.",
+    "why": [
+      "Correct. Hypertension is the leading predisposing condition for dissection.",
+      "Diabetes is not a leading risk factor for dissection and is negatively associated with AAA rupture.",
+      "Hyperlipidemia drives atherosclerosis more than dissection.",
+      "Chronic kidney disease is not the classic predisposing factor for dissection."
+    ]
+  },
+  {
+    "id": "aad-039",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Aortic Dissection & Acute Aortic Syndrome",
+    "source": "Aortic & Arterial Disease, slide 117 (Dissection pain quality)",
+    "question": "Which pain description is most characteristic of an acute aortic dissection?",
+    "options": [
+      "Sudden-onset, severe, tearing pain that may radiate to the back or migrate",
+      "Gradual substernal pressure brought on by exertion and relieved by rest",
+      "Burning epigastric pain relieved by antacids",
+      "Pleuritic pain worse with deep inspiration and cough"
+    ],
+    "answer": 0,
+    "explanation": "Dissection classically causes sudden, severe, tearing or ripping pain that is non-ischemic in quality and may radiate to the interscapular area, arms, or neck, or migrate as the dissection propagates toward the abdomen and hips.",
+    "why": [
+      "Correct. Sudden, severe, tearing, possibly migrating pain is characteristic of dissection.",
+      "Gradual exertional pressure relieved by rest describes stable angina.",
+      "Burning epigastric pain relieved by antacids suggests peptic disease.",
+      "Pleuritic pain worse with inspiration suggests pericarditis or pulmonary causes, not dissection."
+    ]
+  },
+  {
+    "id": "aad-040",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Aortic Dissection & Acute Aortic Syndrome",
+    "source": "Aortic & Arterial Disease, slide 116 (Complications of proximal dissection)",
+    "question": "Which set of complications is characteristic of a proximal (type A) aortic dissection?",
+    "options": [
+      "Aortic insufficiency, coronary artery occlusion, cardiac tamponade, and stroke",
+      "Mitral stenosis and pulmonary embolism",
+      "Ischemic colitis and cholelithiasis",
+      "Deep venous thrombosis and pulmonary edema alone"
+    ],
+    "answer": 0,
+    "explanation": "Proximal dissection complications can be recalled as aortic insufficiency, occlusion of the coronary arteries, rupture, tamponade, ischemia of extremities and viscera, and CVA. These reflect the dissection extending back to the aortic root and its branches.",
+    "why": [
+      "Correct. AI, coronary occlusion, tamponade, and stroke are hallmark proximal dissection complications.",
+      "Mitral stenosis and pulmonary embolism are not the characteristic complications of proximal dissection.",
+      "Ischemic colitis and cholelithiasis are not the hallmark proximal dissection complications.",
+      "These do not capture the aortic root and branch complications of proximal dissection."
+    ]
+  },
+  {
+    "id": "aad-041",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Aortic Dissection & Acute Aortic Syndrome",
+    "source": "Aortic & Arterial Disease, slide 117 (Dissection physical findings)",
+    "question": "Which physical exam finding supports a diagnosis of aortic dissection in a patient with chest pain?",
+    "options": [
+      "Diminished or unequal pulses and blood pressures between the extremities",
+      "Symmetric bounding pulses in all extremities",
+      "A fixed split second heart sound",
+      "Bilateral lower-extremity pitting edema"
+    ],
+    "answer": 0,
+    "explanation": "Dissection can shear off branch vessels, producing diminished or unequal peripheral pulses and unequal extremity blood pressures. A pulse exam should be done in any case of chest pain. A new aortic diastolic (regurgitant) murmur can occur if the dissection reaches the aortic valve.",
+    "why": [
+      "Correct. Unequal pulses and blood pressures between limbs support dissection.",
+      "Symmetric bounding pulses argue against a flow-limiting dissection.",
+      "A fixed split S2 suggests an atrial septal defect, not dissection.",
+      "Bilateral pitting edema suggests heart failure or venous disease, not dissection."
+    ]
+  },
+  {
+    "id": "aad-042",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Aortic Dissection & Acute Aortic Syndrome",
+    "source": "Aortic & Arterial Disease, slide 123 (Acute aortic syndrome)",
+    "question": "Which conditions are included under the umbrella term \"acute aortic syndrome\"?",
+    "options": [
+      "Aortic dissection and leak or rupture of a thoracic aortic aneurysm",
+      "Abdominal aortic aneurysm rupture and mesenteric ischemia",
+      "Acute coronary syndrome and pericarditis",
+      "Pulmonary embolism and tension pneumothorax"
+    ],
+    "answer": 0,
+    "explanation": "Acute aortic syndrome is an umbrella term for acute aortic dissection and leak or rupture of a thoracic aortic aneurysm. Notably, AAA is not included. These share a similar rapid presentation and diagnostic pathway.",
+    "why": [
+      "Correct. Acute aortic syndrome covers dissection and TAA leak or rupture.",
+      "AAA rupture is specifically excluded from acute aortic syndrome.",
+      "ACS and pericarditis are separate entities in the chest pain differential.",
+      "PE and tension pneumothorax are other causes of chest pain and shock, not acute aortic syndrome."
+    ]
+  },
+  {
+    "id": "aad-043",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Aortic Dissection & Acute Aortic Syndrome",
+    "source": "Aortic & Arterial Disease, slide 124 (ACS versus AAS)",
+    "question": "A 58-year-old presents with sudden, severe, tearing interscapular pain, unequal pulses between the arms, and a new early diastolic murmur. Compared with a typical acute coronary syndrome, what is the key management difference for this presentation?",
+    "options": [
+      "It requires surgical management, and antiplatelet and anticoagulant therapy could be harmful",
+      "It is treated identically to ACS with antiplatelets and anticoagulation",
+      "It requires only oral beta-blockers and outpatient follow-up",
+      "It should be observed without imaging until enzymes return"
+    ],
+    "answer": 0,
+    "explanation": "Sudden tearing pain, unequal arm pulses, and a new aortic regurgitant murmur point to acute aortic syndrome (dissection or TAA leak), not ACS. Management is surgical, and the antiplatelet and anticoagulant therapy given for ACS could worsen bleeding, so distinguishing the two with history, exam, and urgent CT angiography is critical.",
+    "why": [
+      "Correct. This is acute aortic syndrome, which is surgical, and ACS-style anticoagulation could be harmful.",
+      "Treating it like ACS with anticoagulation could be dangerous in a dissection or aortic leak.",
+      "This is an emergency requiring surgical evaluation, not just oral beta-blockers and outpatient care.",
+      "Urgent imaging (CXR then CT angiography) is essential; waiting on enzymes would be dangerous."
+    ]
+  },
+  {
+    "id": "aad-044",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Aortic Dissection & Acute Aortic Syndrome",
+    "source": "Aortic & Arterial Disease, slide 122 (Differential for chest pain and shock)",
+    "question": "Because not all chest pain is acute coronary syndrome, which of the following belong in the differential for acute chest pain with shock? Select all that apply.",
+    "options": [
+      "Aortic dissection or thoracic aneurysm leak",
+      "Pulmonary embolism",
+      "Pericarditis with tamponade",
+      "Stable angina"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The differential for acute chest pain and shock includes acute coronary syndrome, aortic dissection or TAA leak or rupture, pericarditis with tamponade, pulmonary embolism, tension pneumothorax, and esophageal perforation (Boerhaave syndrome). Stable angina is exertional and relieved by rest, and does not cause shock.",
+    "why": [
+      "Correct. Aortic dissection or aneurysm leak is a key cause of chest pain with shock.",
+      "Correct. Pulmonary embolism can cause chest pain and shock.",
+      "Correct. Pericarditis with tamponade can cause chest pain and shock.",
+      "Incorrect. Stable angina is exertional and relieved by rest; it does not produce shock."
+    ]
+  },
+  {
+    "id": "aad-045",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Aortic Dissection & Acute Aortic Syndrome",
+    "source": "Aortic & Arterial Disease, slide 114 (Type A versus type B dissection)",
+    "question": "Match each Stanford aortic dissection type to its description.",
+    "pairs": [
+      {
+        "left": "Type A (proximal)",
+        "right": "Involves the ascending aorta; generally surgical",
+        "why": "Type A involves the ascending aorta and usually requires surgery."
+      },
+      {
+        "left": "Type B (distal)",
+        "right": "Begins distal to the left subclavian, descending aorta only; often medical",
+        "why": "Type B is confined to the descending aorta and is often managed medically."
+      }
+    ],
+    "explanation": "Type A dissection involves the ascending aorta and generally requires surgical repair; type B begins distal to the left subclavian artery, involves only the descending aorta, and is often managed medically."
+  },
+  {
+    "id": "aad-046",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Aortic Atheroembolism",
+    "source": "Aortic & Arterial Disease, slide 127 (Blue toe syndrome)",
+    "question": "A patient develops patchy violaceous skin discoloration of the toes, petechiae, and livedo reticularis with intact pedal pulses (\"blue toe syndrome\"). What is the underlying process?",
+    "options": [
+      "Embolization of cholesterol-rich atheroma to small distal arteries",
+      "Large-artery thrombotic occlusion",
+      "Venous thromboembolism",
+      "Vasospasm from Raynaud phenomenon"
+    ],
+    "answer": 0,
+    "explanation": "Aortic atheroembolism (blue toe syndrome) is embolization of cholesterol-rich atheroma from the aorta or major arteries to small distal vessels, producing patchy ischemia, petechiae, and livedo reticularis (from venular dilation), typically with preserved proximal pulses.",
+    "why": [
+      "Correct. Cholesterol atheroembolism to small distal arteries causes blue toe syndrome.",
+      "Large-artery thrombosis would typically abolish distal pulses, unlike patchy atheroembolism.",
+      "Venous thromboembolism is a venous process, not arterial atheroembolism.",
+      "Raynaud phenomenon is episodic vasospasm, not embolization of atheroma."
+    ]
+  },
+  {
+    "id": "aad-047",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Aortic Atheroembolism",
+    "source": "Aortic & Arterial Disease, slide 128 (Trigger of cholesterol embolization)",
+    "question": "Cholesterol embolization from aortic atheroma is most often precipitated by which of the following?",
+    "options": [
+      "Manipulation of the aorta during catheter angiography, intervention, or cardiovascular surgery",
+      "Vigorous physical exercise in a healthy young adult",
+      "Dietary cholesterol intake",
+      "Deep venous thrombosis"
+    ],
+    "answer": 0,
+    "explanation": "Cholesterol emboli commonly follow mechanical manipulation of an atherosclerotic aorta, such as catheter angiography or intervention, or during cardiac or peripheral vascular surgery. Aortic atherosclerosis is common in the elderly, and ulcerated plaque increases embolic and stroke risk.",
+    "why": [
+      "Correct. Aortic manipulation during catheterization or surgery is the classic trigger.",
+      "Exercise in a healthy young adult is not the typical trigger for atheroembolism.",
+      "Dietary cholesterol intake does not acutely precipitate embolization of established plaque.",
+      "Deep venous thrombosis is a venous event, unrelated to arterial cholesterol embolization."
+    ]
+  },
+  {
+    "id": "aad-048",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Aortic & Arterial Disease",
+    "section": "Aortic Atheroembolism",
+    "source": "Aortic & Arterial Disease, slide 130 (Treatment of atheroembolism)",
+    "question": "Which statement best describes the treatment and prognosis of aortic atheroembolism?",
+    "options": [
+      "No medical therapy revascularizes the ischemic tissue; surgery is only for debridement or amputation, and prognosis is poor when renal failure or stroke occurs",
+      "Thrombolytics reliably dissolve the emboli and restore perfusion",
+      "Anticoagulation fully reverses the ischemic changes",
+      "It carries an excellent prognosis with no long-term risk"
+    ],
+    "answer": 0,
+    "explanation": "There is no medical therapy that revascularizes tissue after atheroembolism; surgery is reserved for debridement or amputation of necrotic or infected tissue. Risk factor modification may reduce future cardiovascular events, but prognosis is poor when renal failure or stroke is present.",
+    "why": [
+      "Correct. No therapy revascularizes the tissue; care is supportive, and prognosis is poor with renal failure or stroke.",
+      "Thrombolytics do not reliably dissolve cholesterol crystal emboli.",
+      "Anticoagulation does not reverse established atheroembolic ischemia.",
+      "The prognosis is poor, especially with renal failure or stroke, not excellent."
+    ]
   }
 ];
 

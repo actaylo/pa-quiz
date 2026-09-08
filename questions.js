@@ -7427,6 +7427,1179 @@ const QUESTIONS = [
       "A contusion does not warrant transplant.",
       "A contusion still needs echo and troponin evaluation, not blind discharge."
     ]
+  },
+  {
+    "id": "cvr-001",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "CV Anatomy & Physiology",
+    "source": "CV Unit Review, slide 7 (CV Physiology: Preload, Afterload, Inotropy, Chronotropy)",
+    "question": "Match each physiologic term to its definition.",
+    "pairs": [
+      {
+        "left": "Preload",
+        "right": "Wall tension at end of diastole; volume of blood in the ventricle before it contracts",
+        "why": "Preload is end-diastolic wall tension, reflecting the volume filling the ventricle before contraction."
+      },
+      {
+        "left": "Afterload",
+        "right": "Wall tension during systole; pressure the heart must overcome to eject blood",
+        "why": "Afterload is systolic wall tension, the pressure (resistance) the heart pumps against."
+      },
+      {
+        "left": "Inotropy",
+        "right": "Strength or velocity of contraction (contractility)",
+        "why": "Inotropy is contractility, the strength and velocity of muscle fiber shortening."
+      },
+      {
+        "left": "Chronotropy",
+        "right": "Rate of contraction (heart rate)",
+        "why": "Chronotropy is the rate of contraction, meaning heart rate."
+      }
+    ],
+    "explanation": "Preload is end-diastolic wall tension (ventricular filling volume); afterload is systolic wall tension (the pressure the heart overcomes to eject blood); inotropy is contractility (strength of contraction); and chronotropy is heart rate."
+  },
+  {
+    "id": "cvr-002",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "CV Anatomy & Physiology",
+    "source": "CV Unit Review, slide 8 (CV Physiology: Inotropy & Chronotropy)",
+    "question": "Which of the following INCREASES contractility (inotropy)?",
+    "options": [
+      "Catecholamines and increased sympathetic tone",
+      "Beta-blockers",
+      "Calcium channel blockers",
+      "Increased parasympathetic (vagal) tone"
+    ],
+    "answer": 0,
+    "explanation": "Inotropy increases with sympathetic tone, catecholamines, and beta-agonists, and decreases with beta-blockers and calcium channel blockers. Chronotropy increases with sympathetic tone, catecholamines, and atropine and decreases with parasympathetic tone, beta-blockers, and calcium channel blockers.",
+    "why": [
+      "Correct. Catecholamines and sympathetic tone raise contractility.",
+      "Beta-blockers decrease inotropy.",
+      "Calcium channel blockers decrease inotropy.",
+      "Increased vagal tone lowers heart rate and does not raise contractility."
+    ]
+  },
+  {
+    "id": "cvr-003",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "CV Anatomy & Physiology",
+    "source": "CV Unit Review, slide 9 (CV Hemodynamics)",
+    "question": "Using the relationship Pressure = Flow x Resistance, blood pressure can be expanded to:",
+    "options": [
+      "Stroke volume x heart rate x resistance",
+      "Stroke volume divided by heart rate",
+      "Heart rate x resistance, independent of stroke volume",
+      "Preload minus afterload"
+    ],
+    "answer": 0,
+    "explanation": "Pressure = Flow x Resistance (P = Q x R). Because cardiac output equals stroke volume times heart rate, P = CO x R expands to P = SV x HR x R.",
+    "why": [
+      "Correct. P = SV x HR x R, since CO = SV x HR.",
+      "Dividing stroke volume by heart rate does not describe blood pressure.",
+      "Stroke volume is part of the equation and cannot be dropped.",
+      "Blood pressure is not the difference of preload and afterload."
+    ]
+  },
+  {
+    "id": "cvr-004",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "CV Anatomy & Physiology",
+    "source": "CV Unit Review, slide 6 (Cardiac cycle review)",
+    "question": "The first heart sound (S1) corresponds to:",
+    "options": [
+      "Sudden closure of the mitral and tricuspid valves",
+      "Closure of the aortic and pulmonic valves",
+      "Opening of the aortic valve",
+      "Atrial contraction"
+    ],
+    "answer": 0,
+    "explanation": "S1 is the sudden closure of the mitral and tricuspid (atrioventricular) valves at the start of systole. S2 is closure of the aortic and pulmonic (semilunar) valves at the start of diastole.",
+    "why": [
+      "Correct. S1 is closure of the mitral and tricuspid valves.",
+      "Closure of the aortic and pulmonic valves is S2.",
+      "Aortic valve opening is silent and marks the start of ejection.",
+      "Atrial contraction occurs in late diastole and does not produce S1."
+    ]
+  },
+  {
+    "id": "cvr-005",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "CV Anatomy & Physiology",
+    "source": "CV Unit Review, slide 10 (Stroke Volume and Ejection Fraction)",
+    "question": "In hypovolemia, what happens to stroke volume and ejection fraction?",
+    "options": [
+      "Stroke volume decreases from reduced venous return, while ejection fraction is maintained or increased by adrenergic stimulation",
+      "Both stroke volume and ejection fraction increase",
+      "Both stroke volume and ejection fraction fall from impaired myocardium",
+      "Stroke volume rises and ejection fraction falls"
+    ],
+    "answer": 0,
+    "explanation": "In hypovolemia, stroke volume falls due to decreased venous return, but ejection fraction is preserved or increased because of adrenergic stimulation of the myocardium. In heart failure with reduced EF, both SV and EF fall from impaired myocardium; in HFpEF, SV falls with a normal EF.",
+    "why": [
+      "Correct. Low venous return drops SV, while adrenergic drive maintains or raises EF.",
+      "Stroke volume does not increase when the patient is volume-depleted.",
+      "Falling EF from impaired myocardium describes heart failure, not hypovolemia.",
+      "Stroke volume falls, not rises, in hypovolemia."
+    ]
+  },
+  {
+    "id": "cvr-006",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "CV Anatomy & Physiology",
+    "source": "CV Unit Review, slide 11 (Neurohumoral Control Systems)",
+    "question": "Match each neurohumoral mediator to its primary action.",
+    "pairs": [
+      {
+        "left": "ADH (antidiuretic hormone)",
+        "right": "Water retention in the distal collecting duct and vasoconstriction",
+        "why": "ADH from the posterior pituitary causes renal water retention and vasoconstriction."
+      },
+      {
+        "left": "BNP",
+        "right": "Natriuresis and vasodilation in response to ventricular stretch",
+        "why": "BNP is released by the ventricles in response to stretch, causing sodium diuresis and vasodilation."
+      },
+      {
+        "left": "Angiotensin II",
+        "right": "Vasoconstriction",
+        "why": "Angiotensin II is a potent vasoconstrictor in the RAAS."
+      },
+      {
+        "left": "Aldosterone",
+        "right": "Sodium retention in the distal tubule",
+        "why": "Aldosterone drives sodium retention in the distal tubule of the kidney."
+      }
+    ],
+    "explanation": "ADH causes water retention and vasoconstriction; BNP (released by stretched ventricles) causes natriuresis and vasodilation; angiotensin II causes vasoconstriction; and aldosterone causes distal-tubule sodium retention."
+  },
+  {
+    "id": "cvr-007",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Murmurs & Maneuvers",
+    "source": "CV Unit Review, slide 13 (Systolic and Diastolic Murmurs)",
+    "question": "Match each valvular lesion to whether its murmur is systolic or diastolic.",
+    "pairs": [
+      {
+        "left": "Aortic stenosis",
+        "right": "Systolic",
+        "why": "Aortic stenosis (and pulmonary stenosis) produce systolic murmurs."
+      },
+      {
+        "left": "Mitral regurgitation",
+        "right": "Systolic",
+        "why": "Mitral regurgitation (and tricuspid regurgitation) produce systolic murmurs."
+      },
+      {
+        "left": "Mitral stenosis",
+        "right": "Diastolic",
+        "why": "Mitral stenosis (and tricuspid stenosis) produce diastolic murmurs."
+      },
+      {
+        "left": "Aortic regurgitation",
+        "right": "Diastolic",
+        "why": "Aortic regurgitation (and pulmonic regurgitation) produce diastolic murmurs."
+      }
+    ],
+    "explanation": "Systolic murmurs: aortic/pulmonary stenosis and mitral/tricuspid regurgitation. Diastolic murmurs: mitral/tricuspid stenosis and aortic/pulmonic regurgitation."
+  },
+  {
+    "id": "cvr-008",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Murmurs & Maneuvers",
+    "source": "CV Unit Review, slide 15 (Special Qualities of Murmurs)",
+    "question": "Match each murmur to its distinctive feature.",
+    "pairs": [
+      {
+        "left": "Aortic stenosis",
+        "right": "Radiates to the carotids with a narrow pulse pressure",
+        "why": "Aortic stenosis radiates to the carotids and narrows the pulse pressure."
+      },
+      {
+        "left": "Mitral regurgitation",
+        "right": "Radiates to the axilla",
+        "why": "Mitral regurgitation radiates to the axilla and can accompany a mid-systolic click in MVP."
+      },
+      {
+        "left": "Aortic regurgitation",
+        "right": "Water hammer pulse and an Austin Flint murmur",
+        "why": "Aortic regurgitation causes a water hammer (forceful) pulse and an Austin Flint murmur."
+      },
+      {
+        "left": "Tricuspid regurgitation",
+        "right": "Increased JVP",
+        "why": "Tricuspid regurgitation raises the jugular venous pressure and right atrial pressure."
+      }
+    ],
+    "explanation": "Aortic stenosis radiates to the carotids with a narrow pulse pressure; mitral regurgitation radiates to the axilla; aortic regurgitation gives a water hammer pulse and Austin Flint murmur; and tricuspid regurgitation raises the JVP."
+  },
+  {
+    "id": "cvr-009",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Murmurs & Maneuvers",
+    "source": "CV Unit Review, slide 16 (Accentuation and Attenuation of Murmurs)",
+    "question": "Select ALL maneuvers that ACCENTUATE (increase) a hypertrophic obstructive cardiomyopathy (HOCM) murmur.",
+    "options": [
+      "Standing",
+      "Valsalva",
+      "Squatting",
+      "Sustained handgrip"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Standing and Valsalva both decrease preload (venous return), which accentuates the HOCM murmur. Squatting increases preload and afterload and handgrip increases afterload, both of which attenuate HOCM (while squatting accentuates most other murmurs).",
+    "why": [
+      "Correct. Standing decreases venous return and accentuates HOCM.",
+      "Correct. Valsalva decreases preload and accentuates HOCM.",
+      "Incorrect. Squatting attenuates HOCM (though it accentuates most other murmurs).",
+      "Incorrect. Sustained handgrip increases afterload and attenuates HOCM."
+    ]
+  },
+  {
+    "id": "cvr-010",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Murmurs & Maneuvers",
+    "source": "CV Unit Review, slide 17 (Athlete with mid-systolic murmur)",
+    "question": "A 22-year-old male athlete has a mid-systolic crescendo-decrescendo murmur at the left sternal border and a father who died suddenly at 34. To differentiate HCM from aortic stenosis, he performs a sustained isometric handgrip. Which finding supports hypertrophic cardiomyopathy over aortic stenosis?",
+    "options": [
+      "Decrease in murmur intensity",
+      "Increase in murmur intensity",
+      "Radiation of the murmur to the carotid arteries",
+      "Development of a paradoxical S2 split",
+      "No change in murmur intensity"
+    ],
+    "answer": 0,
+    "explanation": "Sustained handgrip increases afterload, which reduces the left ventricular outflow obstruction of HOCM and therefore decreases the HOCM murmur. Radiation to the carotids and a narrow pulse pressure instead point to aortic stenosis.",
+    "why": [
+      "Correct. Handgrip raises afterload and softens the HOCM murmur.",
+      "An increase with handgrip would not be expected in HOCM.",
+      "Radiation to the carotids points to aortic stenosis, not HCM.",
+      "A paradoxical S2 split is associated with aortic stenosis and LV outflow delay.",
+      "HOCM changes with maneuvers; no change would not distinguish it."
+    ]
+  },
+  {
+    "id": "cvr-011",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Murmurs & Maneuvers",
+    "source": "CV Unit Review, slide 16 (Accentuation and Attenuation of Murmurs)",
+    "question": "Squatting increases preload and peripheral resistance. Its effect on murmurs is to:",
+    "options": [
+      "Accentuate most murmurs but attenuate HOCM",
+      "Attenuate all murmurs including HOCM",
+      "Accentuate HOCM specifically",
+      "Have no effect on any murmur"
+    ],
+    "answer": 0,
+    "explanation": "Squatting increases preload and peripheral resistance, increasing ventricular filling. This accentuates most murmurs but attenuates HOCM. Standing and Valsalva do the opposite for HOCM.",
+    "why": [
+      "Correct. Squatting accentuates most murmurs but reduces the HOCM murmur.",
+      "Squatting increases, not attenuates, most murmurs.",
+      "Squatting attenuates HOCM; standing and Valsalva accentuate it.",
+      "Squatting clearly changes murmur intensity."
+    ]
+  },
+  {
+    "id": "cvr-012",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Hemodynamics",
+    "source": "CV Unit Review, slide 19 (73-year-old with palpitations and dizziness)",
+    "question": "A 73-year-old woman has sudden palpitations and dizziness. Her EKG shows sinus tachycardia at 186 and her BP is 88/62. What hemodynamic derangement best explains her dizziness?",
+    "options": [
+      "Hypotension due to decreased diastolic filling time",
+      "Hypotension due to decreased peripheral resistance",
+      "Hypotension due to decreased chronotropy",
+      "Hypotension due to increased inotropy"
+    ],
+    "answer": 0,
+    "explanation": "At a rate of 186, diastole shortens markedly, reducing ventricular filling time and preload. Lower stroke volume drops cardiac output and blood pressure, causing her dizziness.",
+    "why": [
+      "Correct. The very fast rate shortens diastolic filling, lowering stroke volume and BP.",
+      "Her problem is filling time, not a fall in peripheral resistance.",
+      "She is tachycardic (increased chronotropy), not bradycardic.",
+      "Increased inotropy would tend to support, not lower, blood pressure."
+    ]
+  },
+  {
+    "id": "cvr-013",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Angina & ACS",
+    "source": "CV Unit Review, slide 27 (Stable vs Unstable vs Variant Angina)",
+    "question": "Match each angina type to its defining feature.",
+    "pairs": [
+      {
+        "left": "Stable angina",
+        "right": "Predictable, exertional, relieved by rest or nitroglycerin, negative biomarkers",
+        "why": "Stable angina is predictable exertional pain relieved by rest or nitroglycerin, with negative biomarkers."
+      },
+      {
+        "left": "Unstable angina",
+        "right": "At rest or minimal exertion, longer (15+ min), not relieved by rest or nitroglycerin",
+        "why": "Unstable angina occurs at rest or with minimal exertion, lasts longer, and is not relieved by rest or nitroglycerin."
+      },
+      {
+        "left": "Variant (Prinzmetal) angina",
+        "right": "Coronary spasm, often at rest in early morning, transient ST elevation, treated with CCB",
+        "why": "Variant angina is coronary spasm, typically at rest in the early morning, with transient ST elevation, treated with calcium channel blockers."
+      }
+    ],
+    "explanation": "Stable angina: predictable, exertional, relieved by rest or nitroglycerin, negative biomarkers. Unstable angina: rest or minimal exertion, longer duration, not relieved by rest or nitroglycerin. Variant (Prinzmetal): coronary spasm, often at rest early morning, transient ST elevation, treat with calcium channel blockers."
+  },
+  {
+    "id": "cvr-014",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Angina & ACS",
+    "source": "CV Unit Review, slide 31 (Classic ECG Evolution in STEMI)",
+    "question": "What is the classic order of ECG evolution in a STEMI?",
+    "options": [
+      "Peaked (hyperacute) T waves, then ST elevation, then Q-wave development, then T-wave inversion",
+      "T-wave inversion, then Q waves, then ST elevation, then peaked T waves",
+      "Q waves, then peaked T waves, then ST depression",
+      "ST depression, then peaked T waves, then Q waves"
+    ],
+    "answer": 0,
+    "explanation": "The classic STEMI ECG evolution is peaked (hyperacute) T waves, then ST-segment elevation, then Q-wave development, then T-wave inversion.",
+    "why": [
+      "Correct. Hyperacute T waves, ST elevation, Q waves, then T-wave inversion.",
+      "This reverses the true sequence.",
+      "Q waves develop after ST elevation, not first.",
+      "STEMI features ST elevation, not initial ST depression."
+    ]
+  },
+  {
+    "id": "cvr-015",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Angina & ACS",
+    "source": "CV Unit Review, slide 32 (Treatment of ACS)",
+    "question": "Select ALL components of ACS treatment per this lecture.",
+    "options": [
+      "Aspirin 162 to 325 mg",
+      "Heparin (UFH or LMWH)",
+      "High-potency statin with an LDL goal < 55",
+      "Routine warfarin for every patient"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "ACS treatment includes aspirin 162 to 325 mg, oxygen, nitroglycerin, morphine, a 12-lead ECG within 10 minutes, heparin (UFH or LMWH), a high-potency statin (LDL goal < 55), beta-blockers, a P2Y12 inhibitor, and reperfusion (PCI within 90 minutes or fibrinolysis within 30 minutes if PCI is unavailable). Routine warfarin for every patient is not part of this.",
+    "why": [
+      "Correct. Aspirin 162 to 325 mg is given.",
+      "Correct. Heparin (UFH or LMWH) is given.",
+      "Correct. A high-potency statin with LDL goal < 55 is used.",
+      "Incorrect. Warfarin is not a routine part of ACS treatment."
+    ]
+  },
+  {
+    "id": "cvr-016",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Angina & ACS",
+    "source": "CV Unit Review, slide 32 (Treatment of ACS: P2Y12 inhibitors)",
+    "question": "Among P2Y12 inhibitors, which has the LOWEST bleeding risk?",
+    "options": [
+      "Clopidogrel",
+      "Ticagrelor",
+      "Prasugrel",
+      "Eptifibatide"
+    ],
+    "answer": 0,
+    "explanation": "Clopidogrel has the lowest bleeding risk among P2Y12 inhibitors, while ticagrelor and prasugrel are more potent (prasugrel is the most potent). Eptifibatide is a glycoprotein IIb/IIIa inhibitor, not a P2Y12 inhibitor.",
+    "why": [
+      "Correct. Clopidogrel carries the lowest bleeding risk.",
+      "Ticagrelor is more potent with a higher bleeding risk than clopidogrel.",
+      "Prasugrel is the most potent and carries higher bleeding risk.",
+      "Eptifibatide is a glycoprotein IIb/IIIa inhibitor, not a P2Y12 inhibitor."
+    ]
+  },
+  {
+    "id": "cvr-017",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Angina & ACS",
+    "source": "CV Unit Review, slide 38 (CABG in Stable Ischemic Heart Disease)",
+    "question": "Select ALL indications for CABG in stable ischemic heart disease.",
+    "options": [
+      "Left main stenosis",
+      "Multivessel CAD or ischemic cardiomyopathy",
+      "Diabetes with multivessel disease and LAD involvement",
+      "A single mild non-obstructive lesion"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "In stable ischemic heart disease, CABG is indicated for left main stenosis, multivessel CAD, ischemic cardiomyopathy, and diabetes with multivessel disease and LAD involvement. In STEMI with ischemic symptoms, CABG is indicated for cardiogenic shock, heart failure, or a large area at risk. A single mild lesion is not an indication.",
+    "why": [
+      "Correct. Left main stenosis is an indication.",
+      "Correct. Multivessel CAD and ischemic cardiomyopathy are indications.",
+      "Correct. Diabetes with multivessel disease and LAD involvement favors CABG.",
+      "Incorrect. A single mild non-obstructive lesion is not a CABG indication."
+    ]
+  },
+  {
+    "id": "cvr-018",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Angina & ACS",
+    "source": "CV Unit Review, slide 40 (63-year-old with exertional chest pain)",
+    "question": "A 63-year-old man with hypertension and hyperlipidemia has recurring substernal pressure radiating to his jaw, predictably brought on by climbing stairs or carrying groceries and relieved by rest, once or twice a week. Troponins and EKG are normal. The most appropriate diagnosis is:",
+    "options": [
+      "Stable angina",
+      "Prinzmetal (variant) angina",
+      "Musculoskeletal chest pain",
+      "Unstable angina",
+      "NSTEMI"
+    ],
+    "answer": 0,
+    "explanation": "Predictable, exertional chest pressure relieved by rest, with normal troponins and EKG, is classic stable angina from fixed coronary disease.",
+    "why": [
+      "Correct. Predictable exertional pain relieved by rest is stable angina.",
+      "Variant angina occurs at rest, often early morning, not with exertion.",
+      "The clear exertional pattern and cardiac risk factors point to angina, not musculoskeletal pain.",
+      "Unstable angina occurs at rest or with escalating frequency, not this stable pattern.",
+      "NSTEMI would show an elevated troponin, which he does not have."
+    ]
+  },
+  {
+    "id": "cvr-019",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Angina & ACS",
+    "source": "CV Unit Review, slide 42 (41-year-old with pleuritic chest pain)",
+    "question": "A 41-year-old man has sharp, pleuritic substernal chest pain that is constant and relieved by sitting up and leaning forward, with a fever of 100.6 F and normal troponins. The most likely diagnosis and treatment is:",
+    "options": [
+      "Pericarditis, treated with a nonsteroidal anti-inflammatory",
+      "NSTEMI, treated with aspirin, morphine, and a beta-blocker",
+      "STEMI, treated with aspirin, morphine, and a beta-blocker",
+      "Pericardial effusion, treated with pericardiocentesis",
+      "Pulmonary embolism, treated with low molecular weight heparin"
+    ],
+    "answer": 0,
+    "explanation": "Pleuritic chest pain relieved by sitting forward, with fever and normal troponins, is classic acute pericarditis, treated with NSAIDs (often with colchicine).",
+    "why": [
+      "Correct. Positional pleuritic pain with fever is pericarditis, treated with NSAIDs.",
+      "Normal troponins and positional pleuritic pain argue against NSTEMI.",
+      "There is no evidence of STEMI here, and beta-blockers are not the treatment for pericarditis.",
+      "A pericardial effusion large enough to need pericardiocentesis would cause tamponade physiology, not this picture.",
+      "The positional, pleuritic pain with fever fits pericarditis rather than PE."
+    ]
+  },
+  {
+    "id": "cvr-020",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Angina & ACS",
+    "source": "CV Unit Review, slide 44 (48-year-old with early-morning chest pressure)",
+    "question": "A 48-year-old woman with a 25 pack-year smoking history has recurrent chest pressure at about 4:00 AM, lasting 10 to 15 minutes, unrelated to exertion. During an episode, ECG shows transient ST elevation in V2 through V4 that resolves with nitroglycerin, and serial troponins are normal. The most likely diagnosis is:",
+    "options": [
+      "Variant angina",
+      "Acute myocardial infarction",
+      "Microvascular angina",
+      "Stable angina",
+      "Unstable angina"
+    ],
+    "answer": 0,
+    "explanation": "Rest chest pain in the early morning with transient ST elevation that resolves with nitroglycerin and normal troponins is variant (Prinzmetal) angina from coronary vasospasm, treated with calcium channel blockers.",
+    "why": [
+      "Correct. Transient early-morning ST elevation resolving with nitroglycerin is variant angina.",
+      "Normal serial troponins rule out an acute MI.",
+      "Microvascular angina does not typically cause transient ST elevation resolving with nitroglycerin.",
+      "Stable angina is exertional, not rest pain at 4 AM.",
+      "Unstable angina does not typically produce transient ST elevation that fully resolves."
+    ]
+  },
+  {
+    "id": "cvr-021",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Angina & ACS",
+    "source": "CV Unit Review, slide 46 (55-year-old with crushing chest pain)",
+    "question": "A 55-year-old man has severe crushing substernal chest pain radiating to the jaw with diaphoresis and dyspnea that began an hour ago, and an ECG showing ST elevation. Which acute coronary syndrome is present and what is the immediate treatment?",
+    "options": [
+      "STEMI: nitroglycerin, oxygen, morphine, and aspirin 325 mg",
+      "Variant angina: nitroglycerin, oxygen, morphine, and aspirin 325 mg",
+      "Unstable angina: nitroglycerin and ranolazine",
+      "STEMI: ACE inhibitor, beta-blocker, and oxygen",
+      "NSTEMI: nitroglycerin, oxygen, morphine, and aspirin 325 mg"
+    ],
+    "answer": 0,
+    "explanation": "Crushing chest pain with diaphoresis, dyspnea, and ST elevation is a STEMI. Immediate therapy includes nitroglycerin, oxygen (if hypoxic), morphine, and aspirin 325 mg, followed by urgent reperfusion.",
+    "why": [
+      "Correct. ST elevation with this presentation is a STEMI treated with nitroglycerin, oxygen, morphine, and aspirin.",
+      "Variant angina causes transient spasm, not this sustained STEMI presentation.",
+      "This is not unstable angina; ST elevation is present.",
+      "An ACE inhibitor and beta-blocker are not the immediate first-line STEMI regimen here.",
+      "ST elevation makes this a STEMI, not an NSTEMI."
+    ]
+  },
+  {
+    "id": "cvr-022",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Angina & ACS",
+    "source": "CV Unit Review, slide 48 (64-year-old at a PCI-capable ED)",
+    "question": "A 64-year-old man at a PCI-capable emergency department has retrosternal chest pain, dyspnea, bilateral basilar crackles, an S3 gallop, and 3 mm ST elevation in V1 through V4. What is the recommended treatment?",
+    "options": [
+      "Door-to-balloon time of 90 minutes or less",
+      "Immediate catheterization only after heart failure resolves",
+      "Door-to-balloon time of 120 minutes",
+      "Angiography within 24 hours",
+      "Emergency coronary bypass surgery"
+    ],
+    "answer": 0,
+    "explanation": "This is an anterior STEMI at a PCI-capable center. The recommended treatment is primary PCI with a door-to-balloon time of 90 minutes or less; do not delay for heart failure to resolve.",
+    "why": [
+      "Correct. Primary PCI with door-to-balloon under 90 minutes is the goal.",
+      "Reperfusion should not be delayed until heart failure resolves.",
+      "The target is 90 minutes or less, not 120 minutes.",
+      "A STEMI needs emergent reperfusion, not angiography deferred 24 hours.",
+      "Emergency bypass is not the first-line reperfusion strategy at a PCI-capable center."
+    ]
+  },
+  {
+    "id": "cvr-023",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Hypertension",
+    "source": "CV Unit Review, slide 57 (Hypertensive Emergency)",
+    "question": "A patient with BP over 180/120 AND signs or symptoms of target organ damage (for example encephalopathy, MI, or pulmonary edema) has:",
+    "options": [
+      "A hypertensive emergency, managed in the ICU with IV antihypertensives",
+      "Hypertensive urgency, managed with gradual oral therapy",
+      "Normal blood pressure",
+      "White coat hypertension"
+    ],
+    "answer": 0,
+    "explanation": "A hypertensive emergency is BP over 180/120 with target organ damage (encephalopathy, seizure, stroke, MI, heart failure, pulmonary edema, aortic dissection, AKI, retinopathy). It is managed in the ICU with IV antihypertensives. Without target organ damage it is hypertensive urgency.",
+    "why": [
+      "Correct. BP over 180/120 with organ damage is a hypertensive emergency requiring ICU IV therapy.",
+      "Urgency is the same BP but without target organ damage.",
+      "These pressures are far from normal.",
+      "White coat hypertension is elevated office readings without true sustained hypertension or organ damage."
+    ]
+  },
+  {
+    "id": "cvr-024",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Hypertension",
+    "source": "CV Unit Review, slide 56 (Severe Hypertension / Hypertensive Urgency)",
+    "question": "For severe asymptomatic hypertension (hypertensive urgency, BP over 180/120 without target organ damage), the blood pressure should be:",
+    "options": [
+      "Lowered gradually over 24 to 48 hours by restarting or adjusting oral medications",
+      "Dropped to normal within one hour with IV agents",
+      "Left untreated",
+      "Lowered by 75% immediately"
+    ],
+    "answer": 0,
+    "explanation": "In hypertensive urgency you must evaluate for target organ damage, then in the outpatient setting restart or adjust oral medications and lower BP gradually over 24 to 48 hours (reducing mean arterial pressure by about 25%). Rapid lowering risks hypoperfusion.",
+    "why": [
+      "Correct. Gradual oral lowering over 24 to 48 hours is appropriate for urgency.",
+      "Rapid normalization with IV agents is for emergencies with organ damage, and even then not to normal within an hour.",
+      "It still requires evaluation and treatment, just not acutely.",
+      "Lowering MAP by about 25% is the target, not 75%."
+    ]
+  },
+  {
+    "id": "cvr-025",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Hypertension",
+    "source": "CV Unit Review, slide 54 (Medications for HTN)",
+    "question": "Select ALL first-line medication classes for uncomplicated hypertension.",
+    "options": [
+      "Thiazide diuretics (chlorthalidone or HCTZ)",
+      "Long-acting dihydropyridine calcium channel blockers (amlodipine)",
+      "ACE inhibitors or ARBs",
+      "Beta-blockers for every hypertensive patient"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "First-line classes for uncomplicated hypertension are thiazide diuretics, long-acting dihydropyridine CCBs, ACE inhibitors, and ARBs. Beta-blockers should only be used as first-line agents in patients with heart failure or coronary heart disease.",
+    "why": [
+      "Correct. Thiazide diuretics are first-line.",
+      "Correct. Long-acting dihydropyridine CCBs are first-line.",
+      "Correct. ACE inhibitors and ARBs are first-line.",
+      "Incorrect. Beta-blockers are first-line only with heart failure or CHD, not for everyone."
+    ]
+  },
+  {
+    "id": "cvr-026",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Hypertension",
+    "source": "CV Unit Review, slide 58 (65-year-old with CKD, adding aliskiren)",
+    "question": "A 65-year-old man with hypertension and stage 3 CKD (eGFR 42) on lisinopril and amlodipine has BP 146/92. A colleague suggests adding the direct renin inhibitor aliskiren. Adding aliskiren is contraindicated because it increases the risk of:",
+    "options": [
+      "Acute kidney injury and hyperkalemia",
+      "Angioedema",
+      "Nephrogenic diabetes insipidus",
+      "Ototoxicity",
+      "Reflex tachycardia"
+    ],
+    "answer": 0,
+    "explanation": "Combining a direct renin inhibitor with an ACE inhibitor (dual RAAS blockade), especially in CKD, significantly increases the risk of acute kidney injury and hyperkalemia and is contraindicated.",
+    "why": [
+      "Correct. Dual RAAS blockade raises the risk of AKI and hyperkalemia.",
+      "Angioedema is an ACE inhibitor risk but not the reason aliskiren is contraindicated here.",
+      "Nephrogenic diabetes insipidus is not caused by aliskiren.",
+      "Ototoxicity is associated with loop diuretics, not aliskiren.",
+      "Reflex tachycardia is seen with vasodilators like hydralazine, not aliskiren."
+    ]
+  },
+  {
+    "id": "cvr-027",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Hypertension",
+    "source": "CV Unit Review, slide 60 (31-year-old newly pregnant on losartan)",
+    "question": "A 31-year-old woman with hypertension controlled on losartan is found to be 8 weeks pregnant, BP 128/86. What is the most appropriate next step for her antihypertensive therapy?",
+    "options": [
+      "Discontinue losartan immediately and start methyldopa or labetalol",
+      "Continue losartan and schedule monthly fetal renal ultrasounds",
+      "Increase losartan to keep systolic BP strictly below 120",
+      "Substitute losartan with lisinopril to minimize teratogenic risk",
+      "Suspend all antihypertensive therapy until the third trimester"
+    ],
+    "answer": 0,
+    "explanation": "ARBs (like losartan) and ACE inhibitors are teratogenic and must be stopped in pregnancy. Substitute a pregnancy-safe agent such as methyldopa or labetalol.",
+    "why": [
+      "Correct. Stop the ARB and switch to methyldopa or labetalol.",
+      "Continuing an ARB in pregnancy is unsafe regardless of monitoring.",
+      "Intensifying an ARB in pregnancy is contraindicated.",
+      "Lisinopril is an ACE inhibitor and is also teratogenic.",
+      "Her hypertension still needs treatment with a safe agent, not suspension."
+    ]
+  },
+  {
+    "id": "cvr-028",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Hypertension",
+    "source": "CV Unit Review, slide 62 (58-year-old with BP 198/114 and URI)",
+    "question": "A 58-year-old woman who stopped her BP medications 2 months ago has a URI and BP 198/114, with no chest pain, visual changes, neurologic deficits, or papilledema. Besides treating her URI, the most appropriate initial management is:",
+    "options": [
+      "Resume her previous oral regimen with close outpatient follow-up",
+      "Admit for IV hydralazine",
+      "Admit to the ICU for IV labetalol",
+      "Oral clonidine",
+      "Oral immediate-release nifedipine"
+    ],
+    "answer": 0,
+    "explanation": "She has hypertensive urgency (BP over 180/120 without target organ damage). After evaluating for organ damage, management is to restart or adjust oral medications and lower BP gradually with close follow-up. IV therapy is for hypertensive emergencies, and immediate-release nifedipine is avoided due to the risk of precipitous drops.",
+    "why": [
+      "Correct. Urgency without organ damage is managed by resuming oral meds with follow-up.",
+      "IV hydralazine and admission are for emergencies with target organ damage.",
+      "ICU IV labetalol is for a hypertensive emergency, which she does not have.",
+      "Oral clonidine can cause rebound and is not the preferred initial step here.",
+      "Immediate-release nifedipine risks a dangerous rapid BP drop and is avoided."
+    ]
+  },
+  {
+    "id": "cvr-029",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Hyperlipidemia",
+    "source": "CV Unit Review, slide 71 (4 Patient Management Groups)",
+    "question": "Match each lipid management group to its defining criterion.",
+    "pairs": [
+      {
+        "left": "Secondary prevention",
+        "right": "Established clinical ASCVD",
+        "why": "Secondary prevention applies to patients with established clinical ASCVD."
+      },
+      {
+        "left": "Severe hypercholesterolemia",
+        "right": "LDL 190 mg/dL or higher",
+        "why": "Severe hypercholesterolemia is an LDL of 190 mg/dL or higher."
+      },
+      {
+        "left": "Diabetes group",
+        "right": "Adults age 40 to 75 with diabetes",
+        "why": "The diabetes group is adults 40 to 75 with diabetes (LDL goal under 100, or under 70 with risk factors)."
+      },
+      {
+        "left": "Primary prevention",
+        "right": "Adults 30 to 79, no diabetes, LDL 70 to 189",
+        "why": "Primary prevention covers adults 30 to 79 without diabetes, LDL 70 to 189, based on ASCVD risk."
+      }
+    ],
+    "explanation": "The four management groups are secondary prevention (clinical ASCVD), severe hypercholesterolemia (LDL 190 or higher), the diabetes group (age 40 to 75), and primary prevention (age 30 to 79, no diabetes, LDL 70 to 189)."
+  },
+  {
+    "id": "cvr-030",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Hyperlipidemia",
+    "source": "CV Unit Review, slide 65 (What is Clinical ASCVD)",
+    "question": "Select ALL conditions that count as clinical ASCVD.",
+    "options": [
+      "History of MI or acute coronary syndrome",
+      "Ischemic stroke or TIA",
+      "Peripheral arterial disease with intermittent claudication",
+      "Well-controlled hypertension with no vascular events"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Clinical ASCVD includes coronary heart disease (ACS, prior MI, stable angina, prior PCI or CABG), cerebrovascular disease (ischemic stroke, TIA, carotid stenosis), peripheral arterial disease (claudication, critical limb ischemia, revascularization), and aortic atherosclerotic disease. Hypertension alone without a vascular event is a risk factor, not clinical ASCVD.",
+    "why": [
+      "Correct. Prior MI or ACS is clinical ASCVD.",
+      "Correct. Ischemic stroke or TIA is clinical ASCVD.",
+      "Correct. Peripheral arterial disease with claudication is clinical ASCVD.",
+      "Incorrect. Hypertension alone without a vascular event is a risk factor, not clinical ASCVD."
+    ]
+  },
+  {
+    "id": "cvr-031",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Hyperlipidemia",
+    "source": "CV Unit Review, slide 73 (58-year-old diabetic, ASCVD risk 12%)",
+    "question": "A 58-year-old man with an 11-year history of type 2 diabetes and hypertension has LDL-C 155 mg/dL, a microalbumin/creatinine ratio of 100, no clinical ASCVD, and a 10-year ASCVD risk of 12%. The most appropriate initial pharmacotherapy is:",
+    "options": [
+      "High-intensity statin therapy",
+      "Moderate-intensity statin therapy",
+      "Low-intensity statin plus ezetimibe",
+      "PCSK9 inhibitor monotherapy",
+      "Bile acid sequestrant"
+    ],
+    "answer": 0,
+    "explanation": "A diabetic aged 40 to 75 with diabetes-specific risk enhancers (long duration and microalbuminuria) and an elevated 10-year risk warrants high-intensity statin therapy to lower LDL toward the more aggressive goal.",
+    "why": [
+      "Correct. Diabetes with risk enhancers and elevated risk calls for a high-intensity statin.",
+      "Moderate intensity is used for diabetics without additional risk enhancers.",
+      "A statin, not a low-intensity statin plus ezetimibe, is the appropriate first step.",
+      "PCSK9 inhibitors are add-on agents, not initial monotherapy.",
+      "Bile acid sequestrants are not first-line for this patient."
+    ]
+  },
+  {
+    "id": "cvr-032",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Hyperlipidemia",
+    "source": "CV Unit Review, slide 75 (69-year-old very high-risk ASCVD)",
+    "question": "A 69-year-old man with CABG 3 years ago and a recent NSTEMI is on atorvastatin 80 mg and ezetimibe 10 mg with LDL-C 82 mg/dL, and still smokes with poorly controlled hypertension. For secondary prevention in very high-risk ASCVD, which agent should be added?",
+    "options": [
+      "PCSK9 inhibitor monoclonal antibody",
+      "Fenofibrate",
+      "Bempedoic acid",
+      "Omega-3 fatty acid ethyl esters",
+      "Bile acid sequestrant"
+    ],
+    "answer": 0,
+    "explanation": "In very high-risk ASCVD with LDL-C still above goal despite a maximally tolerated statin plus ezetimibe, a PCSK9 inhibitor monoclonal antibody is the recommended next agent.",
+    "why": [
+      "Correct. A PCSK9 inhibitor is added when statin plus ezetimibe leaves LDL above goal in very high-risk ASCVD.",
+      "Fenofibrate lowers triglycerides but is not the LDL-lowering add-on here.",
+      "Bempedoic acid is generally reserved for statin intolerance, not the first add-on after ezetimibe.",
+      "Omega-3 ethyl esters target triglycerides, not LDL for this indication.",
+      "Bile acid sequestrants are not the recommended next step in very high-risk secondary prevention."
+    ]
+  },
+  {
+    "id": "cvr-033",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Cardiac Surgery Review",
+    "source": "CV Unit Review, slide 81 (58-year-old, three-vessel disease, SYNTAX 28)",
+    "question": "A 58-year-old man with diabetes, hypertension, and hyperlipidemia has stable exertional angina despite optimal therapy. Angiography shows three-vessel disease with over 70% stenosis in the proximal LAD, circumflex, and RCA; EF is 52% and SYNTAX score is 28. The most appropriate next step is:",
+    "options": [
+      "CABG using the LIMA and saphenous vein grafts",
+      "PCI with drug-eluting stents to all three vessels",
+      "Add a long-acting nitrate and ranolazine, deferring revascularization",
+      "Transmyocardial laser revascularization"
+    ],
+    "answer": 0,
+    "explanation": "A diabetic with complex three-vessel disease involving the proximal LAD and a higher SYNTAX score favors CABG (LIMA plus saphenous vein grafts) over multivessel PCI, which improves survival in this group.",
+    "why": [
+      "Correct. Diabetes with complex multivessel disease and LAD involvement favors CABG.",
+      "Multivessel PCI is less favored than CABG in a diabetic with a higher SYNTAX score.",
+      "He is already on optimal medical therapy and remains symptomatic, so revascularization is indicated.",
+      "Transmyocardial laser revascularization is not the appropriate next step here."
+    ]
+  },
+  {
+    "id": "cvr-034",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "CV Unit Review",
+    "section": "Cardiac Surgery Review",
+    "source": "CV Unit Review, slide 83 (Pregnant woman needing mitral valve replacement)",
+    "question": "A pregnant woman with severe, highly symptomatic mitral valve disease needs mitral valve replacement. Which prosthetic valve is recommended in pregnancy?",
+    "options": [
+      "A bioprosthetic valve, because it avoids the need for lifelong anticoagulation",
+      "A mechanical valve, for its longevity and freedom from structural deterioration",
+      "A mechanical valve, for superior hemodynamics and prevention of postpartum heart failure",
+      "A bioprosthetic valve, for superior hemodynamics and long-term durability"
+    ],
+    "answer": 0,
+    "explanation": "A bioprosthetic valve is preferred in pregnancy because it avoids the lifelong anticoagulation a mechanical valve requires. Warfarin is teratogenic, so avoiding required anticoagulation is the key advantage, even though bioprosthetic valves are less durable.",
+    "why": [
+      "Correct. Bioprosthetic valves avoid the required anticoagulation that is hazardous in pregnancy.",
+      "Mechanical valve longevity is outweighed by the teratogenic anticoagulation it requires.",
+      "Mechanical valves require anticoagulation (warfarin), which is unsafe in pregnancy.",
+      "Bioprosthetic valves are actually less durable; the real reason to choose one is avoiding anticoagulation."
+    ]
+  },
+  {
+    "id": "img-001",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Imaging Modalities",
+    "source": "Cardiac Imaging, slide 87 (Imaging Modality table)",
+    "question": "Match each imaging modality to its description.",
+    "pairs": [
+      {
+        "left": "Chest X-ray (CXR)",
+        "right": "Radiograph of heart, vessels, lungs; used for heart failure, cardiomegaly, pulmonary edema, thoracic aneurysm",
+        "why": "The CXR is a radiograph showing the heart, vessels, and lungs, used for heart failure, cardiomegaly, pulmonary edema, and thoracic aneurysm."
+      },
+      {
+        "left": "Transthoracic echocardiogram (TTE)",
+        "right": "Ultrasound with moderate visualization of heart structures and pericardium",
+        "why": "The TTE is an ultrasound giving moderate visualization of heart structures and the pericardium."
+      },
+      {
+        "left": "Transesophageal echocardiogram (TEE)",
+        "right": "Ultrasound with higher resolution than TTE, especially the LA, mitral valve, and aorta",
+        "why": "The TEE is an ultrasound with higher resolution than TTE, particularly for the left atrium, mitral valve, and aorta."
+      }
+    ],
+    "explanation": "CXR is a radiograph of the heart, vessels, and lungs (heart failure, cardiomegaly, pulmonary edema, thoracic aneurysm). TTE is an ultrasound with moderate visualization of heart structures and pericardium. TEE is an ultrasound with higher resolution than TTE, especially the left atrium, mitral valve, and aorta."
+  },
+  {
+    "id": "img-002",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Imaging Modalities",
+    "source": "Cardiac Imaging, slide 87 (Transesophageal Echocardiogram)",
+    "question": "The main advantage of a transesophageal echocardiogram (TEE) over a transthoracic echocardiogram (TTE) is:",
+    "options": [
+      "Higher-resolution visualization of posterior structures, particularly the left atrium, mitral valve, and aorta",
+      "It uses no ultrasound and avoids all probes",
+      "It measures the coronary calcium score",
+      "It does not require a trained operator"
+    ],
+    "answer": 0,
+    "explanation": "A TEE gives more detail than a TTE, especially for the valves and posterior structures such as the left atrium, mitral valve, and aorta, because the probe sits directly behind the heart in the esophagus.",
+    "why": [
+      "Correct. TEE better visualizes the LA, mitral valve, and aorta.",
+      "TEE is an ultrasound study using an esophageal probe.",
+      "The coronary calcium score is a CT measurement, not a TEE.",
+      "TEE is operator-dependent and requires a trained provider."
+    ]
+  },
+  {
+    "id": "img-003",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Imaging Modalities",
+    "source": "Cardiac Imaging, slide 87 (Echocardiography)",
+    "question": "For a patient whose obesity, COPD, or body habitus limits transthoracic image quality, the best alternative to visualize valve anatomy is:",
+    "options": [
+      "Transesophageal echocardiogram",
+      "Chest X-ray",
+      "Coronary calcium score",
+      "MUGA scan"
+    ],
+    "answer": 0,
+    "explanation": "When body habitus or lung disease degrades TTE windows, a TEE provides high-resolution imaging of the valves and posterior structures because the probe images from within the esophagus.",
+    "why": [
+      "Correct. TEE bypasses the poor transthoracic windows to image the valves clearly.",
+      "A chest X-ray cannot detail valve anatomy or hemodynamics.",
+      "A coronary calcium score assesses calcified plaque, not valves.",
+      "A MUGA scan evaluates ejection fraction, not valve anatomy."
+    ]
+  },
+  {
+    "id": "img-004",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Stress Testing",
+    "source": "Cardiac Imaging, slide 88 (Stress Testing table)",
+    "question": "Match each stress test to its description.",
+    "pairs": [
+      {
+        "left": "Exercise stress EKG",
+        "right": "Monitors HR, BP, and ST changes during exercise; less sensitive and specific than stress echo; requires the patient to exercise",
+        "why": "The exercise stress EKG monitors HR, BP, and ST changes but is less sensitive and specific than stress echo and requires the patient to exercise."
+      },
+      {
+        "left": "Stress echocardiogram",
+        "right": "Ultrasound plus monitoring; detects reversible wall motion abnormalities; obesity or lung disease can limit image quality",
+        "why": "The stress echocardiogram adds ultrasound to detect reversible wall motion abnormalities, though obesity or lung disease can limit imaging."
+      },
+      {
+        "left": "SPECT nuclear stress test",
+        "right": "Radioactive tracer (technetium-99) assessing blood flow; shows fixed and reversible defects; can be done pharmacologically",
+        "why": "The SPECT nuclear stress test uses a technetium-99 tracer to assess myocardial blood flow, showing fixed and reversible defects, and can be pharmacologic."
+      }
+    ],
+    "explanation": "Exercise stress EKG monitors HR, BP, and ST changes but is less sensitive and specific and needs the patient to exercise. Stress echo adds ultrasound for reversible wall motion abnormalities (limited by obesity or lung disease). SPECT nuclear stress uses a technetium-99 tracer to assess blood flow and shows fixed and reversible defects, and can be done pharmacologically."
+  },
+  {
+    "id": "img-005",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Stress Testing",
+    "source": "Cardiac Imaging, slide 88 (Pharmacologic stress agents)",
+    "question": "For a patient who cannot exercise, cardiac stress testing can instead be performed:",
+    "options": [
+      "Pharmacologically, using agents such as regadenoson, dipyridamole, or dobutamine",
+      "Only by having them run on a treadmill",
+      "By coronary calcium scoring during exercise",
+      "Not at all; stress testing requires exercise"
+    ],
+    "answer": 0,
+    "explanation": "When a patient cannot exercise, pharmacologic stress agents (regadenoson, dipyridamole, dobutamine) are used, most often with a SPECT nuclear or stress echo protocol.",
+    "why": [
+      "Correct. Pharmacologic agents allow stress testing without exercise.",
+      "Requiring a treadmill would exclude patients who cannot exercise.",
+      "Coronary calcium scoring is not a stress test.",
+      "Stress testing can be done pharmacologically when exercise is not possible."
+    ]
+  },
+  {
+    "id": "img-006",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Stress Testing",
+    "source": "Cardiac Imaging, slide 88 (Pharmacologic stress agents)",
+    "question": "Select ALL pharmacologic stress agents.",
+    "options": [
+      "Regadenoson",
+      "Dipyridamole",
+      "Dobutamine",
+      "Aspirin"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Pharmacologic stress agents include regadenoson, dipyridamole, and dobutamine. Aspirin is an antiplatelet agent, not a stress agent.",
+    "why": [
+      "Correct. Regadenoson is a pharmacologic stress agent.",
+      "Correct. Dipyridamole is a pharmacologic stress agent.",
+      "Correct. Dobutamine is a pharmacologic stress agent.",
+      "Incorrect. Aspirin is an antiplatelet, not a stress agent."
+    ]
+  },
+  {
+    "id": "img-007",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Coronary Artery Visualization",
+    "source": "Cardiac Imaging, slide 89 (Modalities for Coronary Artery Visualization)",
+    "question": "Match each modality to its primary use.",
+    "pairs": [
+      {
+        "left": "Coronary angiogram (cardiac catheterization)",
+        "right": "Visualize coronary anatomy and stenosis; stent and balloon procedures; measure valve gradients",
+        "why": "The coronary angiogram visualizes coronary anatomy and patency, allows stenting and balloon procedures, and measures valve gradients."
+      },
+      {
+        "left": "Coronary CT angiography (CCTA, CT with contrast)",
+        "right": "Evaluate low-to-intermediate-risk chest pain and graft patency; shows hard and soft plaque",
+        "why": "CCTA evaluates stable or acute chest pain in low-to-intermediate-risk patients, assesses graft patency, and visualizes both hard and soft plaque."
+      },
+      {
+        "left": "Coronary calcium score (CAC)",
+        "right": "Screening of asymptomatic, moderate-risk patients",
+        "why": "The coronary calcium score screens asymptomatic, moderate-risk patients for calcified plaque."
+      },
+      {
+        "left": "Cardiac MR",
+        "right": "Evaluate cardiac function and cardiomyopathies such as amyloidosis",
+        "why": "Cardiac MR is better for evaluating cardiac function and cardiomyopathies like amyloidosis."
+      }
+    ],
+    "explanation": "Coronary angiogram: visualize coronary anatomy and stenosis, stent and balloon procedures, measure valve gradients. CCTA (CT with contrast): low-to-intermediate-risk chest pain, graft patency, hard and soft plaque. Coronary calcium score: asymptomatic moderate-risk screening. Cardiac MR: cardiac function and cardiomyopathies such as amyloidosis."
+  },
+  {
+    "id": "img-008",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Coronary Artery Visualization",
+    "source": "Cardiac Imaging, slide 89 (CCTA vs CAC)",
+    "question": "Compared with a coronary calcium score, coronary CT angiography (CCTA) has the advantage of:",
+    "options": [
+      "Visualizing both hard (calcified) and soft (non-calcified) plaque",
+      "Requiring no contrast",
+      "Showing only calcified plaque",
+      "Being an invasive catheter procedure"
+    ],
+    "answer": 0,
+    "explanation": "CCTA (cardiac CT with contrast) visualizes both hard and soft plaque in the coronary arteries, whereas the coronary calcium score detects only calcified plaque and misses more dangerous soft plaque.",
+    "why": [
+      "Correct. CCTA shows both hard and soft plaque.",
+      "CCTA uses contrast; the non-contrast study is the calcium score.",
+      "Showing only calcified plaque describes the calcium score, not CCTA.",
+      "CCTA is a noninvasive CT, not a catheter procedure."
+    ]
+  },
+  {
+    "id": "img-009",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Coronary Artery Visualization",
+    "source": "Cardiac Imaging, slide 89 (Coronary Artery CT Calcium Scoring)",
+    "question": "The coronary artery calcium (CAC) score is primarily used for:",
+    "options": [
+      "Screening asymptomatic, moderate-risk patients",
+      "Guiding stent placement during PCI",
+      "Evaluating cardiomyopathies like amyloidosis",
+      "Measuring valve gradients"
+    ],
+    "answer": 0,
+    "explanation": "The coronary calcium score screens asymptomatic, moderate-risk patients for calcified coronary plaque to refine risk. It is not used for procedural guidance, cardiomyopathy evaluation, or valve gradients.",
+    "why": [
+      "Correct. CAC is a screening tool for asymptomatic, moderate-risk patients.",
+      "Guiding stent placement is a role for IVUS or angiography, not CAC.",
+      "Cardiomyopathy evaluation like amyloidosis is a cardiac MR role.",
+      "Valve gradients are measured by echo or catheterization, not CAC."
+    ]
+  },
+  {
+    "id": "img-010",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Coronary Artery Visualization",
+    "source": "Cardiac Imaging, slide 89 (Intravascular Ultrasound)",
+    "question": "Intravascular ultrasound (IVUS) is primarily used for:",
+    "options": [
+      "Complex high-risk PCI, including stent placement and checking patency",
+      "Screening asymptomatic patients for calcified plaque",
+      "Evaluating cardiomyopathies noninvasively",
+      "Producing a chest radiograph"
+    ],
+    "answer": 0,
+    "explanation": "IVUS is used in complex high-risk PCI for stent placement and patency assessment, and assists with ablation, pacing wire placement, transcatheter valve replacement, and evaluating aneurysms or dissection.",
+    "why": [
+      "Correct. IVUS supports complex high-risk PCI and stent assessment.",
+      "Asymptomatic screening for calcified plaque is the coronary calcium score.",
+      "Noninvasive cardiomyopathy evaluation is a cardiac MR role.",
+      "IVUS is an intravascular ultrasound, not a radiograph."
+    ]
+  },
+  {
+    "id": "img-011",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Imaging Case Application",
+    "source": "Cardiac Imaging, slide 90 (84-year-old with suspected mitral stenosis)",
+    "question": "An 84-year-old with prior rheumatic fever and an audible murmur is suspected of mitral valve stenosis. She has severe COPD and a BMI of 38. Which study best visualizes the anatomy and hemodynamics of her mitral valve?",
+    "options": [
+      "Transesophageal echocardiogram",
+      "Coronary calcium test",
+      "Transthoracic echocardiogram",
+      "MUGA scan",
+      "Cardiac MRI"
+    ],
+    "answer": 0,
+    "explanation": "Severe COPD and a high BMI degrade transthoracic windows. A transesophageal echocardiogram best visualizes the mitral valve anatomy and hemodynamics because the probe images directly behind the heart, giving high resolution of the left atrium and mitral valve.",
+    "why": [
+      "Correct. TEE gives high-resolution mitral valve imaging despite poor transthoracic windows.",
+      "A coronary calcium test assesses coronary plaque, not the mitral valve.",
+      "TTE image quality is limited here by COPD and body habitus.",
+      "A MUGA scan measures ejection fraction, not valve anatomy.",
+      "Cardiac MRI is better for function and cardiomyopathies than for detailed mitral valve hemodynamics."
+    ]
+  },
+  {
+    "id": "img-012",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Imaging Case Application",
+    "source": "Cardiac Imaging, slide 92 (67-year-old preoperative cardiac assessment)",
+    "question": "For a preoperative cardiac assessment before elective hip replacement, a 67-year-old man with a 45 pack-year history cannot ambulate more than half a block due to hip pain. Which screening study best determines whether he has critical coronary stenosis?",
+    "options": [
+      "Pharmacologic SPECT nuclear stress test",
+      "Exercise treadmill stress test",
+      "CT scan of the chest with and without contrast",
+      "Stress echocardiogram",
+      "Coronary angiography"
+    ],
+    "answer": 0,
+    "explanation": "Because he cannot exercise adequately, an exercise-based test is not feasible. A pharmacologic SPECT nuclear stress test assesses myocardial perfusion without requiring exercise, making it the most appropriate noninvasive screen here.",
+    "why": [
+      "Correct. Pharmacologic SPECT stress testing works when the patient cannot exercise.",
+      "He cannot ambulate enough for an exercise treadmill test.",
+      "A chest CT does not screen for functional coronary ischemia.",
+      "A stress echo would still require adequate stress; a pharmacologic protocol is needed, and perfusion imaging is the best noninvasive screen here.",
+      "Coronary angiography is invasive and not the initial noninvasive screening study."
+    ]
   }
 ];
 

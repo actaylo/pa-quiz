@@ -5276,6 +5276,2157 @@ const QUESTIONS = [
       "Stable angina has negative markers; her troponin is elevated.",
       "Prinzmetal causes transient ST elevation with spasm, not this picture."
     ]
+  },
+  {
+    "id": "cse-001",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Cardiac Anatomy & Physiology Review",
+    "source": "Cardiac Surgery: Elective, slide 5 (Blood Flow)",
+    "question": "Which sequence correctly traces normal blood flow through the heart?",
+    "options": [
+      "Vena cava, right atrium, right ventricle, pulmonary artery, lungs, pulmonary vein, left atrium, left ventricle, aorta",
+      "Vena cava, left atrium, left ventricle, pulmonary artery, aorta",
+      "Aorta, right atrium, pulmonary vein, left ventricle",
+      "Pulmonary vein, right ventricle, aorta, left atrium"
+    ],
+    "answer": 0,
+    "explanation": "Deoxygenated blood returns via the IVC and SVC to the right atrium, then right ventricle, pulmonary artery, and lungs. Oxygenated blood returns via the pulmonary veins to the left atrium, left ventricle, and out the aorta.",
+    "why": [
+      "Correct. This is the normal right-heart-to-lungs-to-left-heart-to-aorta path.",
+      "The left atrium and ventricle handle oxygenated blood returning from the lungs, not the initial venous return.",
+      "The coronary and chamber order here is scrambled.",
+      "This order is anatomically impossible."
+    ]
+  },
+  {
+    "id": "cse-002",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Cardiac Anatomy & Physiology Review",
+    "source": "Cardiac Surgery: Elective, slide 7 (Coronary Anatomy)",
+    "question": "The coronary arteries arise as the first branch off the:",
+    "options": [
+      "Aorta",
+      "Pulmonary artery",
+      "Left atrium",
+      "Superior vena cava"
+    ],
+    "answer": 0,
+    "explanation": "The coronary arteries are the first branch off the aorta and bring oxygenated blood to the heart muscle. The RCA gives the PDA and PLV; the left main gives the LAD (and diagonals), ramus intermedius, and left circumflex (and obtuse marginals).",
+    "why": [
+      "Correct. The coronaries are the first branch off the aorta.",
+      "The pulmonary artery carries deoxygenated blood to the lungs and does not give off the coronaries.",
+      "The left atrium is a chamber, not the origin of the coronaries.",
+      "The SVC returns venous blood and does not give off the coronaries."
+    ]
+  },
+  {
+    "id": "cse-003",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Cardiac Anatomy & Physiology Review",
+    "source": "Cardiac Surgery: Elective, slide 8 (Electrical Circuit)",
+    "question": "Electrical activity of the heart normally originates and travels in which order?",
+    "options": [
+      "SA node, AV node, bundle of His, bundle branches, Purkinje fibers",
+      "AV node, SA node, Purkinje fibers, bundle of His",
+      "Purkinje fibers, bundle branches, SA node, AV node",
+      "Bundle of His, SA node, AV node, bundle branches"
+    ],
+    "answer": 0,
+    "explanation": "Electrical activity originates in the sinoatrial (SA) node, travels to the atrioventricular (AV) node, then the bundle of His, the bundle branches, and finally the Purkinje fibers.",
+    "why": [
+      "Correct. SA node to AV node to bundle of His to bundle branches to Purkinje fibers.",
+      "The SA node is the origin, not the AV node.",
+      "The Purkinje fibers are the end of the pathway, not the start.",
+      "The bundle of His comes after the SA and AV nodes, not before."
+    ]
+  },
+  {
+    "id": "cse-004",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Cardiac Workup & Angina",
+    "source": "Cardiac Surgery: Elective, slide 12 (Understanding the term ANGINA)",
+    "question": "Per this lecture, typical angina is substernal chest pressure that:",
+    "options": [
+      "Lasts about 2 to 15 minutes, occurs at a certain level of myocardial oxygen demand, and is relieved by rest or nitroglycerin",
+      "Lasts for hours and never changes with activity",
+      "Is always sharp and positional",
+      "Occurs only at rest and worsens with nitroglycerin"
+    ],
+    "answer": 0,
+    "explanation": "Typical angina is substernal chest pressure or heaviness that may radiate to the jaw, back, or arm, lasts about 2 to 15 minutes, occurs at a certain level of myocardial oxygen demand (activity, emotional distress, increased sympathetic tone), and is relieved by rest or nitroglycerin.",
+    "why": [
+      "Correct. Duration, a demand threshold, and relief by rest or nitroglycerin define typical angina.",
+      "Angina is brief and demand-related, not a constant hours-long pain.",
+      "Sharp, positional pain is more typical of atypical or non-cardiac causes.",
+      "That pattern (rest-only, worse with nitro) is not typical angina."
+    ]
+  },
+  {
+    "id": "cse-005",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Cardiac Workup & Angina",
+    "source": "Cardiac Surgery: Elective, slide 12 (Understanding the term ANGINA)",
+    "question": "Unstable angina is characterized by:",
+    "options": [
+      "Chest pain at rest, of longer duration or frequency, that does not typically improve with nitroglycerin, with usually negative cardiac biomarkers",
+      "Chest pain only with heavy exertion, relieved by rest",
+      "ST elevation with a positive troponin",
+      "Pain reliably relieved by nitroglycerin"
+    ],
+    "answer": 0,
+    "explanation": "Unstable angina is chest pain at rest, with longer duration or increasing frequency, that does not typically improve with nitroglycerin. Cardiac biomarkers are usually negative.",
+    "why": [
+      "Correct. Rest pain, longer or more frequent, poorly relieved by nitroglycerin, with negative biomarkers.",
+      "Exertional pain relieved by rest describes stable angina.",
+      "ST elevation with a positive troponin is a STEMI, not unstable angina.",
+      "Reliable relief with nitroglycerin points toward stable angina."
+    ]
+  },
+  {
+    "id": "cse-006",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Cardiac Workup & Angina",
+    "source": "Cardiac Surgery: Elective, slide 13 (How do we assess cardiac pathologies?)",
+    "question": "Select ALL tests that are part of the INITIAL cardiac workup in this lecture.",
+    "options": [
+      "Electrocardiogram (EKG)",
+      "Stress test",
+      "Transthoracic echocardiogram (TTE)",
+      "Coronary angiogram (left heart cath)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The initial workup includes the EKG, stress test, coronary artery calcium (CAC) score, and transthoracic echocardiogram (TTE). The coronary angiogram / left heart cath is an invasive part of the further workup, along with CTA coronaries, TEE, cardiac MRI, CTA chest, right heart cath, and Holter monitor.",
+    "why": [
+      "Correct. The EKG is part of the initial workup.",
+      "Correct. The stress test is part of the initial workup.",
+      "Correct. TTE is part of the initial workup.",
+      "Incorrect. The coronary angiogram (LHC) is an invasive further-workup test."
+    ]
+  },
+  {
+    "id": "cse-007",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Cardiac Workup & Angina",
+    "source": "Cardiac Surgery: Elective, slide 13 (How do we assess cardiac pathologies?)",
+    "question": "On transthoracic echocardiogram, a normal ejection fraction (the heart's pumping power) is approximately:",
+    "options": [
+      "60%",
+      "20%",
+      "90%",
+      "35%"
+    ],
+    "answer": 0,
+    "explanation": "A normal ejection fraction is approximately 60%. TTE also assesses wall motion, wall thickness (hypertrophy vs dilation), valvular structure and function, and shunts such as PFO, ASD, and VSD.",
+    "why": [
+      "Correct. Normal EF is about 60%.",
+      "An EF of 20% reflects severely reduced systolic function.",
+      "90% is above the normal range.",
+      "35% is a reduced ejection fraction, not normal."
+    ]
+  },
+  {
+    "id": "cse-008",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Cardiac Workup & Angina",
+    "source": "Cardiac Surgery: Elective, slide 13 (How do we assess cardiac pathologies?)",
+    "question": "A key limitation of the coronary artery calcium (CAC) score is that:",
+    "options": [
+      "Soft (non-calcified) plaque is even more dangerous and will not show up",
+      "It requires cardiac catheterization",
+      "It only works in patients under 30",
+      "It directly measures ejection fraction"
+    ],
+    "answer": 0,
+    "explanation": "The CAC score screens for CAD, but while plaque is often calcified, soft plaque (which is even more dangerous) will not show up on the calcium score.",
+    "why": [
+      "Correct. Soft plaque is more dangerous and is not captured by the calcium score.",
+      "The CAC score is a noninvasive CT-based screen, not a catheterization.",
+      "The CAC score is not limited to a single young age group.",
+      "The CAC score does not measure ejection fraction."
+    ]
+  },
+  {
+    "id": "cse-009",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Cardiac Workup & Angina",
+    "source": "Cardiac Surgery: Elective, slide 17 (Coronary Angiogram / LHC / Cardiac Cath)",
+    "question": "During a coronary angiogram, blockages are identified by:",
+    "options": [
+      "The lack of contrast within the coronary artery",
+      "Direct visualization of the plaque color",
+      "A drop in ejection fraction",
+      "ST elevation on the monitor"
+    ],
+    "answer": 0,
+    "explanation": "The interventional cardiologist accesses the radial or femoral artery, advances a catheter to the coronary ostia, and injects contrast. Any blockage is noted by the lack of contrast beyond the lesion.",
+    "why": [
+      "Correct. A blockage shows up as an absence of contrast flow.",
+      "Angiography visualizes contrast flow, not plaque color directly.",
+      "A drop in EF is not how a specific coronary blockage is localized.",
+      "ST elevation is an EKG finding, not the angiographic marker of a blockage."
+    ]
+  },
+  {
+    "id": "cse-010",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Indications for Surgery",
+    "source": "Cardiac Surgery: Elective, slide 19 (Indication for ELECTIVE CABG)",
+    "question": "Select ALL indications for elective coronary artery bypass graft (CABG).",
+    "options": [
+      "Severe stenosis of more than one coronary artery",
+      "Left main involvement",
+      "Diabetic patient with multivessel disease",
+      "A single mild coronary lesion in an asymptomatic patient"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Indications for elective CABG include severe stenosis of more than one coronary artery, left main involvement, and a diabetic patient (multivessel disease favors CABG), in someone who is an overall good surgical candidate.",
+    "why": [
+      "Correct. Severe multivessel disease is an indication.",
+      "Correct. Left main involvement favors CABG.",
+      "Correct. Diabetics with multivessel disease favor CABG.",
+      "Incorrect. A single mild lesion in an asymptomatic patient is not a CABG indication."
+    ]
+  },
+  {
+    "id": "cse-011",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Indications for Surgery",
+    "source": "Cardiac Surgery: Elective, slide 18 (Indication for surgical revascularization)",
+    "question": "A diabetic patient with severe multivessel CAD including left main involvement favors which revascularization strategy?",
+    "options": [
+      "CABG",
+      "PCI with stents",
+      "Medical therapy only",
+      "TAVI"
+    ],
+    "answer": 0,
+    "explanation": "A diabetic patient with severe multivessel CAD including left main involvement favors CABG over PCI.",
+    "why": [
+      "Correct. Diabetes with multivessel and left main disease favors CABG.",
+      "PCI is less favored than CABG in this diabetic multivessel scenario.",
+      "Medical therapy alone does not address the surgical indication here.",
+      "TAVI is a valve procedure, not coronary revascularization."
+    ]
+  },
+  {
+    "id": "cse-012",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Indications for Surgery",
+    "source": "Cardiac Surgery: Elective, slide 23 (Indication for AVR)",
+    "question": "Select ALL indications for aortic valve replacement (AVR).",
+    "options": [
+      "Severe aortic stenosis or regurgitation on echocardiogram",
+      "Symptomatic patient",
+      "Asymptomatic patient with EF < 50%",
+      "Mild aortic stenosis in an asymptomatic patient"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Indications for AVR include severe aortic stenosis or regurgitation on echocardiogram, a symptomatic patient, or an asymptomatic patient with EF < 50%.",
+    "why": [
+      "Correct. Severe stenosis or regurgitation is an indication.",
+      "Correct. Symptoms are an indication.",
+      "Correct. An asymptomatic patient with EF < 50% meets indication.",
+      "Incorrect. Mild stenosis in an asymptomatic patient does not meet indication."
+    ]
+  },
+  {
+    "id": "cse-013",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Indications for Surgery",
+    "source": "Cardiac Surgery: Elective, slide 23 (Indication for AVR)",
+    "question": "Once symptoms of valvular aortic stenosis appear, untreated average survival is approximately:",
+    "options": [
+      "50% at two years and 20% at five years",
+      "90% at ten years",
+      "Unchanged from the general population",
+      "100% at five years"
+    ],
+    "answer": 0,
+    "explanation": "Valvular aortic stenosis can be life-threatening. Once symptoms appear, untreated patients have a poor prognosis, with average survival of 50% at two years and 20% at five years.",
+    "why": [
+      "Correct. Survival is about 50% at two years and 20% at five years once symptomatic.",
+      "Prognosis is poor once symptomatic, not 90% at ten years.",
+      "Symptomatic aortic stenosis markedly reduces survival.",
+      "Survival is far below 100% at five years once symptoms appear."
+    ]
+  },
+  {
+    "id": "cse-014",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Indications for Surgery",
+    "source": "Cardiac Surgery: Elective, slide 26 (Indication for mitral valve repair/replacement)",
+    "question": "Select ALL indications for mitral valve repair or replacement (MVr/R).",
+    "options": [
+      "Severe mitral regurgitation or stenosis on TEE",
+      "Symptomatic patient",
+      "New-onset Afib in the setting of mitral regurgitation",
+      "Trace mitral regurgitation in an asymptomatic patient"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Indications for MVr/R include severe mitral regurgitation or stenosis on TEE, a symptomatic patient, new-onset Afib in the setting of MR, or an asymptomatic patient at high risk of hemodynamic compromise (EF < 60% or systolic PA pressure > 50 mmHg).",
+    "why": [
+      "Correct. Severe MR or stenosis on TEE is an indication.",
+      "Correct. Symptoms are an indication.",
+      "Correct. New-onset Afib with MR is an indication.",
+      "Incorrect. Trace MR in an asymptomatic patient is not an indication."
+    ]
+  },
+  {
+    "id": "cse-015",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Indications for Surgery",
+    "source": "Cardiac Surgery: Elective, slide 29 (Indication for repair of thoracic aneurysm)",
+    "question": "Match each patient scenario to the thoracic aorta diameter threshold for repair.",
+    "pairs": [
+      {
+        "left": "No genetic or risk factors",
+        "right": "5.5 cm",
+        "why": "With no genetic or risk factors, repair a thoracic aorta at 5.5 cm (lowered to 5.0 cm at aortic centers)."
+      },
+      {
+        "left": "Bicuspid aortic valve with risk factors",
+        "right": "5.0 cm",
+        "why": "In BAV with risk factors such as HTN or family history, the threshold is 5.0 cm."
+      },
+      {
+        "left": "Connective tissue disorder (Marfan, Loeys-Dietz)",
+        "right": "4.5 cm",
+        "why": "Connective tissue disorders lower the threshold to 4.5 cm."
+      },
+      {
+        "left": "Rapid growth",
+        "right": "0.5 cm in 1 year",
+        "why": "A growth rate of 0.5 cm in 1 year (or 0.3 cm/year over 2 years) is an indication regardless of absolute size."
+      }
+    ],
+    "explanation": "Thoracic aneurysm repair thresholds: 5.5 cm with no genetic or risk factors (5.0 cm at aortic centers); 5.0 cm with bicuspid aortic valve and risk factors; 4.5 cm with connective tissue disorders; and a growth rate of 0.5 cm in 1 year or 0.3 cm/year over 2 consecutive years."
+  },
+  {
+    "id": "cse-016",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Indications for Surgery",
+    "source": "Cardiac Surgery: Elective, slide 30 (Size of Thoracic Aorta and Rates of Aortic Dissection)",
+    "question": "The relative risk of aortic dissection begins to increase appreciably at 4.0 to 4.4 cm and then increases dramatically at a diameter of:",
+    "options": [
+      "4.5 cm",
+      "3.0 cm",
+      "6.5 cm",
+      "2.5 cm"
+    ],
+    "answer": 0,
+    "explanation": "The relative risk of aortic dissection begins to increase appreciably at a diameter of 4.0 to 4.4 cm and increases dramatically at 4.5 cm.",
+    "why": [
+      "Correct. Risk climbs sharply at 4.5 cm.",
+      "3.0 cm is within the normal range for the aorta.",
+      "The dramatic rise begins at 4.5 cm, well before 6.5 cm.",
+      "2.5 cm is a normal aortic diameter."
+    ]
+  },
+  {
+    "id": "cse-017",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Surgical Candidacy & the Aorta",
+    "source": "Cardiac Surgery: Elective, slide 31 (Aorta)",
+    "question": "Which portion of the aorta is cardiac surgery (open) territory?",
+    "options": [
+      "Aortic root, ascending thoracic aorta, and aortic arch",
+      "Descending aorta and abdominal aorta",
+      "Only the abdominal aorta",
+      "The femoral arteries"
+    ],
+    "answer": 0,
+    "explanation": "The aortic root, ascending thoracic aorta, and aortic arch are cardiac surgery (open) territory. Beyond the arch, down the descending aorta, is vascular surgery territory (TEVAR/EVAR), though overlap and staged procedures such as the elephant trunk exist.",
+    "why": [
+      "Correct. Root, ascending aorta, and arch are open cardiac surgery territory.",
+      "The descending and abdominal aorta are vascular surgery territory.",
+      "The abdominal aorta is handled by vascular surgery, not cardiac.",
+      "The femoral arteries are peripheral vessels, not cardiac surgery territory."
+    ]
+  },
+  {
+    "id": "cse-018",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Surgical Candidacy & the Aorta",
+    "source": "Cardiac Surgery: Elective, slide 32 (Who is a Surgical Candidate?)",
+    "question": "A limitation of the Society of Thoracic Surgery (STS) risk calculator is that it:",
+    "options": [
+      "Fails to account for frailty and should not replace an in-depth risk vs benefit discussion",
+      "Requires a cardiac catheterization to compute",
+      "Only applies to patients under 40",
+      "Directly measures ejection fraction"
+    ],
+    "answer": 0,
+    "explanation": "The STS risk calculator is an objective measure, but it fails to account for frailty, and sharing the STS score should not replace an in-depth discussion of the risks vs benefits of surgery.",
+    "why": [
+      "Correct. It does not capture frailty and should not replace a full risk/benefit discussion.",
+      "The STS score is computed from clinical data, not a catheterization.",
+      "It is not restricted to patients under 40.",
+      "It estimates surgical risk; it does not measure ejection fraction."
+    ]
+  },
+  {
+    "id": "cse-019",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Percutaneous & Transcatheter Options",
+    "source": "Cardiac Surgery: Elective, slide 35 (PCI)",
+    "question": "In percutaneous coronary intervention (PCI):",
+    "options": [
+      "A guidewire is advanced through the lesion and a stent is deployed to open the coronary",
+      "The sternum is opened to bypass the lesion",
+      "The aortic valve is replaced",
+      "The mitral valve is repaired"
+    ],
+    "answer": 0,
+    "explanation": "In PCI, a guidewire is advanced through the lesion and a stent (or stents) is deployed to open the coronary. A drug-eluting stent (DES) requires dual antiplatelet therapy.",
+    "why": [
+      "Correct. PCI opens the lesion with a guidewire and stent.",
+      "Opening the sternum to bypass a lesion describes CABG, not PCI.",
+      "Replacing the aortic valve is AVR/TAVI, not PCI.",
+      "Repairing the mitral valve is a valve procedure, not PCI."
+    ]
+  },
+  {
+    "id": "cse-020",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Percutaneous & Transcatheter Options",
+    "source": "Cardiac Surgery: Elective, slide 41 (TAVI/TAVR)",
+    "question": "Select ALL true statements about transcatheter aortic valve intervention (TAVI/TAVR) per this lecture.",
+    "options": [
+      "The most common access site is the femoral artery",
+      "It carries an increased rate of permanent pacemaker requirement compared to SAVR",
+      "Patients are placed on aspirin and Plavix",
+      "The valve is mechanical and lasts a lifetime"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "TAVI is most commonly done via the femoral artery (carotid is a common alternative), carries an increased rate of permanent pacemaker requirement compared to SAVR, and patients are placed on aspirin and Plavix. The valve is bioprosthetic on a metal cage with a longevity of about 10 years, not mechanical.",
+    "why": [
+      "Correct. Femoral access is most common.",
+      "Correct. TAVI increases the rate of permanent pacemaker requirement vs SAVR.",
+      "Correct. Patients receive aspirin and Plavix.",
+      "Incorrect. The TAVI valve is bioprosthetic (about 10-year longevity), not mechanical."
+    ]
+  },
+  {
+    "id": "cse-021",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Percutaneous & Transcatheter Options",
+    "source": "Cardiac Surgery: Elective, slide 41 (TAVI/TAVR)",
+    "question": "During TAVI, the new valve is deployed by:",
+    "options": [
+      "Rapidly pacing the heart and expanding the valve, crushing the native valve out of the way",
+      "Suturing it in through an open sternotomy",
+      "Stopping the heart on cardiopulmonary bypass",
+      "Freezing the native valve first"
+    ],
+    "answer": 0,
+    "explanation": "In TAVI, the valve is brought close to the heart, the heart is rapidly paced, and the valve is deployed, crushing the current valve out of the way. Patients typically stay in the hospital one night.",
+    "why": [
+      "Correct. Rapid pacing and expansion deploy the valve over the old one.",
+      "Suturing through an open sternotomy describes SAVR, not TAVI.",
+      "TAVI does not require cardiopulmonary bypass or arrest.",
+      "The native valve is crushed aside, not frozen."
+    ]
+  },
+  {
+    "id": "cse-022",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Percutaneous & Transcatheter Options",
+    "source": "Cardiac Surgery: Elective, slide 43 (Surgical AVR vs TAVI)",
+    "question": "An 83-year-old woman with depression and hypothyroidism has severe aortic stenosis and EF 50%. She is minimally symptomatic, sedentary, lives alone, and has multiple age-related considerations. Which approach best fits her?",
+    "options": [
+      "TAVI/TAVR, since her age and comorbidities favor a less invasive transcatheter option",
+      "Surgical AVR via full sternotomy as the first choice",
+      "No intervention ever, regardless of guidelines",
+      "A mechanical valve requiring lifelong warfarin"
+    ],
+    "answer": 0,
+    "explanation": "Her severe aortic stenosis meets indication for intervention. Given advanced age and comorbidities, the less invasive transcatheter option (TAVI) is generally favored over surgical AVR. TAVI uses a bioprosthetic valve with aspirin and Plavix and a short hospital stay.",
+    "why": [
+      "Correct. Age and comorbidities favor the less invasive TAVI here.",
+      "A full sternotomy SAVR is more invasive and less favored for this higher-risk patient.",
+      "Her severe aortic stenosis does meet indication, so intervention is appropriate.",
+      "A mechanical valve (lifelong warfarin) is generally reserved for younger patients."
+    ]
+  },
+  {
+    "id": "cse-023",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Percutaneous & Transcatheter Options",
+    "source": "Cardiac Surgery: Elective, slide 46 (TEER vs TMVR)",
+    "question": "A 72-year-old with a prior mitral repair now has severe recurrent mitral regurgitation despite optimized medical therapy and feels strongly against a redo sternotomy. What can you offer her?",
+    "options": [
+      "A transcatheter option such as TEER or TMVR",
+      "An emergent redo sternotomy regardless of her wishes",
+      "Aortic valve replacement",
+      "No further treatment"
+    ],
+    "answer": 0,
+    "explanation": "A patient who is symptomatic despite goal-directed medical therapy and wishes to avoid a redo sternotomy can be offered a transcatheter option: transcatheter edge-to-edge repair (TEER) or transcatheter mitral valve replacement (TMVR).",
+    "why": [
+      "Correct. Transcatheter TEER or TMVR fits a symptomatic patient who wants to avoid a redo sternotomy.",
+      "Forcing a redo sternotomy against her wishes ignores a valid less-invasive option.",
+      "Her problem is the mitral valve, not the aortic valve.",
+      "She remains symptomatic on optimal therapy, so further treatment is warranted."
+    ]
+  },
+  {
+    "id": "cse-024",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Open-Heart Fundamentals",
+    "source": "Cardiac Surgery: Elective, slide 52 (The Heart and Lung Machine)",
+    "question": "To operate on the heart it must be stopped. To do this safely, the patient is placed on:",
+    "options": [
+      "Cardiopulmonary bypass (the heart and lung machine), which oxygenates and returns blood while the aorta is cross-clamped",
+      "A ventilator only",
+      "Extracorporeal dialysis",
+      "A temporary pacemaker only"
+    ],
+    "answer": 0,
+    "explanation": "The patient is connected to the heart and lung machine (extracorporeal circuit). Typically the aorta and right atrium are cannulated: blood drains from the right atrium, is oxygenated, and returns via the aortic cannula. The aorta is cross-clamped below the cannula so blood only flows to the body, not the heart.",
+    "why": [
+      "Correct. Cardiopulmonary bypass takes over oxygenation and circulation while the heart is arrested.",
+      "A ventilator alone cannot support circulation during cardiac arrest on the table.",
+      "Dialysis filters blood; it does not oxygenate and circulate for a stopped heart.",
+      "A pacemaker cannot substitute for circulation while the heart is arrested."
+    ]
+  },
+  {
+    "id": "cse-025",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Open-Heart Fundamentals",
+    "source": "Cardiac Surgery: Elective, slide 51 (Cardiac Surgery: A stepwise approach)",
+    "question": "Before cannulating for cardiopulmonary bypass, heparin is given to a target activated clotting time (ACT) of:",
+    "options": [
+      "Greater than 400 seconds",
+      "Less than 100 seconds",
+      "Exactly 200 seconds",
+      "ACT is not monitored"
+    ],
+    "answer": 0,
+    "explanation": "Heparin is given before cannulating to prevent clotting in the circuit, targeting an activated clotting time (ACT) greater than 400 seconds.",
+    "why": [
+      "Correct. The target ACT before bypass is greater than 400 seconds.",
+      "An ACT under 100 seconds is near baseline and unsafe for bypass.",
+      "The target is greater than 400 seconds, not exactly 200.",
+      "ACT is closely monitored to confirm adequate anticoagulation."
+    ]
+  },
+  {
+    "id": "cse-026",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Open-Heart Fundamentals",
+    "source": "Cardiac Surgery: Elective, slide 54 (Cardioplegia and Myocardial Protection)",
+    "question": "Cardioplegia used to arrest the heart is:",
+    "options": [
+      "Blood with high potassium at 4 degrees C, delivered antegrade (or retrograde via the coronary sinus)",
+      "Warm blood with no potassium",
+      "Normal saline at body temperature",
+      "Pure oxygen"
+    ],
+    "answer": 0,
+    "explanation": "Cardioplegia is a preparation of blood with high potassium at 4 degrees C, administered antegrade via a needle in the aorta (or retrograde via the coronary sinus). It should be readministered every 15 to 20 minutes to maintain asystole and protect the myocardium, unless Del Nido cardioplegia is used.",
+    "why": [
+      "Correct. Cold, high-potassium blood cardioplegia arrests and protects the heart.",
+      "Warm, potassium-free blood is the 'hot shot' given to restart the heart, not to arrest it.",
+      "Room-temperature saline neither arrests nor protects the myocardium.",
+      "Pure oxygen does not induce cardiac arrest."
+    ]
+  },
+  {
+    "id": "cse-027",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "CABG Technique & Grafts",
+    "source": "Cardiac Surgery: Elective, slide 57 (CABG)",
+    "question": "The two grafts most commonly used for CABG are the:",
+    "options": [
+      "Greater saphenous vein (GSV) and left internal mammary artery (LIMA)",
+      "Radial artery and femoral vein",
+      "Aorta and pulmonary artery",
+      "Cephalic vein and ulnar artery"
+    ],
+    "answer": 0,
+    "explanation": "The greater saphenous vein (GSV) and left internal mammary artery (LIMA) are the typical grafts. The GSV is usually harvested endoscopically while the LIMA is harvested from underneath the sternum. All-arterial revascularization (radial artery, RIMA) is considered in younger patients.",
+    "why": [
+      "Correct. GSV and LIMA are the standard CABG grafts.",
+      "The radial artery is used in younger patients, but the femoral vein is not a standard CABG graft.",
+      "The aorta and pulmonary artery are great vessels, not grafts.",
+      "The cephalic vein and ulnar artery are not standard CABG grafts."
+    ]
+  },
+  {
+    "id": "cse-028",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "CABG Technique & Grafts",
+    "source": "Cardiac Surgery: Elective, slide 63 (Graft Patency Rates)",
+    "question": "Match each graft or intervention to its approximate patency or occlusion rate.",
+    "pairs": [
+      {
+        "left": "PCI with drug-eluting stent",
+        "right": "About 5% occlusion at 1 year",
+        "why": "Drug-eluting stents have about a 5% occlusion rate at 1 year."
+      },
+      {
+        "left": "Saphenous vein graft",
+        "right": "About 50% patency at 10 years",
+        "why": "Saphenous vein grafts have about 50% patency at 10 years."
+      },
+      {
+        "left": "Internal mammary or radial artery graft",
+        "right": "About 90% patency at 10 years",
+        "why": "Arterial grafts (IMA or radial) have about 90% patency at 10 years due to normal arterial anatomy."
+      }
+    ],
+    "explanation": "Graft patency: PCI with drug-eluting stents has about 5% occlusion at 1 year; saphenous vein grafts about 50% patency at 10 years; and internal mammary or radial artery grafts about 90% patency at 10 years due to their normal arterial anatomy."
+  },
+  {
+    "id": "cse-029",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "CABG Technique & Grafts",
+    "source": "Cardiac Surgery: Elective, slide 65 (Antiplatelet Tx s/p CABG)",
+    "question": "Per this lecture, antiplatelet therapy after CABG performed for ACS is:",
+    "options": [
+      "Dual antiplatelet therapy",
+      "Warfarin alone",
+      "No antiplatelet therapy",
+      "A DOAC alone"
+    ],
+    "answer": 0,
+    "explanation": "Dual antiplatelet therapy is used if CABG is performed for ACS or after a coronary stent. Aspirin or clopidogrel alone is used for CABG not performed for ACS. Warfarin or a DOAC plus aspirin does not improve graft patency; anticoagulation after CABG is indicated for Afib, VTE, or ventricular aneurysm.",
+    "why": [
+      "Correct. CABG for ACS calls for dual antiplatelet therapy.",
+      "Warfarin alone is not the antiplatelet regimen after CABG for ACS.",
+      "Some antiplatelet therapy is indicated after CABG, not none.",
+      "A DOAC alone does not improve graft patency and is not the answer here."
+    ]
+  },
+  {
+    "id": "cse-030",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "CABG Technique & Grafts",
+    "source": "Cardiac Surgery: Elective, slide 62 (Off-Pump CABG)",
+    "question": "Off-pump CABG may be chosen when:",
+    "options": [
+      "Ischemic ventricles will not tolerate arrest and the bypassable lesion is easily visualized",
+      "The patient needs a valve replaced",
+      "The aorta must be cross-clamped for a long time",
+      "The heart must be arrested with cardioplegia"
+    ],
+    "answer": 0,
+    "explanation": "Off-pump CABG is considered when ischemic ventricles will not tolerate arrest and the bypassable lesion is easily visualized. It is technically more challenging with a possible compromise in quality; advances in temporary ventricular assist devices give more runway to arrest and recover hearts with significant LV dysfunction.",
+    "why": [
+      "Correct. It suits ventricles that will not tolerate arrest with an accessible lesion.",
+      "A valve replacement requires bypass, not an off-pump coronary approach.",
+      "Long aortic cross-clamping implies on-pump arrest, the opposite of off-pump.",
+      "Arresting the heart with cardioplegia is the on-pump approach."
+    ]
+  },
+  {
+    "id": "cse-031",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Valve Surgery",
+    "source": "Cardiac Surgery: Elective, slide 67 (Aortic Valve Selection and Implications)",
+    "question": "Match each aortic valve feature to the correct valve type.",
+    "pairs": [
+      {
+        "left": "Recommended for age 50 and older",
+        "right": "Bioprosthetic",
+        "why": "Bioprosthetic (porcine or bovine) valves are used at age 50+, with about 15-year longevity."
+      },
+      {
+        "left": "Recommended for age under 50",
+        "right": "Mechanical",
+        "why": "Mechanical valves suit younger patients (under 50) and last a lifetime."
+      },
+      {
+        "left": "Indefinite warfarin (INR 2-3)",
+        "right": "Mechanical",
+        "why": "Mechanical valves require indefinite warfarin (INR 2-3), unless the ON-X valve allows a lower INR."
+      },
+      {
+        "left": "Warfarin for only about 3 months, then aspirin",
+        "right": "Bioprosthetic",
+        "why": "Bioprosthetic valves need warfarin for about 3 months (INR 2-3) plus aspirin."
+      }
+    ],
+    "explanation": "Bioprosthetic valves: porcine or bovine, age 50+, about 15-year longevity, warfarin for about 3 months then aspirin. Mechanical valves: carbon fiber and titanium, age under 50, lifetime longevity, indefinite warfarin (INR 2-3, or lower for the ON-X valve). Note: the same valve type appears as the answer for two prompts here."
+  },
+  {
+    "id": "cse-032",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Valve Surgery",
+    "source": "Cardiac Surgery: Elective, slide 74 (REPAIR the mitral valve whenever possible)",
+    "question": "The mitral valve is repaired rather than replaced whenever possible because repair:",
+    "options": [
+      "Carries less risk and maintains the structural integrity of the heart",
+      "Requires lifelong warfarin",
+      "Is always faster and cheaper only",
+      "Eliminates the need for cardiopulmonary bypass"
+    ],
+    "answer": 0,
+    "explanation": "Repair is preferred because it carries less risk than replacement and maintains the structural integrity of the heart. Repairable valves are typically non-rheumatic, free of endocarditis, with severe regurgitation or prolapse, and involve the posterior leaflet. Functional MR is often addressed with annuloplasty (putting a ring on it to tighten the annulus).",
+    "why": [
+      "Correct. Repair carries less risk and preserves cardiac structural integrity.",
+      "Lifelong warfarin is tied to mechanical replacement, not a reason to prefer repair.",
+      "The benefit is risk and structural preservation, not merely speed or cost.",
+      "Mitral valve surgery still requires cardiopulmonary bypass."
+    ]
+  },
+  {
+    "id": "cse-033",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Valve Surgery",
+    "source": "Cardiac Surgery: Elective, slide 76 (Mitral Valve Replacement)",
+    "question": "Select ALL indications favoring mitral valve REPLACEMENT rather than repair.",
+    "options": [
+      "Myxomatous valves that are hard to repair",
+      "Mitral valve stenosis",
+      "Anterior leaflet pathology or endocarditis",
+      "Isolated posterior leaflet prolapse with severe regurgitation"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Indications favoring replacement include myxomatous valves (harder to repair), mitral valve stenosis, anterior leaflet pathology, and endocarditis. Isolated posterior leaflet prolapse with severe regurgitation is typically repairable.",
+    "why": [
+      "Correct. Myxomatous valves are harder to repair and favor replacement.",
+      "Correct. Mitral stenosis favors replacement.",
+      "Correct. Anterior leaflet pathology and endocarditis favor replacement.",
+      "Incorrect. Posterior leaflet prolapse with severe regurgitation is typically repairable."
+    ]
+  },
+  {
+    "id": "cse-034",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Afib Surgery & Aneurysm Repair",
+    "source": "Cardiac Surgery: Elective, slide 79 (Cox-Maze Procedure)",
+    "question": "The Cox-Maze procedure treats atrial fibrillation by:",
+    "options": [
+      "Creating a lesion set around the pulmonary veins and atria to form scar that blocks erratic atrial impulses",
+      "Replacing the mitral valve",
+      "Bypassing the coronary arteries",
+      "Implanting a pacemaker in the ventricle"
+    ],
+    "answer": 0,
+    "explanation": "The Cox-Maze procedure creates a lesion set around the pulmonary veins and atria to promote scar tissue that decreases excitability of the cells generating erratic atrial impulses. It is often combined with left atrial appendage exclusion to reduce stroke risk.",
+    "why": [
+      "Correct. Scar lesions around the pulmonary veins and atria block erratic impulses.",
+      "Replacing the mitral valve does not treat the Afib substrate itself.",
+      "Coronary bypass addresses ischemia, not the Afib circuit.",
+      "A ventricular pacemaker does not ablate the atrial arrhythmia substrate."
+    ]
+  },
+  {
+    "id": "cse-035",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Afib Surgery & Aneurysm Repair",
+    "source": "Cardiac Surgery: Elective, slide 81 (Watchman Device)",
+    "question": "A Watchman device is appropriate for a patient with Afib who:",
+    "options": [
+      "Is not undergoing surgery or is too frail for it and cannot tolerate anticoagulation",
+      "Needs a new aortic valve",
+      "Has no history of Afib",
+      "Requires emergent CABG"
+    ],
+    "answer": 0,
+    "explanation": "A Watchman device is used for a patient with a history of Afib who is not undergoing surgery, or is too frail for it, and who cannot tolerate anticoagulation. It occludes the left atrial appendage to reduce stroke risk.",
+    "why": [
+      "Correct. It fits an Afib patient not having surgery who cannot tolerate anticoagulation.",
+      "A Watchman does not address aortic valve disease.",
+      "It is used for Afib-related stroke risk, so a history of Afib is expected.",
+      "It is not a treatment for acute coronary revascularization."
+    ]
+  },
+  {
+    "id": "cse-036",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Afib Surgery & Aneurysm Repair",
+    "source": "Cardiac Surgery: Elective, slide 78 (If pt has Hx of Afib and will undergo Cardiac Surgery)",
+    "question": "Left atrial appendage exclusion during Afib surgery reduces the stroke risk associated with Afib.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "explanation": "True. Left atrial appendage (LAA) exclusion decreases the stroke risk associated with Afib. Anticoagulation is still recommended for the initial 3 months in patients with a history of Afib after ablation with LAA exclusion.",
+    "why": [
+      "Correct. LAA exclusion lowers Afib-related stroke risk.",
+      "Incorrect. LAA exclusion does reduce Afib-related stroke risk."
+    ]
+  },
+  {
+    "id": "cse-037",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Afib Surgery & Aneurysm Repair",
+    "source": "Cardiac Surgery: Elective, slide 82 (Thoracic Aortic Aneurysm Repair)",
+    "question": "Repair of an aortic arch aneurysm may require circulatory arrest with antegrade cerebral perfusion, including cooling the patient to about:",
+    "options": [
+      "18 degrees C",
+      "37 degrees C",
+      "30 degrees C",
+      "No cooling is needed"
+    ],
+    "answer": 0,
+    "explanation": "Aortic arch aneurysm repair may require alternative arterial cannulation and circulatory arrest with antegrade cerebral perfusion. During circulatory arrest the ECMO circuit is off and the brain is perfused via cannulas, requiring cooling to 18 degrees C, propofol, and ice around the head.",
+    "why": [
+      "Correct. Deep hypothermic circulatory arrest cools the patient to about 18 degrees C.",
+      "37 degrees C is normal body temperature, not the target for circulatory arrest.",
+      "The target is deeper (about 18 degrees C), not 30 degrees C.",
+      "Profound cooling is specifically required for arch repair with circulatory arrest."
+    ]
+  },
+  {
+    "id": "cse-038",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Post-op Recovery & Complications",
+    "source": "Cardiac Surgery: Elective, slide 92 (ERAS Protocol)",
+    "question": "Select ALL goals of the Enhanced Recovery After Surgery (ERAS) protocol.",
+    "options": [
+      "Promote early mobility",
+      "Reduce opioid use",
+      "Decrease rates of infection and delirium",
+      "Encourage prolonged bed rest"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "ERAS aims to promote early mobility, reduce opioid use, decrease rates of infection, improve blood glucose regulation and post-op nausea, promote early gut motility, decrease delirium, and expedite recovery. Prolonged bed rest is contrary to ERAS.",
+    "why": [
+      "Correct. Early mobility is a core ERAS goal.",
+      "Correct. Reducing opioid use is an ERAS goal.",
+      "Correct. Lowering infection and delirium rates are ERAS goals.",
+      "Incorrect. ERAS discourages prolonged bed rest in favor of early mobility."
+    ]
+  },
+  {
+    "id": "cse-039",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Post-op Recovery & Complications",
+    "source": "Cardiac Surgery: Elective, slide 91 (Post-op Recovery)",
+    "question": "A cardiac surgery patient can be extubated within 4 hours if they are hemodynamically stable, following commands, and:",
+    "options": [
+      "Have no significant chest tube output",
+      "Have a new fever",
+      "Have low urine output",
+      "Are still on high-dose pressors"
+    ],
+    "answer": 0,
+    "explanation": "Extubation within 4 hours of surgery is appropriate if the patient is hemodynamically stable, following commands, and has no significant chest tube output. Patients spend about 36 hours in critical care and are hospitalized about 5 days with early mobility and pulmonary rehab.",
+    "why": [
+      "Correct. No significant chest tube output is one of the extubation criteria.",
+      "A new fever is a reason for concern, not a green light to extubate.",
+      "Low urine output suggests instability, not readiness to extubate.",
+      "Needing high-dose pressors indicates the patient is not yet stable enough."
+    ]
+  },
+  {
+    "id": "cse-040",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Post-op Recovery & Complications",
+    "source": "Cardiac Surgery: Elective, slide 99 (HIT)",
+    "question": "In heparin-induced thrombocytopenia (HIT), platelets drop 50% from baseline. Appropriate management includes:",
+    "options": [
+      "Hold all heparin products, check PF4, and start argatroban if suspicion is high; do NOT transfuse platelets",
+      "Continue heparin and transfuse platelets",
+      "Give more heparin at a higher dose",
+      "Ignore it, as it resolves on its own"
+    ],
+    "answer": 0,
+    "explanation": "In HIT, hold all heparin products and check PF4. If suspicion is high, start argatroban even before PF4 results. Consult heme/onc, do NOT transfuse platelets, and watch for petechiae or skin necrosis, which can lead to limb loss.",
+    "why": [
+      "Correct. Stop all heparin, check PF4, start argatroban if suspicion is high, and avoid platelet transfusion.",
+      "Continuing heparin and transfusing platelets worsens the thrombotic risk in HIT.",
+      "More heparin is exactly the wrong move in HIT.",
+      "HIT is dangerous and requires active management, not observation."
+    ]
+  },
+  {
+    "id": "cse-041",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Post-op Recovery & Complications",
+    "source": "Cardiac Surgery: Elective, slide 96 (Causes of Post-op Low Cardiac Output Syndrome)",
+    "question": "Select ALL causes of post-op low cardiac output syndrome.",
+    "options": [
+      "Myocardial stunning",
+      "Cardiac tamponade from bleeding into the pericardium",
+      "Hypovolemia from bleeding or vasoplegia",
+      "A normal, well-functioning graft"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Causes of post-op low cardiac output syndrome include myocardial stunning (air, poor target, or early graft closure), hypothermia, hypovolemia from bleeding or vasoplegia, cardiac tamponade, hypoxemia, acidosis, and arrhythmia. A normal, well-functioning graft is not a cause.",
+    "why": [
+      "Correct. Myocardial stunning is a cause.",
+      "Correct. Tamponade from pericardial bleeding is a cause.",
+      "Correct. Hypovolemia from bleeding or vasoplegia is a cause.",
+      "Incorrect. A normal, well-functioning graft would not cause low output."
+    ]
+  },
+  {
+    "id": "cse-042",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Elective",
+    "section": "Post-op Recovery & Complications",
+    "source": "Cardiac Surgery: Elective, slide 94 (Post-op Management: The Usual)",
+    "question": "A post-op patient develops chest pain, SOB, fatigue, diaphoresis, elevated WBC, and fever, with an elevated ESR. This suggests postpericardiotomy syndrome, treated with:",
+    "options": [
+      "Colchicine",
+      "Emergent CABG",
+      "A heparin infusion",
+      "Immediate transplant"
+    ],
+    "answer": 0,
+    "explanation": "Postpericardiotomy syndrome presents with chest pain, SOB, fatigue, diaphoresis, elevated WBC, and fever. Check the ESR, and if elevated, start colchicine.",
+    "why": [
+      "Correct. Elevated ESR postpericardiotomy syndrome is treated with colchicine.",
+      "This is an inflammatory syndrome, not an indication for emergent CABG.",
+      "A heparin infusion does not treat postpericardiotomy inflammation.",
+      "Transplant is not the treatment for postpericardiotomy syndrome."
+    ]
+  },
+  {
+    "id": "csa-001",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "ACS Management",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 105 (Cardiac Physiology)",
+    "question": "Match each hemodynamic term to its definition.",
+    "pairs": [
+      {
+        "left": "Preload",
+        "right": "Volume",
+        "why": "Preload is the volume filling the ventricle."
+      },
+      {
+        "left": "Afterload",
+        "right": "Resistance the heart pumps against",
+        "why": "Afterload is the resistance the heart has to pump against."
+      },
+      {
+        "left": "Contractility",
+        "right": "Strength of squeeze",
+        "why": "Contractility is the strength of the heart's squeeze."
+      }
+    ],
+    "explanation": "Preload is volume, afterload is the resistance the heart has to pump against, and contractility is the strength of the squeeze. These three determine cardiac output."
+  },
+  {
+    "id": "csa-002",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "ACS Management",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 108 (Acute Coronary Syndrome)",
+    "question": "A patient has an acute total occlusion of a coronary artery with ST elevation and elevated troponin. The priority is:",
+    "options": [
+      "Emergent cardiac cath with a door-to-balloon time under 90 minutes",
+      "Admit and trend troponin over several days",
+      "Outpatient stress test",
+      "Discharge on aspirin"
+    ],
+    "answer": 0,
+    "explanation": "A STEMI is an acute total occlusion with ST elevation and elevated troponin, requiring emergent cardiac cath (door-to-balloon under 90 minutes). Even with severe multivessel CAD, fixing the culprit lesion percutaneously to get the patient out of trouble may be preferable to reduce the mortality of a pump run on injured myocardium.",
+    "why": [
+      "Correct. STEMI needs emergent cath with door-to-balloon under 90 minutes.",
+      "Trending troponin over days fits NSTEMI, not an acute total occlusion with ST elevation.",
+      "An outpatient stress test is inappropriate for an acute occlusion.",
+      "Discharge is unsafe for an evolving STEMI."
+    ]
+  },
+  {
+    "id": "csa-003",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "ACS Management",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 108 (Acute Coronary Syndrome)",
+    "question": "If a STEMI patient with severe multivessel CAD needs CABG, the timing recommendation is to operate in:",
+    "options": [
+      "Under 6 hours, or wait 6 days, to decrease the risk of mortality",
+      "Exactly 3 hours only",
+      "Always at least 2 weeks later",
+      "Immediately during the same catheterization"
+    ],
+    "answer": 0,
+    "explanation": "When CABG is needed after STEMI, operate in under 6 hours or wait 6 days to decrease the risk of mortality. The patient may need mechanical support in the interim.",
+    "why": [
+      "Correct. Operate under 6 hours or wait 6 days to reduce mortality.",
+      "There is no exclusive 3-hour window in this guidance.",
+      "A mandatory 2-week delay is not the stated recommendation.",
+      "CABG is a separate operation, not performed during the cath itself."
+    ]
+  },
+  {
+    "id": "csa-004",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "ACS Management",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 109 (ACS)",
+    "question": "Select ALL components of initial medical management of ACS per this lecture.",
+    "options": [
+      "Aspirin (ASA)",
+      "Heparin infusion",
+      "Nitroglycerin infusion if ongoing chest pain or hypertension",
+      "Warfarin for graft patency"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "ACS medical management includes aspirin, a heparin infusion, and a nitroglycerin infusion if the patient has ongoing chest pain or hypertension. Dual antiplatelet therapy is added after PCI if not going to the OR soon; Integrilin is used if going to the OR within about a week; and an IABP can improve coronary perfusion. Warfarin is not part of this regimen.",
+    "why": [
+      "Correct. Aspirin is given.",
+      "Correct. A heparin infusion is given.",
+      "Correct. Nitroglycerin infusion is used for ongoing chest pain or hypertension.",
+      "Incorrect. Warfarin is not part of ACS medical management here."
+    ]
+  },
+  {
+    "id": "csa-005",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Cardiogenic Shock Pathophysiology & Recognition",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 113 (Causes of Cardiogenic Shock)",
+    "question": "The most common cause of cardiogenic shock is:",
+    "options": [
+      "Myocardial infarction with significant tissue loss",
+      "Pulmonary embolism",
+      "Sepsis",
+      "Dehydration"
+    ],
+    "answer": 0,
+    "explanation": "Myocardial infarction with significant tissue loss is one of the most common causes of cardiogenic shock. Other causes include valvular dysfunction, severe heart failure, dysrhythmias, cardiomyopathies, myocarditis, and congenital or structural abnormalities.",
+    "why": [
+      "Correct. MI with significant tissue loss is a leading cause.",
+      "PE causes obstructive shock, not primarily cardiogenic shock here.",
+      "Sepsis causes distributive shock, not cardiogenic shock.",
+      "Dehydration causes hypovolemic shock, not cardiogenic shock."
+    ]
+  },
+  {
+    "id": "csa-006",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Cardiogenic Shock Pathophysiology & Recognition",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 112 (Pathogenesis of Cardiogenic Shock)",
+    "question": "At the cellular level, cardiogenic shock leads to:",
+    "options": [
+      "O2 demand exceeding O2 supply, anaerobic metabolism, lactic acid buildup, and cell death",
+      "Increased tissue perfusion and improved oxygenation",
+      "A rise in cardiac output",
+      "Decreased lactic acid production"
+    ],
+    "answer": 0,
+    "explanation": "At the systemic level, decreased contractility lowers CO/CI causing hypotension and reflex vasoconstriction, worsening central congestion and oxygenation. At the cellular level, decreased tissue perfusion means O2 demand exceeds O2 supply, driving anaerobic metabolism, lactic acid buildup, and cell death.",
+    "why": [
+      "Correct. Demand outstrips supply, causing anaerobic metabolism and cell death.",
+      "Tissue perfusion decreases in shock, not increases.",
+      "Cardiac output falls in cardiogenic shock.",
+      "Lactic acid rises due to anaerobic metabolism."
+    ]
+  },
+  {
+    "id": "csa-007",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Cardiogenic Shock Pathophysiology & Recognition",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 111 (Patient Presentation)",
+    "question": "Select ALL clinical presentation findings of cardiogenic shock.",
+    "options": [
+      "Lethargy, confusion, or altered mental status",
+      "Cold, clammy, mottled extremities",
+      "Echo with depressed EF or wall motion abnormalities",
+      "Warm, well-perfused extremities with brisk capillary refill"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Cardiogenic shock presents with lethargy, confusion, or altered mental status; cold, clammy, mottled extremities; and an echo showing depressed EF or wall motion abnormalities. Warm, well-perfused extremities are not typical of cardiogenic shock.",
+    "why": [
+      "Correct. AMS is a presentation finding.",
+      "Correct. Cold, clammy, mottled extremities are typical.",
+      "Correct. Depressed EF or wall motion abnormalities support the diagnosis.",
+      "Incorrect. Warm, well-perfused extremities argue against cardiogenic shock."
+    ]
+  },
+  {
+    "id": "csa-008",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Cardiogenic Shock Pathophysiology & Recognition",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 111 (Hemodynamics/Biomarkers)",
+    "question": "Select ALL hemodynamic or biomarker findings consistent with cardiogenic shock.",
+    "options": [
+      "Systolic blood pressure < 90",
+      "Cardiac index < 2.2",
+      "Urine output < 30 cc/hr and lactic acid > 2 mmol/L",
+      "Cardiac index > 4.0 with normal lactate"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Cardiogenic shock is marked by SBP < 90, cardiac index < 2.2, urine output < 30 cc/hr, lactic acid > 2 mmol/L, and often elevated creatinine and liver enzymes. A high cardiac index with normal lactate is not consistent with shock.",
+    "why": [
+      "Correct. SBP < 90 is a marker.",
+      "Correct. CI < 2.2 is a marker.",
+      "Correct. Low urine output and elevated lactate are markers.",
+      "Incorrect. A high CI with normal lactate does not indicate shock."
+    ]
+  },
+  {
+    "id": "csa-009",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Cardiogenic Shock Pathophysiology & Recognition",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 110 (The STEMI from last night is looking shocky)",
+    "question": "A patient treated for STEMI last night now has SBP in the 80s, cold clammy extremities, confusion, urine output 20 cc/hr, and a rising lactate. This picture is best described as:",
+    "options": [
+      "Cardiogenic shock",
+      "A normal post-STEMI recovery",
+      "Simple dehydration",
+      "An allergic reaction"
+    ],
+    "answer": 0,
+    "explanation": "Hypotension, cold clammy extremities, altered mental status, low urine output, and a rising lactate after a STEMI indicate cardiogenic shock from myocardial tissue loss. This warrants CVICU-level monitoring and escalation.",
+    "why": [
+      "Correct. The findings define cardiogenic shock after STEMI.",
+      "These are signs of deterioration, not normal recovery.",
+      "Dehydration causes hypovolemic shock, not this post-MI cardiogenic picture.",
+      "Nothing here suggests an allergic reaction."
+    ]
+  },
+  {
+    "id": "csa-010",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "CVICU Hemodynamics",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 117 (The Swan-Ganz Catheter)",
+    "question": "The Swan-Ganz (pulmonary artery) catheter allows for:",
+    "options": [
+      "Invasive hemodynamic monitoring, direct delivery of drugs, and mixed venous blood gas sampling",
+      "Coronary artery stenting",
+      "Replacing the aortic valve",
+      "Measuring the ejection fraction directly"
+    ],
+    "answer": 0,
+    "explanation": "The Swan-Ganz catheter allows invasive hemodynamic monitoring, direct delivery of drugs, and drawing mixed venous blood gases. Its waveform lets you identify where the tip of the balloon is, including the wedged position.",
+    "why": [
+      "Correct. It provides invasive monitoring, drug delivery, and mixed venous sampling.",
+      "The Swan-Ganz does not stent coronaries.",
+      "It does not replace valves.",
+      "EF is measured by echo, not directly by the Swan-Ganz."
+    ]
+  },
+  {
+    "id": "csa-011",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "CVICU Hemodynamics",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 118 (Gathering Data in the CVICU)",
+    "question": "Match each hemodynamic parameter to what it primarily reflects.",
+    "pairs": [
+      {
+        "left": "CI (cardiac index)",
+        "right": "Contractility / cardiac output",
+        "why": "CI, CO, and SvO2 reflect contractility and cardiac output."
+      },
+      {
+        "left": "CVP and PAWP",
+        "right": "Preload",
+        "why": "CVP (central venous pressure) and PAWP (pulmonary artery wedge pressure) reflect preload."
+      },
+      {
+        "left": "SVR",
+        "right": "Afterload",
+        "why": "SVR (systemic vascular resistance) and BP reflect afterload."
+      },
+      {
+        "left": "PAPi",
+        "right": "RV dysfunction",
+        "why": "PAPi (pulmonary artery pulsatility index) reflects RV dysfunction."
+      }
+    ],
+    "explanation": "In the CVICU: CI, CO, and SvO2 reflect contractility and cardiac output; CVP and PAWP reflect preload; SVR and BP reflect afterload; and PAPi reflects RV dysfunction."
+  },
+  {
+    "id": "csa-012",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "CVICU Hemodynamics",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 119 (PAPi and PCWP)",
+    "question": "Per this lecture, the pulmonary artery pulsatility index (PAPi) is calculated as:",
+    "options": [
+      "(sPAP - dPAP) / CVP, with a value greater than 1.5 desired",
+      "sPAP multiplied by CVP",
+      "CVP divided by SVR",
+      "SBP minus DBP"
+    ],
+    "answer": 0,
+    "explanation": "PAPi = (sPAP - dPAP) / CVP, with a target greater than 1.5. A low PAPi suggests RV dysfunction. The normal PCWP is roughly 4-6 to 12-15 mmHg.",
+    "why": [
+      "Correct. PAPi is the PA pulse pressure divided by CVP, target above 1.5.",
+      "PAPi is a ratio, not a product of sPAP and CVP.",
+      "That formula does not describe PAPi.",
+      "SBP minus DBP is the systemic pulse pressure, not PAPi."
+    ]
+  },
+  {
+    "id": "csa-013",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "CVICU Hemodynamics",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 120 (Question)",
+    "question": "A patient has CI 1.8, CVP 8, sPAP 32, SVR 2,000, SBP 140. What does this patient primarily need?",
+    "options": [
+      "Afterload reduction",
+      "Inotropic support",
+      "Preload optimization"
+    ],
+    "answer": 0,
+    "explanation": "The cardiac index is low (1.8) and the SVR is very high (2,000) with a high SBP (140). The heart is pumping against excessive resistance, so afterload reduction (a vasodilator such as nitroglycerin or nicardipine) is the priority.",
+    "why": [
+      "Correct. A very high SVR with high blood pressure calls for afterload reduction.",
+      "Preload (CVP 8) is adequate, so inotropes are not the first move here.",
+      "CVP is adequate, so adding preload would not address the high resistance."
+    ]
+  },
+  {
+    "id": "csa-014",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "CVICU Hemodynamics",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 121 (Question)",
+    "question": "A patient has CI 2.0, CVP 3, sPAP 21, SVR 800, SBP 100s. What does this patient primarily need?",
+    "options": [
+      "Preload optimization",
+      "Inotropic support",
+      "Increase afterload"
+    ],
+    "answer": 0,
+    "explanation": "The CVP is low (3) and the sPAP is low (21) with a borderline cardiac index, indicating the patient is underfilled. Preload optimization (volume) is the priority.",
+    "why": [
+      "Correct. A low CVP and low PA pressure indicate the patient needs volume.",
+      "With a normal SVR and near-normal CI, inotropes are not the first need.",
+      "The SVR (800) is normal, so raising afterload is not indicated."
+    ]
+  },
+  {
+    "id": "csa-015",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "CVICU Hemodynamics",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 122 (Question)",
+    "question": "A patient has CI 2.2, CVP 6, sPAP 27, SBP 90, SVR 600. What does this patient primarily need?",
+    "options": [
+      "Increase afterload",
+      "Inotropic support",
+      "Preload optimization"
+    ],
+    "answer": 0,
+    "explanation": "The SVR is low (600) with a low SBP (90) despite adequate preload (CVP 6) and an acceptable cardiac index. The problem is low vascular tone, so increasing afterload with a vasopressor is the priority.",
+    "why": [
+      "Correct. A low SVR with hypotension calls for a vasopressor to increase afterload.",
+      "The cardiac index is acceptable, so contractility is not the main problem.",
+      "Preload (CVP 6) is adequate, so volume is not the primary need."
+    ]
+  },
+  {
+    "id": "csa-016",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "CVICU Hemodynamics",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 123 (Question)",
+    "question": "A patient has CI 1.9, CVP 8, sPAP 30, SVR 800, SBP 100s. What does this patient primarily need?",
+    "options": [
+      "Inotropic support",
+      "Preload optimization",
+      "Increase afterload"
+    ],
+    "answer": 0,
+    "explanation": "The cardiac index is low (1.9) despite adequate preload (CVP 8) and a normal SVR (800) with an acceptable blood pressure. The heart is not squeezing well enough, so inotropic support is the priority.",
+    "why": [
+      "Correct. Low CI with adequate preload and normal SVR points to a contractility problem.",
+      "Preload (CVP 8) is already adequate.",
+      "The SVR (800) is normal, so raising afterload is not indicated."
+    ]
+  },
+  {
+    "id": "csa-017",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Cardiogenic Shock Management & Pharmacotherapy",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 128 (Cardiac Pharmacotherapy)",
+    "question": "Match each drug to its pharmacologic class.",
+    "pairs": [
+      {
+        "left": "Dobutamine",
+        "right": "Inotrope",
+        "why": "Dobutamine is an inotrope (along with epinephrine and milrinone)."
+      },
+      {
+        "left": "Levophed (norepinephrine)",
+        "right": "Vasopressor",
+        "why": "Levophed is a vasopressor, along with phenylephrine, vasopressin, and angiotensin II."
+      },
+      {
+        "left": "Nitroglycerin",
+        "right": "Vasodilator",
+        "why": "Nitroglycerin is a vasodilator, along with nicardipine and clevidipine."
+      },
+      {
+        "left": "Lasix",
+        "right": "Diuretic",
+        "why": "Lasix (furosemide) is a diuretic, along with Bumex, Diuril, and metolazone."
+      }
+    ],
+    "explanation": "Cardiac pharmacotherapy classes: inotropes (dobutamine, epinephrine, milrinone), vasopressors (levophed, phenylephrine, vasopressin, angiotensin II), vasodilators (nitroglycerin, nicardipine, clevidipine), and diuretics (Lasix, Bumex, Diuril, metolazone)."
+  },
+  {
+    "id": "csa-018",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Cardiogenic Shock Management & Pharmacotherapy",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 130 (Optimize Rate and Rhythm)",
+    "question": "Select ALL appropriate ways to optimize rate and rhythm in cardiogenic shock.",
+    "options": [
+      "Amiodarone or lidocaine for arrhythmias",
+      "Cardioversion or shock for an unstable patient",
+      "Pacing for bradycardia affecting perfusion or heart blocks",
+      "Withholding all electrolyte correction"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Optimizing rate and rhythm includes amiodarone or lidocaine, a beta-blocker for rate control (mindful of BP), cardioversion or shock for an unstable patient, and correcting electrolyte imbalances. Pace when necessary for bradycardia affecting perfusion or heart blocks; dobutamine and dopamine have a chronotropic effect. Withholding electrolyte correction is wrong.",
+    "why": [
+      "Correct. Amiodarone or lidocaine treat arrhythmias.",
+      "Correct. Cardioversion or shock is used for the unstable patient.",
+      "Correct. Pacing is used for bradycardia affecting perfusion or heart blocks.",
+      "Incorrect. Electrolyte imbalances should be corrected, not ignored."
+    ]
+  },
+  {
+    "id": "csa-019",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Cardiogenic Shock Management & Pharmacotherapy",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 130 (Optimize Rate and Rhythm)",
+    "question": "Besides raising contractility, dobutamine and dopamine are useful in bradycardia because they:",
+    "options": [
+      "Have a chronotropic effect (increase heart rate)",
+      "Are pure vasoconstrictors",
+      "Act as diuretics",
+      "Lower the heart rate"
+    ],
+    "answer": 0,
+    "explanation": "Dobutamine and dopamine have a chronotropic effect, increasing heart rate, which is useful when bradycardia affects perfusion, in addition to pacing when necessary.",
+    "why": [
+      "Correct. Both have a chronotropic (rate-increasing) effect.",
+      "They are inotropes with chronotropic effects, not pure vasoconstrictors.",
+      "They are not diuretics.",
+      "They raise, not lower, heart rate."
+    ]
+  },
+  {
+    "id": "csa-020",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Cardiogenic Shock Management & Pharmacotherapy",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 126 (Question)",
+    "question": "A patient presents with acute SOB, afib with RVR (rate 120s), SBP 90s, SpO2 88% on room air, pulmonary congestion on CXR, BNP 20,000, EF 20% on POCUS, and critical aortic stenosis. This is best characterized as:",
+    "options": [
+      "Cardiogenic shock with acute decompensated heart failure",
+      "Simple anxiety",
+      "A hypertensive emergency",
+      "Purely a respiratory infection"
+    ],
+    "answer": 0,
+    "explanation": "Afib with RVR, hypotension, hypoxia, pulmonary congestion, a very high BNP, EF 20%, and critical aortic stenosis describe cardiogenic shock with acute decompensated heart failure. Management addresses rate and rhythm, congestion, and the underlying valve disease, with mechanical support if needed.",
+    "why": [
+      "Correct. The findings define cardiogenic shock with decompensated heart failure.",
+      "The objective findings (EF 20%, BNP 20,000, hypoxia) far exceed anxiety.",
+      "The blood pressure is low, not a hypertensive emergency.",
+      "The pulmonary congestion is cardiogenic, not a simple infection."
+    ]
+  },
+  {
+    "id": "csa-021",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Cardiogenic Shock Management & Pharmacotherapy",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 131 (Temporary External Pacemaker)",
+    "question": "A temporary external pacemaker is indicated when:",
+    "options": [
+      "Bradycardia or heart block is compromising perfusion",
+      "The patient is in stable sinus rhythm",
+      "Blood pressure is elevated with a normal rate",
+      "The patient has an isolated skin rash"
+    ],
+    "answer": 0,
+    "explanation": "Pace when necessary, such as bradycardia affecting perfusion or heart blocks. A temporary external pacemaker supports rate until the underlying problem is corrected.",
+    "why": [
+      "Correct. Pacing supports perfusion during bradycardia or heart block.",
+      "Stable sinus rhythm does not require pacing.",
+      "Elevated BP with a normal rate is not a pacing indication.",
+      "A skin rash is unrelated to pacing."
+    ]
+  },
+  {
+    "id": "csa-022",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Mechanical Circulatory Support",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 135 (Mechanical Support)",
+    "question": "Match each mechanical support device to its approximate flow or role.",
+    "pairs": [
+      {
+        "left": "IABP (intra-aortic balloon pump)",
+        "right": "About 0.5 L/min, LV support",
+        "why": "The IABP adds about 0.5 L/min and improves coronary perfusion."
+      },
+      {
+        "left": "Impella CP",
+        "right": "About 3.5 L/min, LV support",
+        "why": "The Impella CP provides about 3.5 L/min of LV support."
+      },
+      {
+        "left": "Impella 5.5",
+        "right": "About 5.5 L/min, LV support",
+        "why": "The Impella 5.5 provides about 5.5 L/min of LV support."
+      },
+      {
+        "left": "Impella RP",
+        "right": "About 4.0 L/min, RV support",
+        "why": "The Impella RP provides about 4.0 L/min of RV support."
+      },
+      {
+        "left": "VA ECMO",
+        "right": "About 7 L/min, biventricular support",
+        "why": "VA ECMO provides about 7 L/min and supports both ventricles."
+      }
+    ],
+    "explanation": "LV support: IABP about 0.5 L/min, Impella CP about 3.5 L/min, Impella 5.5 about 5.5 L/min. RV support: Impella RP about 4.0 L/min. Biventricular: VA ECMO about 7 L/min (often with an IABP or Impella, EcPella, to unload the LV; BiPella is Impella RP plus CP/5.5)."
+  },
+  {
+    "id": "csa-023",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Mechanical Circulatory Support",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 136 (ECMO)",
+    "question": "The key distinction between VA and VV ECMO is that:",
+    "options": [
+      "VA ECMO supports cardiogenic shock (circulation), while VV ECMO supports respiratory failure",
+      "VA ECMO is only for respiratory failure",
+      "VV ECMO replaces the heart valves",
+      "They are interchangeable in all situations"
+    ],
+    "answer": 0,
+    "explanation": "Veno-arterial (VA) ECMO supports circulation in cardiogenic shock; be mindful of North/South syndrome with peripheral cannulation and of inadequate drainage with LV distention. Veno-venous (VV) ECMO supports respiratory failure. The heart can also be unloaded while on ECMO.",
+    "why": [
+      "Correct. VA supports circulation (cardiogenic shock); VV supports the lungs.",
+      "VA ECMO supports circulation, not respiratory failure alone.",
+      "ECMO does not replace heart valves.",
+      "They serve different purposes and are not interchangeable."
+    ]
+  },
+  {
+    "id": "csa-024",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Mechanical Circulatory Support",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 136 (ECMO)",
+    "question": "North/South syndrome (differential hypoxia) is a concern with:",
+    "options": [
+      "Peripheral cannulation on VA ECMO",
+      "VV ECMO for respiratory failure",
+      "An IABP",
+      "A temporary pacemaker"
+    ],
+    "answer": 0,
+    "explanation": "North/South syndrome is an issue with peripheral cannulation on VA ECMO, where poorly oxygenated blood from the native heart perfuses the upper body while oxygenated ECMO blood perfuses the lower body. Inadequate drainage causing LV distention is another VA ECMO concern.",
+    "why": [
+      "Correct. North/South syndrome arises with peripheral VA ECMO cannulation.",
+      "VV ECMO does not cause the differential upper-body hypoxia of North/South syndrome.",
+      "An IABP does not cause North/South syndrome.",
+      "A pacemaker is unrelated to this phenomenon."
+    ]
+  },
+  {
+    "id": "csa-025",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Mechanical Circulatory Support",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 133 (Question - JP)",
+    "question": "JP, 52, had a witnessed arrest with ROSC and a stented proximal LAD (TIMI 2, residual clot). In the CVICU on an Impella CP at 3.5 L/min he has CI 1.9, MAP 50s, lactate 3, SvO2 40, urine output 15-20 cc/hr, and EF 15% on maximal levophed, vasopressin, epinephrine, and dobutamine. How can you better support him?",
+    "options": [
+      "Escalate mechanical support (for example Impella 5.5 or VA ECMO), since he is failing maximal pharmacologic and current device support",
+      "Stop all inotropes and observe",
+      "Discharge him home on oral medications",
+      "Remove the Impella and give only IV fluids"
+    ],
+    "answer": 0,
+    "explanation": "Despite maximal pharmacotherapy and an Impella CP, JP has a low CI, low MAP, rising lactate, very low SvO2, and poor urine output. He needs escalation of mechanical support, such as an Impella 5.5 or VA ECMO, because if the patient is not getting better, the patient is getting worse.",
+    "why": [
+      "Correct. Failing on max support means escalating mechanical circulatory support.",
+      "Stopping inotropes would remove the support keeping him alive.",
+      "He is in critical condition and cannot be discharged.",
+      "Removing the Impella and giving only fluids would abandon needed circulatory support."
+    ]
+  },
+  {
+    "id": "csa-026",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Mechanical Circulatory Support",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 142 (Bridge to Recovery)",
+    "question": "A patient with EF 20% is being bridged to recovery. To protect against fatal arrhythmias while awaiting ventricular recovery (about 3 months), they are discharged with:",
+    "options": [
+      "A LifeVest (wearable defibrillator), with AICD qualification if EF does not improve at 3 months",
+      "An immediate permanent AICD before any recovery period",
+      "No arrhythmia protection at all",
+      "A Watchman device"
+    ],
+    "answer": 0,
+    "explanation": "Mechanical devices bridge to recovery, transplant, or the fridge. For recovery, you revascularize, fix valve or rhythm problems, and allow about 3 months for ventricular recovery on goal-directed medical therapy. With EF < 35%, patients risk fatal VT/VFib and are discharged with a LifeVest; if EF does not improve at 3 months, they qualify for an AICD.",
+    "why": [
+      "Correct. A LifeVest bridges the recovery window; AICD if EF stays low at 3 months.",
+      "An AICD is placed only if EF fails to improve after the recovery period.",
+      "Low-EF patients need arrhythmia protection, not none.",
+      "A Watchman addresses Afib stroke risk, not ventricular arrhythmia protection."
+    ]
+  },
+  {
+    "id": "csa-027",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Heart Transplantation",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 144 (Donor Selection and Management)",
+    "question": "For heart transplantation, the cold ischemia time for the donor heart is ideally limited to:",
+    "options": [
+      "4 hours",
+      "24 hours",
+      "30 minutes",
+      "12 hours"
+    ],
+    "answer": 0,
+    "explanation": "Cold ischemia time is ideally limited to 4 hours. Donor selection avoids CHD, HTN, HIV, HBV, and HCV; uses pre-donation echo and ABO-compatible matching (HLA typing is not used as in renal transplant); preserves the heart with hyperkalemic (UW) cardioplegia; and limits donor-recipient distance by jet to about 1,500 miles.",
+    "why": [
+      "Correct. Cold ischemia time is ideally kept under 4 hours.",
+      "24 hours far exceeds the safe ischemic window for a heart.",
+      "30 minutes is unnecessarily short and impractical for transport.",
+      "12 hours exceeds the ideal 4-hour limit."
+    ]
+  },
+  {
+    "id": "csa-028",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Heart Transplantation",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 147 (Post-Transplant Immunosuppression)",
+    "question": "Match each post-transplant immunosuppressant to its mechanism.",
+    "pairs": [
+      {
+        "left": "Prednisone",
+        "right": "Suppresses cytokine gene expression, reducing inflammation and T-cell activation",
+        "why": "Prednisone suppresses cytokine gene expression, decreasing inflammation and T-cell activation."
+      },
+      {
+        "left": "Mycophenolate (MMF)",
+        "right": "Inhibits IMPDH, blocking de novo purine synthesis in lymphocytes",
+        "why": "MMF inhibits IMPDH, blocking de novo purine synthesis that T and B lymphocytes rely on."
+      },
+      {
+        "left": "Tacrolimus",
+        "right": "Inhibits calcineurin, reducing IL-2 transcription and T-cell activation",
+        "why": "Tacrolimus inhibits calcineurin, lowering IL-2 transcription and T-cell activation."
+      }
+    ],
+    "explanation": "Prednisone suppresses cytokine gene expression; mycophenolate (MMF) inhibits IMPDH to block de novo purine synthesis that lymphocytes depend on; and tacrolimus inhibits calcineurin, reducing IL-2 transcription and T-cell activation."
+  },
+  {
+    "id": "csa-029",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Heart Transplantation",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 148 (Post-Transplant Management Issues)",
+    "question": "The transplanted heart is surgically denervated, which means that:",
+    "options": [
+      "It does not respond to indirect autonomic input, so pacing is needed for bradyarrhythmia and it responds to circulating catecholamines",
+      "It responds normally to vagal tone",
+      "It never needs pacing",
+      "It is immune to rejection"
+    ],
+    "answer": 0,
+    "explanation": "Implantation leaves the recipient with a surgically denervated heart that responds to circulating adrenergic catecholamines; pacing is necessary for bradyarrhythmia. Other concerns include rejection, diffuse concentric coronary atherosclerosis from immunologic endothelial injury, increased malignancy risk (especially lymphoma and skin cancers), and opportunistic infections such as CMV and Aspergillus.",
+    "why": [
+      "Correct. Denervation means pacing for bradyarrhythmia and reliance on circulating catecholamines.",
+      "A denervated heart does not respond to normal vagal (autonomic) input.",
+      "It may need pacing precisely because it is denervated.",
+      "Rejection is always a concern after transplant."
+    ]
+  },
+  {
+    "id": "csa-030",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Acute & Critical Care",
+    "section": "Heart Transplantation",
+    "source": "Cardiac Surgery: Acute & Critical Care, slide 143 (Indications/Contraindications)",
+    "question": "Select ALL factors that may CONTRAINDICATE heart transplantation.",
+    "options": [
+      "High physiologic age",
+      "Peripheral or cerebrovascular disease",
+      "Obesity, diabetes, cancer, or chronic infection",
+      "Being a younger patient without significant comorbidities"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Indications include heart failure, end-stage CHD, cardiomyopathy, and congenital heart disease. High physiologic age and comorbidities such as peripheral or cerebrovascular disease, obesity, diabetes, cancer, or chronic infection may contraindicate transplantation. Younger patients without significant comorbidities are good candidates, not contraindicated.",
+    "why": [
+      "Correct. High physiologic age may contraindicate transplant.",
+      "Correct. Peripheral or cerebrovascular disease may contraindicate transplant.",
+      "Correct. Obesity, diabetes, cancer, or chronic infection may contraindicate transplant.",
+      "Incorrect. A younger patient without comorbidities is a good candidate, not contraindicated."
+    ]
+  },
+  {
+    "id": "csx-001",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Emergencies",
+    "section": "Chest Pain Differential & STEMI",
+    "source": "Cardiac Surgery: Emergencies, slide 151 (Differential Dx of Chest Pain)",
+    "question": "Select ALL life-threatening causes of chest pain.",
+    "options": [
+      "Acute coronary syndrome",
+      "Acute aortic dissection or aortic aneurysm leak",
+      "Pulmonary embolism, esophageal rupture, or tension pneumothorax",
+      "GERD and costochondritis"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Life-threatening causes of chest pain include acute coronary syndrome, aortic aneurysm leak or acute aortic dissection, pulmonary embolism, esophageal rupture, pneumothorax or tension pneumothorax, pericarditis, and rib trauma or flail chest. GERD and costochondritis are non-cardiovascular, non-life-threatening causes.",
+    "why": [
+      "Correct. ACS is life-threatening.",
+      "Correct. Aortic dissection or aneurysm leak is life-threatening.",
+      "Correct. PE, esophageal rupture, and tension pneumothorax are life-threatening.",
+      "Incorrect. GERD and costochondritis are non-cardiovascular, non-life-threatening causes."
+    ]
+  },
+  {
+    "id": "csx-002",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Emergencies",
+    "section": "Chest Pain Differential & STEMI",
+    "source": "Cardiac Surgery: Emergencies, slide 152 (STEMI)",
+    "question": "For a STEMI, emergent CABG is preferred when symptom onset is within:",
+    "options": [
+      "Less than 6 hours, otherwise it carries an increased risk of mortality",
+      "Less than 24 hours regardless of timing",
+      "Between 6 and 12 hours only",
+      "More than 6 days"
+    ],
+    "answer": 0,
+    "explanation": "For STEMI, emergent CABG is preferred if symptom onset is within less than 6 hours; otherwise it is associated with an increased risk of mortality. To reduce mortality, re-establish flow as soon as possible and fix the culprit lesion percutaneously.",
+    "why": [
+      "Correct. Under 6 hours is the window; later carries higher mortality.",
+      "There is no blanket 24-hour window here.",
+      "The 6-to-12-hour window is not the preferred emergent CABG timing.",
+      "More than 6 days is the delayed 'cool off' window, not emergent CABG."
+    ]
+  },
+  {
+    "id": "csx-003",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Emergencies",
+    "section": "Chest Pain Differential & STEMI",
+    "source": "Cardiac Surgery: Emergencies, slide 153 (Cath Lab Emergencies)",
+    "question": "In a cath lab emergency, if attempts to stent and open the vessel all fail, the next step is:",
+    "options": [
+      "Emergent OR, which carries a high risk of mortality",
+      "Discharge home with follow-up",
+      "Observation only",
+      "Repeat the same stent attempt indefinitely"
+    ],
+    "answer": 0,
+    "explanation": "In a cath lab emergency, the team attempts to stent to cover the lesion and open the vessel. If all fails, the patient goes emergently to the OR, which carries a high risk of mortality.",
+    "why": [
+      "Correct. Failed stenting means emergent OR, with high mortality risk.",
+      "Discharge is unsafe for a failed emergent revascularization.",
+      "Observation alone does not address the occluded vessel.",
+      "Repeating a failed stent attempt indefinitely delays definitive surgery."
+    ]
+  },
+  {
+    "id": "csx-004",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Emergencies",
+    "section": "Pulmonary Embolism",
+    "source": "Cardiac Surgery: Emergencies, slide 154 (Pulmonary Embolism)",
+    "question": "The diagnostic test of choice for suspected pulmonary embolism is:",
+    "options": [
+      "CTA PE protocol, with echo to evaluate the RV",
+      "Esophagram with gastrografin",
+      "Coronary angiogram",
+      "Transesophageal echo of the aortic valve"
+    ],
+    "answer": 0,
+    "explanation": "PE presents with hypoxia, with or without hypotension and tachycardia. The diagnostic test is a CTA PE protocol, with an echo to evaluate the RV. Management includes thrombolytics or anticoagulation, catheter or surgical embolectomy, and possibly RV support.",
+    "why": [
+      "Correct. CTA PE protocol plus echo for the RV is the workup.",
+      "An esophagram evaluates esophageal perforation, not PE.",
+      "A coronary angiogram evaluates the coronaries, not the pulmonary arteries.",
+      "TEE of the aortic valve does not diagnose PE."
+    ]
+  },
+  {
+    "id": "csx-005",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Emergencies",
+    "section": "Pulmonary Embolism",
+    "source": "Cardiac Surgery: Emergencies, slide 154 (Pulmonary Embolism)",
+    "question": "Select ALL appropriate management options for pulmonary embolism.",
+    "options": [
+      "Thrombolytics or anticoagulation",
+      "Catheter or surgical embolectomy",
+      "RV support if needed",
+      "Immediate CABG"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "PE management includes thrombolytics or anticoagulation, catheter or surgical embolectomy, and RV support if required. CABG addresses coronary disease and is not the treatment for PE.",
+    "why": [
+      "Correct. Thrombolytics or anticoagulation are used.",
+      "Correct. Catheter or surgical embolectomy is an option.",
+      "Correct. RV support may be required.",
+      "Incorrect. CABG treats coronary disease, not PE."
+    ]
+  },
+  {
+    "id": "csx-006",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Emergencies",
+    "section": "Type A Aortic Dissection",
+    "source": "Cardiac Surgery: Emergencies, slide 156 (Type A Aortic Dissection)",
+    "question": "Select ALL features of the typical presentation of a Type A aortic dissection.",
+    "options": [
+      "Sudden onset of tearing chest or back pain",
+      "Hypotension and tachycardia with emesis and diaphoresis",
+      "CVA or a sudden cold limb",
+      "Gradual, mild soreness over several weeks"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Type A aortic dissection presents with sudden onset of tearing chest or back pain, hypotension and tachycardia, emesis and diaphoresis, and possibly a CVA or a sudden cold limb. The diagnostic test is a CTA of the chest, abdomen, and pelvis. A gradual mild ache over weeks is not this emergency.",
+    "why": [
+      "Correct. Sudden tearing chest or back pain is classic.",
+      "Correct. Hypotension, tachycardia, emesis, and diaphoresis occur.",
+      "Correct. CVA or a sudden cold limb can result from malperfusion.",
+      "Incorrect. A gradual mild ache over weeks is not a Type A dissection."
+    ]
+  },
+  {
+    "id": "csx-007",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Emergencies",
+    "section": "Type A Aortic Dissection",
+    "source": "Cardiac Surgery: Emergencies, slide 156 (Type A Aortic Dissection)",
+    "question": "Definitive management of a Type A aortic dissection is:",
+    "options": [
+      "Emergent transfer to the operating room",
+      "Outpatient blood pressure control",
+      "Anticoagulation alone",
+      "A stress test"
+    ],
+    "answer": 0,
+    "explanation": "A Type A aortic dissection goes emergently to the operating room. It is diagnosed by CTA of the chest, abdomen, and pelvis.",
+    "why": [
+      "Correct. Type A dissection is a surgical emergency requiring the OR.",
+      "Outpatient BP control is inadequate for a Type A dissection.",
+      "Anticoagulation alone does not treat the dissection and could worsen bleeding.",
+      "A stress test has no role in an acute dissection."
+    ]
+  },
+  {
+    "id": "csx-008",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Emergencies",
+    "section": "Type A Aortic Dissection",
+    "source": "Cardiac Surgery: Emergencies, slide 158 (Type A Aortic Dissection - In the OR)",
+    "question": "During Type A dissection repair, why is it important to cannulate the true lumen rather than the false lumen?",
+    "options": [
+      "To avoid malperfusion, which could be detrimental",
+      "To shorten the skin incision",
+      "To avoid the need for anesthesia",
+      "To eliminate the need for cardiopulmonary bypass"
+    ],
+    "answer": 0,
+    "explanation": "Even with peripheral cannulation, depending on the extent of dissection you must ensure the true lumen is cannulated rather than the false lumen to avoid malperfusion, which could be detrimental. The team also waits to induce and intubate until ready to make the incision to reduce the risk of hemodynamic collapse; opening the chest first can relieve a contained rupture.",
+    "why": [
+      "Correct. Cannulating the false lumen causes dangerous malperfusion.",
+      "Lumen selection is about perfusion, not incision length.",
+      "Anesthesia is still required regardless of cannulation site.",
+      "Bypass is still needed; lumen choice does not eliminate it."
+    ]
+  },
+  {
+    "id": "csx-009",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Emergencies",
+    "section": "Type A Aortic Dissection",
+    "source": "Cardiac Surgery: Emergencies, slide 159 (Type A Aortic Dissection - Goal of Repair)",
+    "question": "The goal of Type A dissection repair is to:",
+    "options": [
+      "Remove the area of the entry tear so the false lumen loses flow and eventually thromboses",
+      "Replace the mitral valve",
+      "Leave the entry tear intact but stent around it",
+      "Bypass all the coronary arteries"
+    ],
+    "answer": 0,
+    "explanation": "This salvage procedure aims to remove the area of the entry tear; once the entry tear is eliminated, the false lumen no longer has flow and will eventually thrombose. Comorbidities of dissection stem from organ malperfusion off the false lumen, including gut ischemia (fatal), AKI, CVA, paralysis, and limb ischemia.",
+    "why": [
+      "Correct. Eliminating the entry tear stops false-lumen flow, leading to thrombosis.",
+      "Mitral valve replacement is unrelated to the dissection repair goal.",
+      "Leaving the entry tear intact would allow continued false-lumen flow.",
+      "Bypassing all coronaries is not the goal of dissection repair."
+    ]
+  },
+  {
+    "id": "csx-010",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Emergencies",
+    "section": "Type A Aortic Dissection",
+    "source": "Cardiac Surgery: Emergencies, slide 159 (Comorbidities)",
+    "question": "Which malperfusion complication of aortic dissection is specifically noted as fatal?",
+    "options": [
+      "Gut ischemia",
+      "A mild headache",
+      "Transient nausea",
+      "Muscle soreness"
+    ],
+    "answer": 0,
+    "explanation": "Comorbidities of aortic dissection are secondary to ischemia from organ malperfusion off the false lumen and include gut ischemia (fatal), AKI, CVA, paralysis, and limb ischemia.",
+    "why": [
+      "Correct. Gut ischemia is specifically called fatal.",
+      "A mild headache is not the noted fatal complication.",
+      "Transient nausea is not the noted fatal complication.",
+      "Muscle soreness is not a malperfusion complication of dissection."
+    ]
+  },
+  {
+    "id": "csx-011",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Emergencies",
+    "section": "Tamponade, Esophageal Perforation & Tension Pneumothorax",
+    "source": "Cardiac Surgery: Emergencies, slide 161 (Cardiac Tamponade, Esophageal Perforation, Tension Pneumothorax)",
+    "question": "Match each emergency to its intervention.",
+    "pairs": [
+      {
+        "left": "Cardiac tamponade",
+        "right": "Pericardiocentesis or subxiphoid window",
+        "why": "Tamponade is treated with pericardiocentesis or a subxiphoid window to evacuate the effusion."
+      },
+      {
+        "left": "Esophageal perforation",
+        "right": "NPO, stenting, or surgical repair with a feeding tube",
+        "why": "Esophageal perforation is managed by keeping the patient NPO, stenting, or surgical repair with a temporary feeding tube."
+      },
+      {
+        "left": "Tension pneumothorax",
+        "right": "Needle decompression then chest tube",
+        "why": "Tension pneumothorax is treated with needle decompression followed by chest tube placement."
+      }
+    ],
+    "explanation": "Cardiac tamponade: pericardiocentesis or subxiphoid window (high risk of hemodynamic collapse on induction, so keep the patient awake until ready to incise). Esophageal perforation: NPO, stenting, or surgical repair with a temporary feeding tube. Tension pneumothorax: needle decompression then chest tube."
+  },
+  {
+    "id": "csx-012",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Emergencies",
+    "section": "Tamponade, Esophageal Perforation & Tension Pneumothorax",
+    "source": "Cardiac Surgery: Emergencies, slide 161 (Cardiac Tamponade)",
+    "question": "Which findings suggest cardiac tamponade?",
+    "options": [
+      "Hypotension, tachycardia, jugular venous distention, and muffled heart sounds",
+      "Hypertension with a slow heart rate",
+      "Tracheal deviation and absent breath sounds only",
+      "Fever and difficulty swallowing"
+    ],
+    "answer": 0,
+    "explanation": "Cardiac tamponade presents with hypotension, tachycardia, jugular venous distention, and muffled heart sounds, diagnosed by transthoracic echo. There is a high risk of hemodynamic collapse on induction, so keep the patient awake until ready to make the incision.",
+    "why": [
+      "Correct. Hypotension, tachycardia, JVD, and muffled heart sounds are Beck's triad findings.",
+      "Tamponade causes hypotension and tachycardia, not hypertension with bradycardia.",
+      "Tracheal deviation with absent breath sounds points to tension pneumothorax.",
+      "Fever and difficulty swallowing point to esophageal perforation."
+    ]
+  },
+  {
+    "id": "csx-013",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Emergencies",
+    "section": "Tamponade, Esophageal Perforation & Tension Pneumothorax",
+    "source": "Cardiac Surgery: Emergencies, slide 162 (Esophageal Perforation)",
+    "question": "A young patient with intractable emesis after heavy alcohol use has chest pain, fever, difficulty swallowing, subcutaneous emphysema, and mediastinal air on CT chest. What is the diagnosis and confirmatory test?",
+    "options": [
+      "Esophageal perforation, confirmed with an esophagram using gastrografin",
+      "Tension pneumothorax, confirmed with a chest X-ray",
+      "Cardiac tamponade, confirmed with a transthoracic echo",
+      "Pulmonary embolism, confirmed with a CTA PE protocol"
+    ],
+    "answer": 0,
+    "explanation": "A young patient with intractable emesis (EtOH or marijuana), chest pain, fever, difficulty swallowing, subcutaneous emphysema, and mediastinal air on CT has an esophageal perforation, confirmed with an esophagram using gastrografin. Management is NPO, stenting, or surgical repair with a temporary feeding tube.",
+    "why": [
+      "Correct. This picture is esophageal perforation, confirmed by gastrografin esophagram.",
+      "Tension pneumothorax causes tracheal deviation, not mediastinal air after emesis.",
+      "Tamponade gives JVD and muffled heart sounds, not subcutaneous emphysema.",
+      "PE causes hypoxia, not subcutaneous emphysema and mediastinal air after vomiting."
+    ]
+  },
+  {
+    "id": "csx-014",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Emergencies",
+    "section": "Tamponade, Esophageal Perforation & Tension Pneumothorax",
+    "source": "Cardiac Surgery: Emergencies, slide 163 (Tension Pneumothorax)",
+    "question": "A patient has acute respiratory distress, hypotension, tachycardia, and tracheal deviation. The immediate intervention is:",
+    "options": [
+      "Needle decompression followed by chest tube placement",
+      "Pericardiocentesis",
+      "Esophageal stenting",
+      "Emergent CABG"
+    ],
+    "answer": 0,
+    "explanation": "Tension pneumothorax presents with acute respiratory distress (SOB, tachypnea, hypoxia), hypotension, tachycardia, and tracheal deviation, diagnosed by chest X-ray. The intervention is needle decompression followed by chest tube placement.",
+    "why": [
+      "Correct. Needle decompression then chest tube relieves a tension pneumothorax.",
+      "Pericardiocentesis treats tamponade, not a tension pneumothorax.",
+      "Esophageal stenting treats a perforation, not a pneumothorax.",
+      "CABG is unrelated to acute tension pneumothorax."
+    ]
+  },
+  {
+    "id": "csx-015",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Emergencies",
+    "section": "Cardiac Trauma",
+    "source": "Cardiac Surgery: Emergencies, slide 164 (Cardiac Trauma)",
+    "question": "Match each cardiac trauma scenario to its management.",
+    "pairs": [
+      {
+        "left": "Gunshot or stab wound to the chest",
+        "right": "Sternotomy for mediastinal exploration",
+        "why": "Penetrating chest trauma (GSW or stabbing) warrants sternotomy for mediastinal exploration."
+      },
+      {
+        "left": "Cardiac contusion",
+        "right": "Echo, trend troponin, manage conservatively",
+        "why": "Cardiac contusion is checked with echo and serial troponin and is most often managed conservatively."
+      },
+      {
+        "left": "Flail chest",
+        "right": "Plating, as it can compromise oxygenation",
+        "why": "Flail chest requires plating because it can compromise oxygenation."
+      },
+      {
+        "left": "Isolated rib or sternal fracture",
+        "right": "Conservative management",
+        "why": "Isolated rib or sternal fractures are managed conservatively."
+      }
+    ],
+    "explanation": "Cardiac trauma management: penetrating wounds (GSW or stabbing) get sternotomy for mediastinal exploration; cardiac contusion is worked up with echo and serial troponin and managed conservatively; flail chest requires plating because it can compromise oxygenation; and isolated rib or sternal fractures are managed conservatively."
+  },
+  {
+    "id": "csx-016",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Surgery: Emergencies",
+    "section": "Cardiac Trauma",
+    "source": "Cardiac Surgery: Emergencies, slide 164 (Cardiac Trauma)",
+    "question": "A hemodynamically stable patient with a cardiac contusion after blunt chest trauma is best managed by:",
+    "options": [
+      "Checking an echocardiogram, trending troponin, and conservative management",
+      "Emergent sternotomy for all contusions",
+      "Immediate heart transplant",
+      "Discharge without any cardiac evaluation"
+    ],
+    "answer": 0,
+    "explanation": "A cardiac contusion is evaluated with an echocardiogram and serial troponin and is most often managed conservatively. Sternotomy for mediastinal exploration is reserved for penetrating trauma such as a gunshot or stab wound.",
+    "why": [
+      "Correct. Echo, serial troponin, and conservative management fit a contusion.",
+      "Sternotomy is for penetrating trauma, not routine contusions.",
+      "A contusion does not warrant transplant.",
+      "A contusion still needs echo and troponin evaluation, not blind discharge."
+    ]
   }
 ];
 

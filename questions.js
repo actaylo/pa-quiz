@@ -8302,52 +8302,44 @@ const QUESTIONS = [
   },
   {
     "id": "img-001",
-    "type": "matching",
-    "class": "Cardiology",
-    "lecture": "Cardiac Imaging",
-    "section": "Imaging Modalities",
-    "source": "Cardiac Imaging, slide 87 (Imaging Modality table)",
-    "question": "Match each imaging modality to its description.",
-    "pairs": [
-      {
-        "left": "Chest X-ray (CXR)",
-        "right": "Radiograph of heart, vessels, lungs; used for heart failure, cardiomegaly, pulmonary edema, thoracic aneurysm",
-        "why": "The CXR is a radiograph showing the heart, vessels, and lungs, used for heart failure, cardiomegaly, pulmonary edema, and thoracic aneurysm."
-      },
-      {
-        "left": "Transthoracic echocardiogram (TTE)",
-        "right": "Ultrasound with moderate visualization of heart structures and pericardium",
-        "why": "The TTE is an ultrasound giving moderate visualization of heart structures and the pericardium."
-      },
-      {
-        "left": "Transesophageal echocardiogram (TEE)",
-        "right": "Ultrasound with higher resolution than TTE, especially the LA, mitral valve, and aorta",
-        "why": "The TEE is an ultrasound with higher resolution than TTE, particularly for the left atrium, mitral valve, and aorta."
-      }
-    ],
-    "explanation": "CXR is a radiograph of the heart, vessels, and lungs (heart failure, cardiomegaly, pulmonary edema, thoracic aneurysm). TTE is an ultrasound with moderate visualization of heart structures and pericardium. TEE is an ultrasound with higher resolution than TTE, especially the left atrium, mitral valve, and aorta."
-  },
-  {
-    "id": "img-002",
     "type": "mcq",
     "class": "Cardiology",
     "lecture": "Cardiac Imaging",
-    "section": "Imaging Modalities",
-    "source": "Cardiac Imaging, slide 87 (Transesophageal Echocardiogram)",
-    "question": "The main advantage of a transesophageal echocardiogram (TEE) over a transthoracic echocardiogram (TTE) is:",
+    "section": "Echocardiography",
+    "source": "Cardiac Imaging, slide 5 (Ultrasound Basics)",
+    "question": "In echocardiography, what physically produces the image the transducer displays?",
     "options": [
-      "Higher-resolution visualization of posterior structures, particularly the left atrium, mitral valve, and aorta",
-      "It uses no ultrasound and avoids all probes",
-      "It measures the coronary calcium score",
-      "It does not require a trained operator"
+      "The time it takes for emitted high-frequency sound waves to bounce back to the transducer",
+      "The heat generated as sound waves pass through tissue",
+      "The magnetic alignment of hydrogen protons in the myocardium",
+      "The gamma radiation emitted by an injected tracer"
     ],
     "answer": 0,
-    "explanation": "A TEE gives more detail than a TTE, especially for the valves and posterior structures such as the left atrium, mitral valve, and aorta, because the probe sits directly behind the heart in the esophagus.",
+    "explanation": "A transducer emits high-frequency sound waves; as they pass through tissue and blood they bounce back, and the time it takes for a wave to return is what produces the picture. Reflection is strongest at boundaries where density changes most.",
     "why": [
-      "Correct. TEE better visualizes the LA, mitral valve, and aorta.",
-      "TEE is an ultrasound study using an esophageal probe.",
-      "The coronary calcium score is a CT measurement, not a TEE.",
-      "TEE is operator-dependent and requires a trained provider."
+      "Correct. The return time of reflected sound waves builds the image, with the strongest reflection at density boundaries.",
+      "Heat is not how ultrasound forms an image.",
+      "That describes MRI, not echocardiography.",
+      "That describes nuclear imaging (SPECT), not ultrasound."
+    ]
+  },
+  {
+    "id": "img-002",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Echocardiography",
+    "source": "Cardiac Imaging, slide 7 (TTE - no radiation)",
+    "question": "A transthoracic echocardiogram (TTE) exposes the patient to ionizing radiation.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "explanation": "TTE uses ultrasound and involves no radiation, which is one of its advantages as a first-line and repeatable study.",
+    "why": [
+      "Incorrect. Ultrasound-based imaging does not use ionizing radiation.",
+      "Correct. TTE uses sound waves and has no radiation exposure."
     ]
   },
   {
@@ -8355,154 +8347,145 @@ const QUESTIONS = [
     "type": "mcq",
     "class": "Cardiology",
     "lecture": "Cardiac Imaging",
-    "section": "Imaging Modalities",
-    "source": "Cardiac Imaging, slide 87 (Echocardiography)",
-    "question": "For a patient whose obesity, COPD, or body habitus limits transthoracic image quality, the best alternative to visualize valve anatomy is:",
+    "section": "Echocardiography",
+    "source": "Cardiac Imaging, slide 7 (TTE - poor study populations)",
+    "question": "Which patients tend to have poor-quality transthoracic echocardiogram studies?",
     "options": [
-      "Transesophageal echocardiogram",
-      "Chest X-ray",
-      "Coronary calcium score",
-      "MUGA scan"
+      "Patients with COPD or severe obesity",
+      "Patients with a pacemaker",
+      "Patients in atrial fibrillation",
+      "Patients who cannot hold their breath"
     ],
     "answer": 0,
-    "explanation": "When body habitus or lung disease degrades TTE windows, a TEE provides high-resolution imaging of the valves and posterior structures because the probe images from within the esophagus.",
+    "explanation": "Air (as in COPD) and excess soft tissue (severe obesity) both scatter and attenuate ultrasound, degrading transthoracic image quality. These patients often need a transesophageal study for clearer images.",
     "why": [
-      "Correct. TEE bypasses the poor transthoracic windows to image the valves clearly.",
-      "A chest X-ray cannot detail valve anatomy or hemodynamics.",
-      "A coronary calcium score assesses calcified plaque, not valves.",
-      "A MUGA scan evaluates ejection fraction, not valve anatomy."
+      "Correct. Hyperinflated lungs and body habitus both worsen transthoracic windows.",
+      "A pacemaker does not degrade an ultrasound image the way air or tissue does.",
+      "Atrial fibrillation affects rhythm-gated studies, but is not what makes a TTE window poor.",
+      "Breath-holding is a limitation of cardiac MRI, not TTE."
     ]
   },
   {
     "id": "img-004",
-    "type": "matching",
-    "class": "Cardiology",
-    "lecture": "Cardiac Imaging",
-    "section": "Stress Testing",
-    "source": "Cardiac Imaging, slide 88 (Stress Testing table)",
-    "question": "Match each stress test to its description.",
-    "pairs": [
-      {
-        "left": "Exercise stress EKG",
-        "right": "Monitors HR, BP, and ST changes during exercise; less sensitive and specific than stress echo; requires the patient to exercise",
-        "why": "The exercise stress EKG monitors HR, BP, and ST changes but is less sensitive and specific than stress echo and requires the patient to exercise."
-      },
-      {
-        "left": "Stress echocardiogram",
-        "right": "Ultrasound plus monitoring; detects reversible wall motion abnormalities; obesity or lung disease can limit image quality",
-        "why": "The stress echocardiogram adds ultrasound to detect reversible wall motion abnormalities, though obesity or lung disease can limit imaging."
-      },
-      {
-        "left": "SPECT nuclear stress test",
-        "right": "Radioactive tracer (technetium-99) assessing blood flow; shows fixed and reversible defects; can be done pharmacologically",
-        "why": "The SPECT nuclear stress test uses a technetium-99 tracer to assess myocardial blood flow, showing fixed and reversible defects, and can be pharmacologic."
-      }
-    ],
-    "explanation": "Exercise stress EKG monitors HR, BP, and ST changes but is less sensitive and specific and needs the patient to exercise. Stress echo adds ultrasound for reversible wall motion abnormalities (limited by obesity or lung disease). SPECT nuclear stress uses a technetium-99 tracer to assess blood flow and shows fixed and reversible defects, and can be done pharmacologically."
-  },
-  {
-    "id": "img-005",
-    "type": "mcq",
-    "class": "Cardiology",
-    "lecture": "Cardiac Imaging",
-    "section": "Stress Testing",
-    "source": "Cardiac Imaging, slide 88 (Pharmacologic stress agents)",
-    "question": "For a patient who cannot exercise, cardiac stress testing can instead be performed:",
-    "options": [
-      "Pharmacologically, using agents such as regadenoson, dipyridamole, or dobutamine",
-      "Only by having them run on a treadmill",
-      "By coronary calcium scoring during exercise",
-      "Not at all; stress testing requires exercise"
-    ],
-    "answer": 0,
-    "explanation": "When a patient cannot exercise, pharmacologic stress agents (regadenoson, dipyridamole, dobutamine) are used, most often with a SPECT nuclear or stress echo protocol.",
-    "why": [
-      "Correct. Pharmacologic agents allow stress testing without exercise.",
-      "Requiring a treadmill would exclude patients who cannot exercise.",
-      "Coronary calcium scoring is not a stress test.",
-      "Stress testing can be done pharmacologically when exercise is not possible."
-    ]
-  },
-  {
-    "id": "img-006",
     "type": "multi",
     "class": "Cardiology",
     "lecture": "Cardiac Imaging",
-    "section": "Stress Testing",
-    "source": "Cardiac Imaging, slide 88 (Pharmacologic stress agents)",
-    "question": "Select ALL pharmacologic stress agents.",
+    "section": "Echocardiography",
+    "source": "Cardiac Imaging, slide 6 (TTE evaluates)",
+    "question": "Which of the following can a transthoracic echocardiogram evaluate? Select all that apply.",
     "options": [
-      "Regadenoson",
-      "Dipyridamole",
-      "Dobutamine",
-      "Aspirin"
+      "Left and right ventricular systolic function (ejection fraction)",
+      "Valvular stenosis and regurgitation",
+      "Pericardial effusion",
+      "The exact location and percent stenosis of a coronary artery blockage"
     ],
     "answer": [
       0,
       1,
       2
     ],
-    "explanation": "Pharmacologic stress agents include regadenoson, dipyridamole, and dobutamine. Aspirin is an antiplatelet agent, not a stress agent.",
+    "explanation": "Echo assesses ventricular systolic and diastolic function, chamber size and wall thickness, valves (stenosis, regurgitation, endocarditis), the pericardium, IVC, pulmonary artery, and aortic root. It does not visualize the coronary arteries directly; that requires coronary CTA or catheterization.",
     "why": [
-      "Correct. Regadenoson is a pharmacologic stress agent.",
-      "Correct. Dipyridamole is a pharmacologic stress agent.",
-      "Correct. Dobutamine is a pharmacologic stress agent.",
-      "Incorrect. Aspirin is an antiplatelet, not a stress agent."
+      "Correct. Ejection fraction and diastolic function are core echo measurements.",
+      "Correct. Valve stenosis, regurgitation, and vegetations are assessed by echo.",
+      "Correct. Echo readily detects pericardial effusion.",
+      "Incorrect. Echo cannot map coronary blockages; that is the role of coronary CTA or catheterization."
+    ]
+  },
+  {
+    "id": "img-005",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Echocardiography",
+    "source": "Cardiac Imaging, slide 17 (Doppler color convention)",
+    "question": "On color Doppler echocardiography, what does blue indicate?",
+    "options": [
+      "Blood moving away from the transducer at a lower frequency",
+      "Blood moving toward the transducer at a higher frequency",
+      "Turbulent, disorganized flow",
+      "Absence of any blood flow"
+    ],
+    "answer": 0,
+    "explanation": "By convention, blue is flow away from the transducer (lower frequency) and red is flow toward it (higher frequency). A mixture of red and blue signals turbulence, often at an abnormal valve.",
+    "why": [
+      "Correct. Blue equals away, at a lower returning frequency.",
+      "That describes red, not blue.",
+      "Turbulence appears as a mixture of red and blue, not solid blue.",
+      "Color Doppler encodes direction and speed of flow, not its absence."
+    ]
+  },
+  {
+    "id": "img-006",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Echocardiography",
+    "source": "Cardiac Imaging, slide 17 (Doppler use)",
+    "question": "Doppler imaging during echocardiography is mostly used to evaluate what?",
+    "options": [
+      "Valvular abnormalities",
+      "Coronary artery calcium",
+      "Myocardial viability",
+      "Pericardial thickness"
+    ],
+    "answer": 0,
+    "explanation": "Doppler uses the Doppler effect to measure the direction and speed of blood flow, and is mostly used to evaluate valvular abnormalities such as stenosis and regurgitation.",
+    "why": [
+      "Correct. Flow direction and velocity across valves is the main Doppler application.",
+      "Calcium is quantified by CT, not Doppler.",
+      "Viability is assessed with nuclear or MRI studies.",
+      "Pericardial thickness is a structural measure, not a Doppler flow measurement."
     ]
   },
   {
     "id": "img-007",
-    "type": "matching",
-    "class": "Cardiology",
-    "lecture": "Cardiac Imaging",
-    "section": "Coronary Artery Visualization",
-    "source": "Cardiac Imaging, slide 89 (Modalities for Coronary Artery Visualization)",
-    "question": "Match each modality to its primary use.",
-    "pairs": [
-      {
-        "left": "Coronary angiogram (cardiac catheterization)",
-        "right": "Visualize coronary anatomy and stenosis; stent and balloon procedures; measure valve gradients",
-        "why": "The coronary angiogram visualizes coronary anatomy and patency, allows stenting and balloon procedures, and measures valve gradients."
-      },
-      {
-        "left": "Coronary CT angiography (CCTA, CT with contrast)",
-        "right": "Evaluate low-to-intermediate-risk chest pain and graft patency; shows hard and soft plaque",
-        "why": "CCTA evaluates stable or acute chest pain in low-to-intermediate-risk patients, assesses graft patency, and visualizes both hard and soft plaque."
-      },
-      {
-        "left": "Coronary calcium score (CAC)",
-        "right": "Screening of asymptomatic, moderate-risk patients",
-        "why": "The coronary calcium score screens asymptomatic, moderate-risk patients for calcified plaque."
-      },
-      {
-        "left": "Cardiac MR",
-        "right": "Evaluate cardiac function and cardiomyopathies such as amyloidosis",
-        "why": "Cardiac MR is better for evaluating cardiac function and cardiomyopathies like amyloidosis."
-      }
-    ],
-    "explanation": "Coronary angiogram: visualize coronary anatomy and stenosis, stent and balloon procedures, measure valve gradients. CCTA (CT with contrast): low-to-intermediate-risk chest pain, graft patency, hard and soft plaque. Coronary calcium score: asymptomatic moderate-risk screening. Cardiac MR: cardiac function and cardiomyopathies such as amyloidosis."
-  },
-  {
-    "id": "img-008",
     "type": "mcq",
     "class": "Cardiology",
     "lecture": "Cardiac Imaging",
-    "section": "Coronary Artery Visualization",
-    "source": "Cardiac Imaging, slide 89 (CCTA vs CAC)",
-    "question": "Compared with a coronary calcium score, coronary CT angiography (CCTA) has the advantage of:",
+    "section": "Echocardiography",
+    "source": "Cardiac Imaging, slide 23 (TEE advantages)",
+    "question": "Compared with a transthoracic study, what is a key advantage of a transesophageal echocardiogram (TEE)?",
     "options": [
-      "Visualizing both hard (calcified) and soft (non-calcified) plaque",
-      "Requiring no contrast",
-      "Showing only calcified plaque",
-      "Being an invasive catheter procedure"
+      "Clearer images of left-sided structures such as the aortic and mitral valves and the left atrial appendage",
+      "It avoids the need for any sedation or anesthesia",
+      "It directly visualizes the coronary arteries",
+      "It uses no probe and is entirely noncontact"
     ],
     "answer": 0,
-    "explanation": "CCTA (cardiac CT with contrast) visualizes both hard and soft plaque in the coronary arteries, whereas the coronary calcium score detects only calcified plaque and misses more dangerous soft plaque.",
+    "explanation": "Because the probe sits in the esophagus just behind the heart, TEE gives clearer images of left-sided structures, including the aortic valve, mitral valve, pulmonic valve, and left atrial appendage.",
     "why": [
-      "Correct. CCTA shows both hard and soft plaque.",
-      "CCTA uses contrast; the non-contrast study is the calcium score.",
-      "Showing only calcified plaque describes the calcium score, not CCTA.",
-      "CCTA is a noninvasive CT, not a catheter procedure."
+      "Correct. Proximity to the left heart yields superior left-sided imaging.",
+      "TEE carries anesthesia and aspiration risks precisely because sedation is used.",
+      "TEE does not image the coronary arteries.",
+      "TEE requires a probe passed into the esophagus."
+    ]
+  },
+  {
+    "id": "img-008",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Echocardiography",
+    "source": "Cardiac Imaging, slide 21 (TEE indications)",
+    "question": "Which of the following are indications for a transesophageal echocardiogram? Select all that apply.",
+    "options": [
+      "Surgical planning for valve replacement or cardiac mass removal",
+      "Confirming endocarditis and measuring vegetation size",
+      "Evaluating for a thrombus, including in the left atrial appendage",
+      "Quantifying coronary artery calcium to guide statin therapy"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "TEE indications include surgical and intraoperative valve planning, confirming endocarditis and sizing vegetations, evaluating for thrombus (notably the left atrial appendage), and thoracic aortic dissection. Calcium scoring is a CT study, not an echo indication.",
+    "why": [
+      "Correct. Valve and mass surgical planning is a classic TEE indication.",
+      "Correct. TEE confirms endocarditis and measures vegetation size.",
+      "Correct. TEE is the study of choice for left atrial appendage thrombus.",
+      "Incorrect. Coronary calcium scoring is done with CT, not TEE."
     ]
   },
   {
@@ -8510,95 +8493,875 @@ const QUESTIONS = [
     "type": "mcq",
     "class": "Cardiology",
     "lecture": "Cardiac Imaging",
-    "section": "Coronary Artery Visualization",
-    "source": "Cardiac Imaging, slide 89 (Coronary Artery CT Calcium Scoring)",
-    "question": "The coronary artery calcium (CAC) score is primarily used for:",
+    "section": "Echocardiography",
+    "source": "Cardiac Imaging, slide 23 (LAA thrombus in AFib)",
+    "question": "In a patient with atrial fibrillation, what is the most common location for a thrombus to form?",
     "options": [
-      "Screening asymptomatic, moderate-risk patients",
-      "Guiding stent placement during PCI",
-      "Evaluating cardiomyopathies like amyloidosis",
-      "Measuring valve gradients"
+      "The left atrial appendage",
+      "The right ventricular apex",
+      "The aortic root",
+      "The coronary sinus"
     ],
     "answer": 0,
-    "explanation": "The coronary calcium score screens asymptomatic, moderate-risk patients for calcified coronary plaque to refine risk. It is not used for procedural guidance, cardiomyopathy evaluation, or valve gradients.",
+    "explanation": "Stagnant flow in the left atrial appendage during atrial fibrillation makes it the most common site of thrombus formation, which is why TEE is used to evaluate it before cardioversion.",
     "why": [
-      "Correct. CAC is a screening tool for asymptomatic, moderate-risk patients.",
-      "Guiding stent placement is a role for IVUS or angiography, not CAC.",
-      "Cardiomyopathy evaluation like amyloidosis is a cardiac MR role.",
-      "Valve gradients are measured by echo or catheterization, not CAC."
+      "Correct. The left atrial appendage is the classic site of AFib-related thrombus.",
+      "The RV apex is not the typical thrombus site in AFib.",
+      "The aortic root is not where AFib thrombi form.",
+      "The coronary sinus is a venous structure, not the typical thrombus location."
     ]
   },
   {
     "id": "img-010",
-    "type": "mcq",
+    "type": "tf",
     "class": "Cardiology",
     "lecture": "Cardiac Imaging",
-    "section": "Coronary Artery Visualization",
-    "source": "Cardiac Imaging, slide 89 (Intravascular Ultrasound)",
-    "question": "Intravascular ultrasound (IVUS) is primarily used for:",
+    "section": "Echocardiography",
+    "source": "Cardiac Imaging, slide 20 (TEE after TTE)",
+    "question": "A transesophageal echocardiogram is usually performed before a transthoracic echocardiogram.",
     "options": [
-      "Complex high-risk PCI, including stent placement and checking patency",
-      "Screening asymptomatic patients for calcified plaque",
-      "Evaluating cardiomyopathies noninvasively",
-      "Producing a chest radiograph"
+      "True",
+      "False"
     ],
-    "answer": 0,
-    "explanation": "IVUS is used in complex high-risk PCI for stent placement and patency assessment, and assists with ablation, pacing wire placement, transcatheter valve replacement, and evaluating aneurysms or dissection.",
+    "answer": 1,
+    "explanation": "A TEE is usually done after a TTE to confirm findings, and is typically performed in the hospital by a cardiologist because it is more invasive.",
     "why": [
-      "Correct. IVUS supports complex high-risk PCI and stent assessment.",
-      "Asymptomatic screening for calcified plaque is the coronary calcium score.",
-      "Noninvasive cardiomyopathy evaluation is a cardiac MR role.",
-      "IVUS is an intravascular ultrasound, not a radiograph."
+      "Incorrect. TTE is the first-line study; TEE follows to confirm findings.",
+      "Correct. TEE usually follows an initial transthoracic study."
     ]
   },
   {
     "id": "img-011",
-    "type": "vignette",
+    "type": "matching",
     "class": "Cardiology",
     "lecture": "Cardiac Imaging",
-    "section": "Imaging Case Application",
-    "source": "Cardiac Imaging, slide 90 (84-year-old with suspected mitral stenosis)",
-    "question": "An 84-year-old with prior rheumatic fever and an audible murmur is suspected of mitral valve stenosis. She has severe COPD and a BMI of 38. Which study best visualizes the anatomy and hemodynamics of her mitral valve?",
-    "options": [
-      "Transesophageal echocardiogram",
-      "Coronary calcium test",
-      "Transthoracic echocardiogram",
-      "MUGA scan",
-      "Cardiac MRI"
+    "section": "Echocardiography",
+    "source": "Cardiac Imaging, slide 9 (Echo terms)",
+    "question": "Match each echocardiography term to its description.",
+    "pairs": [
+      {
+        "left": "Transducer",
+        "right": "Probe that emits and receives high-frequency sound waves to build the image",
+        "why": "The transducer is the probe that both sends and receives ultrasound."
+      },
+      {
+        "left": "Doppler",
+        "right": "Encodes direction and speed of blood flow, mostly to assess valves",
+        "why": "Doppler uses the frequency shift of moving blood to show flow direction and velocity."
+      },
+      {
+        "left": "TTE",
+        "right": "First-line, no-radiation study performed on the chest wall",
+        "why": "The transthoracic study is the noninvasive, radiation-free first test."
+      },
+      {
+        "left": "TEE",
+        "right": "Probe passed into the esophagus for clearer left-sided images",
+        "why": "The transesophageal probe sits behind the heart for superior left-heart detail."
+      }
     ],
-    "answer": 0,
-    "explanation": "Severe COPD and a high BMI degrade transthoracic windows. A transesophageal echocardiogram best visualizes the mitral valve anatomy and hemodynamics because the probe images directly behind the heart, giving high resolution of the left atrium and mitral valve.",
-    "why": [
-      "Correct. TEE gives high-resolution mitral valve imaging despite poor transthoracic windows.",
-      "A coronary calcium test assesses coronary plaque, not the mitral valve.",
-      "TTE image quality is limited here by COPD and body habitus.",
-      "A MUGA scan measures ejection fraction, not valve anatomy.",
-      "Cardiac MRI is better for function and cardiomyopathies than for detailed mitral valve hemodynamics."
-    ]
+    "explanation": "These four terms describe the core echo tools: the transducer generates the ultrasound, Doppler measures flow, TTE is the first-line surface study, and TEE gives higher-resolution left-sided imaging from the esophagus."
   },
   {
     "id": "img-012",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Chest Pain Evaluation",
+    "source": "Cardiac Imaging, slide 26 (Always get an EKG)",
+    "question": "For any patient presenting with chest pain, which test should always be obtained first?",
+    "options": [
+      "An EKG",
+      "A coronary CTA",
+      "A transesophageal echocardiogram",
+      "A nuclear viability study"
+    ],
+    "answer": 0,
+    "explanation": "Every chest pain workup begins with an EKG. In the ED or inpatient setting a high-sensitivity troponin and other labs are added, along with a review of prior testing.",
+    "why": [
+      "Correct. An EKG is the mandatory first step in evaluating chest pain.",
+      "Coronary CTA is a later, selective study, not the immediate first test.",
+      "TEE is invasive and not a first-line chest pain test.",
+      "A viability study assesses infarcted myocardium, not acute chest pain triage."
+    ]
+  },
+  {
+    "id": "img-013",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Chest Pain Evaluation",
+    "source": "Cardiac Imaging, slide 105 (Chest pain criteria)",
+    "question": "Which features make up the three classic chest pain (angina) criteria? Select all that apply.",
+    "options": [
+      "Substernal chest pain",
+      "Exacerbated by exercise",
+      "Relieved with nitroglycerin",
+      "Worse with deep inspiration"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The three criteria are substernal location, exacerbation by exercise, and relief with nitroglycerin. Meeting all three is typical angina, two is atypical, and zero to one is noncardiac. Pain worse with inspiration is pleuritic, arguing against angina.",
+    "why": [
+      "Correct. Substernal location is one of the three criteria.",
+      "Correct. Exertional worsening is one of the three criteria.",
+      "Correct. Relief with nitroglycerin is one of the three criteria.",
+      "Incorrect. Pleuritic pain (worse with inspiration) points away from angina."
+    ]
+  },
+  {
+    "id": "img-014",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Chest Pain Evaluation",
+    "source": "Cardiac Imaging, slide 105 (Typical vs atypical angina)",
+    "question": "A patient meets two of the three classic chest pain criteria. How is this chest pain best classified?",
+    "options": [
+      "Atypical",
+      "Typical",
+      "Noncardiac",
+      "Asymptomatic"
+    ],
+    "answer": 0,
+    "explanation": "Typical angina meets all three criteria, atypical meets two, and noncardiac meets zero or one. Two of three is atypical chest pain.",
+    "why": [
+      "Correct. Two of three criteria defines atypical chest pain.",
+      "Typical requires all three criteria.",
+      "Noncardiac is zero to one criterion.",
+      "The patient has symptoms, so asymptomatic does not apply."
+    ]
+  },
+  {
+    "id": "img-015",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Chest Pain Evaluation",
+    "source": "Cardiac Imaging, slide 30 (Anatomical vs functional studies)",
+    "question": "Which pair of tests are the anatomical studies for coronary artery disease?",
+    "options": [
+      "Cardiac catheterization and coronary CTA",
+      "Exercise treadmill test and stress echocardiogram",
+      "Stress nuclear study and stress MRI",
+      "Ankle brachial index and right heart catheterization"
+    ],
+    "answer": 0,
+    "explanation": "Anatomical studies look directly at the coronary arteries: invasive cardiac catheterization (ICA) and coronary CTA. Functional studies (ETT, stress echo, stress nuclear, stress MRI) instead detect ischemia provoked by stress.",
+    "why": [
+      "Correct. Catheterization and coronary CTA image the coronary anatomy directly.",
+      "These are functional stress tests, not anatomical studies.",
+      "These are functional stress tests, not anatomical studies.",
+      "ABI assesses peripheral arteries, and right heart cath measures pressures, not coronary anatomy."
+    ]
+  },
+  {
+    "id": "img-016",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Chest Pain Evaluation",
+    "source": "Cardiac Imaging, slide 105 (Who should get a stress test)",
+    "question": "Stress testing is best used for patients with what pretest probability of coronary artery disease?",
+    "options": [
+      "Intermediate",
+      "Low",
+      "High",
+      "Zero"
+    ],
+    "answer": 0,
+    "explanation": "Stress testing is most useful for intermediate pretest probability. Very low probability patients rarely need it, and very high probability or acute patients often go straight to catheterization.",
+    "why": [
+      "Correct. Intermediate pretest probability is where stress testing adds the most.",
+      "Low probability patients generally do not need provocative testing.",
+      "High probability or acute presentations often bypass stress testing for catheterization.",
+      "Pretest probability is not expressed as zero in this framework."
+    ]
+  },
+  {
+    "id": "img-017",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Stress Testing",
+    "source": "Cardiac Imaging, slide 39 (Target heart rate)",
+    "question": "During an exercise stress test, what is the target heart rate goal?",
+    "options": [
+      "85% of the maximum predicted heart rate, calculated as (220 minus age) times 0.85",
+      "50% of the maximum predicted heart rate",
+      "A fixed 150 beats per minute for all patients",
+      "Whatever rate the vasodilator produces"
+    ],
+    "answer": 0,
+    "explanation": "The goal of an exercise stress test is to raise the heart rate to 85% of the maximum predicted for age, calculated as (220 minus age) times 0.85, while monitoring the EKG, blood pressure, and symptoms.",
+    "why": [
+      "Correct. 85% of (220 minus age) is the target heart rate.",
+      "50% is too low to adequately provoke ischemia.",
+      "The target scales with age, not a single fixed rate.",
+      "Vasodilators like regadenoson work without a heart rate target; this question is about exercise testing."
+    ]
+  },
+  {
+    "id": "img-018",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Stress Testing",
+    "source": "Cardiac Imaging, slide 39 (ETT sensitivity)",
+    "question": "Which stress test is the most basic and the least sensitive and specific?",
+    "options": [
+      "Exercise treadmill test (ETT)",
+      "Stress echocardiogram",
+      "Nuclear (SPECT) stress test",
+      "Stress cardiac MRI"
+    ],
+    "answer": 0,
+    "explanation": "The plain exercise treadmill test relies on EKG changes alone and is the most basic option with the lowest sensitivity and specificity. Adding imaging (echo, nuclear, or MRI) improves both.",
+    "why": [
+      "Correct. The ETT is the least sensitive and specific because it uses EKG changes only.",
+      "Stress echo adds imaging, improving sensitivity and specificity.",
+      "Nuclear imaging improves detection and localizes ischemia.",
+      "Stress MRI adds detailed imaging, more than a plain ETT."
+    ]
+  },
+  {
+    "id": "img-019",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Stress Testing",
+    "source": "Cardiac Imaging, slide 36 (Regadenoson mechanism)",
+    "question": "What is the mechanism of regadenoson when used for a pharmacologic stress test?",
+    "options": [
+      "An A2A adenosine receptor agonist that vasodilates the coronary arteries to simulate stress",
+      "A beta agonist that raises heart rate and contractility",
+      "A calcium channel blocker that slows the heart",
+      "A nitric oxide donor that reduces preload"
+    ],
+    "answer": 0,
+    "explanation": "Regadenoson is an A2A adenosine receptor agonist that causes coronary vasodilation, simulating the effect of exercise. Heart rate is not the endpoint. It is more selective than adenosine, has a longer half-life, and has few side effects.",
+    "why": [
+      "Correct. Regadenoson is a selective A2A agonist causing coronary vasodilation.",
+      "That describes dobutamine, not regadenoson.",
+      "Regadenoson is a vasodilator, not a rate-slowing calcium channel blocker.",
+      "Regadenoson acts on adenosine receptors, not as a nitric oxide donor."
+    ]
+  },
+  {
+    "id": "img-020",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Stress Testing",
+    "source": "Cardiac Imaging, slide 36 (Dobutamine mechanism)",
+    "question": "What is the mechanism of dobutamine when used for pharmacologic stress?",
+    "options": [
+      "A beta agonist that increases heart rate and contractility",
+      "An adenosine receptor agonist that dilates coronary arteries",
+      "A beta blocker that lowers myocardial oxygen demand",
+      "A radioactive tracer taken up by viable myocardium"
+    ],
+    "answer": 0,
+    "explanation": "Dobutamine is a beta agonist that increases heart rate and contractility, thereby increasing myocardial oxygen demand to provoke ischemia during stress echo or nuclear studies.",
+    "why": [
+      "Correct. Dobutamine is a beta agonist raising rate and contractility.",
+      "That describes regadenoson or adenosine, not dobutamine.",
+      "Dobutamine stimulates, rather than blocks, beta receptors.",
+      "That describes a nuclear tracer, not dobutamine."
+    ]
+  },
+  {
+    "id": "img-021",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Stress Testing",
+    "source": "Cardiac Imaging, slide 46 (Nuclear stress indications)",
+    "question": "Which of the following are indications for a nuclear stress test over a plain exercise treadmill test? Select all that apply.",
+    "options": [
+      "Left bundle branch block (LBBB)",
+      "Known coronary artery disease or prior obstruction",
+      "Poor exercise capacity or inability to walk",
+      "A completely normal resting EKG in a low-risk patient"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Nuclear imaging is preferred when the resting EKG is uninterpretable (such as LBBB), when there is known CAD, high risk, poor exercise capacity, or a need to localize ischemia and gauge lesion significance. A low-risk patient with a normal EKG who can exercise does not need it.",
+    "why": [
+      "Correct. LBBB makes exercise EKG changes uninterpretable, favoring imaging.",
+      "Correct. Known CAD is an indication for nuclear imaging.",
+      "Correct. Poor exercise capacity favors imaging (with pharmacologic stress if needed).",
+      "Incorrect. A low-risk patient with a normal EKG who can exercise is the ideal plain ETT candidate."
+    ]
+  },
+  {
+    "id": "img-022",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Stress Testing",
+    "source": "Cardiac Imaging, slide 46 (SPECT tracer)",
+    "question": "A SPECT nuclear stress test uses which of the following to form its images?",
+    "options": [
+      "Technetium-99m, which emits gamma radiation detected by a nuclear camera",
+      "Gadolinium contrast detected by a magnetic field",
+      "Iodinated contrast detected by X-ray",
+      "Microbubbles detected by ultrasound"
+    ],
+    "answer": 0,
+    "explanation": "SPECT (single photon emission computed tomography) uses a technetium-99m tracer that emits gamma radiation; the nuclear camera detects it to build images of the heart at rest and at stress.",
+    "why": [
+      "Correct. Technetium-99m emits gamma radiation captured by the nuclear camera.",
+      "Gadolinium is an MRI agent, not a SPECT tracer.",
+      "Iodinated contrast is used in CT and catheterization, not SPECT.",
+      "Microbubbles are ultrasound contrast, not a nuclear tracer."
+    ]
+  },
+  {
+    "id": "img-023",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Stress Testing",
+    "source": "Cardiac Imaging, slide 50 (Infarct vs ischemia)",
+    "question": "On a nuclear perfusion study, how is an area of infarct distinguished from an area of ischemia?",
+    "options": [
+      "Infarct is myocardium previously infarcted with no blood flow at rest or stress; ischemia is myocardium that is not perfused only under stress",
+      "Infarct is perfused only under stress; ischemia is dead tissue at rest",
+      "Infarct lights up on repeat delayed imaging; ischemia never does",
+      "There is no way to tell them apart on a nuclear study"
+    ],
+    "answer": 0,
+    "explanation": "An infarct is previously infarcted myocardium that receives no blood flow (a fixed defect). Ischemia is myocardium that perfuses at rest but not under stress (a reversible defect).",
+    "why": [
+      "Correct. Fixed defect equals infarct; reversible stress-induced defect equals ischemia.",
+      "This reverses the two definitions.",
+      "Delayed uptake describes a viability study, not the basic infarct-versus-ischemia distinction.",
+      "The rest-versus-stress comparison is exactly how nuclear imaging separates them."
+    ]
+  },
+  {
+    "id": "img-024",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Stress Testing",
+    "source": "Cardiac Imaging, slide 51 (Viability study)",
+    "question": "In a nuclear viability study using thallium-201 or Tc-99m sestamibi, how is viable myocardium identified?",
+    "options": [
+      "Viable myocardium takes up the tracer and lights up on repeat images taken at 4 or 24 hours",
+      "Viable myocardium never takes up the tracer at any time point",
+      "Viable myocardium is identified only by wall motion on echo",
+      "Viable myocardium appears as a fixed cold defect on all images"
+    ],
+    "answer": 0,
+    "explanation": "Thallium-201 and Tc-99m sestamibi are absorbed through cell membranes of living cells. After initial rest images, repeat images at 4 or 24 hours show viable myocardium lighting up, distinguishing it from non-viable scar.",
+    "why": [
+      "Correct. Delayed redistribution and uptake marks viable myocardium.",
+      "Viable cells do take up the tracer; that is the point of the study.",
+      "Viability studies use the nuclear tracer, not echo wall motion, in this context.",
+      "A fixed cold defect indicates scar, the opposite of viable tissue."
+    ]
+  },
+  {
+    "id": "img-025",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Stress Testing",
+    "source": "Cardiac Imaging, slide 43 (Stress echo value)",
+    "question": "Adding echocardiographic imaging to a stress test increases sensitivity and specificity and can isolate the area of ischemia.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "explanation": "A stress echo looks at wall motion at rest and at target heart rate. The imaging improves sensitivity and specificity over a plain ETT and can localize the ischemic territory. It also helps when the baseline EKG is abnormal (such as LVH).",
+    "why": [
+      "Correct. Imaging adds diagnostic accuracy and localizes ischemia.",
+      "Incorrect. Stress echo does improve sensitivity, specificity, and localization."
+    ]
+  },
+  {
+    "id": "img-026",
     "type": "vignette",
     "class": "Cardiology",
     "lecture": "Cardiac Imaging",
     "section": "Imaging Case Application",
-    "source": "Cardiac Imaging, slide 92 (67-year-old preoperative cardiac assessment)",
-    "question": "For a preoperative cardiac assessment before elective hip replacement, a 67-year-old man with a 45 pack-year history cannot ambulate more than half a block due to hip pain. Which screening study best determines whether he has critical coronary stenosis?",
+    "source": "Cardiac Imaging, slide 52 (Case 1 - stable chest pain, normal EKG)",
+    "question": "A 45-year-old man with hypertension has substernal chest pressure that began at rest, did not worsen with walking, and was relieved by nitroglycerin. Vitals are normal, his EKG is normal, and three troponins are negative. He is otherwise fit. Which test is most appropriate?",
     "options": [
-      "Pharmacologic SPECT nuclear stress test",
-      "Exercise treadmill stress test",
-      "CT scan of the chest with and without contrast",
-      "Stress echocardiogram",
-      "Coronary angiography"
+      "Exercise treadmill test",
+      "Coronary artery catheterization",
+      "Pharmacologic nuclear stress test",
+      "Transesophageal echocardiogram"
     ],
     "answer": 0,
-    "explanation": "Because he cannot exercise adequately, an exercise-based test is not feasible. A pharmacologic SPECT nuclear stress test assesses myocardial perfusion without requiring exercise, making it the most appropriate noninvasive screen here.",
+    "explanation": "This is an intermediate-risk patient who can exercise and has a normal, interpretable baseline EKG and negative troponins. The plain exercise treadmill test is the appropriate first study; imaging is reserved for uninterpretable EKGs or inability to exercise.",
     "why": [
-      "Correct. Pharmacologic SPECT stress testing works when the patient cannot exercise.",
-      "He cannot ambulate enough for an exercise treadmill test.",
-      "A chest CT does not screen for functional coronary ischemia.",
-      "A stress echo would still require adequate stress; a pharmacologic protocol is needed, and perfusion imaging is the best noninvasive screen here.",
-      "Coronary angiography is invasive and not the initial noninvasive screening study."
+      "Correct. A fit patient with a normal baseline EKG and negative troponins is an ideal exercise treadmill candidate.",
+      "Catheterization is invasive and not indicated with negative troponins and low-to-intermediate risk.",
+      "Pharmacologic stress is for patients who cannot exercise; he can.",
+      "TEE evaluates structures and thrombus, not exertional ischemia."
+    ]
+  },
+  {
+    "id": "img-027",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Imaging Case Application",
+    "source": "Cardiac Imaging, slide 58 (Case 2 - baseline LVH, uninterpretable EKG)",
+    "question": "A 60-year-old woman with hypertension, type 2 diabetes, and a heavy smoking history has chest pressure and indeterminate troponins. She can exercise (achieves 12 METS), but her resting EKG shows baseline left ventricular hypertrophy that makes ischemic changes difficult to interpret. Which test best evaluates her?",
+    "options": [
+      "Stress echocardiogram",
+      "Plain exercise treadmill test",
+      "Coronary artery calcium score",
+      "Ankle brachial index"
+    ],
+    "answer": 0,
+    "explanation": "She can exercise, but her baseline LVH makes the EKG uninterpretable for ischemia. Adding imaging solves this: a stress echo shows whether wall motion becomes abnormal, so a normal echo makes the nonspecific EKG changes unlikely to be ischemic.",
+    "why": [
+      "Correct. Imaging overcomes an uninterpretable baseline EKG while she exercises.",
+      "A plain ETT relies on EKG changes, which her LVH makes uninterpretable.",
+      "A calcium score is a risk-stratification tool for asymptomatic patients, not this acute evaluation.",
+      "ABI evaluates peripheral, not coronary, disease."
+    ]
+  },
+  {
+    "id": "img-028",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Imaging Case Application",
+    "source": "Cardiac Imaging, slide 64 (Case 3 - cannot stop beta blocker, known CAD)",
+    "question": "A 65-year-old man with uncontrolled hypertension, diabetes, ESRD on dialysis, and known CAD (prior LAD stent) has exertional chest pain and indeterminate troponins. His blood pressure is controlled only by labetalol and clonidine, which cannot be stopped. Which stress test is most appropriate?",
+    "options": [
+      "Pharmacologic nuclear stress test with regadenoson",
+      "Exercise treadmill test",
+      "Exercise stress echocardiogram",
+      "Coronary CTA"
+    ],
+    "answer": 0,
+    "explanation": "Because he must stay on labetalol (a beta blocker), he cannot reach target heart rate with exercise. A regadenoson nuclear study is heart-rate independent and, with known CAD, localizes ischemia versus infarct. His study showed a moderate lateral-wall infarct near the apex with no ischemia and an EF of 55%.",
+    "why": [
+      "Correct. A vasodilator nuclear study is HR-independent and localizes disease in a patient who cannot come off a beta blocker.",
+      "The beta blocker prevents reaching target heart rate for an exercise test.",
+      "An exercise stress echo also depends on reaching target heart rate, which the beta blocker blocks.",
+      "Coronary CTA needs a heart rate near 60 and sinus rhythm, and would still not localize functional ischemia the way perfusion imaging does."
+    ]
+  },
+  {
+    "id": "img-029",
+    "type": "vignette",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Imaging Case Application",
+    "source": "Cardiac Imaging, slide 69 (Case 4 - positive troponin)",
+    "question": "A 45-year-old smoker has constant left substernal chest pain that partially improves with nitroglycerin, and his troponins are clearly positive and rising (1.2, 1.0, 4.0). What is the most appropriate next step?",
+    "options": [
+      "Coronary artery catheterization",
+      "Exercise treadmill test",
+      "Stress echocardiogram",
+      "Coronary artery calcium score"
+    ],
+    "answer": 0,
+    "explanation": "Positive, rising troponins indicate an acute coronary syndrome (NSTEMI). This patient goes to coronary catheterization, not to a stress test. Provocative stress testing is contraindicated in an active acute coronary syndrome.",
+    "why": [
+      "Correct. Rising troponins mean ACS, which is a catheterization indication.",
+      "Stress testing is unsafe and inappropriate during an active ACS.",
+      "Stress echo is contraindicated with a positive troponin ACS.",
+      "A calcium score is an outpatient risk tool, not an ACS intervention."
+    ]
+  },
+  {
+    "id": "img-030",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Coronary Angiography & PCI",
+    "source": "Cardiac Imaging, slide 72 (Cath access)",
+    "question": "Coronary artery catheterization is usually performed through which access sites?",
+    "options": [
+      "The radial artery at the wrist or the femoral artery in the groin",
+      "The internal jugular or subclavian vein",
+      "The brachial vein or a peripheral IV",
+      "A direct puncture of the left ventricle"
+    ],
+    "answer": 0,
+    "explanation": "A coronary angiogram is done through an artery, usually the radial artery at the wrist or the femoral artery in the groin. A catheter is advanced to the coronary arteries and contrast is injected under fluoroscopy to map them.",
+    "why": [
+      "Correct. Radial and femoral arterial access are standard for coronary catheterization.",
+      "Those are venous sites used for right heart catheterization, not coronary angiography.",
+      "Venous access does not reach the coronary arteries for an arterial study.",
+      "Direct LV puncture is not the routine access route."
+    ]
+  },
+  {
+    "id": "img-031",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Coronary Angiography & PCI",
+    "source": "Cardiac Imaging, slide 72 (Cath indications)",
+    "question": "Which of the following are indications for coronary artery catheterization? Select all that apply.",
+    "options": [
+      "An acute ischemic event such as a STEMI or NSTEMI",
+      "Concern for ischemia after a stress test",
+      "Defining coronary anatomy before other cardiac or vascular surgery",
+      "Screening an asymptomatic low-risk patient"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Catheterization is indicated for acute ischemic events, high-risk or unstable angina, an abnormal stress test raising concern for ischemia, and to define coronary anatomy before cardiac or vascular surgery. It is not a screening test for low-risk asymptomatic patients.",
+    "why": [
+      "Correct. STEMI and NSTEMI are direct catheterization indications.",
+      "Correct. A positive or concerning stress test leads to catheterization.",
+      "Correct. Pre-surgical anatomy definition is a recognized indication.",
+      "Incorrect. This invasive test is not used to screen low-risk asymptomatic patients."
+    ]
+  },
+  {
+    "id": "img-032",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Coronary Angiography & PCI",
+    "source": "Cardiac Imaging, slide 79 (Drug-eluting stent DAPT)",
+    "question": "After placement of a drug-eluting stent, what is the minimum recommended duration of dual antiplatelet therapy (DAPT)?",
+    "options": [
+      "A minimum of 6 months, with a year usually preferred",
+      "1 month",
+      "2 weeks",
+      "No antiplatelet therapy is needed"
+    ],
+    "answer": 0,
+    "explanation": "A drug-eluting stent is coated to delay endothelialization, so it requires DAPT for at least 6 months, with a year usually preferred. In exchange it further reduces restenosis by 50 to 70% compared with a bare metal stent.",
+    "why": [
+      "Correct. A drug-eluting stent needs at least 6 months of DAPT, ideally a year.",
+      "One month is the duration for a bare metal stent or POBA, not a drug-eluting stent.",
+      "Two weeks is far too short for any stent.",
+      "DAPT is essential after stenting to prevent stent thrombosis."
+    ]
+  },
+  {
+    "id": "img-033",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Coronary Angiography & PCI",
+    "source": "Cardiac Imaging, slide 79 (POBA restenosis)",
+    "question": "Plain old balloon angioplasty (POBA) without a stent has roughly what one-year restenosis rate?",
+    "options": [
+      "About 50%",
+      "About 15 to 20%",
+      "Less than 5%",
+      "Essentially 0%"
+    ],
+    "answer": 0,
+    "explanation": "POBA requires only about a month of DAPT but has a high restenosis rate of roughly 50% at one year. A bare metal stent lowers that to 15 to 20%, and a drug-eluting stent reduces it further.",
+    "why": [
+      "Correct. Balloon angioplasty alone restenoses about 50% of the time at a year.",
+      "15 to 20% is the bare metal stent restenosis rate.",
+      "Less than 5% overstates the durability of balloon-only angioplasty.",
+      "Restenosis after POBA is common, not near zero."
+    ]
+  },
+  {
+    "id": "img-034",
+    "type": "matching",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Coronary Angiography & PCI",
+    "source": "Cardiac Imaging, slide 79 (PCI options)",
+    "question": "Match each percutaneous coronary intervention option to its characteristic.",
+    "pairs": [
+      {
+        "left": "Plain old balloon angioplasty (POBA)",
+        "right": "About 1 month of DAPT; roughly 50% restenosis at one year",
+        "why": "Balloon-only angioplasty needs brief DAPT but has the highest restenosis."
+      },
+      {
+        "left": "Bare metal stent",
+        "right": "About 1 month of DAPT; 15 to 20% restenosis at one year",
+        "why": "Endothelialization occurs in 14 to 30 days, allowing short DAPT with moderate restenosis."
+      },
+      {
+        "left": "Drug-eluting stent",
+        "right": "At least 6 months of DAPT; a further 50 to 70% reduction in restenosis versus bare metal",
+        "why": "The coating delays endothelialization, requiring longer DAPT but giving the lowest restenosis."
+      }
+    ],
+    "explanation": "The three revascularization options trade DAPT duration against restenosis risk: POBA (short DAPT, ~50% restenosis), bare metal stent (short DAPT, 15 to 20%), and drug-eluting stent (at least 6 months of DAPT, lowest restenosis)."
+  },
+  {
+    "id": "img-035",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Coronary Angiography & PCI",
+    "source": "Cardiac Imaging, slide 80 (Cath complications)",
+    "question": "Which of the following are potential complications of coronary catheterization? Select all that apply.",
+    "options": [
+      "Coronary artery dissection and vascular complications",
+      "Contrast dye reaction and renal injury",
+      "Stroke and bleeding",
+      "Permanent immunity to future contrast reactions"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Catheterization complications include bleeding, vascular complications (including coronary artery dissection), infection, stroke, contrast reaction, and renal injury.",
+    "why": [
+      "Correct. Vascular complications and coronary dissection can occur.",
+      "Correct. Contrast reaction and contrast-induced renal injury are recognized risks.",
+      "Correct. Stroke and bleeding are potential complications.",
+      "Incorrect. A procedure does not confer immunity to future contrast reactions."
+    ]
+  },
+  {
+    "id": "img-036",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Coronary Angiography & PCI",
+    "source": "Cardiac Imaging, slide 81 (Right heart catheterization)",
+    "question": "A right heart catheterization is primarily used to assess which of the following?",
+    "options": [
+      "Pulmonary pressures, blood oxygenation, cardiac function, and shunts",
+      "The exact location of coronary artery stenoses",
+      "Peripheral arterial disease in the legs",
+      "Coronary calcium burden"
+    ],
+    "answer": 0,
+    "explanation": "A right heart catheterization, done through a vein, assesses pulmonary pressures, blood oxygenation, cardiac function, and shunts. Indications include evaluating shock, volume status and cardiac index, pulmonary hypertension, and endomyocardial biopsy.",
+    "why": [
+      "Correct. Pulmonary pressures, oxygenation, cardiac function, and shunts are its purpose.",
+      "Coronary stenoses are mapped by a left-sided coronary angiogram, not right heart cath.",
+      "Peripheral arterial disease is assessed with ABI and peripheral angiography.",
+      "Calcium burden is measured by CT, not right heart catheterization."
+    ]
+  },
+  {
+    "id": "img-037",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "CT Imaging",
+    "source": "Cardiac Imaging, slide 85 (Coronary CTA requirements and limits)",
+    "question": "Which of the following are true limitations or requirements of coronary CTA? Select all that apply.",
+    "options": [
+      "The heart rate ideally needs to be around 60",
+      "The patient should generally be in sinus rhythm, because irregular rhythms degrade the study",
+      "It ideally requires a BMI of less than 35",
+      "It uses no contrast and no radiation"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Coronary CTA is extremely specific for locating and grading blockages at low radiation dose, but it requires a heart rate near 60, generally sinus rhythm (irregular rhythms degrade the images), a BMI ideally under 35, and it still uses iodinated contrast and radiation.",
+    "why": [
+      "Correct. A controlled heart rate near 60 is needed for image quality.",
+      "Correct. Irregular rhythms such as atrial fibrillation degrade the study.",
+      "Correct. A BMI under 35 is the ideal limit.",
+      "Incorrect. Coronary CTA still uses contrast and radiation, just at a low dose."
+    ]
+  },
+  {
+    "id": "img-038",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "CT Imaging",
+    "source": "Cardiac Imaging, slide 88 (SCOT-HEART trial)",
+    "question": "What did the SCOT-HEART trial demonstrate about adding coronary CTA to standard of care?",
+    "options": [
+      "A significant reduction in death from coronary artery disease or nonfatal MI at 5 years",
+      "No difference in any clinical outcome",
+      "A higher rate of death from coronary artery disease",
+      "That coronary CTA can replace catheterization for treating blockages"
+    ],
+    "answer": 0,
+    "explanation": "SCOT-HEART compared standard of care to standard of care plus coronary CTA and found that adding CTA significantly reduced death from coronary artery disease or nonfatal MI at 5 years.",
+    "why": [
+      "Correct. Adding coronary CTA reduced CAD death or nonfatal MI at 5 years.",
+      "There was a significant benefit, not a null result.",
+      "The trial showed reduced, not increased, cardiac death.",
+      "CTA is diagnostic; it does not treat blockages the way catheterization can."
+    ]
+  },
+  {
+    "id": "img-039",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "CT Imaging",
+    "source": "Cardiac Imaging, slide 90 (Calcium score of 0)",
+    "question": "A coronary artery calcium score of 0 in an asymptomatic patient indicates what?",
+    "options": [
+      "No identifiable calcium and very low risk, so statin use can be deferred for up to 5 years",
+      "Extensive plaque burden requiring immediate aspirin and statin",
+      "A guaranteed absence of any coronary artery disease for life",
+      "A moderate plaque burden warranting guideline-directed therapy"
+    ],
+    "answer": 0,
+    "explanation": "A calcium score of 0 means no identifiable calcium and a very low risk of a cardiovascular event over the next 10 years, so statin therapy can generally be deferred for up to 5 years. This is the basis of the power-of-zero concept.",
+    "why": [
+      "Correct. A score of 0 supports deferring statin therapy up to 5 years in a low-risk patient.",
+      "That describes a score over 400, not 0.",
+      "A score of 0 lowers, but does not permanently guarantee the absence of, disease.",
+      "Moderate plaque with guideline-directed therapy describes the 101 to 400 range."
+    ]
+  },
+  {
+    "id": "img-040",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "CT Imaging",
+    "source": "Cardiac Imaging, slide 90 (Calcium score over 400)",
+    "question": "A coronary artery calcium score over 400 indicates what?",
+    "options": [
+      "Extensive plaque burden with a high likelihood of at least one 50% or greater stenosis; recommend guideline-directed therapy and consider aspirin",
+      "No identifiable calcium and very low risk",
+      "Minimal plaque burden managed by lifestyle changes alone",
+      "That coronary CTA is no longer indicated"
+    ],
+    "answer": 0,
+    "explanation": "A calcium score over 400 signals extensive plaque burden with a high likelihood of at least one 50% or greater plaque. It calls for guideline-directed therapy and consideration of aspirin.",
+    "why": [
+      "Correct. Over 400 means extensive plaque with high likelihood of significant stenosis.",
+      "That describes a score of 0.",
+      "Minimal plaque with lifestyle changes describes the 1 to 10 range.",
+      "A high score prompts treatment; it does not remove the role of further imaging."
+    ]
+  },
+  {
+    "id": "img-041",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "CT Imaging",
+    "source": "Cardiac Imaging, slide 89 (Calcium score population)",
+    "question": "The coronary artery calcium score is best used to guide statin decisions in which population?",
+    "options": [
+      "Asymptomatic patients older than 40 with an intermediate 10-year ASCVD risk (7.5 to 20%) who are unsure about starting a statin",
+      "Patients actively having an acute coronary syndrome",
+      "Diabetic patients of any age",
+      "Symptomatic patients with a positive troponin"
+    ],
+    "answer": 0,
+    "explanation": "Calcium scoring helps risk-stratify asymptomatic patients older than 40 with intermediate 10-year ASCVD risk (7.5 to 20%) who are undecided about statin therapy. It does not apply to diabetics and is not for acute presentations.",
+    "why": [
+      "Correct. Intermediate-risk, asymptomatic, over-40 patients are the target for calcium scoring.",
+      "An acute coronary syndrome requires catheterization, not calcium scoring.",
+      "The calcium score does not apply to diabetic patients.",
+      "A positive troponin means ACS, not an elective risk-stratification setting."
+    ]
+  },
+  {
+    "id": "img-042",
+    "type": "multi",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Cardiac MRI & Peripheral Vascular Testing",
+    "source": "Cardiac Imaging, slide 96 (Cardiac MRI indications)",
+    "question": "Which of the following are indications for cardiac MRI? Select all that apply.",
+    "options": [
+      "Characterizing cardiomyopathy, including ischemic versus non-ischemic and restrictive causes such as amyloidosis or sarcoidosis",
+      "Evaluating cardiac masses and certain ventricular arrhythmias (such as ARVD)",
+      "Assessing structures such as valvular regurgitation, shunts, and congenital disease",
+      "Quantifying coronary artery calcium for statin decisions"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Cardiac MRI evaluates cardiomyopathy (ischemic vs non-ischemic, restrictive causes like amyloidosis, sarcoidosis, hemochromatosis, and Fabry disease), cardiac masses, ventricular arrhythmias (ARVD, fibrosis), structural disease (valves, shunts, congenital), viability, and preprocedure planning. Coronary calcium is scored by CT, not MRI.",
+    "why": [
+      "Correct. Tissue characterization of cardiomyopathies is a hallmark MRI strength.",
+      "Correct. Masses and arrhythmogenic substrates such as ARVD are MRI indications.",
+      "Correct. Valvular, shunt, and congenital structural assessment is an MRI use.",
+      "Incorrect. Coronary calcium scoring is a CT study, not cardiac MRI."
+    ]
+  },
+  {
+    "id": "img-043",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Cardiac MRI & Peripheral Vascular Testing",
+    "source": "Cardiac Imaging, slide 95 (Cardiac MRI practicalities)",
+    "question": "Which of the following is a practical consideration for performing a cardiac MRI?",
+    "options": [
+      "It requires EKG gating and breath-holding, can be very claustrophobic, and may require gadolinium depending on the indication",
+      "It is completed in under 5 minutes with no patient cooperation needed",
+      "It uses iodinated contrast and ionizing radiation",
+      "It cannot evaluate myocardial tissue characteristics"
+    ],
+    "answer": 0,
+    "explanation": "A cardiac MRI takes roughly 30 minutes to 2 hours, requires breath-holding and EKG gating, is often very claustrophobic (frequently needing an anti-anxiety medication), and may require gadolinium depending on the indication.",
+    "why": [
+      "Correct. Gating, breath-holding, claustrophobia, and possible gadolinium all apply.",
+      "MRI is lengthy and requires significant patient cooperation.",
+      "MRI uses gadolinium and a magnetic field, not iodinated contrast or ionizing radiation.",
+      "Tissue characterization is one of MRI's greatest strengths."
+    ]
+  },
+  {
+    "id": "img-044",
+    "type": "mcq",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Cardiac MRI & Peripheral Vascular Testing",
+    "source": "Cardiac Imaging, slide 100 (Ankle brachial index)",
+    "question": "What is the purpose of the ankle brachial index (ABI)?",
+    "options": [
+      "An inexpensive test that compares arm to leg blood pressures to assess whether leg pain or claudication is due to peripheral arterial blockage",
+      "To measure pulmonary artery pressures",
+      "To quantify coronary artery calcium",
+      "To evaluate valvular regurgitation"
+    ],
+    "answer": 0,
+    "explanation": "The ABI is an inexpensive way to determine whether claudication or leg pain is due to a lower-extremity arterial blockage. It compares arm blood pressure to leg blood pressure at various points, and the ratio grades the severity of peripheral arterial disease.",
+    "why": [
+      "Correct. The ABI compares arm and leg pressures to assess peripheral arterial disease.",
+      "Pulmonary pressures are measured by right heart catheterization.",
+      "Coronary calcium is measured by CT.",
+      "Valvular regurgitation is assessed by echocardiography."
+    ]
+  },
+  {
+    "id": "img-045",
+    "type": "tf",
+    "class": "Cardiology",
+    "lecture": "Cardiac Imaging",
+    "section": "Cardiac MRI & Peripheral Vascular Testing",
+    "source": "Cardiac Imaging, slide 99 (ABI as inexpensive PAD test)",
+    "question": "The ankle brachial index is an inexpensive first-line way to evaluate for peripheral arterial disease.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "explanation": "The ABI is specifically described as an inexpensive way to see whether leg pain or claudication is due to a lower-extremity arterial blockage, making it a practical first-line peripheral vascular test.",
+    "why": [
+      "Correct. The ABI is an inexpensive, practical screen for peripheral arterial disease.",
+      "Incorrect. The ABI is in fact an inexpensive first-line peripheral test."
     ]
   }
 ];

@@ -14141,6 +14141,1420 @@ const QUESTIONS = [
     "explanation": "Acute lymphangitis, erythematous streaks tracking proximally from a skin break with tender regional nodes, is most commonly caused by Streptococcus pyogenes. Empiric antibiotics covering Gram-positive cocci are the correct initial management.",
     "class": "Cardiology",
     "lecture": "Lymphatic Disease"
+  },
+  {
+    "id": "pad-001",
+    "type": "mcq",
+    "section": "Ankle-Brachial Index",
+    "source": "Peripheral Arterial Disease, slide 2 (Need for ABI)",
+    "question": "What advantage does the ankle-brachial index (ABI) provide over imaging a single stenosis?",
+    "options": [
+      "It directly visualizes the arterial wall and plaque",
+      "It gives a real-time quantitative assessment of the net effect of all lesions and collaterals on distal limb perfusion pressure",
+      "It measures the exact luminal diameter at one site of stenosis",
+      "It replaces the need for smoking cessation"
+    ],
+    "answer": 1,
+    "why": [
+      "Imaging, not ABI, visualizes the wall and plaque; ABI is a pressure measurement.",
+      "Correct. With multiple stenoses in series it is hard to judge the overall flow effect from imaging alone, so the ABI gives a real-time quantitative measure of the net effect of all lesions and collaterals on distal perfusion pressure.",
+      "That is what imaging estimates at a single site; the ABI instead reflects the summed effect of all lesions.",
+      "ABI is a diagnostic measure, not a treatment."
+    ],
+    "explanation": "Imaging can size a single stenosis, but an extremity may have several stenoses in series, making the net flow effect hard to judge. The ABI captures the combined effect of all lesions and collaterals on perfusion pressure at the ankle. Even with non-palpable pulses, collaterals can maintain resting tissue perfusion.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-002",
+    "type": "mcq",
+    "section": "Ankle-Brachial Index",
+    "source": "Peripheral Arterial Disease, slide 4 (ABI calculation)",
+    "question": "How is the ankle-brachial index calculated?",
+    "options": [
+      "Systolic ankle pressure (posterior or dorsalis pedis) divided by systolic brachial pressure",
+      "Systolic brachial pressure divided by systolic ankle pressure",
+      "Diastolic ankle pressure divided by mean arterial pressure",
+      "Ankle pulse volume divided by brachial pulse volume"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. The ABI is the systolic pressure at the ankle (posterior tibial or dorsalis pedis, by audible Doppler) divided by the systolic brachial pressure, after confirming a normal brachial pulse and comparing sides.",
+      "That inverts the ratio; the ankle pressure is the numerator.",
+      "The ABI uses systolic pressures, not diastolic or mean arterial pressure.",
+      "The ABI uses pressures, not pulse volumes."
+    ],
+    "explanation": "ABI equals the ankle systolic pressure (posterior tibial or dorsalis pedis) over the brachial systolic pressure, each measured by cuff occlusion with an audible Doppler signal. The brachial pulse should be confirmed normal and compared with the opposite arm.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-003",
+    "type": "mcq",
+    "section": "Ankle-Brachial Index",
+    "source": "Peripheral Arterial Disease, slide 4 (ABI thresholds)",
+    "question": "Which set of ABI values matches the interpretations taught in this lecture?",
+    "options": [
+      "Normal 1.0 to 1.2; less than 0.9 suggests claudication; less than 0.5 suggests impaired healing and impending rest ischemia",
+      "Normal 0.5 to 0.7; less than 0.4 suggests claudication",
+      "Normal above 1.4; less than 1.2 suggests rest pain",
+      "Normal 0.8 to 0.9; less than 0.7 indicates gangrene"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. A normal ABI is about 1.0 to 1.2; below 0.9 is abnormal and suggests claudication; below 0.5 suggests impaired tissue healing and impending rest ischemia.",
+      "These numbers are too low for normal; a normal ABI is around 1.0 to 1.2.",
+      "An ABI above 1.4 suggests non-compressible calcified vessels, not normal, and this range is wrong.",
+      "0.8 to 0.9 is already abnormal, not normal."
+    ],
+    "explanation": "Normal ABI is 1.0 to 1.2. Below 0.9 is abnormal and correlates with claudication (and with the roughly 60 percent radius reduction defining critical stenosis). Below 0.5 signals impaired healing and impending rest ischemia.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-004",
+    "type": "mcq",
+    "section": "Ankle-Brachial Index",
+    "source": "Peripheral Arterial Disease, slide 3 (ABI pitfall)",
+    "question": "In which patients can the ABI be falsely elevated or inaccurate?",
+    "options": [
+      "Patients with calcified, non-compressible arteries",
+      "Young patients with normal vessels",
+      "Patients with low blood pressure only",
+      "Patients with a normal brachial pulse"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Calcified, non-compressible arteries (as in longstanding diabetes or renal disease) resist cuff occlusion, so the measured ankle pressure is falsely high and the ABI is inaccurate.",
+      "Normal vessels give a reliable ABI.",
+      "Low systemic pressure alone does not invalidate the ratio.",
+      "A normal brachial pulse is expected and is part of a valid measurement."
+    ],
+    "explanation": "A key pitfall is that calcified, non-compressible arteries cannot be fully occluded by the cuff, producing falsely elevated ankle pressures and an unreliable ABI. This is common in diabetes and chronic kidney disease.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-005",
+    "type": "multi",
+    "section": "Ankle-Brachial Index",
+    "source": "Peripheral Arterial Disease, slide 5 (Indications for ABI)",
+    "question": "Which are appropriate indications for measuring the ABI? Select all that apply.",
+    "options": [
+      "Screening or surveillance for PAD in patients with risk factors",
+      "Quantifying arterial flow in symptomatic patients (claudication, rest pain, non-healing lesions)",
+      "Longitudinal follow-up of claudication to gauge treatment versus disease progression",
+      "Assessing healing potential of a traumatic wound or incision in a patient with pulse deficits"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "why": [
+      "Correct. ABI is used to screen and monitor at-risk patients.",
+      "Correct. It quantifies flow in symptomatic patients.",
+      "Correct. It tracks claudication over time to judge treatment versus progression.",
+      "Correct. It assesses healing potential of wounds or incisions when pulses are deficient, and it is used to evaluate stents or bypass grafts postoperatively."
+    ],
+    "explanation": "ABI indications include screening or surveillance in at-risk patients, quantifying flow in symptomatic disease, longitudinal follow-up of claudication, and assessing wound or incision healing potential when pulses are weak or absent. Never place a blood pressure cuff over a vascular graft, only below it.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-006",
+    "type": "mcq",
+    "section": "Ankle-Brachial Index",
+    "source": "Peripheral Arterial Disease, slide 6 (Critical Stenosis)",
+    "question": "According to the lecture, what reduction in maximal arterial radius is needed to cause symptomatic downstream limb ischemia, and why?",
+    "options": [
+      "At least a 60 percent reduction, because most arterial-bed resistance is in the arterioles",
+      "At least a 10 percent reduction, because large arteries carry most resistance",
+      "At least a 90 percent reduction, because collaterals never contribute",
+      "Any measurable reduction, because arteries have no reserve"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. A reduction of maximal radius by at least 60 percent is needed to cause symptomatic limb ischemia downstream, and multiple stenoses in series are cumulative. This threshold reflects that most resistance in an arterial bed lies in the arterioles, and it correlates with an ABI below 0.90.",
+      "A 10 percent reduction is far too small, and large arteries are low-resistance conduits.",
+      "Symptoms appear well before a 90 percent reduction, and collaterals do contribute.",
+      "Arteries have substantial flow reserve, so a small reduction is not enough."
+    ],
+    "explanation": "Critical stenosis requires roughly a 60 percent reduction in maximal radius to cause symptomatic ischemia, with stenoses in series adding cumulatively. This correlates with an ABI below 0.90 and reflects that arteriolar resistance dominates the arterial bed.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-007",
+    "type": "tf",
+    "section": "Ankle-Brachial Index",
+    "source": "Peripheral Arterial Disease, slide 5 (ABI and grafts)",
+    "question": "A blood pressure cuff may be safely placed directly over a vascular bypass graft to measure pressures.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "why": [
+      "Incorrect. A cuff should never be placed over a vascular graft; it is placed only below the graft.",
+      "Correct. Never place a blood pressure cuff over a vascular graft; place it only below the graft to avoid compromising it."
+    ],
+    "explanation": "When evaluating a stent or bypass graft with the ABI, the cuff is placed below the graft, never over it, to avoid damaging or occluding the reconstruction.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-008",
+    "type": "mcq",
+    "section": "PAD Overview & Risk Factors",
+    "source": "Peripheral Arterial Disease, slide 7 (PAD definition)",
+    "question": "As used in this lecture, the term PAD (peripheral arterial disease) refers specifically to what, and what does it exclude?",
+    "options": [
+      "Atherosclerotic occlusive disease of the aorta, extremity, visceral, and renal arteries, excluding the coronary and cerebral arteries",
+      "Any arterial disease including coronary and cerebral vessels",
+      "Only vasospastic disorders such as Raynaud's",
+      "Only venous occlusive disease of the extremities"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. PAD is synonymous with peripheral arterial atherosclerotic occlusive disease of the aorta, upper and lower extremity, visceral, and renal arteries, and it excludes the coronary and cerebral arteries.",
+      "PAD by this definition excludes coronary and cerebral arteries.",
+      "Vasospastic disorders are a separate, non-atherosclerotic category of peripheral arterial disease.",
+      "PAD is arterial, not venous."
+    ],
+    "explanation": "PAD denotes atherosclerotic occlusive disease of the aorta, extremity, visceral, and renal arteries, excluding the coronary and cerebral circulations. Non-atherosclerotic entities such as thromboembolism, pseudoaneurysm, trauma, vasospasm, Buerger's, and entrapment syndromes are other peripheral arterial diseases.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-009",
+    "type": "mcq",
+    "section": "PAD Overview & Risk Factors",
+    "source": "Peripheral Arterial Disease, slide 13 (PAD overview)",
+    "question": "Which statement about the prognosis of PAD is correct?",
+    "options": [
+      "PAD is a coronary heart disease risk equivalent, with roughly 50 percent 10-year survival in claudicants and about 25 percent with critical limb ischemia",
+      "PAD does not affect overall survival",
+      "PAD carries a better prognosis than isolated coronary disease",
+      "Critical limb ischemia has a 90 percent 10-year survival"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. PAD is a CHD risk equivalent (over 20 percent chance of coronary death or nonfatal MI over 10 years), with about 50 percent 10-year survival in claudicants and roughly 25 percent with critical limb ischemia. Death is usually from ACS, heart failure, or stroke.",
+      "PAD reduces long-term survival and raises death risk 2 to 4 fold.",
+      "PAD is a CHD risk equivalent, not more benign than coronary disease.",
+      "Critical limb ischemia carries a poor prognosis, about 25 percent 10-year survival, not 90 percent."
+    ],
+    "explanation": "PAD is a coronary heart disease risk equivalent and raises death risk 2 to 4 fold, usually from ACS, heart failure, or stroke. Ten-year survival is about 50 percent with claudication and about 25 percent with critical limb ischemia.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-010",
+    "type": "multi",
+    "section": "PAD Overview & Risk Factors",
+    "source": "Peripheral Arterial Disease, slide 14 (PAD risk factors)",
+    "question": "Which are risk factors for peripheral arterial disease? Select all that apply.",
+    "options": [
+      "Smoking",
+      "Diabetes mellitus",
+      "Dyslipidemia",
+      "Hypertension",
+      "High dietary fiber intake"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "why": [
+      "Correct. Smoking increases the risk of intermittent claudication more than 2 fold.",
+      "Correct. Diabetes confers a 3 to 4 fold risk.",
+      "Correct. Dyslipidemia is common in PAD.",
+      "Correct. Hypertension increases risk about 2 fold in men and 4 fold in women.",
+      "High fiber intake is not a PAD risk factor."
+    ],
+    "explanation": "PAD shares the risk factors of atherosclerosis: smoking (more than 2 fold claudication risk), diabetes (3 to 4 fold), dyslipidemia, hypertension (2 fold in men, 4 fold in women), and a family history of premature atherosclerosis.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-011",
+    "type": "mcq",
+    "section": "PAD Overview & Risk Factors",
+    "source": "Peripheral Arterial Disease, slide 14 (PAD risk factors)",
+    "question": "Which risk factor is associated with roughly a 3 to 4 fold increase in the risk of PAD?",
+    "options": [
+      "Diabetes mellitus",
+      "Occasional alcohol use",
+      "High-altitude residence",
+      "Left-handedness"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Diabetes confers roughly a 3 to 4 fold increased risk of PAD.",
+      "Occasional alcohol use is not cited as a PAD risk factor.",
+      "Altitude is not a PAD risk factor.",
+      "Handedness is unrelated to PAD."
+    ],
+    "explanation": "Diabetes carries about a 3 to 4 fold PAD risk. Smoking more than doubles claudication risk, and hypertension raises risk 2 fold in men and 4 fold in women.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-012",
+    "type": "mcq",
+    "section": "PAD Overview & Risk Factors",
+    "source": "Peripheral Arterial Disease, slide 15 (Plaque behavior)",
+    "question": "How does the behavior of a stable atherosclerotic plaque differ from that of an unstable (ruptured) plaque in the arterial tree?",
+    "options": [
+      "A stable plaque causes a patent but stenotic vessel with chronic stable symptoms such as intermittent claudication, while a ruptured plaque causes atheroembolism or acute thrombotic occlusion",
+      "A stable plaque always causes acute limb ischemia",
+      "An unstable plaque never embolizes",
+      "Both behave identically"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. A stable plaque leaves a patent but stenotic vessel with chronic stable symptoms (stable angina, intermittent claudication), whereas a ruptured plaque exposes atheroma and can shower emboli (platelet, atheroma, thrombus, causing TIA or atheroembolism) or thrombose to cause acute occlusion (analogous to STEMI, thrombotic stroke, or an acute ischemic limb).",
+      "Stable plaque causes chronic stable symptoms, not acute ischemia.",
+      "A ruptured plaque can embolize atheroma, platelets, and thrombus.",
+      "Stable and unstable plaques behave quite differently."
+    ],
+    "explanation": "Stable plaque produces a patent but narrowed vessel and chronic stable symptoms like claudication. Plaque rupture with subtotal stenosis showers emboli (TIA, atheroembolism, unstable-angina-like states), and rupture with thrombotic occlusion causes acute events analogous to STEMI, thrombotic CVA, or an acutely ischemic limb.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-013",
+    "type": "mcq",
+    "section": "PAD Overview & Risk Factors",
+    "source": "Peripheral Arterial Disease, slide 16 (Natural progression)",
+    "question": "Which sequence describes the natural progression of chronic lower-limb arterial occlusive disease toward critical limb-threatening ischemia (CLTI)?",
+    "options": [
+      "Intermittent claudication, then ischemic rest pain, then non-healing ulcer, then gangrene",
+      "Gangrene, then rest pain, then claudication",
+      "Non-healing ulcer, then claudication, then normal function",
+      "Rest pain, then resolution without treatment"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Disease progresses from intermittent claudication to ischemic rest pain, then non-healing ulcer, then gangrene, the latter stages defining critical limb-threatening ischemia (CLTI).",
+      "This reverses the sequence.",
+      "This ordering is incorrect and disease does not spontaneously normalize.",
+      "Rest pain reflects advanced disease and does not resolve without treatment."
+    ],
+    "explanation": "Chronic limb ischemia progresses from claudication to ischemic rest pain, then non-healing ulceration, then gangrene. Rest pain and tissue loss define critical limb-threatening ischemia and are indications for revascularization.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-014",
+    "type": "multi",
+    "section": "PAD Overview & Risk Factors",
+    "source": "Peripheral Arterial Disease, slide 8 (Other peripheral arterial diseases)",
+    "question": "Besides atherosclerotic PAD, which of the following are other (non-atherosclerotic) peripheral arterial diseases named in this lecture? Select all that apply.",
+    "options": [
+      "Arterial thromboembolism from an upstream source",
+      "Pseudoaneurysm and peripheral arterial trauma",
+      "Vasospastic disorders such as Raynaud phenomenon and Buerger's disease",
+      "Chronic venous insufficiency"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. Thromboembolism, arterial occlusion from an upstream thrombus, is a separate peripheral arterial disease.",
+      "Correct. Pseudoaneurysm and peripheral arterial trauma are non-atherosclerotic peripheral arterial diseases.",
+      "Correct. Vasospastic disorders (Raynaud), Buerger's disease, and vascular entrapment syndromes are included.",
+      "Chronic venous insufficiency is a venous disease, not a peripheral arterial disease."
+    ],
+    "explanation": "Non-atherosclerotic peripheral arterial diseases include thromboembolism, pseudoaneurysm, arterial trauma, vasospastic disorders (Raynaud), Buerger's disease, vascular entrapment syndromes, and arteritis (covered in rheumatology).",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-015",
+    "type": "mcq",
+    "section": "Chronic PAD Clinical Presentation",
+    "source": "Peripheral Arterial Disease, slide 18 (Intermittent Claudication)",
+    "question": "Which description best fits intermittent claudication?",
+    "options": [
+      "Discomfort, pain, fatigue, or heaviness in an extremity during walking that resolves within minutes of rest",
+      "Constant burning pain present at rest and unrelated to activity",
+      "Sudden painless loss of vision",
+      "Chest pain radiating to the jaw with exertion"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Claudication is exertional discomfort, pain, fatigue, or heaviness in a limb during walking that resolves within a few minutes of resting, because blood supply cannot meet the metabolic demand of active muscle.",
+      "Constant rest pain reflects more advanced ischemia, not claudication.",
+      "Painless vision loss is a retinal or neurologic event, not claudication.",
+      "That describes angina, not limb claudication."
+    ],
+    "explanation": "Intermittent claudication is exertional limb discomfort that resolves within minutes of rest, reflecting a supply-demand mismatch in active muscle. Its location points to the level of stenosis.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-016",
+    "type": "mcq",
+    "section": "Chronic PAD Clinical Presentation",
+    "source": "Peripheral Arterial Disease, slide 18 (Claudication location)",
+    "question": "A patient reports calf claudication. Which arterial segment is most likely involved?",
+    "options": [
+      "Femoral and popliteal arteries",
+      "Aorta and iliac arteries",
+      "Tibial and peroneal arteries",
+      "Carotid artery"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Calf claudication results from femoral and popliteal artery stenosis, generally producing symptoms one joint below the lesion.",
+      "Aorto-iliac disease causes thigh, hip, or buttock claudication.",
+      "Tibial and peroneal stenosis causes pedal (foot) claudication.",
+      "Carotid disease causes cerebral, not limb, symptoms."
+    ],
+    "explanation": "Claudication localizes about one joint below the stenosis: aorto-iliac disease causes hip, thigh, or buttock claudication; femoral-popliteal disease causes calf claudication; and tibial or peroneal disease causes pedal claudication.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-017",
+    "type": "mcq",
+    "section": "Chronic PAD Clinical Presentation",
+    "source": "Peripheral Arterial Disease, slide 19 (Aorto-iliac disease)",
+    "question": "Which triad characterizes Leriche syndrome?",
+    "options": [
+      "Hip, thigh, or buttock claudication; absent or weak femoral pulses; and impotence",
+      "Calf claudication; strong femoral pulses; and normal sexual function",
+      "Pedal claudication; cold toes; and a widened mediastinum",
+      "Jaw claudication; scalp tenderness; and vision loss"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Leriche syndrome is atherosclerotic stenosis of the distal aorta and its bifurcation, causing hip, thigh, and buttock claudication, absent or weak femoral pulses, and impotence.",
+      "Leriche involves weak or absent femoral pulses and often impotence, not this pattern.",
+      "A widened mediastinum relates to traumatic aortic disruption, not Leriche syndrome.",
+      "Jaw claudication with scalp tenderness and vision loss describes giant cell arteritis."
+    ],
+    "explanation": "Leriche syndrome is aorto-iliac (distal aorta and bifurcation) atherosclerotic occlusion producing the classic triad of buttock, hip, and thigh claudication, diminished or absent femoral pulses, and erectile dysfunction.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-018",
+    "type": "mcq",
+    "section": "Chronic PAD Clinical Presentation",
+    "source": "Peripheral Arterial Disease, slide 21 (Ischemic rest pain)",
+    "question": "Which feature is characteristic of ischemic rest pain?",
+    "options": [
+      "It is worse at night with the legs in a neutral position and is relieved by dangling the leg, while elevation worsens it",
+      "It improves at night and worsens with the leg dependent",
+      "It is relieved by walking",
+      "It never leads to tissue loss"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Ischemic rest pain typically begins in the toes or foot, is worse at night with the legs neutral, and eases when the patient sits up and dangles the leg (gravity slightly raises perfusion pressure); elevation worsens it. It is an indication for revascularization.",
+      "This reverses the relationship; dependency helps and elevation worsens it.",
+      "Walking worsens ischemia; it does not relieve rest pain.",
+      "If uncorrected, rest pain often progresses to ulceration, necrosis, and gangrene."
+    ],
+    "explanation": "Ischemic rest pain reflects perfusion barely meeting basal metabolic needs. It starts distally, is worst at night in a neutral position, and improves with dependency (dangling), which raises perfusion pressure, whereas elevation worsens it. It is an indication for limb revascularization.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-019",
+    "type": "matching",
+    "section": "Chronic PAD Clinical Presentation",
+    "source": "Peripheral Arterial Disease, slide 17 (Venous vs Arterial ulcers)",
+    "question": "Match each ulcer feature to the type of ulcer it characterizes.",
+    "pairs": [
+      {
+        "left": "Located at heels, toes, and beneath bony prominences with a deep avascular gray base",
+        "right": "Arterial ulcer",
+        "why": "Arterial ulcers occur at distal pressure points (heels, toes, bony prominences) with a deep, avascular, gray base."
+      },
+      {
+        "left": "Located at the ankles and lower calf with pedal edema and a shallow pink base",
+        "right": "Venous stasis ulcer",
+        "why": "Venous stasis ulcers sit at the ankles and lower calf with pedal edema, skin discoloration, and a shallow pink vascular base."
+      },
+      {
+        "left": "Pulseless with an ABI of about 0.5 or less and rest pain worse with elevation",
+        "right": "Arterial ulcer",
+        "why": "Arterial ulcers are pulseless with a low ABI (about 0.5 or less) and painful, worse with elevation."
+      },
+      {
+        "left": "Palpable pulses with an ABI around 0.9 and no rest pain",
+        "right": "Venous stasis ulcer",
+        "why": "Venous ulcers preserve arterial inflow, so pulses are present, the ABI is around 0.9, and there is no rest pain."
+      }
+    ],
+    "explanation": "Arterial ulcers occur at distal pressure points (heels, toes, bony prominences), have a deep gray avascular base, cool pulseless skin, a low ABI (about 0.5 or less), and rest pain worse with elevation. Venous stasis ulcers occur at the ankles and lower calf with pedal edema, a shallow pink base, preserved pulses, and an ABI around 0.9.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-020",
+    "type": "mcq",
+    "section": "Chronic PAD Clinical Presentation",
+    "source": "Peripheral Arterial Disease, slide 17 (Arterial ulcer)",
+    "question": "Which combination of findings best fits an arterial (ischemic) ulcer rather than a venous stasis ulcer?",
+    "options": [
+      "Distal location at pressure points, cool pulseless skin, deep gray base, ABI about 0.5 or less",
+      "Ankle location, warm skin, shallow pink base, ABI about 0.9",
+      "Pedal edema with hemosiderin pigmentation and normal pulses",
+      "Painless shallow ulcer with brisk capillary refill"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Arterial ulcers are distal and at pressure points, with cool pulseless skin, a deep avascular gray base, rest pain worse with elevation, and an ABI of about 0.5 or less.",
+      "That describes a venous stasis ulcer.",
+      "Pedal edema, pigmentation, and normal pulses point to venous disease.",
+      "Painless with brisk refill argues against ischemia and fits a venous or neuropathic ulcer."
+    ],
+    "explanation": "Arterial ulcers sit distally at pressure points, with a deep gray avascular base, cool pulseless skin, elevation-worsened rest pain, and a low ABI. A patient can have both venous and arterial disease, so a venous-appearing ulcer with a low ABI signals coexisting arterial insufficiency.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-021",
+    "type": "mcq",
+    "section": "Chronic PAD Clinical Presentation",
+    "source": "Peripheral Arterial Disease, slide 23 (Ischemic ulcer/gangrene)",
+    "question": "In describing gangrene, what distinguishes wet gangrene from dry gangrene?",
+    "options": [
+      "Wet gangrene reflects bacterial liquefaction and infection of necrotic tissue, whereas dry gangrene reflects desiccation without significant infection",
+      "Wet gangrene is always painless and dry gangrene is always infected",
+      "Wet gangrene occurs only in the fingers and dry gangrene only in the toes",
+      "There is no clinical difference between them"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. The terms describe the degree of bacterial liquefaction and infection (wet) versus desiccation of necrotic tissue (dry).",
+      "Infection characterizes wet, not dry, gangrene.",
+      "Location does not define wet versus dry gangrene.",
+      "They differ in the presence of infection and tissue liquefaction."
+    ],
+    "explanation": "Gangrene follows ischemic tissue death. Wet gangrene involves bacterial liquefaction and infection of the necrotic tissue, while dry gangrene is desiccated necrosis without significant infection. Revascularization may still be possible if sepsis is controlled with debridement and antibiotics.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-022",
+    "type": "mcq",
+    "section": "Chronic PAD Clinical Presentation",
+    "source": "Peripheral Arterial Disease, slide 17 (Mixed disease message)",
+    "question": "A patient with a known venous stasis ulcer is found to have a low ABI. What is the key clinical message?",
+    "options": [
+      "A patient with venous disease can also develop arterial insufficiency, so coexisting arterial disease must be recognized before compression is applied",
+      "The low ABI must be a measurement error and can be ignored",
+      "Venous and arterial disease never coexist",
+      "Compression therapy should be maximized regardless of the ABI"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Venous and arterial disease can coexist; a venous-appearing ulcer with a low ABI signals arterial insufficiency, and recognizing it matters because high compression is contraindicated with significant arterial disease.",
+      "A low ABI should be taken seriously, not dismissed.",
+      "The two commonly coexist, especially in older patients with multiple risk factors.",
+      "Compression can be harmful when significant arterial insufficiency is present."
+    ],
+    "explanation": "The teaching point is that venous and arterial insufficiency can coexist. A low ABI in a patient with a venous-appearing ulcer reveals arterial disease, which changes management because aggressive compression is unsafe with significant arterial compromise.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-023",
+    "type": "multi",
+    "section": "Vascular Physical Exam",
+    "source": "Peripheral Arterial Disease, slide 20 (Physical exam of chronic ischemia)",
+    "question": "Which physical findings are consistent with chronic lower-extremity arterial insufficiency? Select all that apply.",
+    "options": [
+      "Diminished or absent distal pulses and arterial bruits",
+      "Pallor of the foot on elevation with delayed capillary refill",
+      "Cool skin, hair loss, and subcutaneous atrophy of the leg",
+      "Brisk bounding pedal pulses with warm, well-perfused skin"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. Reduced or absent distal pulses and audible bruits reflect stenotic flow.",
+      "Correct. Elevation pallor and delayed capillary refill indicate poor arterial inflow.",
+      "Correct. Chronic ischemia causes cool skin, hair loss, and atrophy of subcutaneous tissue.",
+      "Bounding pulses with warm well-perfused skin argue against significant arterial insufficiency."
+    ],
+    "explanation": "Chronic arterial insufficiency produces diminished or absent pulses, bruits, elevation pallor with dependent rubor, delayed capillary refill, cool skin, hair loss, and subcutaneous atrophy. Advanced disease adds cyanosis or mottling, skin fissures, ulceration, and gangrene.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-024",
+    "type": "mcq",
+    "section": "Vascular Physical Exam",
+    "source": "Peripheral Arterial Disease, slide 20 (Pulse exam technique)",
+    "question": "What is a basic principle of the peripheral pulse examination in suspected PAD?",
+    "options": [
+      "Always palpate and compare pulses on both sides and grade their strength, noting any asymmetry",
+      "Examine only the symptomatic limb",
+      "Grade pulses only if the ABI is abnormal",
+      "Skip the femoral and popliteal pulses if the foot pulses are present"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Pulses should be palpated bilaterally and compared side to side, with strength graded, because asymmetry helps localize disease.",
+      "Both limbs are examined for comparison; disease is often asymmetric.",
+      "Pulse grading is part of the routine exam, done regardless of the ABI.",
+      "Proximal pulses are still assessed to define the level and extent of disease."
+    ],
+    "explanation": "A careful pulse exam compares both sides, grades pulse strength (for example 0 absent to normal), and checks femoral, popliteal, dorsalis pedis, and posterior tibial pulses. Asymmetry and the level of a deficit help localize the stenosis, and bruits suggest turbulent stenotic flow.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-025",
+    "type": "mcq",
+    "section": "Vascular Physical Exam",
+    "source": "Peripheral Arterial Disease, slide 2 (Collateral circulation)",
+    "question": "How does collateral circulation influence the clinical picture in chronic arterial occlusive disease?",
+    "options": [
+      "Collaterals can maintain resting tissue perfusion and limb viability even when a major artery is occluded and pulses are non-palpable",
+      "Collaterals have no measurable effect on perfusion",
+      "Collaterals worsen ischemia by stealing blood",
+      "Collaterals form instantly during acute occlusion, preventing all symptoms"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Chronic stenosis allows collateral vessels to develop, so resting perfusion and limb viability can be preserved despite an occluded main artery and absent distal pulses; the ABI reflects this combined collateral contribution.",
+      "Collaterals meaningfully augment distal perfusion, which is why the ABI is informative.",
+      "Collaterals supplement, not steal, flow in chronic occlusive disease.",
+      "Collaterals take time to develop, so they protect in chronic but not sudden acute occlusion."
+    ],
+    "explanation": "Collaterals develop gradually in chronic stenosis and can sustain resting perfusion and limb viability even when a major artery is occluded and pulses are absent. This is why the ABI, which reflects the net effect of lesions and collaterals, is more informative than imaging a single stenosis, and why acute occlusion (no time for collaterals) is far more threatening.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-026",
+    "type": "mcq",
+    "section": "Arterial Imaging",
+    "source": "Peripheral Arterial Disease, slide 24 (Imaging approach)",
+    "question": "When is duplex Doppler ultrasound typically the starting imaging study in PAD?",
+    "options": [
+      "When the diagnosis is in doubt or an intervention is being considered, since the ABI alone is enough to begin medical management",
+      "In every patient before starting any therapy",
+      "Only after catheter angiography has failed",
+      "Only in patients without risk factors"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. The ABI alone can justify starting medical management; duplex Doppler is the usual first imaging step when the diagnosis is uncertain or an intervention is contemplated.",
+      "Routine risk-factor modification can begin on the ABI alone, without imaging every patient.",
+      "Duplex Doppler precedes, rather than follows, catheter angiography.",
+      "Imaging is driven by diagnostic uncertainty or planned intervention, not by the absence of risk factors."
+    ],
+    "explanation": "Medical management (risk-factor modification, antiplatelet therapy, exercise) can start based on history, exam, and ABI. Duplex Doppler ultrasound is the usual first imaging study when the diagnosis is unclear or revascularization is being considered.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-027",
+    "type": "mcq",
+    "section": "Arterial Imaging",
+    "source": "Peripheral Arterial Disease, slide 24 (Duplex Doppler)",
+    "question": "What can duplex Doppler ultrasound demonstrate in the arterial tree?",
+    "options": [
+      "Plaque, stenosis, and thrombus, with rising flow velocity across tighter stenoses and a flattened distal waveform",
+      "Only the presence or absence of a pulse",
+      "Coronary artery calcium score",
+      "Serum lipid levels"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Duplex Doppler shows plaque, stenosis, and clot, estimates the degree of narrowing, and detects rising velocity across tighter stenoses with a flattened (dampened) waveform downstream.",
+      "It provides far more than a binary pulse assessment, including flow velocity and waveform morphology.",
+      "Coronary calcium scoring is a cardiac CT measure, not a peripheral duplex finding.",
+      "Ultrasound does not measure serum lipids."
+    ],
+    "explanation": "Duplex combines B-mode imaging of plaque, stenosis, and thrombus with Doppler flow analysis. Flow velocity increases across tighter stenoses, and the waveform flattens (loses its normal triphasic sharpness) downstream, helping grade severity and localize disease.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-028",
+    "type": "mcq",
+    "section": "Arterial Imaging",
+    "source": "Peripheral Arterial Disease, slide 25 (Angiography)",
+    "question": "Which statement about catheter angiography versus CT or MR angiography in PAD is correct?",
+    "options": [
+      "Catheter angiography is generally reserved for when intervention is planned, because it allows treatment in the same setting, whereas CT and MR angiography define anatomy but do not provide treatment access",
+      "Catheter angiography is required to make the initial diagnosis in all patients",
+      "CT and MR angiography can deliver angioplasty and stenting",
+      "MR angiography uses ionizing radiation and iodinated contrast"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Catheter angiography is invasive and is usually reserved for when an endovascular intervention is planned, since angioplasty or stenting can be done in the same session; CT and MR angiography map anatomy but cannot deliver therapy.",
+      "The initial diagnosis rests on history, exam, ABI, and duplex, not routine catheter angiography.",
+      "CT and MR angiography are diagnostic; they cannot perform angioplasty or stenting.",
+      "MR angiography does not use ionizing radiation, and it uses gadolinium rather than iodinated contrast."
+    ],
+    "explanation": "CT and MR angiography give detailed anatomic maps for planning but cannot treat. Catheter (invasive) angiography is typically reserved for when an endovascular intervention is planned, allowing diagnosis and treatment (angioplasty, stent) in the same procedure.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-029",
+    "type": "mcq",
+    "section": "PAD Medical Treatment",
+    "source": "Peripheral Arterial Disease, slide 27 (Risk factor modification)",
+    "question": "Which single intervention is emphasized as the most important modifiable factor in slowing PAD progression?",
+    "options": [
+      "Smoking cessation",
+      "Vitamin E supplementation",
+      "Bed rest",
+      "Routine prophylactic antibiotics"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Smoking cessation is the single most important intervention, given that smoking more than doubles claudication risk and accelerates disease.",
+      "Vitamin E is not a proven PAD therapy.",
+      "Bed rest is counterproductive; supervised walking improves claudication.",
+      "Antibiotics have no role in routine PAD management."
+    ],
+    "explanation": "Aggressive risk-factor modification is the foundation of PAD care, and smoking cessation is the most important single step. Others include lipid lowering (statin), glycemic and blood-pressure control, and antiplatelet therapy.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-030",
+    "type": "mcq",
+    "section": "PAD Medical Treatment",
+    "source": "Peripheral Arterial Disease, slide 28 (Cilostazol)",
+    "question": "Cilostazol is used to improve claudication. What is its mechanism and a key contraindication?",
+    "options": [
+      "A phosphodiesterase III inhibitor with vasodilatory and antiplatelet effects that increases claudication distance, contraindicated in heart failure",
+      "A beta blocker that is contraindicated in asthma",
+      "A statin contraindicated in pregnancy",
+      "A direct oral anticoagulant contraindicated in atrial fibrillation"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Cilostazol is a phosphodiesterase III inhibitor with vasodilatory and antiplatelet properties that can increase pain-free walking distance (by roughly 50 percent); it is contraindicated in heart failure because PDE III inhibitors increase mortality in that setting.",
+      "Cilostazol is not a beta blocker.",
+      "Cilostazol is not a statin.",
+      "Cilostazol is an antiplatelet vasodilator, not an anticoagulant."
+    ],
+    "explanation": "Cilostazol is a phosphodiesterase III inhibitor with vasodilator and antiplatelet activity that improves claudication distance by about 50 percent. It is contraindicated in heart failure, since PDE III inhibitors increase mortality in patients with reduced ejection fraction.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-031",
+    "type": "mcq",
+    "section": "PAD Medical Treatment",
+    "source": "Peripheral Arterial Disease, slide 28 (Antiplatelet and other drugs)",
+    "question": "Which statement about medical therapy in PAD is correct?",
+    "options": [
+      "Antiplatelet therapy (such as aspirin) is used for secondary cardiovascular prevention, and beta blockers are not contraindicated in PAD",
+      "Beta blockers are absolutely contraindicated because they worsen limb ischemia",
+      "Aspirin should be avoided because it has no cardiovascular benefit in PAD",
+      "Statins should be stopped once claudication improves"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Antiplatelet therapy such as aspirin (or clopidogrel) is standard for secondary cardiovascular prevention, and beta blockers are not contraindicated in PAD and can be used when otherwise indicated.",
+      "Beta blockers are not contraindicated in PAD and do not meaningfully worsen claudication.",
+      "Aspirin is used precisely because PAD is a CHD risk equivalent needing secondary prevention.",
+      "Statins are continued for long-term cardiovascular risk reduction, not stopped when symptoms improve."
+    ],
+    "explanation": "PAD is a coronary risk equivalent, so antiplatelet therapy (aspirin or clopidogrel) and a statin are used for secondary prevention. Beta blockers are not contraindicated in PAD. These reduce cardiovascular events even though they do not directly relieve claudication.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-032",
+    "type": "mcq",
+    "section": "PAD Medical Treatment",
+    "source": "Peripheral Arterial Disease, slide 28 (COMPASS regimen)",
+    "question": "The COMPASS trial supported adding low-dose rivaroxaban to which agent to reduce major adverse cardiovascular and limb events in stable atherosclerotic disease?",
+    "options": [
+      "Aspirin",
+      "Warfarin",
+      "Cilostazol",
+      "Clopidogrel plus prasugrel"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. In COMPASS, low-dose rivaroxaban added to aspirin reduced major adverse cardiovascular and limb events in stable atherosclerotic (including peripheral) disease.",
+      "The regimen paired rivaroxaban with aspirin, not warfarin.",
+      "Cilostazol was not the companion agent in COMPASS.",
+      "The regimen was aspirin plus low-dose rivaroxaban, not dual thienopyridines."
+    ],
+    "explanation": "The COMPASS trial showed that adding low-dose rivaroxaban to aspirin reduced major adverse cardiovascular and limb events in patients with stable atherosclerotic disease, including PAD, at the cost of some increased bleeding.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-033",
+    "type": "multi",
+    "section": "PAD Medical Treatment",
+    "source": "Peripheral Arterial Disease, slide 29 (Foot care and exercise)",
+    "question": "Which measures are recommended for foot care and conservative management in PAD? Select all that apply.",
+    "options": [
+      "Keep the feet clean and dry, moisturize skin, and inspect daily for injury",
+      "Ensure careful, well-fitted footwear and avoid tight elastic hose",
+      "Enroll in a supervised walking (exercise) program to increase claudication distance",
+      "Apply hot water bottles directly to numb ischemic feet to keep them warm"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. Clean, dry, moisturized skin and daily foot inspection prevent minor wounds from progressing.",
+      "Correct. Properly fitted shoes and avoiding constrictive elastic hosiery protect ischemic tissue.",
+      "Correct. Supervised exercise training increases pain-free walking distance.",
+      "Direct heat on numb ischemic feet risks burns and is not recommended."
+    ],
+    "explanation": "Conservative measures include meticulous foot hygiene, moisturizing, daily inspection, well-fitted footwear, avoiding tight elastic hose, and a supervised walking program (walk to near-maximal claudication, rest, repeat) to build collaterals and walking distance. Direct heat on insensate feet risks injury.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-034",
+    "type": "multi",
+    "section": "Revascularization & Amputation",
+    "source": "Peripheral Arterial Disease, slide 30 (Indications for revascularization)",
+    "question": "Which are indications for revascularization in chronic PAD? Select all that apply.",
+    "options": [
+      "Lifestyle-limiting (disabling) claudication despite medical therapy",
+      "Ischemic rest pain",
+      "Non-healing arterial ulcer or gangrene (critical limb-threatening ischemia)",
+      "An asymptomatic patient with a normal ABI"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "why": [
+      "Correct. Disabling claudication that fails medical therapy is an indication for revascularization.",
+      "Correct. Ischemic rest pain reflects critical ischemia and warrants revascularization.",
+      "Correct. Non-healing ulcer or gangrene (CLTI) is a limb-threatening indication.",
+      "An asymptomatic patient with a normal ABI needs risk-factor management, not revascularization."
+    ],
+    "explanation": "Revascularization is indicated for lifestyle-limiting claudication refractory to medical therapy and for critical limb-threatening ischemia (rest pain, non-healing ulcer, gangrene). Asymptomatic disease is managed medically.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-035",
+    "type": "mcq",
+    "section": "Revascularization & Amputation",
+    "source": "Peripheral Arterial Disease, slide 31 (Revascularization options)",
+    "question": "For a focal stenosis amenable to endovascular treatment, which revascularization approach is generally tried first?",
+    "options": [
+      "Endovascular angioplasty with a stent (often drug-eluting), reserving surgical bypass for stent failure or unfavorable anatomy",
+      "Immediate above-knee amputation",
+      "Open bypass grafting as the first option in all patients",
+      "Long-term bed rest instead of any procedure"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Endovascular angioplasty and stenting (frequently drug-eluting) is usually attempted first for suitable lesions, with surgical bypass reserved for stent failure or anatomy unsuited to an endovascular approach.",
+      "Amputation is a last resort when revascularization is impossible or has failed.",
+      "Bypass is generally reserved for endovascular failure or unfavorable anatomy, not first-line in all patients.",
+      "Bed rest does not restore perfusion in limb-threatening ischemia."
+    ],
+    "explanation": "Endovascular therapy (balloon angioplasty with stenting, often drug-eluting) is typically the first-line revascularization for suitable lesions. Surgical bypass is used when stenting fails or anatomy is unfavorable, and amputation is reserved for unsalvageable limbs.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-036",
+    "type": "mcq",
+    "section": "Revascularization & Amputation",
+    "source": "Peripheral Arterial Disease, slide 31 (Bypass conduits)",
+    "question": "Which conduits are used for surgical lower-extremity arterial bypass?",
+    "options": [
+      "Autologous saphenous vein or a synthetic graft such as PTFE (Goretex)",
+      "Only donor cadaveric arteries",
+      "Only metallic stents placed surgically",
+      "Pericardial patch material exclusively"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Bypass uses either the patient's own saphenous vein or a synthetic conduit such as PTFE (Goretex), routed around the occluded segment.",
+      "Cadaveric arteries are not the standard bypass conduit here.",
+      "A surgical bypass uses a conduit around the lesion rather than only an intraluminal stent.",
+      "Pericardial patch is used for arteriotomy closure, not as a bypass conduit."
+    ],
+    "explanation": "Surgical bypass routes flow around the occlusion using autologous saphenous vein or a prosthetic graft (PTFE, Goretex). Bypass grafts often have longer patency than stents because they preserve collateral side branches rather than sacrificing them.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-037",
+    "type": "mcq",
+    "section": "Revascularization & Amputation",
+    "source": "Peripheral Arterial Disease, slide 32 (Long-term graft and stent fate)",
+    "question": "Why do endovascular stents and bypass grafts tend to restenose or thrombose over time?",
+    "options": [
+      "They develop neointimal (intimal) hyperplasia and lack the normal fibrinolytic endothelium, predisposing to restenosis and thrombosis",
+      "They dissolve completely within weeks",
+      "They convert into normal healthy artery over time",
+      "They cause the native artery to widen indefinitely"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Stents and grafts develop neointimal (intimal) hyperplasia and lack a normal fibrinolytic endothelial lining, so they are prone to progressive restenosis and thrombosis and require surveillance.",
+      "They do not dissolve; they remain and can restenose.",
+      "They do not become normal artery; they lack native endothelial function.",
+      "They narrow through hyperplasia rather than causing indefinite widening."
+    ],
+    "explanation": "The long-term limitation of stents and grafts is neointimal (intimal) hyperplasia and the absence of a normal fibrinolytic endothelium, which promote restenosis and thrombosis. This is why revascularization results require ongoing surveillance, often with the ABI and duplex.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-038",
+    "type": "mcq",
+    "section": "Acute Limb Ischemia",
+    "source": "Peripheral Arterial Disease, slide 34 (Thrombosis vs embolism)",
+    "question": "In acute limb ischemia, how does in-situ thrombosis differ from thromboembolism?",
+    "options": [
+      "Thrombosis is a clot forming at a diseased local site (plaque rupture or aneurysm), while thromboembolism is a clot that traveled from a remote source such as the heart or a proximal aneurysm",
+      "Thrombosis always comes from the left atrium, while embolism forms in the leg",
+      "They are the same process with different names",
+      "Embolism only occurs in veins"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Thrombosis is local clot formation on a diseased vessel (ruptured plaque, aneurysm, or graft), whereas thromboembolism is clot that embolized from a remote source such as the left atrium, ventricle, or a proximal aortic or arterial aneurysm.",
+      "The left atrium is a source of emboli, not of local in-situ thrombosis.",
+      "They differ in origin, which changes evaluation and treatment.",
+      "Arterial thromboembolism lodges in arteries; this is not a venous-only process."
+    ],
+    "explanation": "Acute limb ischemia arises from local thrombosis on a diseased artery (plaque rupture, aneurysm, or graft) or from thromboembolism, clot carried from a remote source (left atrium in atrial fibrillation, left ventricle after MI, valvular disease, or a proximal aneurysm). The distinction guides workup and therapy.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-039",
+    "type": "mcq",
+    "section": "Acute Limb Ischemia",
+    "source": "Peripheral Arterial Disease, slide 35 (Six Ps)",
+    "question": "The six Ps of acute limb ischemia include which of the following complete sets?",
+    "options": [
+      "Pain, Pallor, Pulselessness, Paresthesias, Poikilothermia, Paralysis",
+      "Pain, Pallor, Pulsating mass, Petechiae, Pruritus, Pyrexia",
+      "Pain, Pallor, Pulselessness, Purpura, Papules, Photophobia",
+      "Pain, Ptosis, Pulselessness, Paresthesias, Pallor, Papilledema"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. The six Ps are Pain, Pallor, Pulselessness, Paresthesias, Poikilothermia (coolness), and Paralysis.",
+      "Pulsating mass, petechiae, pruritus, and pyrexia are not part of the six Ps.",
+      "Purpura, papules, and photophobia are not features of acute limb ischemia.",
+      "Ptosis and papilledema are neuro-ophthalmic signs, not limb-ischemia Ps."
+    ],
+    "explanation": "The classic six Ps of acute limb ischemia are Pain, Pallor, Pulselessness, Paresthesias, Poikilothermia (the limb assumes ambient coolness), and Paralysis. Paresthesias and paralysis are late, ominous signs of nerve and muscle infarction.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-040",
+    "type": "mcq",
+    "section": "Acute Limb Ischemia",
+    "source": "Peripheral Arterial Disease, slide 36 (Distinguishing source)",
+    "question": "Which findings favor an embolic cause of acute limb ischemia over in-situ thrombosis?",
+    "options": [
+      "Sudden onset in a patient with atrial fibrillation, valvular disease, or recent MI and a relatively normal contralateral limb",
+      "A long history of claudication with diffuse atherosclerotic disease and bilateral pulse deficits",
+      "Gradual onset over months with well-developed collaterals",
+      "Absent risk factors of any kind"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. A sudden event with an embolic source (atrial fibrillation, valvular disease, left ventricular thrombus after MI, or a proximal aneurysm) and a relatively normal opposite limb suggests embolism.",
+      "Prior claudication with diffuse disease and bilateral deficits suggests in-situ thrombosis on chronic atherosclerosis.",
+      "Gradual onset with collaterals points toward chronic thrombotic disease, not acute embolism.",
+      "There is usually an identifiable cardiac or arterial source in embolism."
+    ],
+    "explanation": "Embolism is suggested by sudden onset, an identifiable proximal source (atrial fibrillation, valvular disease, post-MI ventricular thrombus, or aortic or arterial aneurysm), and a relatively normal contralateral limb. Thrombosis is suggested by prior claudication, diffuse atherosclerosis, and bilateral pulse abnormalities.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-041",
+    "type": "mcq",
+    "section": "Acute Limb Ischemia",
+    "source": "Peripheral Arterial Disease, slide 36 (Embolic lodging sites)",
+    "question": "Arterial emboli characteristically lodge at which anatomic locations?",
+    "options": [
+      "Arterial bifurcations, such as the common femoral bifurcation and the popliteal trifurcation",
+      "The mid-shaft of straight arterial segments only",
+      "Only within capillary beds",
+      "Exclusively in the venous system"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Emboli tend to lodge where the lumen narrows at branch points, especially the common femoral bifurcation and the popliteal trifurcation.",
+      "Emboli hang up at branch points, not mid-shaft.",
+      "Large emboli lodge in named arteries at bifurcations, not directly in capillaries.",
+      "Arterial emboli travel in arteries; venous clot is a separate process."
+    ],
+    "explanation": "Emboli travel until the lumen narrows and lodge at bifurcations, classically the common femoral bifurcation and the popliteal trifurcation. Findings appear about one joint below the occlusion, with absent Doppler flow distal to the block.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-042",
+    "type": "mcq",
+    "section": "Acute Limb Ischemia",
+    "source": "Peripheral Arterial Disease, slide 37 (Acute limb ischemia treatment)",
+    "question": "What is the immediate management of a patient with acute limb ischemia?",
+    "options": [
+      "Begin systemic anticoagulation with heparin promptly, protect and position the limb at or below horizontal, and arrange urgent revascularization",
+      "Elevate the limb high above the heart and observe for 24 hours",
+      "Apply firm compression wraps and delay imaging",
+      "Give oral aspirin only and discharge home"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Acute limb ischemia is a surgical emergency: heparinize promptly to limit clot propagation, protect the limb and keep it at or below the horizontal to maximize perfusion, and arrange urgent revascularization.",
+      "Elevation worsens ischemia, and watchful waiting risks limb loss.",
+      "Compression can further compromise an ischemic limb, and imaging or revascularization should not be delayed.",
+      "Aspirin alone is inadequate; systemic anticoagulation and urgent revascularization are required."
+    ],
+    "explanation": "Acute limb ischemia is a limb-threatening emergency. Start systemic heparin immediately to prevent clot propagation, protect the limb and keep it at or below horizontal (elevation worsens perfusion), and pursue urgent revascularization. Time to reperfusion determines limb salvage.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-043",
+    "type": "mcq",
+    "section": "Acute Limb Ischemia",
+    "source": "Peripheral Arterial Disease, slide 38 (Definitive revascularization)",
+    "question": "For an acute arterial embolus causing limb ischemia, which definitive treatment is described?",
+    "options": [
+      "Surgical embolectomy with a Fogarty balloon catheter, or catheter-directed thrombectomy or thrombolysis",
+      "Lifelong compression stockings alone",
+      "Immediate primary amputation in all cases",
+      "Sclerotherapy of the affected artery"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. An embolus is removed by surgical embolectomy (a Fogarty balloon catheter passed beyond the clot, inflated, and withdrawn to extract it) or by catheter-directed thrombectomy or thrombolysis.",
+      "Compression stockings do not treat an acute arterial embolus.",
+      "Amputation is reserved for a nonviable, unsalvageable limb, not routine.",
+      "Sclerotherapy is a treatment for varicose veins, not arterial emboli."
+    ],
+    "explanation": "Definitive treatment of an embolic occlusion is embolectomy with a Fogarty balloon catheter or catheter-directed thrombectomy or thrombolysis, on top of anticoagulation. Long-term anticoagulation targets the embolic source; warfarin is favored when a mechanical heart valve is the source.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-044",
+    "type": "mcq",
+    "section": "Acute Limb Ischemia",
+    "source": "Peripheral Arterial Disease, slide 39 (Reperfusion and fasciotomy)",
+    "question": "After revascularization of a severely ischemic limb, why may fasciotomy be required?",
+    "options": [
+      "Reperfusion causes tissue edema within tight fascial compartments, raising compartment pressure and risking compartment syndrome",
+      "To lengthen a shortened tendon",
+      "To place a permanent stent in the muscle",
+      "To drain a chronic abscess unrelated to ischemia"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Reperfusion of ischemic muscle causes swelling within non-compliant fascial compartments; the rising pressure can cause compartment syndrome, and fasciotomy (incising the superficial and deep fascia) relieves it.",
+      "Fasciotomy relieves compartment pressure, not tendon length.",
+      "It is a decompressive incision, not a stent placement.",
+      "It addresses reperfusion compartment syndrome, not an unrelated abscess."
+    ],
+    "explanation": "Reperfusion edema in ischemic muscle can raise pressure within tight fascial compartments, producing compartment syndrome that threatens the limb. Fasciotomy incises the fascia to decompress. Acute limb ischemia carries roughly 10 percent in-hospital and up to 40 percent one-year mortality, reflecting the sick population and systemic reperfusion effects.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-045",
+    "type": "mcq",
+    "section": "Acute Limb Ischemia",
+    "source": "Peripheral Arterial Disease, slide 39 (Prognosis)",
+    "question": "Which figures reflect the prognosis of acute limb ischemia cited in the lecture?",
+    "options": [
+      "About 10 percent in-hospital mortality and up to about 40 percent mortality at one year",
+      "Essentially 0 percent mortality with treatment",
+      "About 90 percent in-hospital mortality",
+      "No effect on survival, only on the limb"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Acute limb ischemia carries roughly 10 percent in-hospital mortality and up to about 40 percent at one year, reflecting comorbid cardiovascular disease and reperfusion effects.",
+      "Mortality is substantial, not negligible, because of comorbid disease.",
+      "In-hospital mortality is about 10 percent, not 90 percent.",
+      "It has a major effect on survival, not just the limb."
+    ],
+    "explanation": "Even with treatment, acute limb ischemia carries about 10 percent in-hospital mortality and up to roughly 40 percent one-year mortality, driven by the burden of comorbid cardiovascular disease and the systemic consequences of reperfusion (hyperkalemia, myoglobinuria, acidosis).",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-046",
+    "type": "multi",
+    "section": "Arterial Trauma & Pseudoaneurysm",
+    "source": "Peripheral Arterial Disease, slide 41 (Patterns of arterial injury)",
+    "question": "Which patterns of arterial injury can result from trauma? Select all that apply.",
+    "options": [
+      "Intimal flap or tear",
+      "Intramural hematoma",
+      "Pseudoaneurysm (contained wall defect)",
+      "Complete transection with hemorrhage"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "why": [
+      "Correct. An intimal flap or tear can obstruct flow or seed thrombosis.",
+      "Correct. Intramural hematoma can narrow the lumen.",
+      "Correct. A pseudoaneurysm is a contained wall defect where blood is held by surrounding tissue.",
+      "Correct. Complete transection causes hemorrhage and loss of distal flow."
+    ],
+    "explanation": "Arterial trauma (penetrating, blunt, or from adjacent fractures and dislocations) can cause intimal flaps or tears, intramural hematoma, pseudoaneurysm, partial laceration, or complete transection. Injuries may be occult early, so a high index of suspicion and serial exams with the ABI are needed.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-047",
+    "type": "tf",
+    "section": "Arterial Trauma & Pseudoaneurysm",
+    "source": "Peripheral Arterial Disease, slide 41 (Occult arterial injury)",
+    "question": "An intimal flap or small arterial injury can initially preserve distal pulses, so a normal early exam does not exclude significant arterial trauma.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Distal flow may be preserved early despite an intimal flap or partial injury, so a normal initial exam does not rule out significant trauma; a high index of suspicion and reassessment (including the ABI) are needed.",
+      "Incorrect. Early pulses can be deceptively normal, which is why arterial injury can be missed without a high index of suspicion."
+    ],
+    "explanation": "Distal perfusion can be maintained early after an intimal flap or partial injury, so pulses may initially feel normal. This is why proximity of a wound to a major artery, a suggestive mechanism, or a reduced ABI should prompt further evaluation despite a reassuring early exam.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-048",
+    "type": "mcq",
+    "section": "Arterial Trauma & Pseudoaneurysm",
+    "source": "Peripheral Arterial Disease, slide 42 (Traumatic aortic disruption)",
+    "question": "In blunt deceleration trauma, traumatic aortic disruption most classically occurs at which site, and which finding prompts CT evaluation?",
+    "options": [
+      "At the aortic isthmus near the ligamentum arteriosum, prompted by a widened mediastinum on chest x-ray",
+      "At the aortic bifurcation, prompted by leg swelling",
+      "At the aortic valve, prompted by a murmur",
+      "In the abdominal aorta, prompted by flank ecchymosis"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Deceleration injury tears the relatively fixed aorta at the isthmus near the ligamentum arteriosum; a widened mediastinum on chest x-ray prompts CT angiography.",
+      "Disruption occurs at the isthmus (thoracic), not the distal bifurcation.",
+      "The mechanism is a tear of the aortic wall at the isthmus, not valvular.",
+      "The classic site is the thoracic isthmus, and the screening clue is a widened mediastinum, not flank ecchymosis."
+    ],
+    "explanation": "Rapid deceleration shears the mobile aortic arch against the fixed descending aorta at the isthmus, near the ligamentum arteriosum. A widened mediastinum on chest x-ray is the screening clue; CT angiography confirms. Full-thickness disruption bleeds out rapidly, while a contained partial tear can form a pseudoaneurysm.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-049",
+    "type": "mcq",
+    "section": "Arterial Trauma & Pseudoaneurysm",
+    "source": "Peripheral Arterial Disease, slide 43 (Pseudoaneurysm)",
+    "question": "How does an arterial pseudoaneurysm (false aneurysm) differ from a true aneurysm?",
+    "options": [
+      "A pseudoaneurysm is a contained wall defect where blood is held by surrounding connective tissue rather than by all three intact arterial wall layers",
+      "A pseudoaneurysm involves dilation of all three intact wall layers",
+      "A pseudoaneurysm is always congenital",
+      "A pseudoaneurysm contains no blood"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. A pseudoaneurysm is a contained rupture: the arterial wall is breached and blood is held in by surrounding connective tissue, not by an intact three-layer wall.",
+      "Dilation of all three intact layers defines a true aneurysm, not a pseudoaneurysm.",
+      "Pseudoaneurysms are usually acquired, from trauma, instrumentation, or an anastomotic leak.",
+      "A pseudoaneurysm is a blood-filled pulsatile cavity communicating with the artery."
+    ],
+    "explanation": "A true aneurysm dilates all three intact wall layers, whereas a pseudoaneurysm is a contained breach in the wall with blood held by surrounding tissue. Pseudoaneurysms arise from trauma, arterial puncture or catheterization, or anastomotic leaks, and can rupture, thrombose, embolize, or become infected.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-050",
+    "type": "mcq",
+    "section": "Arterial Trauma & Pseudoaneurysm",
+    "source": "Peripheral Arterial Disease, slide 43 (Femoral pseudoaneurysm management)",
+    "question": "A small femoral pseudoaneurysm develops after cardiac catheterization. Which treatment is commonly used?",
+    "options": [
+      "Ultrasound-guided thrombin injection (or compression) for suitable small pseudoaneurysms, with surgical repair for large or complicated ones",
+      "Systemic thrombolysis to dissolve the pseudoaneurysm",
+      "No treatment is ever needed",
+      "Immediate above-knee amputation"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Many small catheterization-related femoral pseudoaneurysms are treated with ultrasound-guided thrombin injection or compression; larger or complicated ones need surgical repair (excision and patch or graft).",
+      "Thrombolysis would worsen bleeding, not close the defect.",
+      "Pseudoaneurysms can rupture, embolize, or become infected, so many require treatment.",
+      "Amputation is not the treatment for a femoral pseudoaneurysm."
+    ],
+    "explanation": "Small access-site (femoral) pseudoaneurysms after catheterization are often managed with ultrasound-guided thrombin injection or compression. Larger, enlarging, infected, or symptomatic pseudoaneurysms require surgical repair. Complications include rupture, thrombosis, distal embolization, and infection.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-051",
+    "type": "mcq",
+    "section": "Vasospastic & Compression Disorders",
+    "source": "Peripheral Arterial Disease, slide 45 (Raynaud phenomenon)",
+    "question": "Which description best fits Raynaud phenomenon?",
+    "options": [
+      "Episodic vasospastic ischemia of the digits, often triggered by cold or stress, with sequential color change",
+      "Fixed atherosclerotic occlusion of the aortoiliac segment",
+      "Chronic venous insufficiency of the lower legs",
+      "Acute embolic occlusion of the popliteal artery"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Raynaud phenomenon is episodic, reversible vasospasm of the digital arteries triggered by cold or emotional stress, producing sequential color change.",
+      "Aortoiliac atherosclerosis is Leriche-type PAD, not a vasospastic digital disorder.",
+      "Raynaud is arterial vasospasm of the digits, not venous insufficiency.",
+      "Raynaud is episodic vasospasm, distinct from a fixed embolic arterial occlusion."
+    ],
+    "explanation": "Raynaud phenomenon is episodic, reversible vasospasm of the digital arteries, usually provoked by cold or stress, causing the classic triphasic color change of the fingers or toes.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-052",
+    "type": "mcq",
+    "section": "Vasospastic & Compression Disorders",
+    "source": "Peripheral Arterial Disease, slide 45 (Three color phases)",
+    "question": "The classic three-phase color change of Raynaud phenomenon proceeds in which order?",
+    "options": [
+      "Pallor (blanching from vasospasm), then cyanosis (deoxygenated stagnant blood), then rubor (reactive hyperemia on rewarming)",
+      "Rubor, then pallor, then cyanosis",
+      "Cyanosis, then rubor, then pallor",
+      "Jaundice, then pallor, then cyanosis"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. The digits first blanch white from vasospasm, turn blue (cyanotic) as stagnant blood desaturates, then flush red (rubor) with reactive hyperemia on rewarming.",
+      "The sequence begins with pallor, not rubor.",
+      "Pallor is first and rubor is last, so this order is reversed.",
+      "Jaundice is not a phase of Raynaud phenomenon."
+    ],
+    "explanation": "Raynaud phenomenon classically progresses white to blue to red: pallor from vasospastic ischemia, then cyanosis from deoxygenated stagnant blood, then rubor from reactive hyperemia during rewarming. Not every patient shows all three phases.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-053",
+    "type": "mcq",
+    "section": "Vasospastic & Compression Disorders",
+    "source": "Peripheral Arterial Disease, slide 46 (Primary vs secondary Raynaud)",
+    "question": "How does primary Raynaud disease differ from secondary Raynaud phenomenon?",
+    "options": [
+      "Primary occurs without an underlying disease and has normal nailfold capillaries, whereas secondary is associated with an underlying condition such as scleroderma and shows abnormal capillaroscopy",
+      "Primary is always associated with scleroderma",
+      "Secondary never involves connective tissue disease",
+      "Primary causes gangrene more often than secondary"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Primary (idiopathic) Raynaud has no underlying disease and normal nailfold capillaries, while secondary Raynaud accompanies a condition such as scleroderma or other connective tissue disease and shows abnormal nailfold capillaroscopy.",
+      "Association with scleroderma indicates secondary, not primary, Raynaud.",
+      "Secondary Raynaud is precisely the form linked to connective tissue disease.",
+      "Secondary Raynaud, with fixed disease, is more likely to cause digital ulceration and tissue loss."
+    ],
+    "explanation": "Primary Raynaud disease is idiopathic, tends to be symmetric and benign, and shows normal nailfold capillaries. Secondary Raynaud is linked to an underlying disorder (commonly scleroderma and other connective tissue diseases), shows abnormal capillaroscopy, and more often leads to digital ulceration or tissue loss.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-054",
+    "type": "mcq",
+    "section": "Vasospastic & Compression Disorders",
+    "source": "Peripheral Arterial Disease, slide 46 (Raynaud workup)",
+    "question": "When is laboratory workup pursued in a patient with Raynaud symptoms?",
+    "options": [
+      "When secondary Raynaud is suspected, testing such as CBC, ANA, complement levels, and connective tissue serologies is obtained",
+      "Every patient needs invasive angiography before any diagnosis",
+      "No testing is ever indicated regardless of features",
+      "Only a lipid panel is needed"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. If features suggest secondary Raynaud (abnormal capillaroscopy, ulceration, asymmetry, older onset), workup such as CBC, ANA, complement, and connective tissue serologies is obtained to identify an underlying disease.",
+      "Angiography is not the routine first step for Raynaud.",
+      "Testing is appropriate when secondary disease is suspected.",
+      "A lipid panel does not evaluate the connective tissue disorders behind secondary Raynaud."
+    ],
+    "explanation": "Uncomplicated primary Raynaud with normal pulses and capillaries may need no workup. When secondary Raynaud is suspected, testing (CBC, ANA, complement, and connective tissue serologies) helps identify an underlying condition such as scleroderma or lupus.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-055",
+    "type": "mcq",
+    "section": "Vasospastic & Compression Disorders",
+    "source": "Peripheral Arterial Disease, slide 47 (Raynaud treatment)",
+    "question": "Which is a first-line pharmacologic treatment for symptomatic Raynaud phenomenon, alongside cold avoidance?",
+    "options": [
+      "A dihydropyridine calcium channel blocker such as nifedipine",
+      "A nonselective beta blocker",
+      "An oral decongestant such as pseudoephedrine",
+      "High-dose aspirin"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. A dihydropyridine calcium channel blocker such as nifedipine is first-line to reduce vasospasm; other options include prazosin and smoking cessation.",
+      "Nonselective beta blockers can worsen vasospasm and are avoided.",
+      "Decongestants are vasoconstrictors that can precipitate attacks.",
+      "Aspirin does not relieve the vasospasm of Raynaud."
+    ],
+    "explanation": "Raynaud management starts with cold avoidance, warm clothing, and smoking cessation. A dihydropyridine calcium channel blocker (nifedipine) is first-line pharmacotherapy; alpha blockers such as prazosin are alternatives. Vasoconstrictors (nonselective beta blockers, decongestants) are avoided.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-056",
+    "type": "mcq",
+    "section": "Vasospastic & Compression Disorders",
+    "source": "Peripheral Arterial Disease, slide 48 (Buerger disease)",
+    "question": "Which description best fits thromboangiitis obliterans (Buerger disease)?",
+    "options": [
+      "Inflammatory small and medium-vessel disease of the distal limbs in heavy-smoking young men, causing digital ischemia and treated primarily with smoking cessation",
+      "Atherosclerotic aortoiliac disease of elderly diabetics",
+      "A congenital arteriovenous malformation of the pelvis",
+      "An embolic disorder originating in the left atrium"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Buerger disease is a nonatherosclerotic inflammatory occlusive disease of small and medium distal arteries and veins, seen in heavy-smoking men typically under 40, causing distal digital and limb ischemia; smoking cessation is the essential treatment.",
+      "It is a nonatherosclerotic inflammatory disease of young smokers, not atherosclerotic aortoiliac disease of the elderly.",
+      "It is an acquired inflammatory vasculopathy, not a congenital malformation.",
+      "It is a local inflammatory occlusive disease, not a cardioembolic disorder."
+    ],
+    "explanation": "Thromboangiitis obliterans (Buerger disease) is a nonatherosclerotic segmental inflammatory occlusion of small and medium distal arteries and veins, strongly tied to heavy tobacco use in men usually under 40. It causes distal claudication, digital ischemia and ulcers, associated Raynaud phenomenon, and migratory superficial phlebitis. Biopsy is diagnostic, and smoking cessation is the only intervention that reliably alters the course.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-057",
+    "type": "mcq",
+    "section": "Vasospastic & Compression Disorders",
+    "source": "Peripheral Arterial Disease, slide 49 (Thoracic outlet syndrome)",
+    "question": "Thoracic outlet syndrome results from compression of the neurovascular bundle at which location, and what may reproduce symptoms on exam?",
+    "options": [
+      "Between the clavicle and first rib (often with a cervical rib or scalene hypertrophy), with the Adson maneuver reproducing symptoms",
+      "In the popliteal fossa, reproduced by ankle dorsiflexion",
+      "At the aortic isthmus, reproduced by deep inspiration",
+      "In the carpal tunnel, reproduced by wrist flexion"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Thoracic outlet syndrome compresses the brachial plexus and subclavian vessels between the clavicle and first rib, often with a cervical rib or hypertrophied scalene muscles; the Adson maneuver can reproduce symptoms.",
+      "The popliteal fossa is the site of popliteal entrapment, not thoracic outlet syndrome.",
+      "The aortic isthmus relates to traumatic aortic disruption, not thoracic outlet syndrome.",
+      "The carpal tunnel involves the median nerve at the wrist, a different entrapment."
+    ],
+    "explanation": "Thoracic outlet syndrome compresses the brachial plexus, subclavian artery, or subclavian vein in the space between the clavicle and first rib, often worsened by a cervical rib, scalene hypertrophy, or repetitive overhead activity. The Adson maneuver may reproduce symptoms. Treatment is physical therapy first, with first-rib resection for refractory or vascular cases.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-058",
+    "type": "mcq",
+    "section": "Vasospastic & Compression Disorders",
+    "source": "Peripheral Arterial Disease, slide 49 (Thoracic outlet treatment)",
+    "question": "A young overhead athlete has neurogenic thoracic outlet syndrome. What is the initial management, and what is reserved for refractory or vascular cases?",
+    "options": [
+      "Physical therapy and activity modification first, with surgical first-rib resection reserved for refractory or vascular disease",
+      "Immediate amputation of the arm",
+      "Lifelong bed rest",
+      "First-rib resection as the mandatory first step for everyone"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Conservative therapy (physical therapy, posture and activity modification) is first-line for neurogenic thoracic outlet syndrome; first-rib resection is reserved for refractory neurogenic cases or when the artery or vein is compromised.",
+      "Amputation has no role in thoracic outlet syndrome.",
+      "Bed rest is not the treatment; targeted physical therapy is.",
+      "Surgery is reserved for refractory or vascular cases, not mandated for all."
+    ],
+    "explanation": "Neurogenic thoracic outlet syndrome is treated first with physical therapy, posture correction, and activity modification. First-rib resection (with removal of a cervical rib if present) is reserved for refractory neurogenic symptoms or arterial or venous compromise.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-059",
+    "type": "mcq",
+    "section": "Vasospastic & Compression Disorders",
+    "source": "Peripheral Arterial Disease, slide 50 (Popliteal artery entrapment)",
+    "question": "Popliteal artery entrapment syndrome should be suspected in which patient, and how is it evaluated?",
+    "options": [
+      "A young, often athletic patient with calf claudication, where the medial head of the gastrocnemius compresses the popliteal artery, evaluated with ankle pressures before and after exercise plus duplex or angiography with provocative maneuvers",
+      "An elderly diabetic with diffuse atherosclerosis, evaluated with lipid panels",
+      "A newborn with cyanosis, evaluated with echocardiography",
+      "A smoker with an abdominal bruit, evaluated with colonoscopy"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Popliteal entrapment classically affects young, athletic patients with unexplained calf claudication when an abnormal medial gastrocnemius (or fibrous band) compresses the popliteal artery; evaluation uses ankle pressures before and after exercise with provocative plantarflexion or dorsiflexion, plus duplex or angiography.",
+      "Diffuse atherosclerosis in an elderly diabetic is ordinary PAD, not entrapment.",
+      "This is a limb vascular compression syndrome, unrelated to neonatal cyanotic heart disease.",
+      "Colonoscopy does not evaluate popliteal artery entrapment."
+    ],
+    "explanation": "Popliteal artery entrapment should be suspected in a young, often athletic patient with calf claudication and otherwise normal arteries, caused by an anomalous medial gastrocnemius or fibrous band compressing the popliteal artery. Diagnosis uses ankle pressures before and after exercise with provocative maneuvers plus duplex or angiography. Treatment is surgical release of the compressing structure.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
+  },
+  {
+    "id": "pad-060",
+    "type": "mcq",
+    "section": "Vasospastic & Compression Disorders",
+    "source": "Peripheral Arterial Disease, slide 50 (Popliteal entrapment treatment)",
+    "question": "What is the definitive treatment for symptomatic popliteal artery entrapment?",
+    "options": [
+      "Surgical release (myotomy or division) of the compressing muscle or fibrous band, with arterial repair if the artery is damaged",
+      "Lifelong anticoagulation alone",
+      "Compression stockings",
+      "Statin therapy alone"
+    ],
+    "answer": 0,
+    "why": [
+      "Correct. Definitive treatment is surgical release of the compressing medial gastrocnemius or fibrous band (myotomy or division), with repair or bypass of the popliteal artery if it has been damaged.",
+      "Anticoagulation alone does not relieve the mechanical compression.",
+      "Compression stockings treat venous disease, not arterial entrapment.",
+      "Statins address atherosclerosis, not the anatomic compression of entrapment."
+    ],
+    "explanation": "Symptomatic popliteal artery entrapment is treated by surgically releasing the anomalous muscle or fibrous band compressing the artery, with arterial repair or bypass if the vessel is already damaged. Correcting the compression early prevents progressive arterial injury.",
+    "class": "Cardiology",
+    "lecture": "Peripheral Arterial Disease"
   }
 ];
 
